@@ -1,7 +1,6 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.19)  21 JUL 2024 20:26
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.19)  21 JUL 2024 20:37
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **eopl.tex
 (./eopl.tex
@@ -131,15 +130,20 @@ atine-Italic].
 
 
 
-./eopl.tex:8: Package fontspec Error: The font "Computer Modern Sans" cannot be
- found.
+! Package fontspec Error: The font "Computer Modern Sans" cannot be found.
 
 For immediate help type H <return>.
  ...                                              
                                                   
 l.8 \setmonofont
                 {Courier}[
-? 
+
+A font might not be found for many reasons.
+ Check the spelling, where the font is installed etc. etc.
+
+ When in doubt, ask someone for help!
+
+
 
 Package fontspec Info: Could not resolve font "Computer Modern Sans/BI" (it
 (fontspec)             probably doesn't exist).
@@ -153,25 +157,35 @@ Package fontspec Info: Could not resolve font "Computer Modern Sans/I" (it
 (fontspec)             probably doesn't exist).
 
 
-./eopl.tex:8: Package fontspec Error: The font "Computer Modern Sans" cannot be
- found.
+! Package fontspec Error: The font "Computer Modern Sans" cannot be found.
 
 For immediate help type H <return>.
  ...                                              
                                                   
 l.8 \setmonofont
                 {Courier}[
-? 
 
-./eopl.tex:8: Package fontspec Error: The font "Computer Modern Sans" cannot be
- found.
+A font might not be found for many reasons.
+ Check the spelling, where the font is installed etc. etc.
+
+ When in doubt, ask someone for help!
+
+
+
+! Package fontspec Error: The font "Computer Modern Sans" cannot be found.
 
 For immediate help type H <return>.
  ...                                              
                                                   
 l.8 \setmonofont
                 {Courier}[
-? 
+
+A font might not be found for many reasons.
+ Check the spelling, where the font is installed etc. etc.
+
+ When in doubt, ask someone for help!
+
+
 
 Package fontspec Info: Font family 'ComputerModernSans(0)' created for font
 (fontspec)             'Computer Modern Sans' with options [Ligatures=TeX].
@@ -1638,7 +1652,7 @@ Package zref Info: New property: mdf@pagevalue on input line 895.
 
 Excluding comment 'comment')
 
-./eopl.tex:985: LaTeX Error: Command \PageRef undefined.
+! LaTeX Error: Command \PageRef undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1646,20 +1660,26 @@ Type  H <return>  for immediate help.
                                                   
 l.985 \renewcommand{\PageRef}
                              [1]{第~#1~页}
-? 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 \symCJKmath=\mathgroup255
 LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `bold'
 (Font)                  TU/SourceHanSerifCN(0)/m/n --> TU/SourceHanSerifCN(0)/b
 /n on input line 1015.
 (./eopl.aux)
 Runaway argument?
-{{6.36}{242}{建模计算效果}{E 
-./eopl.tex:1015: File ended while scanning use of \@newl@bel.
+{{7 
+! File ended while scanning use of \@newl@bel.
 <inserted text> 
                 \par 
 l.1015 \begin{document}
                        
-? 
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
 \openout1 = `eopl.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 1015.
@@ -1794,17 +1814,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 1015.
-(./eopl.out
-./eopl.out:66: Undefined control sequence.
-l.66 \BOOKMAR
-             
-? 
-) (./eopl.out
-./eopl.out:66: Undefined control sequence.
-l.66 \BOOKMAR
-             
-? 
-)
+(./eopl.out) (./eopl.out)
 \@outlinefile=\write6
 \openout6 = `eopl.out'.
 
@@ -2175,20 +2185,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [24]
 
-LaTeX Warning: Hyper reference `t:x28part_x22typesx22x29' on page xxv undefined
- on input line 1927.
-
-
 LaTeX Warning: Hyper reference `t:x28part_x22modulesx22x29' on page xxv undefin
 ed on input line 1930.
 
 
 LaTeX Warning: Hyper reference `t:x28part_x22oacx22x29' on page xxv undefined o
 n input line 1933.
-
-
-LaTeX Warning: Hyper reference `t:x28part_x22typesx22x29' on page xxv undefined
- on input line 1934.
 
 
 LaTeX Warning: Hyper reference `t:x28elem_x22readingsx22x29' on page xxv undefi
@@ -2243,10 +2245,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Warning: Hyper reference `t:x28part_x22oacx22x29' on page xxix undefined 
 on input line 1981.
 
-
-LaTeX Warning: Hyper reference `t:x28part_x22typesx22x29' on page xxix undefine
-d on input line 1984.
-
 [29]
 Underfull \hbox (badness 10000) in paragraph at lines 2017--2021
 
@@ -2266,12 +2264,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2389--2390
 
  []
 
-[8] [9]
-
-LaTeX Warning: Hyper reference `t:x28part_x22typesx22x29' on page 10 undefined 
-on input line 2495.
-
-[10] [11] [12]
+[8] [9] [10] [11] [12]
 Package mdframed Info: mdframed inside twoside mode but
 (mdframed)             works with oneside mode on input line 2634.
 Package mdframed Info: mdframed detected package amsthm 
@@ -2431,15 +2424,11 @@ Package relsize Warning: Font size 24.88792pt is too large.
 [59
 
 ]
-
-LaTeX Warning: Hyper reference `t:x28part_x22typesx22x29' on page 60 undefined 
-on input line 5038.
-
 File: exe-via-interpreter.pdf Graphic file (type pdf)
 <use exe-via-interpreter.pdf>
 File: exe-via-compiler.pdf Graphic file (type pdf)
 <use exe-via-compiler.pdf>
-[60] [61]
+ [60] [61]
 Underfull \hbox (badness 10000) in paragraph at lines 5113--5127
 
  []
@@ -2463,39 +2452,65 @@ LaTeX Warning: Hyper reference `t:x28elem_x22sllgenx22x29' on page 69 undefined
  on input line 5647.
 
 [69] [70] [71]
-./eopl.tex:5827: Misplaced alignment tab character &.
+! Misplaced alignment tab character &.
 <argument> \begin {math}\begin {alignedat}{-1}&
                                                \mbox {\hphantom {\Scribtextt...
 l.5827 ...nline{\rceil}\end{alignedat}\end{math}}}
                                                   
-? 
-./eopl.tex:5827: Misplaced alignment tab character &.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
 <recently read> &
                  
 l.5827 ...nline{\rceil}\end{alignedat}\end{math}}}
                                                   
-? 
-./eopl.tex:5827: Misplaced \crcr.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \crcr.
 \endaligned ->\crcr 
                     \egroup \restorecolumn@ \egroup 
 l.5827 ...nline{\rceil}\end{alignedat}\end{math}}}
                                                   
-? 
-./eopl.tex:5827: Extra }, or forgotten \endgroup.
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Extra }, or forgotten \endgroup.
 \endaligned ->\crcr \egroup 
                             \restorecolumn@ \egroup 
 l.5827 ...nline{\rceil}\end{alignedat}\end{math}}}
                                                   
-? 
-./eopl.tex:5827: Extra }, or forgotten \endgroup.
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
 \endaligned ...cr \egroup \restorecolumn@ \egroup 
                                                   
 l.5827 ...nline{\rceil}\end{alignedat}\end{math}}}
                                                   
-? 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
-./eopl.tex:5827: LaTeX Error: \begin{$} on input line 5827 ended by \end{aligne
-dat}.
+
+! LaTeX Error: \begin{$} on input line 5827 ended by \end{alignedat}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -2503,7 +2518,10 @@ Type  H <return>  for immediate help.
                                                   
 l.5827 ...nline{\rceil}\end{alignedat}\end{math}}}
                                                   
-? 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 Overfull \hbox (205.63058pt too wide) in paragraph at lines 5827--5828
 [][]$[]$ 
@@ -2745,12 +2763,7 @@ Underfull \vbox (badness 1221) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [166]
-[167]
-
-LaTeX Warning: Hyper reference `t:x28part_x22s7x2e4x22x29' on page 168 undefine
-d on input line 11209.
-
-[168]
+[167] [168]
 
 LaTeX Warning: Float too large for page by 23.03223pt on input line 11298.
 
@@ -2992,4 +3005,1906 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.14003pt}.
 
 [243]
-Underfull \hbox (badness 10000) in paragraph at lines
+Underfull \hbox (badness 10000) in paragraph at lines 15827--15829
+
+ []
+
+
+Underfull \vbox (badness 3536) has occurred while \output is active []
+
+ [244]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.14003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.14003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.14003pt}.
+
+[245] [246
+
+]
+ 7.
+
+Package relsize Warning: Font size 24.88792pt is too large.
+(relsize)                Using 24.88pt instead on input line 15877.
+
+[247] [248] [249] [250] [251] [252]
+
+LaTeX Warning: Hyper reference `t:x28part_x22modulesx22x29' on page 253 undefin
+ed on input line 16216.
+
+[253] [254]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
+[255] [256] Excluding 'comment' comment.
+
+LaTeX Warning: Float too large for page by 60.08612pt on input line 16482.
+
+Excluding 'comment' comment.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
+[257] [258]
+Overfull \vbox (13.20035pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
+[259] [260]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
+[261] [262]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
+[263] [264]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
+[265] [266]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
+[267] [268]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
+[269] [270]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
+[271]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [272]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
+[273] [274]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
+[275]
+Overfull \hbox (1.73065pt too wide) in paragraph at lines 17557--17562
+[]\TU/SourceHanSerifCN(0)/m/n/10 代 换 式 组 的 构 造 器 有 \TU/Courier(0)/l/it/10 empty
+-subst \TU/SourceHanSerifCN(0)/m/n/10 和 \TU/Courier(0)/l/it/10 extend-subst\TU/
+SourceHanSerifCN(0)/m/n/10 。| \TU/Courier(0)/l/it/10 (empty-subst)
+ []
+
+[276]
+Overfull \hbox (1.46367pt too wide) in paragraph at lines 17631--17633
+[]\TU/AdobeKaitiStd(0)/m/n/9 练 习 \TU/QTPalatine(0)/m/n/10 7.18 [][]$[][][][]$[]
+\TU/SourceHanSerifCN(0)/m/n/9 修 改 前 一 道 练 习 中 的 实 现，|  则 对 任 意 类 型 变 量，| \TU/Co
+urier(0)/m/n/9 apply-subst-to-type
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
+[277] [278]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
+[279] [280] Excluding 'comment' comment.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
+[281] [282]
+
+! LaTeX Error: \begin{document} ended by \end{list}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17978 ...{)}\RktPn{)}\RktPn{)}\end{SingleColumn}
+                                                  \end{RktBlk}\end{SCodeFlow}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.17978 ...{)}\RktPn{)}\RktPn{)}\end{SingleColumn}
+                                                  \end{RktBlk}\end{SCodeFlow}
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: \begin{document} ended by \end{SingleColumn}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17978 ...{)}\RktPn{)}\RktPn{)}\end{SingleColumn}
+                                                  \end{RktBlk}\end{SCodeFlow}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.17978 ...{)}\RktPn{)}\RktPn{)}\end{SingleColumn}
+                                                  \end{RktBlk}\end{SCodeFlow}
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: \begin{document} ended by \end{RktBlk}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17978 ...\RktPn{)}\end{SingleColumn}\end{RktBlk}
+                                                  \end{SCodeFlow}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.17978 ...\RktPn{)}\end{SingleColumn}\end{RktBlk}
+                                                  \end{SCodeFlow}
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: \begin{document} ended by \end{list}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17978 ...ingleColumn}\end{RktBlk}\end{SCodeFlow}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.17978 ...ingleColumn}\end{RktBlk}\end{SCodeFlow}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: \begin{document} ended by \end{SCodeFlow}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17978 ...ingleColumn}\end{RktBlk}\end{SCodeFlow}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.17978 ...ingleColumn}\end{RktBlk}\end{SCodeFlow}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+
+! Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17980 \caption
+                {INFERRED 的 \Scribtexttt{type{-}of}，第 2 部分\label{t:x28elem_x...
+
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{small}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+! You can't use `\unskip' in vertical mode.
+\endlongbox@env ->\par \unskip 
+                               \endgroup \lb@insertafter \ifnum \lb@usevbox ...
+l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Sorry...I usually can't take things from the current page.
+Try `I\vskip-\lastskip' instead.
+
+! Extra \endgroup.
+\endlongbox@env ->\par \unskip \endgroup 
+                                         \lb@insertafter \ifnum \lb@usevbox ...
+l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: \begin{document} ended by \end{bb@margins}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: \begin{document} ended by \end{breakbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: \begin{document} ended by \end{longbox@env}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: \begin{document} ended by \end{longfbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+! Too many }'s.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Extra \endgroup.
+\color@endgroup ->\endgraf \endgroup 
+                                     
+l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+! Too many }'s.
+\color@endbox ->\color@endgroup \egroup 
+                                        
+l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: \begin{document} ended by \end{EoplFigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+! Misplaced alignment tab character &.
+<argument> \begin {math}\begin {alignedat}{-1}&
+                                               \Scribtexttt {letrec }\texMat...
+l.18042 ...ox{-}body}}}\end{alignedat}\end{math}}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.18042 ...ox{-}body}}}\end{alignedat}\end{math}}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.18042 ...ox{-}body}}}\end{alignedat}\end{math}}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \crcr.
+\endaligned ->\crcr 
+                    \egroup \restorecolumn@ \egroup 
+l.18042 ...ox{-}body}}}\end{alignedat}\end{math}}}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Extra }, or forgotten \endgroup.
+\endaligned ->\crcr \egroup 
+                            \restorecolumn@ \egroup 
+l.18042 ...ox{-}body}}}\end{alignedat}\end{math}}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+\endaligned ...cr \egroup \restorecolumn@ \egroup 
+                                                  
+l.18042 ...ox{-}body}}}\end{alignedat}\end{math}}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{$} on input line 18042 ended by \end{alignedat}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18042 ...ox{-}body}}}\end{alignedat}\end{math}}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (410.49048pt too wide) in paragraph at lines 18042--18043
+[]$[]$ 
+ []
+
+Excluding 'comment' comment.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
+[283]
+Overfull \hbox (4.85841pt too wide) in paragraph at lines 18133--18134
+[][][]\TU/Courier(0)/m/n/9 ([][]apply-subst-to-sexp[][][]([][]canonical-subst[]
+[][]sexp2[][])[][][]sexp2[][])[][])[][])[][])[] 
+ []
+
+
+Underfull \vbox (badness 1424) has occurred while \output is active []
+
+ [284]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
+[285] [286]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
+[287] [288]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
+[289] [290
+
+]
+ 8.
+
+Package relsize Warning: Font size 24.88792pt is too large.
+(relsize)                Using 24.88pt instead on input line 18358.
+
+[291] [292]
+File: alice-view.pdf Graphic file (type pdf)
+<use alice-view.pdf>
+
+
+LaTeX Warning: Hyper reference `t:x28part_x22oacx22x29' on page 293 undefined o
+n input line 18477.
+
+[293] [294]
+File: module-contour.pdf Graphic file (type pdf)
+<use module-contour.pdf>
+
+Overfull \hbox (5.96689pt too wide) in paragraph at lines 18520--18520
+ [] 
+ []
+
+
+Underfull \vbox (badness 1014) has occurred while \output is active []
+
+ [295]
+[296] [297] [298] [299]
+Overfull \hbox (2.65578pt too wide) in paragraph at lines 18784--18785
+[][][]\TU/Courier(0)/m/n/9 ([][]let[][][]([][]([][]m-val[][][]([][]lookup-modul
+e-name-in-env[][][]m-name[][][]env[][])[][])[][])[] 
+ []
+
+
+Overfull \hbox (4.85841pt too wide) in paragraph at lines 18817--18818
+[][][]\TU/Courier(0)/m/n/9 ([][]add-module-defns-to-env[][][]m-defns[][][]([][]
+empty-env[][])[][])[][])[][])[][])[][])[][])[] 
+ []
+
+[300] [301]
+Overfull \hbox (13.45753pt too wide) in paragraph at lines 18934--18935
+[][][]\TU/Courier(0)/m/n/9 ([][]let[][][]([][]([][]iface[][][]([][]lookup-modul
+e-name-in-tenv[][][]tenv[][][]m-name[][])[][])[][])[] 
+ []
+
+
+Overfull \hbox (24.2593pt too wide) in paragraph at lines 18940--18940
+[][][]\TU/Courier(0)/m/n/9 ([][]lookup-variable-name-in-decls[][][]var-name[][]
+[]decls[][])[][])[][])[][])[][])[][])[] 
+ []
+
+[302] [303]
+
+LaTeX Warning: Hyper reference `t:x28part_x22s8x2e2x22x29' on page 304 undefine
+d on input line 19048.
+
+[304] [305] [306] [307] [308]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.30003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.30003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.30003pt}.
+
+[309] [310]
+Overfull \hbox (6.35371pt too wide) in paragraph at lines 19444--19448
+\TU/Courier(0)/l/it/10 ices-points take get-x \TU/SourceHanSerifCN(0)/m/n/10 和 
+\TU/Courier(0)/l/it/10 from Alices-points take increment-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.30003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.30003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.30003pt}.
+
+[311]
+File: module-type.pdf Graphic file (type pdf)
+<use module-type.pdf>
+
+Overfull \hbox (53.38391pt too wide) in paragraph at lines 19493--19493
+ [] 
+ []
+
+[312]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.30003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.30003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.30003pt}.
+
+[313] [314]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.30003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.30003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.30003pt}.
+
+[315] [316]
+
+LaTeX Warning: Hyper reference `t:x28part_x22s8x2e3x22x29' on page 317 undefine
+d on input line 19764.
+
+
+Underfull \vbox (badness 5475) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.30003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.30003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.30003pt}.
+
+[317] [318]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.30003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.30003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.30003pt}.
+
+[319] [320]
+Overfull \hbox (29.66017pt too wide) in paragraph at lines 20038--20038
+[][][]\TU/Courier(0)/m/n/9 ([][]lookup-qualified-type-in-tenv[][][]m-name[][][]
+t-name[][][]tenv[][])[][])[][])[][])[][])[] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.30003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.30003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.30003pt}.
+
+[321]
+
+LaTeX Warning: Hyper reference `t:x28part_x22s8x2e3x22x29' on page 322 undefine
+d on input line 20068.
+
+
+LaTeX Warning: Float too large for page by 3.65227pt on input line 20146.
+
+
+Overfull \hbox (4.85841pt too wide) in paragraph at lines 20188--20189
+[][][]\TU/Courier(0)/m/n/9 ([][]transparent-type-decl[][][]t-name[][][]expanded
+-type[][])[] 
+ []
+
+
+Overfull \hbox (4.85841pt too wide) in paragraph at lines 20208--20209
+[][][]\TU/Courier(0)/m/n/9 ([][]transparent-type-decl[][][]t-name[][][]expanded
+-type[][])[] 
+ []
+
+
+LaTeX Warning: Float too large for page by 25.50827pt on input line 20229.
+
+[322]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.30003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.30003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.30003pt}.
+
+[323] [324]
+Overfull \hbox (10.2593pt too wide) in paragraph at lines 20381--20382
+[][][]\TU/Courier(0)/m/n/9 ([][]qualified-type[][][]([][]fresh-module-name[][][
+][][][]%unknown[][])[][][]name[][])[] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.30003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.30003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.30003pt}.
+
+[325] [326]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.30003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.30003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.30003pt}.
+
+[327] [328] [329] [330] [331] [332] [333] [334] [335] [336]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 21082.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 21088.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 21097.
+
+[337] [338]
+Overfull \hbox (4.85841pt too wide) in paragraph at lines 21168--21169
+[][][]\TU/Courier(0)/m/n/9 ([][]lookup-module-name-in-tenv[][][]tenv[][][]rand-
+id[][])[][])[][])[] 
+ []
+
+
+Overfull \hbox (21.06105pt too wide) in paragraph at lines 21174--21175
+[][][]\TU/Courier(0)/m/n/9 ([][]report-attempt-to-apply-simple-module[][][]rato
+r-id[][])[][])[] 
+ []
+
+
+Overfull \hbox (10.2593pt too wide) in paragraph at lines 21176--21177
+[][][]\TU/Courier(0)/m/n/9 ([][]proc-iface[][][]([][]param-name[][][]param-ifac
+e[][][]result-iface[][])[] 
+ []
+
+
+Overfull \hbox (4.85841pt too wide) in paragraph at lines 21196--21197
+[][][]\TU/Courier(0)/m/n/9 ([][]expand-iface[][][]rand-name[][][]rand-iface[][]
+[]tenv[][])[] 
+ []
+
+[339] [340]
+Overfull \hbox (15.66017pt too wide) in paragraph at lines 21270--21271
+[][][]\TU/Courier(0)/m/n/9 ([][]proc-iface[][][]([][]param-name2[][][]param-ifa
+ce2[][][]result-iface2[][])[] 
+ []
+
+
+Overfull \hbox (15.66017pt too wide) in paragraph at lines 21280--21281
+[][][]\TU/Courier(0)/m/n/9 ([][]proc-iface[][][]([][]param-name2[][][]param-ifa
+ce2[][][]result-iface2[][])[] 
+ []
+
+
+Overfull \hbox (10.2593pt too wide) in paragraph at lines 21282--21283
+[][][]\TU/Courier(0)/m/n/9 ([][]let[][][]([][]([][]new-name[][][]([][]fresh-mod
+ule-name[][][]param-name1[][])[][])[][])[] 
+ []
+
+
+Overfull \hbox (4.85841pt too wide) in paragraph at lines 21288--21289
+[][][]\TU/Courier(0)/m/n/9 result-iface1[][][]param-name1[][][]new-name[][])[][
+])[] 
+ []
+
+
+Overfull \hbox (15.66017pt too wide) in paragraph at lines 21294--21295
+[][][]\TU/Courier(0)/m/n/9 result-iface2[][][]param-name2[][][]new-name[][])[][
+])[][])[] 
+ []
+
+
+Overfull \hbox (21.06105pt too wide) in paragraph at lines 21306--21307
+[][][]\TU/Courier(0)/m/n/9 ([][]expand-iface[][][]new-name[][][]param-iface1[][
+][]tenv[][])[] 
+ []
+
+[341] [342] [343] [344
+
+]
+ 9.
+
+Package relsize Warning: Font size 24.88792pt is too large.
+(relsize)                Using 24.88pt instead on input line 21369.
+
+[345] [346] [347] [348] [349] [350] [351] [352] [353]
+
+LaTeX Warning: Hyper reference `t:x28part_x22s9x2e4x2e1x22x29' on page 354 unde
+fined on input line 21932.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+<inserted text> }
+                 
+l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+                                                  
+(That makes 100 errors; please try again.) 
+Here is how much of TeX's memory you used:
+ 48922 strings out of 474773
+ 1128743 string characters out of 5757724
+ 1981839 words of memory out of 5000000
+ 70286 multiletter control sequences out of 15000+600000
+ 569584 words of font info for 177 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 103i,24n,107p,2727b,1325s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on eopl.pdf (383 pages).

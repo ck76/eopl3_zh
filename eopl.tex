@@ -16284,23 +16284,7 @@ else zero{\hbox{\texttt{?}}}(11)}。
 \index{gzuo4cheng2lei4xing2@过程类型|(idxdecorator{}{}}
 要定义这种语言的语法，我们改变 \Scribtexttt{proc} 和 \Scribtexttt{letrec} 表达式的生成式。
 
-\begin{Subflow}\begin{cornertext}[title=修改后的生成式，适用于 CHECKED]
 
-
-\noindent \begin{Small}\Iidentity{\begin{align*}\mathit{Expression} &::= \Scribtexttt{proc (}\Iidentity{\mathit{Identifier : Type}}\Scribtexttt{) }\Iidentity{\mathit{Expression}} \\[-3pt]
-  &\mathrel{\phantom{::=}} \fbox{\Scribtexttt{proc{-}exp (var ty body)}} \\[5pt]
-\mathit{Expression} &::= \Scribtexttt{letrec} \\[-3pt]
-  &\mathrel{\phantom{::=}} \phantom{x}\Iidentity{\mathit{Type}}\Scribtexttt{ }\Iidentity{\mathit{Identifier}}\Scribtexttt{ (}\Iidentity{\mathit{Identifier}}\Scribtexttt{ {\hbox{\texttt{:}}} }\Iidentity{\mathit{Type}}\Scribtexttt{) = }\Iidentity{\mathit{Expression}} \\[-3pt]
-  &\mathrel{\phantom{::=}} \Scribtexttt{in }\Iidentity{\mathit{Expression}} \\[-3pt]
-  &\mathrel{\phantom{::=}} \fbox{\begin{math}\begin{alignedat}{-1}
-                                  &\Scribtexttt{letrec{-}exp} \\
-                                  &\phantom{xx}\Scribtexttt{(p{-}result{-}type p{-}name b{-}var b{-}var{-}type} \\
-                                  &\phantom{xxx}\Scribtexttt{p{-}body} \\
-                                  &\phantom{xxx}\Scribtexttt{letrec{-}body}\Scribtexttt{)}
-                                 \end{alignedat}\end{math}}\end{align*}}\end{Small}
-
-\noindent 
-\end{cornertext}\end{Subflow}
 
 对指定绑定变量类型的 \Scribtexttt{proc} 表达式，规则变为：
 
@@ -16750,21 +16734,7 @@ else zero{\hbox{\texttt{?}}}(11)}。
 要定义这种语法，我们新添一个非终结符，\texMathInline{\mathit{Optional\mbox{-}type}}，并修改
 \Scribtexttt{proc} 和 \Scribtexttt{letrec} 的生成式，令其用可选类型替代类型。
 
-\begin{Small}\Iidentity{\begin{align*}\mathit{Optinal\mbox{-}Type} &::= \Scribtexttt{{\hbox{\texttt{?}}}} \\[-3pt]
-          &\mathrel{\phantom{::=}} \fbox{\Scribtexttt{no{-}type ()}} \\[5pt]
-\mathit{Optinal\mbox{-}Type} &::= \mathit{Type} \\[-3pt]
-          &\mathrel{\phantom{::=}} \fbox{\Scribtexttt{a{-}type (ty)}} \\[5pt]
-        \mathit{Expression} &::= \Scribtexttt{proc (}\Iidentity{\mathit{Identifier : Optinal\mbox{-}Type}}\Scribtexttt{) }\Iidentity{\mathit{Expression}} \\[-3pt]
-          &\mathrel{\phantom{::=}} \fbox{\Scribtexttt{proc{-}exp (var otype body)}} \\[5pt]
-        \mathit{Expression} &::= \Scribtexttt{letrec} \\[-3pt]
-          &\mathrel{\phantom{::=}} \phantom{x}\Iidentity{\mathit{Optinal\mbox{-}Type}}\Scribtexttt{ }\Iidentity{\mathit{Identifier}}\Scribtexttt{ (}\Iidentity{\mathit{Identifier}}\Scribtexttt{ {\hbox{\texttt{:}}} }\Iidentity{\mathit{Optinal\mbox{-}Type}}\Scribtexttt{) = }\Iidentity{\mathit{Expression}} \\[-3pt]
-          &\mathrel{\phantom{::=}} \Scribtexttt{in }\Iidentity{\mathit{Expression}} \\[-3pt]
-          &\mathrel{\phantom{::=}} \fbox{\begin{math}\begin{alignedat}{-1}
-                                          &\Scribtexttt{letrec{-}exp} \\
-                                          &\phantom{xx}\Scribtexttt{(p{-}result{-}otype p{-}name} \\
-                                          &\phantom{xxx}\Scribtexttt{b{-}var b{-}var{-}otype p{-}body} \\
-                                          &\phantom{xxx}\Scribtexttt{letrec{-}body}\Scribtexttt{)}
-                                         \end{alignedat}\end{math}}\end{align*}}\end{Small}
+
 
 排除的类型就是需要我们找出的类型。要找出它们，我们遍历抽象语法树，生成类型之间的
 方程，方程中可能含有这些未知类型。然后，我们求解含有未知类型的方程。
@@ -17918,7 +17888,7 @@ else zero{\hbox{\texttt{?}}}(11)}。
 
 \mbox{\hphantom{\Scribtexttt{x}}}
 
-\mbox{\hphantom{\Scribtexttt{xxxxxx}}}\texMathInline{\fbox{\begin{math}\begin{alignedat}{-1}\Scribtexttt{(zero{\hbox{\texttt{?}}}{-}exp }\texMathInline{e_1}\Scribtexttt{)} &: \texMathInline{t_{e_1}} = \Scribtexttt{int} \\ &\mathrel{\phantom{:}} \texMathInline{t_{\Scribtexttt{(zero{\hbox{\texttt{?}}}{-}exp }\texMathInline{e_1}\Scribtexttt{)}}} = \Scribtexttt{bool}\end{alignedat}\end{math}}}
+
 
 \mbox{\hphantom{\Scribtexttt{xxxxxx}}}\RktPn{(}\RktSym{zero{\hbox{\texttt{?}}}{-}exp}\mbox{\hphantom{\Scribtexttt{x}}}\RktPn{(}\RktSym{exp1}\RktPn{)}
 
@@ -17941,7 +17911,6 @@ else zero{\hbox{\texttt{?}}}(11)}。
 
 \caption{INFERRED 的 \Scribtexttt{type{-}of}，第 1 部分\label{t:x28elem_x22figx2d7x2e6x22x29}}\end{EoplFigure}
 
-\begin{EoplFigure}\begin{SCodeFlow}\begin{RktBlk}\begin{SingleColumn}\texMathInline{\fbox{\begin{math}\begin{alignedat}{-1}\Scribtexttt{(diff{-}exp }\texMathInline{e_1}\Scribtexttt{ }\texMathInline{e_2}\Scribtexttt{)} &: \texMathInline{t_{e_1}} = \Scribtexttt{int} \\ &\mathrel{\phantom{:}} \texMathInline{t_{e_2}} = \Scribtexttt{int} \\ &\mathrel{\phantom{:}} \texMathInline{t_{\Scribtexttt{(diff{-}exp }\texMathInline{e_1}\Scribtexttt{ }\texMathInline{e_2}\Scribtexttt{)}}} = \Scribtexttt{int}\end{alignedat}\end{math}}}
 
 \RktPn{(}\RktSym{diff{-}exp}\mbox{\hphantom{\Scribtexttt{x}}}\RktPn{(}\RktSym{exp1}\mbox{\hphantom{\Scribtexttt{x}}}\RktSym{exp2}\RktPn{)}
 
@@ -17967,7 +17936,6 @@ else zero{\hbox{\texttt{?}}}(11)}。
 
 \mbox{\hphantom{\Scribtexttt{x}}}
 
-\texMathInline{\fbox{\begin{math}\begin{alignedat}{-1}\Scribtexttt{(if{-}exp }\texMathInline{e_1}\Scribtexttt{ }\texMathInline{e_2}\Scribtexttt{ }\texMathInline{e_3}\Scribtexttt{)} &: \texMathInline{t_{e_1}} = \Scribtexttt{bool} \\ &\mathrel{\phantom{:}} \texMathInline{t_{e_2}} = \texMathInline{t_{\Scribtexttt{(if{-}exp }\texMathInline{e_1}\Scribtexttt{ }\texMathInline{e_2}\Scribtexttt{ }\texMathInline{e_3}\Scribtexttt{)}}} \\ &\mathrel{\phantom{:}} \texMathInline{t_{e_3}} = \texMathInline{t_{\Scribtexttt{(if{-}exp }\texMathInline{e_1}\Scribtexttt{ }\texMathInline{e_2}\Scribtexttt{ }\texMathInline{e_3}\Scribtexttt{)}}}\end{alignedat}\end{math}}}
 
 \RktPn{(}\RktSym{if{-}exp}\mbox{\hphantom{\Scribtexttt{x}}}\RktPn{(}\RktSym{exp1}\mbox{\hphantom{\Scribtexttt{x}}}\RktSym{exp2}\mbox{\hphantom{\Scribtexttt{x}}}\RktSym{exp3}\RktPn{)}
 
