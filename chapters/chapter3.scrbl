@@ -1709,7 +1709,7 @@ in (double 6)
 @exercise[#:level 1 #:tag "ex3.31"]{
 
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex3.31"] "Multiple-argument procedures"]
-扩展上面的语言，允许声明任意数量参数的过程，像{ex3.21} 那样。
+扩展上面的语言，允许声明任意数量参数的过程，像ex3.21 那样。
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex3.31"] "Multiple-argument procedures"]
 
 }
