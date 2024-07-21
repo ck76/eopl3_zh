@@ -116,7 +116,7 @@ item"]{词条}、@term["lexeme"]{词素}、或者最常见的@term["token"]{词�
 @eopl-index[#:range-mark 'end "Parser generator"]
 
 另一种方式是忽略具体语法的细节，把表达式写成列表结构，
-就像@secref{s2.5}和{ex2.31}中，处理 lambda 演算表达式那样。
+就像@secref{s2.5}和ex2.31中，处理 lambda 演算表达式那样。
 @eopl-index[#:range-mark 'end "Language processors"]
 @eopl-index[#:range-mark 'end "Parsing"]
 
@@ -695,7 +695,7 @@ in let y = 2
 @eopl-index[@idx-value-of @eopl-index-entry["for LET" "LET"]]
 }
 
-现在我们可以写出解析器，如@figure-ref{fig-3.8} 和{fig-3.9} 所示。主过程
+现在我们可以写出解析器，如@figure-ref{fig-3.8} 和fig-3.9 所示。主过程
 是 @tt{run}，它取一个字符串，解析它，把结果传给 @tt{value-of-program}。最令人感
 兴趣的过程是 @tt{value-of}，它取一表达式和一环境，用解释器秘方计算规范所要求的答
 案。在代码中，我们插入了相关的推理规则定义，以便观察 @tt{value-of} 的代码如何与
@@ -906,7 +906,7 @@ in list(x, -(x,1), -(x,3))
 @$${\mathit{Expression} ::= @tt{if @${\mathit{Bool\mbox{-}exp}} then @${\mathit{Expression}} else @${\mathit{Expression}}}}
 
 为 @${\mathit{Bool\mbox{-}exp}} 写出适当的生成式，实现 @tt{value-of-bool-exp}。
-按这种方式，{ex3.8} 中的谓词应放在哪里？
+按这种方式，ex3.8 中的谓词应放在哪里？
 
 }
 
@@ -1394,7 +1394,7 @@ in let times4 = proc (x) ((makemult makemult) x)
 }
 
 用这个程序里的小技巧写出PROC阶乘过程。提示：你可以使用@elemref["curry"]{咖
-喱化}（{ex3.20}）定义双参数过程 @tt{times}。
+喱化}（ex3.20）定义双参数过程 @tt{times}。
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex3.23"] "Currying"]
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex3.23"] "Factorial function"]
 
@@ -1404,7 +1404,7 @@ in let times4 = proc (x) ((makemult makemult) x)
 
 @eopl-index[#:suffix @exer-ref-range["ex3.24"] "Mutual recursion"]
 @eopl-index[#:suffix @exer-ref-range["ex3.24"] "Recursive programs" "mutual recursion"]
-用上述程序里的小技巧写出{ex3.32} 中的互递归程序 @tt{odd} 和 @tt{even}。
+用上述程序里的小技巧写出ex3.32 中的互递归程序 @tt{odd} 和 @tt{even}。
 
 }
 
@@ -1585,7 +1585,7 @@ in (double 6)
 
 ]
 
-@figure-ref{fig-3.10} 和 {fig-3.11} 展示了一个例子。
+@figure-ref{fig-3.10} 和 fig-3.11 展示了一个例子。
 @figure-ref{fig-3.11} 的最后一行递归调用 @tt{double}，找出了原来的 @tt{double}，
 正合所愿。
 
@@ -1736,7 +1736,7 @@ in (odd 13)
 
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex3.33"] "Multiple-argument procedures"]
 扩展上面的语言，允许声明任意数量的互递归过程，每个过程的参数数量也任意，就
-像{ex3.21} 那样。
+像ex3.21 那样。
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex3.33"] "Multiple-argument procedures"]
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex3.32" "ex3.33"] "Multiple-procedure declaration"]
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex3.32" "ex3.33"] "Mutual recursion"]
@@ -1792,7 +1792,7 @@ in (odd 13)
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex3.36" "ex3.37"] "Multiple-procedure declaration"]
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex3.36" "ex3.37"] "Mutual recursion"]
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex3.36" "ex3.37"] "Recursive programs" "mutual recursion"]
-扩展这种实现，处理{ex3.32} 中的语言。
+扩展这种实现，处理ex3.32 中的语言。
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex3.35" "ex3.36"] "Closures"]
 
 }
@@ -1803,7 +1803,7 @@ in (odd 13)
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex3.37"] "Factorial function"]
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex3.37"] "Recursive programs" "design and implementation of"]
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex3.37"] "Scope of variable declaration" "dynamic"]
-使用动态绑定（{ex3.28}），不需要任何特殊机制，靠 @tt{let} 就能创建
+使用动态绑定（ex3.28），不需要任何特殊机制，靠 @tt{let} 就能创建
 递归过程。这是出于历史兴趣。在早年的编程语言设计中，@secref{s3.4}讨论的那些方法
 还鲜为人知。要验证动态绑定实现的递归，试试程序：
 
@@ -2029,7 +2029,7 @@ Scheme 中一样，所有的绑定都是@term["semi-infinite"]{半无限} 的，
 这叫做@emph{动态}期限，而它是一条@emph{静态}性质。
 @eopl-index["Static properties of programs"]
 因为这种期限是一条静态性质，所以我们可以准确预测绑定何时可以抛弃。
-{ex3.28} 等几道练习中的动态绑定表现类似。
+ex3.28 等几道练习中的动态绑定表现类似。
 @eopl-index[#:range-mark 'end "Binding" (eopl-index-entry "of variables" "variables")]
 @eopl-index[#:range-mark 'end "Declaration" "of variables"]
 @eopl-index[#:range-mark 'end "Dynamic properties of programs"]
@@ -2126,7 +2126,7 @@ in let y = |@${exp_2}
 
 }
 
-如果用关联列表表示环境（见{ex2.5}），那么环境看起来像是
+如果用关联列表表示环境（见ex2.5），那么环境看起来像是
 
 @nested{
 @centered{
@@ -2308,8 +2308,8 @@ environment"]{静态环境}。静态环境是一个变量列表，表示当前�
 翻译器有两个过程：@tt{translation-of} 处理表达式，@tt{translation-of-program} 处
 理程序。
 
-@tt{senv} 表示一些声明，我们从中翻译表达式 @tt{e}。要完成这点，我们像{ex1.33} 或
-{ex2.26} 那样递归复制语法树，除了@linebreak[]
+@tt{senv} 表示一些声明，我们从中翻译表达式 @tt{e}。要完成这点，我们像ex1.33 或
+ex2.26 那样递归复制语法树，除了@linebreak[]
 
 @nested{
 @itemlist[#:style 'ordered
@@ -2571,14 +2571,14 @@ s3.7-eg例子中最后一行的无名环境如下
 @exercise[#:level 1 #:tag "ex3.38"]{
 
 @eopl-index[#:suffix @exer-ref-range["ex3.38"] (eopl-index-entry @elem{@tt{cond} expression} "condexpression")]
-扩展词法地址翻译器和解释器，处理{ex3.12} 中的 @tt{cond}。
+扩展词法地址翻译器和解释器，处理ex3.12 中的 @tt{cond}。
 
 }
 
 @exercise[#:level 1 #:tag "ex3.39"]{
 
 @eopl-index[#:suffix @exer-ref-range["ex3.39"] @eopl-index-entry[@elem{@tt{unpack} expression} "unpackexpression"]]
-扩展词法地址翻译器和解释器，处理{ex3.18} 中的 @tt{unpack}。
+扩展词法地址翻译器和解释器，处理ex3.18 中的 @tt{unpack}。
 
 }
 
@@ -2598,8 +2598,8 @@ htt]{nameless-letrec-var-exp}。
 
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex3.41"] "Environments" "ribcage representation of"]
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex3.41"] "Ribcage representation"]
-修改词法地址翻译器和解释器，像{ex3.21} 那样处理多参数的 @tt{let} 表
-达式、过程和过程调用。用肋排表示法（{ex2.21}）表示无名环境。在这种
+修改词法地址翻译器和解释器，像ex3.21 那样处理多参数的 @tt{let} 表
+达式、过程和过程调用。用肋排表示法（ex2.21）表示无名环境。在这种
 表示法中，词法地址包含两个非负数：词深，指明跨越的等深线数目，与之前相同；位置，
 指明变量在声明中的位置。
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex3.41"] "Environments" "ribcage representation of"]
@@ -2612,7 +2612,7 @@ htt]{nameless-letrec-var-exp}。
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex3.42"] "Data structure representation" @eopl-index-entry["of procedure values" "procedurevalues"]]
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex3.42"]
             @eopl-index-entry[@elem{Procedure values (@${\mathit{Proc}})} "Procedurevalues"] "data structure representation of"]
-修改词法地址翻译器和解释器，使用{ex3.26} 中的瘦身过程表示法。要如此，
+修改词法地址翻译器和解释器，使用ex3.26 中的瘦身过程表示法。要如此，
 你不能在 @tt{(extend-senv @${var} @${senv})} 中翻译过程的主体，而是在一个新的静
 态环境中，它指明了各个变量在瘦身表示中的位置。
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex3.42"] "Data structure representation" @eopl-index-entry["of procedure values" "procedurevalues"]]

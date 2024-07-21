@@ -1935,7 +1935,7 @@ lst))} 得出 @tt{(number-elements lst)} （但是，看看@exercise-ref{ex1.36}
 
  @eopl-index[#:suffix @exer-ref-range["ex1.34"] (eopl-index-entry @elem{Binary search tree (@${\mathit{Binary\mbox{-}search\mbox{-}tree}})} "Binarysearchtree")]
  写出过程 @tt{path}，它取一个整数 @tt{n} 和一棵含有整数 @tt{n} 的二叉搜索树
- （{bst}）@tt{bst}，返回由 @tt{left} 和 @tt{right} 组成的列表，表示如何
+ （bst）@tt{bst}，返回由 @tt{left} 和 @tt{right} 组成的列表，表示如何
  找到包含 @tt{n} 的节点。如果在树根处发现 @tt{n}，它返回空列表。
 
 @eopl-code{
@@ -1982,7 +1982,7 @@ lst))} 得出 @tt{(number-elements lst)} （但是，看看@exercise-ref{ex1.36}
 
 @exercise[#:level 3 #:tag "ex1.36"]{
  @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex1.36"] @eopl-index-entry[@bold{@tt{number-elements}} "number-elements"]]
- 写出过程 @tt{g}，则{n-e}的 @tt{number-elements} 可以定义为：
+ 写出过程 @tt{g}，则n-e的 @tt{number-elements} 可以定义为：
 
  @eopl-code{
  @codeblock{

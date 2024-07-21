@@ -576,7 +576,7 @@ Scheme 没有提供标准机制来创建新的模糊类型，所以我们退而�
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex2.12" "ex2.13" "ex2.14"] "Procedural representation" "of environments"]
 @eopl-index[#:suffix @exer-ref-range["ex2.12"] "Procedural representation" "of stacks"]
 @eopl-index[#:suffix @exer-ref-range["ex2.12"] "Stacks"]
-用过程表示法实现{ex2.4} 中的栈数据类型。
+用过程表示法实现ex2.4 中的栈数据类型。
 
 }
 
@@ -590,7 +590,7 @@ Scheme 没有提供标准机制来创建新的模糊类型，所以我们退而�
 @exercise[#:level 2 #:tag "ex2.14"]{
 
 扩展前一题中的表示法，加入第三个过程，用它来 @tt{has-binding?} （见
-{ex2.9}）。
+ex2.9）。
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex2.12" "ex2.13" "ex2.14"] "Environments" "procedural representation of"]
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex2.12" "ex2.13" "ex2.14"] "Procedural representation" "of environments"]
 
@@ -879,12 +879,12 @@ lambda 演算表达式的语法：
 
 @exercise[#:level 3 #:tag "ex2.20"]{
 
-按照{ex2.19} 中的二叉树表示，很容易从父节点移到某个子节点，但是不借
-助上下文参数，无法从子节点移动到父节点。扩展{ex2.18} 中的列表表示法，
+按照ex2.19 中的二叉树表示，很容易从父节点移到某个子节点，但是不借
+助上下文参数，无法从子节点移动到父节点。扩展ex2.18 中的列表表示法，
 用以表示二叉树中的节点。提示：想想怎样用逆序列表表示二叉树在当前节点以上的部分，
-就像{ex2.18} 那样。
+就像ex2.18 那样。
 
-用这种表示实现{ex2.19} 中的过程。接着实现 @tt{move-up} 和
+用这种表示实现ex2.19 中的过程。接着实现 @tt{move-up} 和
 @tt{at-root?}。
 
 }
@@ -1129,7 +1129,7 @@ s-list中的数据可以用数据类型 @tt{s-list}表示为：
 
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex2.21"] @eopl-index-entry[@elem{Environment ADT (@${\mathit{Env}})} "EnvironmentADT"]]
 用 @tt{define-datatype} 实现@secref{s2.2.2}中的环境数据类型。然后
-实现{ex2.9} 中的 @tt{has-binding?}。
+实现ex2.9 中的 @tt{has-binding?}。
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex2.21"] @eopl-index-entry[@elem{Environment ADT (@${\mathit{Env}})} "EnvironmentADT"]]
 
 }
@@ -1137,7 +1137,7 @@ s-list中的数据可以用数据类型 @tt{s-list}表示为：
 @exercise[#:level 1 #:tag "ex2.22"]{
 
 @eopl-index[#:suffix @exer-ref-range["ex2.22"] "Stacks"]
-用 @tt{define-datatype} 实现{ex2.4} 中的栈数据类型。
+用 @tt{define-datatype} 实现ex2.4 中的栈数据类型。
 
 }
 
@@ -1276,7 +1276,7 @@ s-list中的数据可以用数据类型 @tt{s-list}表示为：
 
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex2.26"]
             @eopl-index-entry[@elem{Red-blue trees (@${\mathit{Red\mbox{-}blue\mbox{-}tree}})} "Redbluetrees"]]
-{ex1.33} 还有一种写法。树的集合可以用下列语法定义：
+ex1.33 还有一种写法。树的集合可以用下列语法定义：
 
 @envalign*{\mathit{Red\mbox{-}blue\mbox{-}tree} &::= \mathit{Red\mbox{-}blue\mbox{-}subtree} \\
            \mathit{Red\mbox{-}blue\mbox{-}subtree} &::= @tt{(red-node @m{\mathit{Red\mbox{-}blue\mbox{-}subtree}} @m{\mathit{Red\mbox{-}blue\mbox{-}subtree}})} \\

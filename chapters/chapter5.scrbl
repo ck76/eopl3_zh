@@ -716,7 +716,7 @@
 }
 
 传递续文的解释器展示完毕。完整的解释器如@figure-ref{fig-5.4} 和
-{fig-5.5} 所示。续文的完整规范如@figure-ref{fig-5.6} 所示。
+fig-5.5 所示。续文的完整规范如@figure-ref{fig-5.6} 所示。
 
 @eopl-figure{
 @racketblock[
@@ -894,14 +894,14 @@
 @exercise[#:level 1 #:tag "ex5.5"]{
 
 @eopl-index[#:suffix @exer-ref-range["ex5.5"] "List operations"]
-给语言添加{ex3.9} 中的列表。
+给语言添加ex3.9 中的列表。
 
 }
 
 @exercise[#:level 2 #:tag "ex5.6"]{
 
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex5.6"] @eopl-index-entry[@elem{@tt{list} expression} "listexpression"]]
-给语言添加{ex3.10} 中的 @tt{list} 表达式。提示：添加两个续文构造器，
+给语言添加ex3.10 中的 @tt{list} 表达式。提示：添加两个续文构造器，
 一个用来求列表首元素的值，一个用来求列表剩余元素的值。
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex5.6"] @eopl-index-entry[@elem{@tt{list} expression} "listexpression"]]
 
@@ -910,7 +910,7 @@
 @exercise[#:level 2 #:tag "ex5.7"]{
 
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex5.7"] "Multiple-variable declaration"]
-给解释器添加多声明的 @tt{let}（{ex3.16}）。
+给解释器添加多声明的 @tt{let}（ex3.16）。
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex5.7"] "Multiple-variable declaration"]
 
 }
@@ -918,7 +918,7 @@
 @exercise[#:level 2 #:tag "ex5.8"]{
 
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex5.8"] "Multiple-argument procedures"]
-给解释器添加多参数过程（{ex3.21}）。
+给解释器添加多参数过程（ex3.21）。
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex5.8"] "Multiple-argument procedures"]
 
 }
@@ -941,7 +941,7 @@
 @exercise[#:level 2 #:tag "ex5.11"]{
 
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex5.11"] (eopl-index-entry @elem{@tt{begin} expression} "beginexpression")]
-给传递续文的解释器添加{ex4.4} 中的 @tt{begin} 表达式。确保调用
+给传递续文的解释器添加ex4.4 中的 @tt{begin} 表达式。确保调用
 @tt{value-of} 和 @tt{value-of-rands} 时不需要生成控制上下文。
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex5.11"] (eopl-index-entry @elem{@tt{begin} expression} "beginexpression")]
 
@@ -949,7 +949,7 @@
 
 @exercise[#:level 1 #:tag "ex5.12"]{
 
-给@figure-ref{fig-5.4}--{fig-5.6} 的解释器添加辅助过程，生成类似
+给@figure-ref{fig-5.4}--fig-5.6 的解释器添加辅助过程，生成类似
 cps-computation 计算的输出。
 
 }
@@ -997,7 +997,7 @@ cps-computation 计算的输出。
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex5.16"] "Command continuations"]
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex5.16"] "Continuations" "command continuations"]
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex5.16"] "Statements"]
-扩展传递续文的解释器，处理{ex4.22} 中的语言。给 @tt{result-of} 传递
+扩展传递续文的解释器，处理ex4.22 中的语言。给 @tt{result-of} 传递
 一个续文参数，确保 @tt{result-of} 不在扩大控制上下文的位置调用。因为语句不返回值，
 需要区分普通续文和语句续文；后者通常叫@term["command continuation"]{命令续文}。
 续文接口应包含过程 @tt{apply-command-cont}，它取一命令续文并使用它。用数据结构和
@@ -1169,15 +1169,15 @@ cps-computation 计算的输出。
 不要在 @tt{apply-procedure/k} 主体周围插入 @tt{(lambda () ...)}，改为在
 @tt{apply-cont} 的主体周围插入。修改合约，使之符合这一更改。@${\mathit{Bounce}}
 的定义需要修改吗？然后，用数据结构表示法替换过程表示法表示 @${\mathit{Bounce}}，
-像{ex5.18} 那样。
+像ex5.18 那样。
 
 }
 
 @exercise[#:level 1 #:tag "ex5.20"]{
 
-在{ex5.18} 中，@tt{trampoline} 返回 @${\mathit{FinalAnswer}} 之前的
+在ex5.18 中，@tt{trampoline} 返回 @${\mathit{FinalAnswer}} 之前的
 最后一颗弹球形如 @tt{(apply-cont (end-cont) @${val})}，其中，@${val} 是
-@${\mathit{ExpVal}}。利用这一点优化{ex5.19} 中弹球的表示。
+@${\mathit{ExpVal}}。利用这一点优化ex5.19 中弹球的表示。
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex5.18" "ex5.20"] "Data structure representation" @eopl-index-entry["of trampolining" "trampolining"]]
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex5.18" "ex5.19" "ex5.20"] "Trampolining" "data structure representation of"]
 
@@ -1185,7 +1185,7 @@ cps-computation 计算的输出。
 
 @exercise[#:level 2 #:tag "ex5.21"]{
 
-用普通的过程式语言实现跳跃式解释器。用{ex5.18} 中的数据结构表示快照，
+用普通的过程式语言实现跳跃式解释器。用ex5.18 中的数据结构表示快照，
 把 @tt{trampoline} 中对自身的递归调用替换为普通的 @tt{while} 或其它循环结构。
 
 }
@@ -1303,8 +1303,8 @@ odd:  if (x=0) then return(0)
 
 本节，我们用这一原理翻译传递续文的解释器，将其转换为适合无高阶过程语言的形式。
 
-我们首先从@figure-ref{fig-5.4} 和 {fig-5.5} 中的解释器开始，用数据结构
-表示续文。续文的数据结构表示如@figure-ref{fig-5.9} 和 {fig-5.10} 所示。
+我们首先从@figure-ref{fig-5.4} 和 fig-5.5 中的解释器开始，用数据结构
+表示续文。续文的数据结构表示如@figure-ref{fig-5.9} 和 fig-5.10 所示。
 
 @eopl-figure[#:position "!ht"]{
 @racketblock[
@@ -1510,7 +1510,7 @@ odd:  if (x=0) then return(0)
 
 ]
 
-翻译完的解释器如@figure-ref{fig-5.11}--{fig-5.14} 所示。这个过程
+翻译完的解释器如@figure-ref{fig-5.11}--fig-5.14 所示。这个过程
 叫做@term["registerization"]{寄存}。很容易用支持跳转的指令式语言翻译它。
 @eopl-index[#:range-mark 'end "Registerization"]
 @eopl-index[#:range-mark 'end @idx-value-of "registerized version"]
@@ -1701,7 +1701,7 @@ odd:  if (x=0) then return(0)
 @exercise[#:level 2 #:tag "ex5.25"]{
 
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex5.25"] "Multiple-argument procedures"]
-寄存支持多参数过程的解释器（{ex3.21}）。
+寄存支持多参数过程的解释器（ex3.21）。
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex5.25"] "Multiple-argument procedures"]
 
 }
@@ -1728,8 +1728,8 @@ odd:  if (x=0) then return(0)
 
 @exercise[#:level 1 #:tag "ex5.28"]{
 
-给本节的解释器添加{ex5.12} 中的辅助组件。由于续文表示方式相同，可以
-复用那里的代码。验证本节的指令式解释器生成的跟踪日志与{ex5.12} 中的
+给本节的解释器添加ex5.12 中的辅助组件。由于续文表示方式相同，可以
+复用那里的代码。验证本节的指令式解释器生成的跟踪日志与ex5.12 中的
 解释器@emph{完全}相同。
 
 }
@@ -1750,9 +1750,9 @@ odd:  if (x=0) then return(0)
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex5.30"] "Scope of variable declaration" "dynamic"]
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex5.30"] "Semi-infinite extent"]
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex5.30"] "Variable(s)" "extent of"]
-修改本节的解释器，让过程使用{ex3.28} 中的动态绑定。提示：像本章这样
-转换{ex3.28} 中的解释器；二者不同的部分转换后才会不同。
-像{ex5.28} 那样给解释器添加辅助组件。观察可知，就像当前状态中只有一
+修改本节的解释器，让过程使用ex3.28 中的动态绑定。提示：像本章这样
+转换ex3.28 中的解释器；二者不同的部分转换后才会不同。
+像ex5.28 那样给解释器添加辅助组件。观察可知，就像当前状态中只有一
 个续文，当前状态只会压入或弹出一个环境，而且环境与续文同时压入或弹出。由此我们得
 出结论，动态绑定具有@term["dynamic extent"]{动态期限}：即，形参的绑定保留
 到过程返回为止。词法绑定则与之不同，绑定包裹在闭包内时可以无限期地保留。
@@ -1792,7 +1792,7 @@ odd:  if (x=0) then return(0)
 如imperative-lang所述，用大多数指令式语言都难以完成这种翻译，因为它们
 在所有过程调用中使用堆栈，即使是尾调用。而且，对大型解释器，由 @tt{goto} 链接的
 代码可能太过庞大，以致某些编译器无法处理。把本节的解释器翻译为指令式语言，
-用{ex5.26} 中的跳跃技术规避这一难题。
+用ex5.26 中的跳跃技术规避这一难题。
 
 }
 
@@ -2378,7 +2378,7 @@ in let producer = proc (n)
 }
 
 实现从 IMPLICIT-REFS 语言传递续文的解释器开始。这与@secref{s5.1}中的类似，只是多
-了 IMPLICIT-REFS 中的存储器（当然！），以及{ex5.9} 中的续文构造器
+了 IMPLICIT-REFS 中的存储器（当然！），以及ex5.9 中的续文构造器
 @tt{set-rhs-cont}。
 
 我们给这个解释器添加一个调度器。调度器状态由四个值组成，接口提供六个过程来操作这
@@ -2829,7 +2829,7 @@ in let mut = mutex()
 
 @exercise[#:level 2 #:tag "ex5.46"]{
 
-在{ex5.45} 的系统中，线程放入就绪队列，既可能是因为耗尽时间片，也可
+在ex5.45 的系统中，线程放入就绪队列，既可能是因为耗尽时间片，也可
 能是因为它选择让步。在后一种情况下，线程会以一个完整的时间片重启。修改系统，让就
 绪队列记录每个线程的剩余时间片（如果有的话），在线程重启时仍使用剩余的时间片。
 
@@ -2852,7 +2852,7 @@ in let mut = mutex()
 
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex5.49"] "Activation record"]
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex5.49"] "Frame"]
-为 THREADS 完成{ex5.15}（用堆栈上的帧表示续文）。
+为 THREADS 完成ex5.15（用堆栈上的帧表示续文）。
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex5.49"] "Activation record"]
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex5.49"] "Frame"]
 
@@ -2892,7 +2892,7 @@ in let mut = mutex()
 
 @exercise[#:level 2 #:tag "ex5.54"]{
 
-给{ex5.53} 的解释器添加组件 @tt{kill}。@tt{kill} 结构取一线程号，在
+给ex5.53 的解释器添加组件 @tt{kill}。@tt{kill} 结构取一线程号，在
 就绪队列或所有等待队列中找出对应的线程，然后删除它。此外，当它找到目标线程时，返
 回真；在所有队列中都找不到指定线程号时，返回假。
 
@@ -2900,14 +2900,14 @@ in let mut = mutex()
 
 @exercise[#:level 2 #:tag "ex5.55"]{
 
-给{ex5.53} 的解释器添加线程通信组件，一个线程可以用另一线程的描述符
+给ex5.53 的解释器添加线程通信组件，一个线程可以用另一线程的描述符
 给它发送一个值。线程可以选择接收消息，没有线程给它发消息时可以阻塞。
 
 }
 
 @exercise[#:level 2 #:tag "ex5.56"]{
 
-修改{ex5.55} 的解释器，不要使用共享存储器，而是让每个线程具有自己的
+修改ex5.55 的解释器，不要使用共享存储器，而是让每个线程具有自己的
 存储器。在这种语言中，几乎可以排除互斥锁。重写本节语言的示例程序，但不用互斥锁。
 
 }

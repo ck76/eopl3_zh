@@ -569,7 +569,7 @@ val1 val2)} 的值传给当前续文。
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex6.7"] "Interpreter" "continuation-passing"]
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex6.7"] "Procedural representation" "of continuations"]
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex6.7"] @idx-value-of "continuation-passing version of"]
-写出@figure-ref{fig-5.4}、{fig-5.5} 和 {fig-5.6} 中解释器的过
+写出@figure-ref{fig-5.4}、fig-5.5 和 fig-5.6 中解释器的过
 程表示和内联过程表示。
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex6.7"] "Inlining"]
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex6.7"] "Interpreter" "continuation-passing"]
@@ -834,13 +834,13 @@ proc (|@${\{Var\}^{*(,)}}) = |@${T}
 @eopl-index[#:range-mark 'end "Simple expressions"]
 
 尾表达式的传递续文解释器如@figure-ref{fig-6.6} 所示。由于这种语言的过程取多个参
-数，我们用{ex2.10} 中的 @tt{extend-env*} 创建多个绑定，并用类似方式
+数，我们用ex2.10 中的 @tt{extend-env*} 创建多个绑定，并用类似方式
 扩展 @tt{extend-env-rec}，得到 @tt{extend-env-rec*}。
 
 在这个解释器中，所有递归调用都在（Scheme 的）尾端，所以运行解释器不会在 Scheme
 中产生控制上下文（不全是这样：过程
-@tt{value-of-simple-exp}（{ex6.11}）会在 Scheme 中产生控制上下文，
-但这可以避免（参见{ex6.18}））。
+@tt{value-of-simple-exp}（ex6.11）会在 Scheme 中产生控制上下文，
+但这可以避免（参见ex6.18））。
 
 更重要的是，解释器不会产生新的续文。过程 @tt{value-of/k} 取一个续文参数，原封不
 动地传给每个递归调用。所以，我们可以很容易地移除续文参数。
@@ -1486,7 +1486,7 @@ proc (|@${var_2}) (|@${K} +(|@${simp_1}, |@${var_2}, ..., |@${simp_n}))
 把每个参数转换为 CPS-OUT 中的 @tt{simple-exp}，并用转换结果生成一个尾式。
 
 我们可以把这种行为封装到过程 @tt{cps-of-exps} 中，如@figure-ref{fig-6.8} 所示。
-它的参数是输入表达式的列表和过程 @tt{builder}。它用{ex1.23} 中的
+它的参数是输入表达式的列表和过程 @tt{builder}。它用ex1.23 中的
 @tt{list-index}，找出列表中第一个复杂表达式的位置。如果有这样的复杂表达式，那么
 它转换该表达式，转换所在的续文给表达式的结果命名（绑定到 @tt{var} 的标识符），然
 后递归处理修改后的表达式列表。
@@ -1494,10 +1494,10 @@ proc (|@${var_2}) (|@${K} +(|@${simp_1}, |@${var_2}, ..., |@${simp_n}))
 如果不存在复杂表达式，那么我们用 @tt{builder} 处理表达式列表。但这些表达式虽是简
 单的，它们仍属于 CPS-IN 的语法。因此，我们用过程 @tt{cps-of-simple-exp} 把每个表
 达式转换为 CPS-OUT 的语法。然后，我们把 @${\mathit{SimpleExp}} 的列表传给
-@tt{builder}（@tt{list-set} 如{ex1.19} 所述）。
+@tt{builder}（@tt{list-set} 如ex1.19 所述）。
 
 过程 @tt{inp-exp-simple?} 取一 CPS-IN 表达式，判断表示它的字符串能否解析为
-@${\mathit{SimpleExp}}。它使用{ex1.24} 中的过程 @tt{every?}。若
+@${\mathit{SimpleExp}}。它使用ex1.24 中的过程 @tt{every?}。若
 @${lst} 中的所有元素满足 @${pred}，@tt{(every? @${pred} @${lst})} 返回 @tt{#t}，
 否则返回@tt{#f}。
 
@@ -1600,7 +1600,7 @@ proc (|@${var_2}) (|@${K} +(|@${simp_1}, |@${var_2}, ..., |@${simp_n}))
 @eopl-index[#:range-mark 'end "Procedure call"]}
 
 现在，我们可以写出 CPS 翻译器的剩余部分
-（@figure-ref{fig-6.10}--{fig-6.12}）。它@emph{跟随语法}。当表达式总是
+（@figure-ref{fig-6.10}--fig-6.12）。它@emph{跟随语法}。当表达式总是
 简单的，如常量、变量和过程，我们直接用 @tt{make-send-to-cont} 生成代码。否则，我
 们调用辅助过程，每个辅助过程都调用 @tt{cps-of-exps} 求子表达式的值，用适当的生成
 器构造 CPS 输出的最内部。一个例外是 @tt{cps-of-letrec-exp}，它没有紧邻的子表达式，
@@ -1794,14 +1794,14 @@ in ...
 @exercise[#:level 2 #:tag "ex6.24"]{
 
 @eopl-index[#:suffix @exer-ref-range["ex6.24"] @eopl-index-entry[@elem{@tt{list} expression} "listexpression"]]
-给语言添加列表（{ex3.10}）。记住：列表的参数不在尾端。
+给语言添加列表（ex3.10）。记住：列表的参数不在尾端。
 
 }
 
 @exercise[#:level 2 #:tag "ex6.25"]{
 
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex6.25"] "Multiple-variable declaration"]
-扩展 CPS-IN，让 @tt{let} 表达式声明任意数量的变量（{ex3.16}）。
+扩展 CPS-IN，让 @tt{let} 表达式声明任意数量的变量（ex3.16）。
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex6.25"] "Multiple-variable declaration"]
 
 }
@@ -1809,7 +1809,7 @@ in ...
 @exercise[#:level 2 #:tag "ex6.26"]{
 
 由 @tt{cps-of-exps} 引入的续文变量在续文中只会只会出现一次。修改
-@tt{make-send-to-cont}，不是生成{ex6.22} 中的
+@tt{make-send-to-cont}，不是生成ex6.22 中的
 
 @eopl-code{
 @verbatim|{
@@ -1946,14 +1946,14 @@ in |@${T}
 @eopl-index[#:suffix @exer-ref-range["ex6.32"]
             @eopl-index-entry[@elem{Procedure values (@${\mathit{Proc}})} "Procedurevalues"]
             "data structure representation of"]
-写一个翻译器，它类似{ex6.31}，但把所有过程表示为数据结构。
+写一个翻译器，它类似ex6.31，但把所有过程表示为数据结构。
 
 }
 
 @exercise[#:level 3 #:tag "ex6.33"]{
 
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex6.33"] "Registerization"]
-写一个翻译器，它取{ex6.32} 的输出，将其转换为@figure-ref{fig-6.1}
+写一个翻译器，它取ex6.32 的输出，将其转换为@figure-ref{fig-6.1}
 那样的寄存器程序。
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex6.33"] "Registerization"]
 
@@ -1985,7 +1985,7 @@ CPS 程序传递命名中间结果的续文，从而序列化计算；ANF 程序
 有中间结果，从而序列化计算。
 
 重写 @tt{cps-of-exp}，生成 ANF 程序而非 CPS 程序（对不在尾端的条件表达式，
-用{ex6.23} 中的方法处理）。然后，用修改后的 @tt{cps-of-exp} 处理例
+用ex6.23 中的方法处理）。然后，用修改后的 @tt{cps-of-exp} 处理例
 @tt{fib} 的定义，验证其结果是否为 @tt{fib/anf}。最后，验证对已经是 ANF 的输入程
 序，你的翻译器产生的程序与输入只有绑定变量名不同。
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex6.34"] "Fibonacci sequence"]
@@ -1994,8 +1994,8 @@ CPS 程序传递命名中间结果的续文，从而序列化计算；ANF 程序
 
 @exercise[#:level 1 #:tag "ex6.35"]{
 
-用几个例子验证：若采用{ex6.27} 中的优化方法，对 ANF 转换器
-（{ex6.34}）的输入和输出程序进行 CPS 变换，所得结果相同。
+用几个例子验证：若采用ex6.27 中的优化方法，对 ANF 转换器
+（ex6.34）的输入和输出程序进行 CPS 变换，所得结果相同。
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex6.34" "ex6.35"] @eopl-index-entry["A-normal form (ANF)" "Anormalform"]]
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex6.34" "ex6.35"] "Sequentialization"]
 
@@ -2287,7 +2287,7 @@ newrefk(33, proc (loc1)
 @exercise[#:level 2 #:tag "ex6.36"]{
 
 @eopl-index[#:suffix @exer-ref-range["ex6.36"] (eopl-index-entry @elem{@tt{begin} expression} "beginexpression")]
-给 CPS-IN 添加 @tt{begin} 表达式（{ex4.4}）。CPS-OUT 应该不需要修改。
+给 CPS-IN 添加 @tt{begin} 表达式（ex4.4）。CPS-OUT 应该不需要修改。
 
 }
 
@@ -2312,7 +2312,7 @@ newrefk(33, proc (loc1)
 @eopl-index[#:range-mark 'start @eopl-index-entry[@elem{@tt{letcc} expression} "letccexpression"]]
 @eopl-index[#:range-mark 'start "Nonstandard control flow"]
 @eopl-index[#:range-mark 'start @eopl-index-entry[@elem{@tt{throw} expression} "throwexpression"]]
-最后是非局部控制流。我们来考虑{ex5.42} 中的 @tt{letcc}。@tt{letcc}
+最后是非局部控制流。我们来考虑ex5.42 中的 @tt{letcc}。@tt{letcc}
 表达式 @tt{letcc @${var} in @${body}} 将当前续文绑定到变量 @${var}。@${body} 为
 该绑定的作用域。续文的唯一操作是 @tt{throw}。我们用语法 @tt{throw @${Expression}
 to @${Expression}}，它需要求出两个子表达式的值。第二个表达式应返回一个续文，该续

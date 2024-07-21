@@ -184,7 +184,7 @@ in send o1 odd(13)}|
 }
 
 中，方法 @tt{even} 和 @tt{odd} 递归调用彼此，因为它们执行时，@tt{self} 绑定到包
-含二者的对象。这就像{ex3.37} 中，用动态绑定实现递归。
+含二者的对象。这就像ex3.37 中，用动态绑定实现递归。
 @eopl-index[#:range-mark 'end @eopl-index-entry[@tt{self} "self"]]}
 
 @section[#:style section-title-style-numbered #:tag "s9.2"]{继承}
@@ -455,9 +455,9 @@ in send o3 m3()
 有名字、形参列表以及主体。同时我们扩展语言，支持多参数过程、多声明 @tt{let} 和多
 声明 @tt{letrec} 表达式，还有些其他操作，如加法和 @tt{list}。
 @eopl-index["List operations"]
-列表操作同{ex3.9}。最后，我们增加 @tt{begin} 表达式，
+列表操作同ex3.9。最后，我们增加 @tt{begin} 表达式，
 @eopl-index[(eopl-index-entry @elem{@tt{begin} expression} "beginexpression")]
-同{ex4.4}，它从左到右求出子表达式的值，返回最后一个表达式的值。
+同ex4.4，它从左到右求出子表达式的值，返回最后一个表达式的值。
 
 我们新增对象和列表表达值，于是有
 @nested[#:style small]{
@@ -471,7 +471,7 @@ in send o3 m3()
 
 我们将在@secref{s9.4.1}考察 @${\mathit{Obj}}。在我们的语言中，类既不是指代值，也
 不是表达值：它们能作为对象的一部分，但不能绑定到变量或是成为表达式的值（但要
-看看{ex9.29}）。
+看看ex9.29）。
 
 @eopl-figure[#:position "!ht"]{
 
@@ -764,7 +764,7 @@ in send o3 m1(7,8)
 
 ]
 
-这里，我们使用{ex2.10} 中的 @tt{extend-env*}。它在扩展环境时，把变
+这里，我们使用ex2.10 中的 @tt{extend-env*}。它在扩展环境时，把变
 量列表绑定到指代值的列表。我们还给环境接口新增过程
 @tt{extend-env-with-self-and-super}，分别将 @tt{%self} 和 @tt{%super} 绑定到对象
 和类名。
@@ -976,7 +976,7 @@ in send o3 m1(7,8)
     (append new-m-env super-m-env)))
 ]}
 
-构建方法环境还有其他一些方式，它们在方法查询时更高效（{ex9.18}）。}
+构建方法环境还有其他一些方式，它们在方法查询时更高效（ex9.18）。}
 @eopl-index[#:range-mark 'end "Environments" "method environments"]
 @eopl-index[#:range-mark 'end "Method environments"]
 @eopl-index[#:range-mark 'end @idx-value-of @eopl-index-entry["for CLASSES" "CLASSES"]]
@@ -1136,14 +1136,14 @@ bogus-oddeven() in send o1 odd (13)} 给出错误的答案。
 
 @exercise[#:level 2 #:tag "ex9.12"]{
 
-像{ex9.11} 那样，允许 CLASSES 指定每个字段是私有的、受保护的、或
+像ex9.11 那样，允许 CLASSES 指定每个字段是私有的、受保护的、或
 公有的。
 
 }
 
 @exercise[#:level 2 #:tag "ex9.13"]{
 
-为了防止{ex9.2} 那样的恶意子类，许多面向对象编程语言都能指定无法覆
+为了防止ex9.2 那样的恶意子类，许多面向对象编程语言都能指定无法覆
 盖的 @emph{final} 方法。给 CLASSES 添加这样的组件，那么我们就能写：
 
 @eopl-code{
@@ -1251,7 +1251,7 @@ method-envs}，保证每个方法名只出现一次，而且总是出现在最�
 
 @exercise[#:level 3 #:tag "ex9.20"]{
 
-方法调用也能够用类似{ex9.19} 那样的方式优化吗？讨论为什么能，或为什
+方法调用也能够用类似ex9.19 那样的方式优化吗？讨论为什么能，或为什
 么不能。
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex9.19" "ex9.20"]
             (eopl-index-entry "de Bruijin indices" "Bruijinindices")]
@@ -1272,7 +1272,7 @@ method-envs}，保证每个方法名只出现一次，而且总是出现在最�
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex9.22"] "Method of object" "overloading of"]
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex9.22"] "Nameless environment"]
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex9.22"] "Overloading of method"]
-在{ex9.16} 中，我们扩展解释器，给语言添加了重载。另一种支持重载的方
+在ex9.16 中，我们扩展解释器，给语言添加了重载。另一种支持重载的方
 式不需修改解释器，而是用语法预处理器。写一个预处理器，将每个方法 @${m} 重命名为
 @$["m:@n"] 的形式，其中，@${n} 是方法声明中参数的数量。同时，它还必须根据操作数
 的数量改变每个方法调用的名字。我们假定程序员在方法名中不使用 @$[":@"]，但解释器
@@ -1297,7 +1297,7 @@ method-envs}，保证每个方法名只出现一次，而且总是出现在最�
 
 @exercise[#:level 3 #:tag "ex9.24"]{
 
-写一个翻译器，把{ex9.10} 中指定类调用的方法名替换为数字，该数字表示
+写一个翻译器，把ex9.10 中指定类调用的方法名替换为数字，该数字表示
 运行期间，指定方法在指定类的方法表中的偏移。为翻译后的代码实现一个解释器，在常数
 时间内访问指定的方法。
 
@@ -1413,7 +1413,7 @@ in let o1 = (make-oddeven) in (getmethod(o1,odd) 13)
 
 @exercise[#:level 3 #:tag "ex9.28"]{
 
-给{ex9.27} 的语言添加继承。
+给ex9.27 的语言添加继承。
 
 }
 
@@ -1459,15 +1459,15 @@ TYPED-OO 的示例程序如@figure-ref{fig-9.12} 所示。这段程序定义了�
  @item{语言中引入了@term["subtype polymorphism"]{子类型多态} 的概念。}
 
  @item{语言中引入了@term["casting"]{强制转换} 的概念，同时也
- 包含{ex9.6} 中的 @tt{instanceof} 判断。}
+ 包含ex9.6 中的 @tt{instanceof} 判断。}
 
 ]
 
 我们依次考虑这些特性。
 
 TYPED-OO 中的新生成式如@figure-ref{fig-9.13} 所示。我们添加一种类型 @tt{void}，
-作为 @tt{set} 操作的类型，然后添加{ex7.9} 中的列表类型；
-像{ex7.9} 那样，我们要求调用 @tt{list} 时至少给出一个实参。我们给类
+作为 @tt{set} 操作的类型，然后添加ex7.9 中的列表类型；
+像ex7.9 那样，我们要求调用 @tt{list} 时至少给出一个实参。我们给类
 型表达式的集合添加标识符，但在本章，用作类型的标识符与同名的类或接口相关联。稍后
 我们仔细考虑这种对应关系。方法需要指明结果类型和参数类型，其语法
 与@secref{types}中的 @tt{letrec} 类似。最后是两种新增的表达式 @tt{cast} 和
@@ -1776,7 +1776,7 @@ interface stringable
 
 静态类环境将每个类名映射到一个静态类，这个类包含父类的名字、字段的名字和类型，以
 及方法的名字和类型。在我们的语言中，接口既没有父类，也没有字段，所以我们用只含所
-需方法名字和类型的数据结构表示它们（但是，看看{ex9.36}）。
+需方法名字和类型的数据结构表示它们（但是，看看ex9.36）。
 
 @eopl-code{
 @racketblock[
@@ -1903,7 +1903,7 @@ interface stringable
 @eopl-index[#:range-mark 'start "Covariant subtyping"]
 
 这部分代码如@figure-ref{fig-9.16} 所示。代码使用@tt{every2?}，
-它扩展{ex1.24} 中的过程 @tt{every?}，取一个双参数谓词和两个列表，当
+它扩展ex1.24 中的过程 @tt{every?}，取一个双参数谓词和两个列表，当
 列表长度相同且对应元素满足谓词时，返回 @tt{#t}，否则返回 @tt{#f}。
 @eopl-index[#:range-mark 'end "Contravariant subtyping"]
 @eopl-index[#:range-mark 'end "Covariant subtyping"]
@@ -2380,7 +2380,7 @@ in list((f o), (g o))
 
 @exercise[#:level 2 #:tag "ex9.41"]{
 
-扩展类型检查器，像{ex9.8} 那样，处理 @tt{fieldref} 和 @tt{fieldset}。
+扩展类型检查器，像ex9.8 那样，处理 @tt{fieldref} 和 @tt{fieldset}。
 
 }
 

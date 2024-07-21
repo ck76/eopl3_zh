@@ -3592,7 +3592,7 @@ lst))} 得出 \Scribtexttt{(number{-}elements lst)} （但是，看看）。
 
 \begin{EoplExercise}\label{t:x28elem_x22ex1x2e34x22x29}\texMathInline{\textnormal{[}{\star}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}} \index{ezr4cha1sou1suo3shu4@二叉搜索树 (\texMathInline{\mathit{Binary\mbox{-}search\mbox{-}tree}})|idxdecorator{}{}}
  写出过程 \Scribtexttt{path}，它取一个整数 \Scribtexttt{n} 和一棵含有整数 \Scribtexttt{n} 的二叉搜索树
- （\{bst\}）\Scribtexttt{bst}，返回由 \Scribtexttt{left} 和 \Scribtexttt{right} 组成的列表，表示如何
+ （bst）\Scribtexttt{bst}，返回由 \Scribtexttt{left} 和 \Scribtexttt{right} 组成的列表，表示如何
  找到包含 \Scribtexttt{n} 的节点。如果在树根处发现 \Scribtexttt{n}，它返回空列表。
 
 \begin{EoplCodeInset}\begin{SCodeFlow}\begin{RktBlk}\begin{SingleColumn}\begin{RktBlk}\begin{SingleColumn}\Scribtexttt{{\Stttextmore} }\RktPn{(}\RktSym{path}\mbox{\hphantom{\Scribtexttt{x}}}\RktVal{17}\mbox{\hphantom{\Scribtexttt{x}}}\RktVal{{\textquotesingle}}\RktVal{(}\RktVal{14}\mbox{\hphantom{\Scribtexttt{x}}}\RktVal{(}\RktVal{7}\mbox{\hphantom{\Scribtexttt{x}}}\RktVal{(}\RktVal{)}\mbox{\hphantom{\Scribtexttt{x}}}\RktVal{(}\RktVal{12}\mbox{\hphantom{\Scribtexttt{x}}}\RktVal{(}\RktVal{)}\mbox{\hphantom{\Scribtexttt{x}}}\RktVal{(}\RktVal{)}\RktVal{)}\RktVal{)}
@@ -3642,7 +3642,7 @@ lst))} 得出 \Scribtexttt{(number{-}elements lst)} （但是，看看）。
 \RktMeta{}\mbox{\hphantom{\Scribtexttt{xx}}}\RktMeta{}\RktPn{(}\RktSym{quux}\RktMeta{}\mbox{\hphantom{\Scribtexttt{x}}}\RktMeta{}\RktVal{3}\RktMeta{}\mbox{\hphantom{\Scribtexttt{x}}}\RktMeta{}\RktVal{4}\RktPn{)}\RktPn{)}\RktPn{)}\RktMeta{}\end{SingleColumn}\end{RktBlk}\end{SCodeFlow}\end{EoplCodeInset}\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex1x2e36x22x29}\texMathInline{\textnormal{[}{\star}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{number{-}elements@\textbf{\Scribtexttt{number{-}elements}}|(idxdecorator{}{}}
-写出过程 \Scribtexttt{g}，则\{n{-}e\}的 \Scribtexttt{number{-}elements} 可以定义为：
+写出过程 \Scribtexttt{g}，则n{-}e的 \Scribtexttt{number{-}elements} 可以定义为：
 
 \begin{EoplCodeInset}\begin{SCodeFlow}\begin{RktBlk}\begin{SingleColumn}\RktPn{(}\RktSym{define}\RktMeta{}\mbox{\hphantom{\Scribtexttt{x}}}\RktMeta{}\RktSym{number{-}elements}\RktMeta{}
 
@@ -4195,13 +4195,13 @@ f(var) & 否则\end{cases}}\end{align*}}
 \index{gzuo4cheng2biao3shi4fa3@过程表示法!hzuan2jing4@环境|(idxdecorator{}{}}
 \index{gzuo4cheng2biao3shi4fa3@过程表示法!zzhan4@栈|idxdecorator{}{}}
 \index{zzhan4@栈|idxdecorator{}{}}
-用过程表示法实现\{ex2.4\} 中的栈数据类型。\end{EoplExercise}
+用过程表示法实现ex2.4 中的栈数据类型。\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex2x2e13x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}扩展过程表示法，用两个过程组成的列表表示环境，实现 \Scribtexttt{empty{-}env{\hbox{\texttt{?}}}}。一个过程像前
 面那样，返回变量的绑定值；一个返回环境是否为空。\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex2x2e14x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}扩展前一题中的表示法，加入第三个过程，用它来 \Scribtexttt{has{-}binding{\hbox{\texttt{?}}}} （见
-\{ex2.9\}）。
+ex2.9）。
 \index{hzuan2jing4@环境!gzuo4cheng2biao3shi4@过程表示|)idxdecorator{}{}}
 \index{gzuo4cheng2biao3shi4fa3@过程表示法!hzuan2jing4@环境|)idxdecorator{}{}}\end{EoplExercise}
 
@@ -4401,12 +4401,12 @@ lambda 演算表达式的语法：
 
 \RktRes{{\textquotesingle}(13\Scribtexttt{ }(15\Scribtexttt{ }(12\Scribtexttt{ }()\Scribtexttt{ }())\Scribtexttt{ }())\Scribtexttt{ }(14\Scribtexttt{ }()\Scribtexttt{ }()))}\end{SingleColumn}\end{RktBlk}\end{SCodeFlow}\end{EoplCodeInset}\end{EoplExercise}
 
-\begin{EoplExercise}\label{t:x28elem_x22ex2x2e20x22x29}\texMathInline{\textnormal{[}{\star}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}按照\{ex2.19\} 中的二叉树表示，很容易从父节点移到某个子节点，但是不借
-助上下文参数，无法从子节点移动到父节点。扩展\{ex2.18\} 中的列表表示法，
+\begin{EoplExercise}\label{t:x28elem_x22ex2x2e20x22x29}\texMathInline{\textnormal{[}{\star}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}按照ex2.19 中的二叉树表示，很容易从父节点移到某个子节点，但是不借
+助上下文参数，无法从子节点移动到父节点。扩展ex2.18 中的列表表示法，
 用以表示二叉树中的节点。提示：想想怎样用逆序列表表示二叉树在当前节点以上的部分，
-就像\{ex2.18\} 那样。
+就像ex2.18 那样。
 
-用这种表示实现\{ex2.19\} 中的过程。接着实现 \Scribtexttt{move{-}up} 和
+用这种表示实现ex2.19 中的过程。接着实现 \Scribtexttt{move{-}up} 和
 \Scribtexttt{at{-}root{\hbox{\texttt{?}}}}。\end{EoplExercise}
 
 \Ssubsection{定义递推数据类型的工具}{定义递推数据类型的工具}\label{t:x28part_x22s2x2e4x22x29}
@@ -4658,11 +4658,11 @@ s{-}list中的数据可以用数据类型 \Scribtexttt{s{-}list}表示为：
 
 \begin{EoplExercise}\label{t:x28elem_x22ex2x2e21x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{hzuan2jing4ADT@环境 ADT (\texMathInline{\mathit{Env}})|(idxdecorator{}{}}
 用 \Scribtexttt{define{-}datatype} 实现\SecRefLocal{t:x28part_x22s2x2e2x2e2x22x29}{2.2.2}{数据结构表示法}中的环境数据类型。然后
-实现\{ex2.9\} 中的 \Scribtexttt{has{-}binding{\hbox{\texttt{?}}}}。
+实现ex2.9 中的 \Scribtexttt{has{-}binding{\hbox{\texttt{?}}}}。
 \index{hzuan2jing4ADT@环境 ADT (\texMathInline{\mathit{Env}})|)idxdecorator{}{}}\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex2x2e22x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{zzhan4@栈|idxdecorator{}{}}
-用 \Scribtexttt{define{-}datatype} 实现\{ex2.4\} 中的栈数据类型。\end{EoplExercise}
+用 \Scribtexttt{define{-}datatype} 实现ex2.4 中的栈数据类型。\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex2x2e23x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{Lambdabziao3da2shi4LcExp@Lambda 表达式 (LcExp)|(idxdecorator{}{}}
 \Scribtexttt{lc{-}exp} 的定义忽略了 中的条件：
@@ -4729,7 +4729,7 @@ s{-}list中的数据可以用数据类型 \Scribtexttt{s{-}list}表示为：
 \index{Casesxzing2shi4@\Scribtexttt{cases} 形式|)idxdecorator{}{}}\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex2x2e26x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{hzong2lan2shu4@红蓝树 (\texMathInline{\mathit{Red\mbox{-}blue\mbox{-}tree}})|(idxdecorator{}{}}
-\{ex1.33\} 还有一种写法。树的集合可以用下列语法定义：
+ex1.33 还有一种写法。树的集合可以用下列语法定义：
 
 \Iidentity{\begin{align*}\mathit{Red\mbox{-}blue\mbox{-}tree} &::= \mathit{Red\mbox{-}blue\mbox{-}subtree} \\
 \mathit{Red\mbox{-}blue\mbox{-}subtree} &::= \Scribtexttt{(red{-}node }\Iidentity{\mathit{Red\mbox{-}blue\mbox{-}subtree}}\Scribtexttt{ }\Iidentity{\mathit{Red\mbox{-}blue\mbox{-}subtree}}\Scribtexttt{)} \\
@@ -5079,7 +5079,7 @@ item})、\emph{词素} (\emph{lexeme})、或者最常见的\emph{词牌} (\emph{
 \index{jzie3xi1qi4sheng1cheng2qi4@解析器生成器|)idxdecorator{}{}}
 
 另一种方式是忽略具体语法的细节，把表达式写成列表结构，
-就像\SecRefLocal{t:x28part_x22s2x2e5x22x29}{2.5}{抽象语法及其表示}和\{ex2.31\}中，处理 lambda 演算表达式那样。
+就像\SecRefLocal{t:x28part_x22s2x2e5x22x29}{2.5}{抽象语法及其表示}和ex2.31中，处理 lambda 演算表达式那样。
 \index{yzu3yan2chu4li3qi4@语言处理器|)idxdecorator{}{}}
 \index{jzie3xi1@解析|)idxdecorator{}{}}
 
@@ -5767,7 +5767,7 @@ val_1(\text{[}var_2 = val_2\text{]}\rho)} 的缩写，其余同理。
 
 \noindent \index{valueof@\textbf{\Scribtexttt{value{-}of}}!LET@LET|idxdecorator{}{}}\end{EoplFigure}
 
-现在我们可以写出解析器，如 和\{fig{-}3.9\} 所示。主过程
+现在我们可以写出解析器，如 和fig{-}3.9 所示。主过程
 是 \Scribtexttt{run}，它取一个字符串，解析它，把结果传给 \Scribtexttt{value{-}of{-}program}。最令人感
 兴趣的过程是 \Scribtexttt{value{-}of}，它取一表达式和一环境，用解释器秘方计算规范所要求的答
 案。在代码中，我们插入了相关的推理规则定义，以便观察 \Scribtexttt{value{-}of} 的代码如何与
@@ -5973,7 +5973,7 @@ val_1(\text{[}var_2 = val_2\text{]}\rho)} 的缩写，其余同理。
 \texMathDisplay{\mathit{Expression} ::= \Scribtexttt{if }\texMathInline{\mathit{Bool\mbox{-}exp}}\Scribtexttt{ then }\texMathInline{\mathit{Expression}}\Scribtexttt{ else }\texMathInline{\mathit{Expression}}}
 
 为 \texMathInline{\mathit{Bool\mbox{-}exp}} 写出适当的生成式，实现 \Scribtexttt{value{-}of{-}bool{-}exp}。
-按这种方式，\{ex3.8\} 中的谓词应放在哪里？\end{EoplExercise}
+按这种方式，ex3.8 中的谓词应放在哪里？\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex3x2e15x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{dza3yin4@打印|(idxdecorator{}{}}
 扩展语言，添加新操作 \Scribtexttt{print}，它取一参数，打印出来，返回整数1。在我们的规范框
@@ -6466,13 +6466,13 @@ parameter})。我们用\index{szhi2can1@实参|idxdecorator{}{}}\emph{实参} (\
 \Scribtexttt{}\mbox{\hphantom{\Scribtexttt{xxx}}}\Scribtexttt{in (times4 3)}\end{SingleColumn}\end{SVerbatim}\end{EoplCodeInset}
 
 用这个程序里的小技巧写出PROC阶乘过程。提示：你可以使用\hyperref[t:x28elem_x22curryx22x29]{咖
-喱化}（\{ex3.20\}）定义双参数过程 \Scribtexttt{times}。
+喱化}（ex3.20）定义双参数过程 \Scribtexttt{times}。
 \index{kze1li3hua4@柯里化|)idxdecorator{}{}}
 \index{jzie1cheng2han2shu4@阶乘函数|)idxdecorator{}{}}\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex3x2e24x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{hzu4di4gui1@互递归|idxdecorator{}{}}
 \index{dzi4gui1cheng2xu4@递归程序!hzu4di4gui1@互递归|idxdecorator{}{}}
-用上述程序里的小技巧写出\{ex3.32\} 中的互递归程序 \Scribtexttt{odd} 和 \Scribtexttt{even}。\end{EoplExercise}
+用上述程序里的小技巧写出ex3.32 中的互递归程序 \Scribtexttt{odd} 和 \Scribtexttt{even}。\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex3x2e25x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{dzi4gui1cheng2xu4@递归程序!szhe4ji4he2shi2xian4@设计和实现|(idxdecorator{}{}}
 提炼上述练习中的技巧，用它在 PROC 中定义任意递归过程。考虑下面的代码：
@@ -6612,7 +6612,7 @@ scoping})）：求值过程主体的环境由调用处的环境扩展而得。�
 
 \begin{EoplEquationInset}\begin{SVerbatim}\begin{SingleColumn}\Scribtexttt{(apply{-}env }\texMathInline{\rho_1}\Scribtexttt{}\mbox{\hphantom{\Scribtexttt{x}}}\Scribtexttt{}\texMathInline{var}\Scribtexttt{) = (apply{-}env }\texMathInline{\rho}\Scribtexttt{}\mbox{\hphantom{\Scribtexttt{x}}}\Scribtexttt{}\texMathInline{var}\Scribtexttt{)}\end{SingleColumn}\end{SVerbatim}\end{EoplEquationInset}\end{enumerate}
 
- 和 \{fig{-}3.11\} 展示了一个例子。
+ 和 fig{-}3.11 展示了一个例子。
  的最后一行递归调用 \Scribtexttt{double}，找出了原来的 \Scribtexttt{double}，
 正合所愿。
 
@@ -6817,7 +6817,7 @@ scoping})）：求值过程主体的环境由调用处的环境扩展而得。�
 
 \begin{EoplExercise}\label{t:x28elem_x22ex3x2e33x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{dzuo1can1shu4guo4cheng2@多参数过程|(idxdecorator{}{}}
 扩展上面的语言，允许声明任意数量的互递归过程，每个过程的参数数量也任意，就
-像\{ex3.21\} 那样。
+像ex3.21 那样。
 \index{dzuo1can1shu4guo4cheng2@多参数过程|)idxdecorator{}{}}
 \index{dzuo1guo4cheng2sheng1ming2@多过程声明|)idxdecorator{}{}}
 \index{hzu4di4gui1@互递归|)idxdecorator{}{}}
@@ -6858,14 +6858,14 @@ scoping})）：求值过程主体的环境由调用处的环境扩展而得。�
 \begin{EoplExercise}\label{t:x28elem_x22ex3x2e36x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{dzuo1guo4cheng2sheng1ming2@多过程声明|(idxdecorator{}{}}
 \index{hzu4di4gui1@互递归|(idxdecorator{}{}}
 \index{dzi4gui1cheng2xu4@递归程序!hzu4di4gui1@互递归|(idxdecorator{}{}}
-扩展这种实现，处理\{ex3.32\} 中的语言。
+扩展这种实现，处理ex3.32 中的语言。
 \index{bzi4bao1@闭包|)idxdecorator{}{}}\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex3x2e37x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{dzong4tai4bang3ding4dong4tai4zuo4yong4yu4@动态绑定（动态作用域）|(idxdecorator{}{}}
 \index{jzie1cheng2han2shu4@阶乘函数|(idxdecorator{}{}}
 \index{dzi4gui1cheng2xu4@递归程序!szhe4ji4he2shi2xian4@设计和实现|(idxdecorator{}{}}
 \index{bzian4liang4sheng1ming2dezuo4yong4yu4@变量声明的作用域!dzong4tai4@动态|(idxdecorator{}{}}
-使用动态绑定（\{ex3.28\}），不需要任何特殊机制，靠 \Scribtexttt{let} 就能创建
+使用动态绑定（ex3.28），不需要任何特殊机制，靠 \Scribtexttt{let} 就能创建
 递归过程。这是出于历史兴趣。在早年的编程语言设计中，\SecRefLocal{t:x28part_x22s3x2e4x22x29}{3.4}{LETREC：支持递归过程的语言}讨论的那些方法
 还鲜为人知。要验证动态绑定实现的递归，试试程序：
 
@@ -7080,7 +7080,7 @@ Scheme 中一样，所有的绑定都是\emph{半无限} (\emph{semi{-}infinite}
 这叫做\emph{动态}期限，而它是一条\emph{静态}性质。
 \index{czheng2xu4dejing4tai4xing4zhi4@程序的静态性质|idxdecorator{}{}}
 因为这种期限是一条静态性质，所以我们可以准确预测绑定何时可以抛弃。
-\{ex3.28\} 等几道练习中的动态绑定表现类似。
+ex3.28 等几道练习中的动态绑定表现类似。
 \index{bzang3ding4Binding@绑定 (Binding)!bzian4liang4@变量|)idxdecorator{}{}}
 \index{szheng1ming2@声明!bzian4liang4@变量|)idxdecorator{}{}}
 \index{czheng2xu4dedong4tai4xing4zhi4@程序的动态性质|)idxdecorator{}{}}
@@ -7171,7 +7171,7 @@ address}) 或\emph{德布鲁金索引} (\emph{de Bruijn index})。编译器例�
 
 所以，求差值表达式的值时，\Scribtexttt{y} 深度为 0，\Scribtexttt{x} 深度为 1，正如词深预测的那样。\end{Subflow}
 
-如果用关联列表表示环境（见\{ex2.5\}），那么环境看起来像是
+如果用关联列表表示环境（见ex2.5），那么环境看起来像是
 
 \begin{Subflow}\begin{SCentered}\includegraphics[scale=1.0]{lexical-addr-env.pdf}\end{SCentered}
 
@@ -7355,8 +7355,8 @@ environment})。静态环境是一个变量列表，表示当前表达式所在�
 翻译器有两个过程：\Scribtexttt{translation{-}of} 处理表达式，\Scribtexttt{translation{-}of{-}program} 处
 理程序。
 
-\Scribtexttt{senv} 表示一些声明，我们从中翻译表达式 \Scribtexttt{e}。要完成这点，我们像\{ex1.33\} 或
-\{ex2.26\} 那样递归复制语法树，除了\hspace*{\fill}\\
+\Scribtexttt{senv} 表示一些声明，我们从中翻译表达式 \Scribtexttt{e}。要完成这点，我们像ex1.33 或
+ex2.26 那样递归复制语法树，除了\hspace*{\fill}\\
 
 \begin{Subflow}\begin{enumerate}\atItemizeStart
 
@@ -7696,10 +7696,10 @@ s3.7{-}eg例子中最后一行的无名环境如下
 \index{bzian4liang4@变量!szheng1ming2@声明|)idxdecorator{}{}}\end{EoplCodeInset}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex3x2e38x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{condbziao3da2shi4@\Scribtexttt{cond} 表达式|idxdecorator{}{}}
-扩展词法地址翻译器和解释器，处理\{ex3.12\} 中的 \Scribtexttt{cond}。\end{EoplExercise}
+扩展词法地址翻译器和解释器，处理ex3.12 中的 \Scribtexttt{cond}。\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex3x2e39x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{unpackbziao3da2shi4@\Scribtexttt{unpack} 表达式|idxdecorator{}{}}
-扩展词法地址翻译器和解释器，处理\{ex3.18\} 中的 \Scribtexttt{unpack}。\end{EoplExercise}
+扩展词法地址翻译器和解释器，处理ex3.18 中的 \Scribtexttt{unpack}。\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex3x2e40x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{fzan1yi4@翻译!yzou3ming2dao4wu2ming2LETREC@有名到无名 LETREC|(idxdecorator{}{}}
 扩展词法地址翻译器和解释器，处理 \Scribtexttt{letrec}。修改 \Scribtexttt{translation{-}of} 的上下文
@@ -7709,8 +7709,8 @@ s3.7{-}eg例子中最后一行的无名环境如下
 
 \begin{EoplExercise}\label{t:x28elem_x22ex3x2e41x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{hzuan2jing4@环境!lze1pai2biao3shi4@肋排表示|(idxdecorator{}{}}
 \index{tzui1li3gui1ze2@推理规则|(idxdecorator{}{}}
-修改词法地址翻译器和解释器，像\{ex3.21\} 那样处理多参数的 \Scribtexttt{let} 表
-达式、过程和过程调用。用肋排表示法（\{ex2.21\}）表示无名环境。在这种
+修改词法地址翻译器和解释器，像ex3.21 那样处理多参数的 \Scribtexttt{let} 表
+达式、过程和过程调用。用肋排表示法（ex2.21）表示无名环境。在这种
 表示法中，词法地址包含两个非负数：词深，指明跨越的等深线数目，与之前相同；位置，
 指明变量在声明中的位置。
 \index{hzuan2jing4@环境!lze1pai2biao3shi4@肋排表示|)idxdecorator{}{}}
@@ -7718,7 +7718,7 @@ s3.7{-}eg例子中最后一行的无名环境如下
 
 \begin{EoplExercise}\label{t:x28elem_x22ex3x2e42x22x29}\texMathInline{\textnormal{[}{\star}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!gzuo4cheng2zhi2@过程值|(idxdecorator{}{}}
 \index{gzuo4cheng2zhi2Proc@过程值 (\texMathInline{\mathit{Proc}})!szhu4ju4jie2gou4biao3shi4@数据结构表示|(idxdecorator{}{}}
-修改词法地址翻译器和解释器，使用\{ex3.26\} 中的瘦身过程表示法。要如此，
+修改词法地址翻译器和解释器，使用ex3.26 中的瘦身过程表示法。要如此，
 你不能在 \Scribtexttt{(extend{-}senv }\texMathInline{var}\Scribtexttt{ }\texMathInline{senv}\Scribtexttt{)} 中翻译过程的主体，而是在一个新的静
 态环境中，它指明了各个变量在瘦身表示中的位置。
 \index{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!gzuo4cheng2zhi2@过程值|)idxdecorator{}{}}
@@ -7858,13 +7858,13 @@ s3.7{-}eg例子中最后一行的无名环境如下
 
 \Scribtexttt{}\mbox{\hphantom{\Scribtexttt{xxx}}}\Scribtexttt{in begin setref(x,13); (odd 888) end}\end{SingleColumn}\end{SVerbatim}\end{EoplCodeInset}
 
-这个程序使用多声明的 \Scribtexttt{letrec}（\{ex3.32\}）和 \Scribtexttt{begin} 表达式
-（\{ex4.4\}）。\Scribtexttt{begin} 表达式按顺序求每个子表达式的值，并返
+这个程序使用多声明的 \Scribtexttt{letrec}（ex3.32）和 \Scribtexttt{begin} 表达式
+（ex4.4）。\Scribtexttt{begin} 表达式按顺序求每个子表达式的值，并返
 回最后一个表达式的值。
 \index{beginbziao3da2shi4@\Scribtexttt{begin} 表达式|idxdecorator{}{}}\end{Subflow}
 
 为了同我们的单参数语言保持一致，我们给 \Scribtexttt{even} 和 \Scribtexttt{odd} 传一个无用参数；如
-果我们的过程支持任意数量的参数（\{ex3.21\}），这些过程的参数就可以去
+果我们的过程支持任意数量的参数（ex3.21），这些过程的参数就可以去
 掉。
 
 当两个过程需要分享很多量时，这种通信方式很方便；只需给某些随调用而改变的量赋值。
@@ -8012,7 +8012,7 @@ Scheme 过程 \Scribtexttt{gensym} 用这种技术创建唯一符号。
 回最后一个的结果。\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex4x2e5x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{listbziao3da2shi4@\Scribtexttt{list} 表达式|idxdecorator{}{}}
-写出 \Scribtexttt{list}（\{ex3.10\}）的规范。\end{EoplExercise}
+写出 \Scribtexttt{list}（ex3.10）的规范。\end{EoplExercise}
 
 \Ssubsubsection{定义显式引用操作}{定义显式引用操作}\label{t:x28part_x22s4x2e2x2e2x22x29}
 
@@ -8083,7 +8083,7 @@ Scheme 过程 \Scribtexttt{gensym} 用这种技术创建唯一符号。
 我们还是要选择如何用 Scheme 值建模存储器。我们选择的可能是最简单的模型：以表达值
 列表作为存储器，以代表列表位置的数字表示引用。分配新引用就是给列表末尾添加新值；
 更新存储器则建模为按需复制列表的一大部分。代码如 和
-\{fig{-}4.2\} 所示。
+fig{-}4.2 所示。
 
 \begin{EoplFigure}[!ht]
 
@@ -8228,7 +8228,7 @@ Scheme 过程 \Scribtexttt{gensym} 用这种技术创建唯一符号。
 我们可以给该系统添加一些\label{t:x28elem_x22tracex2dinstrumentx22x29}辅助过程，把环境、过程和存
 储器转换为更易读的形式，也可以改善系统，在代码中的关键位置打印消息。我们还使用过
 程把环境、过程和存储器转换为更易读的形式。得出的日志详细描述了系统的动作。典型例
-子如 和 \{fig{-}4.5\} 所示。此外，这一跟踪日志还表明，
+子如 和 fig{-}4.5 所示。此外，这一跟踪日志还表明，
 差值表达式的参数按从左到右的顺序求值。
 \index{EXPLICITREFS@EXPLICIT{-}REFS|)idxdecorator{}{}}
 \index{yzin3yong4@引用!xzian3shi4@显式|)idxdecorator{}{}}
@@ -8242,7 +8242,7 @@ Scheme 过程 \Scribtexttt{gensym} 用这种技术创建唯一符号。
 实现\{ex4.4\} 中定义的 \Scribtexttt{begin} 表达式。\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex4x2e11x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{listbziao3da2shi4@\Scribtexttt{list} 表达式|idxdecorator{}{}}
-实现\{ex4.5\} 中的 \Scribtexttt{list}。\end{EoplExercise}
+实现ex4.5 中的 \Scribtexttt{list}。\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex4x2e12x22x29}\texMathInline{\textnormal{[}{\star}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{valueof@\textbf{\Scribtexttt{value{-}of}}!EXPLICITREFS@EXPLICIT{-}REFS|(idxdecorator{}{}}
 像解释器中展示的，我们对存储器的理解基于 Scheme 效果的含义。具体地说，我们得知道
@@ -8522,7 +8522,7 @@ interpreter})。补全这个解释器，处理整个 EXPLICIT{-}REFS 语言。
 
 \mbox{\hphantom{\Scribtexttt{xxxxxx}}}\RktSym{{\hbox{\texttt{.}}}{\hbox{\texttt{.}}}{\hbox{\texttt{.}}}}\RktPn{)}\RktPn{)}\RktPn{)}\end{SingleColumn}\end{RktBlk}\end{SCodeFlow}
 
-\caption{\{ex4.12\}，传递存储器的解释器\label{t:x28elem_x22figx2d4x2e6x22x29}}\end{EoplFigure}
+\caption{ex4.12，传递存储器的解释器\label{t:x28elem_x22figx2d4x2e6x22x29}}\end{EoplFigure}
 
 \Ssubsection{IMPLICIT{-}REFS：隐式引用语言}{IMPLICIT{-}REFS：隐式引用语言}\label{t:x28part_x22s4x2e3x22x29}
 
@@ -8719,7 +8719,7 @@ interpreter})。补全这个解释器，处理整个 EXPLICIT{-}REFS 语言。
 \index{zzhu3ti3@主体!letrec@\Scribtexttt{letrec}|idxdecorator{}{}}
 最后，要处理 \Scribtexttt{letrec}，我们替换 \Scribtexttt{apply{-}env} 中的 \Scribtexttt{extend{-}env{-}rec} 从句，
 令其返回一个引用，指向包含适当闭包的位置。由于我们使用多声明的
-\Scribtexttt{letrec}（\{ex3.32\}），\Scribtexttt{extend{-}env{-}rec} 取一个过程名列表，一个
+\Scribtexttt{letrec}（ex3.32），\Scribtexttt{extend{-}env{-}rec} 取一个过程名列表，一个
 绑定变量列表，一个过程主体列表，以及已保存的环境。过程 \Scribtexttt{location} 取一变量，
 一个变量列表。若变量存在于列表中，\Scribtexttt{location} 返回变量在列表中的位置；若不存在，
 返回 \Scribtexttt{\#f}。
@@ -8885,7 +8885,7 @@ IMPLICIT{-}REFS 求值的简单例子。
 
 \begin{EoplExercise}\label{t:x28elem_x22ex4x2e19x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{bzi4bao1@闭包|idxdecorator{}{}}
 修改声明多过程的 \Scribtexttt{letrec} 实现，让每个闭包只生成一次，并且只分配一个位置。本
-题类似\{ex3.35\}。
+题类似ex3.35。
 \index{dzuo1guo4cheng2sheng1ming2@多过程声明|)idxdecorator{}{}}\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex4x2e20x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{letmutablebziao3da2shi4@\Scribtexttt{letmutable} 表达式|(idxdecorator{}{}}
@@ -9014,14 +9014,14 @@ IMPLICIT{-}REFS 求值的简单例子。
 和 \Scribtexttt{x} 调用这个过程；因为 \Scribtexttt{x} 绑定到一个引用，解引用得 3。\end{Hangindent}\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex4x2e23x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{readyzu3ju4@\Scribtexttt{read} 语句|idxdecorator{}{}}
-给\{ex4.22\} 中的语言添加 \Scribtexttt{read} 语句，形如 \Scribtexttt{read }\texMathInline{var}。这
+给ex4.22 中的语言添加 \Scribtexttt{read} 语句，形如 \Scribtexttt{read }\texMathInline{var}。这
 一语句从输入读取一个非负数，存入指定的变量中。\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex4x2e24x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{dowhileyzu3ju4@\Scribtexttt{do{-}while} 语句|idxdecorator{}{}}
 \Scribtexttt{do{-}while} 语句类似 \Scribtexttt{while}，但是条件判断在其主体\emph{之后}执行。
-给\{ex4.22\} 中的语言添加 \Scribtexttt{do{-}while} 语句。\end{EoplExercise}
+给ex4.22 中的语言添加 \Scribtexttt{do{-}while} 语句。\end{EoplExercise}
 
-\begin{EoplExercise}\label{t:x28elem_x22ex4x2e25x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}扩展\{ex4.22\} 语言中的块语句，允许初始化变量。在你的解答中，变量的作
+\begin{EoplExercise}\label{t:x28elem_x22ex4x2e25x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}扩展ex4.22 语言中的块语句，允许初始化变量。在你的解答中，变量的作
 用域是否包含同一个块语句中后续声明的变量？\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex4x2e26x22x29}\texMathInline{\textnormal{[}{\star}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{hzu4di4gui1@互递归|(idxdecorator{}{}}
@@ -9041,7 +9041,7 @@ IMPLICIT{-}REFS 求值的简单例子。
 \Ssubsection{MUTABLE{-}PAIRS：可变序对语言}{MUTABLE{-}PAIRS：可变序对语言}\label{t:x28part_x22s4x2e4x22x29}
 
 \index{valueof@\textbf{\Scribtexttt{value{-}of}}!MUTABLEPAIRS@MUTABLE{-}PAIRS|(idxdecorator{}{}}
-在\{ex3.9\} 中，我们给语言添加了列表，但它们是不可变的：不像 Scheme
+在ex3.9 中，我们给语言添加了列表，但它们是不可变的：不像 Scheme
 中，有 \Scribtexttt{set{-}car{\hbox{\texttt{!}}}} 和 \Scribtexttt{set{-}cdr{\hbox{\texttt{!}}}} 处理它们。
 
 现在，我们给 IMPLICIT{-}REFS 添加可变序对。序对是表达值，具有如下操作：
@@ -9346,7 +9346,7 @@ IMPLICIT{-}REFS 求值的简单例子。
 \caption{MUTABLE{-}PAIRS求值的跟踪日志，续\label{t:x28elem_x22figx2d4x2e12x22x29}}\end{EoplFigure}
 
 与之类似，堆中的任何聚合对象都可以用其第一个位置的指针表示。但是，如果不提供区域
-的长度信息，指针本身无法指明一片内存区域（见\{ex4.30\}）。缺乏长度信
+的长度信息，指针本身无法指明一片内存区域（见ex4.30）。缺乏长度信
 息是经典安全问题的一大来源，比如写数组越界。
 
 \begin{EoplFigure}[!ht]
@@ -9441,11 +9441,11 @@ IMPLICIT{-}REFS 求值的简单例子。
 \Scribtexttt{in begin arrayset(a,1,0); (p a); (p a); arrayref(a,1) end}\end{SingleColumn}\end{SVerbatim}\end{EoplCodeInset}
 
 这里 \Scribtexttt{newarray(2,{-}99)} 要创建长度为 2 的数组，数组中的每个位置都包含 {-}99。
-\Scribtexttt{begin} 表达式定义同\{ex4.4\}。令数组索引从 0 开始，所以长度为 2
+\Scribtexttt{begin} 表达式定义同ex4.4。令数组索引从 0 开始，所以长度为 2
 的数组索引为 0 和 1。\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex4x2e30x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{szhu4zu3@数组|)idxdecorator{}{}}
-给\{ex4.29\} 的语言添加过程 \Scribtexttt{arraylength}，返回数组的长度。你的过
+给ex4.29 的语言添加过程 \Scribtexttt{arraylength}，返回数组的长度。你的过
 程运行时间应为常数。\Scribtexttt{arrayref} 和 \Scribtexttt{arrayset} 一定要查验索引，确保索引值在
 数组长度之内。\end{EoplExercise}
 
@@ -9506,7 +9506,7 @@ IMPLICIT{-}REFS 求值的简单例子。
 调用过程 \Scribtexttt{g} 时，\Scribtexttt{y} 绑定到 \Scribtexttt{z} 的位置，而不是那个位置的内容。类似地，
 调用 \Scribtexttt{f} 时，\Scribtexttt{x} 绑定到同一个位置。所以，\Scribtexttt{x}、\Scribtexttt{y} 和 \Scribtexttt{z} 都绑定到
 同一位置，\Scribtexttt{set x = 44} 的效果是把那个位置的内容设为 44。因此，整个表达式的值
-是 44。执行这个表达式的跟踪日志如 和 \{fig{-}4.15\} 所
+是 44。执行这个表达式的跟踪日志如 和 fig{-}4.15 所
 示。在本例中，\Scribtexttt{x}、\Scribtexttt{y} 和 \Scribtexttt{z} 最终都绑定到位置 5。\end{Subflow}
 
 按指调用的常见用法是返回多个值。过程以通常方式返回一个值，并给按指传递的参数赋其
@@ -9800,14 +9800,14 @@ IMPLICIT{-}REFS 求值的简单例子。
 
 \Scribtexttt{}\mbox{\hphantom{\Scribtexttt{xxx}}}\Scribtexttt{in begin ((swap ref a) ref b); {-}(a,b) end}\end{SingleColumn}\end{SVerbatim}\end{EoplCodeInset}
 
-此处使用支持多声明的 \Scribtexttt{let}（\{ex3.16\}）。这种语言的表达值和指代值
+此处使用支持多声明的 \Scribtexttt{let}（ex3.16）。这种语言的表达值和指代值
 是什么？\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex4x2e36x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{szhu4zu3@数组|idxdecorator{}{}}
 大多数语言支持数组，在按指调用中，数组引用通常以类似变量引用的方式处理。如果操作
 数是数组引用，那就不给被调过程传递它的内容，而是传递引用指向的位置。比如，需要调
 用对换过程的常见情形是交换数组元素，传递数组引用就能用上对换过程。给按指调用语言
-添加\{ex4.29\} 中的数组操作符，扩展 \Scribtexttt{value{-}of{-}operand}，处理这种情
+添加ex4.29 中的数组操作符，扩展 \Scribtexttt{value{-}of{-}operand}，处理这种情
 况，使下例中的过程调用能够如愿执行：
 
 \begin{SCentered}\RktPn{(}\RktPn{(}\RktSym{swap}\RktMeta{}\mbox{\hphantom{\Scribtexttt{x}}}\RktMeta{}\RktPn{(}\RktSym{arrayref}\RktMeta{}\mbox{\hphantom{\Scribtexttt{x}}}\RktMeta{}\RktSym{a}\RktMeta{}\mbox{\hphantom{\Scribtexttt{x}}}\RktMeta{}\RktSym{i}\RktPn{)}\RktPn{)}\RktMeta{}\mbox{\hphantom{\Scribtexttt{x}}}\RktMeta{}\RktPn{(}\RktSym{arrayref}\RktMeta{}\mbox{\hphantom{\Scribtexttt{x}}}\RktMeta{}\RktSym{a}\RktMeta{}\mbox{\hphantom{\Scribtexttt{x}}}\RktMeta{}\RktSym{j}\RktPn{)}\RktPn{)}\RktMeta{}\end{SCentered}
@@ -9966,7 +9966,7 @@ evaluation})。在懒求值中，操作数的值直到过程主体需要时才�
 \index{lzan3qiu2zhi2@懒求值|)idxdecorator{}{}}
 \index{czao1zuo4shu4@操作数|)idxdecorator{}{}}
 
-\begin{EoplExercise}\label{t:x28elem_x22ex4x2e38x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}下面的例子展示了\{ex3.25\} 在按需调用中的变体。\{ex3.25\}
+\begin{EoplExercise}\label{t:x28elem_x22ex4x2e38x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}下面的例子展示了ex3.25 在按需调用中的变体。ex3.25
 中的原始程序在按需调用中可行吗？如果下面的程序在按值调用中运行呢？为什么？
 
 \begin{EoplCodeInset}\begin{SVerbatim}\begin{SingleColumn}\Scribtexttt{let makerec = proc (f)}
@@ -10827,7 +10827,7 @@ evaluation})。在懒求值中，操作数的值直到过程主体需要时才�
 \noindent \index{gzuo4cheng2diao4yong4@过程调用|)idxdecorator{}{}}\end{EoplCodeInset}\end{Subflow}
 
 传递续文的解释器展示完毕。完整的解释器如 和
-\{fig{-}5.5\} 所示。续文的完整规范如 所示。
+fig{-}5.5 所示。续文的完整规范如 所示。
 
 \begin{EoplFigure}\begin{SCodeFlow}\begin{RktBlk}\begin{SingleColumn}\textbf{\Scribtexttt{value{-}of{-}program}} : \texMathInline{\mathit{Program} \to \mathit{FinalAnswer}}
 
@@ -11060,19 +11060,19 @@ evaluation})。在懒求值中，操作数的值直到过程主体需要时才�
 \begin{EoplExercise}\label{t:x28elem_x22ex5x2e4x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}给解释器添加 \Scribtexttt{let3}。\Scribtexttt{let3} 表达式就像 \Scribtexttt{let} 表达式，但要指定三个变量。\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex5x2e5x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{lzie4biao3cao1zuo4@列表操作|idxdecorator{}{}}
-给语言添加\{ex3.9\} 中的列表。\end{EoplExercise}
+给语言添加ex3.9 中的列表。\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex5x2e6x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{listbziao3da2shi4@\Scribtexttt{list} 表达式|(idxdecorator{}{}}
-给语言添加\{ex3.10\} 中的 \Scribtexttt{list} 表达式。提示：添加两个续文构造器，
+给语言添加ex3.10 中的 \Scribtexttt{list} 表达式。提示：添加两个续文构造器，
 一个用来求列表首元素的值，一个用来求列表剩余元素的值。
 \index{listbziao3da2shi4@\Scribtexttt{list} 表达式|)idxdecorator{}{}}\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex5x2e7x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{dzuo1bian4liang4sheng1ming2@多变量声明|(idxdecorator{}{}}
-给解释器添加多声明的 \Scribtexttt{let}（\{ex3.16\}）。
+给解释器添加多声明的 \Scribtexttt{let}（ex3.16）。
 \index{dzuo1bian4liang4sheng1ming2@多变量声明|)idxdecorator{}{}}\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex5x2e8x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{dzuo1can1shu4guo4cheng2@多参数过程|(idxdecorator{}{}}
-给解释器添加多参数过程（\{ex3.21\}）。
+给解释器添加多参数过程（ex3.21）。
 \index{dzuo1can1shu4guo4cheng2@多参数过程|)idxdecorator{}{}}\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex5x2e9x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{IMPLICITREFS@IMPLICIT{-}REFS!czhuan2di4xu4wen2dejie3shi4qi4@传递续文的解释器|(idxdecorator{}{}}
@@ -11083,11 +11083,11 @@ evaluation})。在懒求值中，操作数的值直到过程主体需要时才�
 \index{IMPLICITREFS@IMPLICIT{-}REFS!czhuan2di4xu4wen2dejie3shi4qi4@传递续文的解释器|)idxdecorator{}{}}\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex5x2e11x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{beginbziao3da2shi4@\Scribtexttt{begin} 表达式|(idxdecorator{}{}}
-给传递续文的解释器添加\{ex4.4\} 中的 \Scribtexttt{begin} 表达式。确保调用
+给传递续文的解释器添加ex4.4 中的 \Scribtexttt{begin} 表达式。确保调用
 \Scribtexttt{value{-}of} 和 \Scribtexttt{value{-}of{-}rands} 时不需要生成控制上下文。
 \index{beginbziao3da2shi4@\Scribtexttt{begin} 表达式|)idxdecorator{}{}}\end{EoplExercise}
 
-\begin{EoplExercise}\label{t:x28elem_x22ex5x2e12x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}给{--}\{fig{-}5.6\} 的解释器添加辅助过程，生成类似
+\begin{EoplExercise}\label{t:x28elem_x22ex5x2e12x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}给{--}fig{-}5.6 的解释器添加辅助过程，生成类似
 cps{-}computation 计算的输出。\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex5x2e13x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{jzie1cheng2han2shu4@阶乘函数|(idxdecorator{}{}}
@@ -11119,7 +11119,7 @@ cps{-}computation 计算的输出。\end{EoplExercise}
 \begin{EoplExercise}\label{t:x28elem_x22ex5x2e16x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{mzing4ling4xu4wen2@命令续文|(idxdecorator{}{}}
 \index{xzu4wen2@续文!mzing4ling4xu4wen2@命令续文|(idxdecorator{}{}}
 \index{yzu3ju4@语句|(idxdecorator{}{}}
-扩展传递续文的解释器，处理\{ex4.22\} 中的语言。给 \Scribtexttt{result{-}of} 传递
+扩展传递续文的解释器，处理ex4.22 中的语言。给 \Scribtexttt{result{-}of} 传递
 一个续文参数，确保 \Scribtexttt{result{-}of} 不在扩大控制上下文的位置调用。因为语句不返回值，
 需要区分普通续文和语句续文；后者通常叫\emph{命令续文} (\emph{command continuation})。
 续文接口应包含过程 \Scribtexttt{apply{-}command{-}cont}，它取一命令续文并使用它。用数据结构和
@@ -11312,15 +11312,15 @@ cps{-}computation 计算的输出。\end{EoplExercise}
 \begin{EoplExercise}\label{t:x28elem_x22ex5x2e19x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}不要在 \Scribtexttt{apply{-}procedure/k} 主体周围插入 \Scribtexttt{(lambda () {\hbox{\texttt{.}}}{\hbox{\texttt{.}}}{\hbox{\texttt{.}}})}，改为在
 \Scribtexttt{apply{-}cont} 的主体周围插入。修改合约，使之符合这一更改。\texMathInline{\mathit{Bounce}}
 的定义需要修改吗？然后，用数据结构表示法替换过程表示法表示 \texMathInline{\mathit{Bounce}}，
-像\{ex5.18\} 那样。\end{EoplExercise}
+像ex5.18 那样。\end{EoplExercise}
 
-\begin{EoplExercise}\label{t:x28elem_x22ex5x2e20x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}在\{ex5.18\} 中，\Scribtexttt{trampoline} 返回 \texMathInline{\mathit{FinalAnswer}} 之前的
+\begin{EoplExercise}\label{t:x28elem_x22ex5x2e20x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}在ex5.18 中，\Scribtexttt{trampoline} 返回 \texMathInline{\mathit{FinalAnswer}} 之前的
 最后一颗弹球形如 \Scribtexttt{(apply{-}cont (end{-}cont) }\texMathInline{val}\Scribtexttt{)}，其中，\texMathInline{val} 是
-\texMathInline{\mathit{ExpVal}}。利用这一点优化\{ex5.19\} 中弹球的表示。
+\texMathInline{\mathit{ExpVal}}。利用这一点优化ex5.19 中弹球的表示。
 \index{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!tziao4chuang2@跳床|)idxdecorator{}{}}
 \index{tziao4yue4shi4@跳跃式!szhu4ju4jie2gou4biao3shi4@数据结构表示|)idxdecorator{}{}}\end{EoplExercise}
 
-\begin{EoplExercise}\label{t:x28elem_x22ex5x2e21x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}用普通的过程式语言实现跳跃式解释器。用\{ex5.18\} 中的数据结构表示快照，
+\begin{EoplExercise}\label{t:x28elem_x22ex5x2e21x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}用普通的过程式语言实现跳跃式解释器。用ex5.18 中的数据结构表示快照，
 把 \Scribtexttt{trampoline} 中对自身的递归调用替换为普通的 \Scribtexttt{while} 或其它循环结构。\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex5x2e22x22x29}\texMathInline{\textnormal{[}{\star}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{xziao1han2@消函|idxdecorator{}{}}
@@ -11443,8 +11443,8 @@ cps{-}computation 计算的输出。\end{EoplExercise}
 
 本节，我们用这一原理翻译传递续文的解释器，将其转换为适合无高阶过程语言的形式。
 
-我们首先从 和 \{fig{-}5.5\} 中的解释器开始，用数据结构
-表示续文。续文的数据结构表示如 和 \{fig{-}5.10\} 所示。
+我们首先从 和 fig{-}5.5 中的解释器开始，用数据结构
+表示续文。续文的数据结构表示如 和 fig{-}5.10 所示。
 
 \begin{EoplFigure}[!ht]
 
@@ -11689,7 +11689,7 @@ cont)}。我们大可移除这样的赋值。
 有时临时变量无法避免；考虑 \Scribtexttt{(f y x)}，其中 \Scribtexttt{x} 和 \Scribtexttt{y} 是 \Scribtexttt{f} 的形参。
 我们的例子中还未遇到这种麻烦。\end{enumerate}
 
-翻译完的解释器如{--}\{fig{-}5.14\} 所示。这个过程
+翻译完的解释器如{--}fig{-}5.14 所示。这个过程
 叫做\emph{寄存} (\emph{registerization})。很容易用支持跳转的指令式语言翻译它。
 \index{jzi4cun2@寄存|)idxdecorator{}{}}
 \index{valueof@\textbf{\Scribtexttt{value{-}of}}!jzi4cun2ban3ben3@寄存版本|)idxdecorator{}{}}
@@ -11992,7 +11992,7 @@ cont)}。我们大可移除这样的赋值。
 \begin{EoplExercise}\label{t:x28elem_x22ex5x2e24x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}设计一些例子，解释上文提到的每个麻烦。\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex5x2e25x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{dzuo1can1shu4guo4cheng2@多参数过程|(idxdecorator{}{}}
-寄存支持多参数过程的解释器（\{ex3.21\}）。
+寄存支持多参数过程的解释器（ex3.21）。
 \index{dzuo1can1shu4guo4cheng2@多参数过程|)idxdecorator{}{}}\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex5x2e26x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{tziao4yue4shi4@跳跃式|(idxdecorator{}{}}
@@ -12009,8 +12009,8 @@ cont)}。我们大可移除这样的赋值。
 
 \begin{EoplExercise}\label{t:x28elem_x22ex5x2e27x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}设计一个语言特性，导致最后给 \Scribtexttt{cont} 赋值时，必须用临时变量。\end{EoplExercise}
 
-\begin{EoplExercise}\label{t:x28elem_x22ex5x2e28x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}给本节的解释器添加\{ex5.12\} 中的辅助组件。由于续文表示方式相同，可以
-复用那里的代码。验证本节的指令式解释器生成的跟踪日志与\{ex5.12\} 中的
+\begin{EoplExercise}\label{t:x28elem_x22ex5x2e28x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}给本节的解释器添加ex5.12 中的辅助组件。由于续文表示方式相同，可以
+复用那里的代码。验证本节的指令式解释器生成的跟踪日志与ex5.12 中的
 解释器\emph{完全}相同。\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex5x2e29x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{jzie1cheng2han2shu4@阶乘函数|idxdecorator{}{}}
@@ -12023,9 +12023,9 @@ cont)}。我们大可移除这样的赋值。
 \index{bzian4liang4sheng1ming2dezuo4yong4yu4@变量声明的作用域!dzong4tai4@动态|(idxdecorator{}{}}
 \index{bzan4wu2xian4deqi1xian4@半无限的期限|(idxdecorator{}{}}
 \index{bzian4liang4@变量!qzi1xian4@期限|(idxdecorator{}{}}
-修改本节的解释器，让过程使用\{ex3.28\} 中的动态绑定。提示：像本章这样
-转换\{ex3.28\} 中的解释器；二者不同的部分转换后才会不同。
-像\{ex5.28\} 那样给解释器添加辅助组件。观察可知，就像当前状态中只有一
+修改本节的解释器，让过程使用ex3.28 中的动态绑定。提示：像本章这样
+转换ex3.28 中的解释器；二者不同的部分转换后才会不同。
+像ex5.28 那样给解释器添加辅助组件。观察可知，就像当前状态中只有一
 个续文，当前状态只会压入或弹出一个环境，而且环境与续文同时压入或弹出。由此我们得
 出结论，动态绑定具有\emph{动态期限} (\emph{dynamic extent})：即，形参的绑定保留
 到过程返回为止。词法绑定则与之不同，绑定包裹在闭包内时可以无限期地保留。
@@ -12049,7 +12049,7 @@ cont)}。我们大可移除这样的赋值。
 \begin{EoplExercise}\label{t:x28elem_x22ex5x2e34x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}如imperative{-}lang所述，用大多数指令式语言都难以完成这种翻译，因为它们
 在所有过程调用中使用堆栈，即使是尾调用。而且，对大型解释器，由 \Scribtexttt{goto} 链接的
 代码可能太过庞大，以致某些编译器无法处理。把本节的解释器翻译为指令式语言，
-用\{ex5.26\} 中的跳跃技术规避这一难题。\end{EoplExercise}
+用ex5.26 中的跳跃技术规避这一难题。\end{EoplExercise}
 
 \Ssubsection{异常}{异常}\label{t:x28part_x22s5x2e4x22x29}
 
@@ -12748,7 +12748,7 @@ thread. 实则205是生产者所在线程打印。}}就像前一个例子那样�
 \caption{由缓存连接的生产者和消费者\label{t:x28elem_x22figx2d5x2e17x22x29}}\end{EoplFigure}
 
 实现从 IMPLICIT{-}REFS 语言传递续文的解释器开始。这与\SecRefLocal{t:x28part_x22s5x2e1x22x29}{5.1}{传递续文的解释器}中的类似，只是多
-了 IMPLICIT{-}REFS 中的存储器（当然！），以及\{ex5.9\} 中的续文构造器
+了 IMPLICIT{-}REFS 中的存储器（当然！），以及ex5.9 中的续文构造器
 \Scribtexttt{set{-}rhs{-}cont}。
 
 我们给这个解释器添加一个调度器。调度器状态由四个值组成，接口提供六个过程来操作这
@@ -13314,7 +13314,7 @@ thread. 实则205是生产者所在线程打印。}}就像前一个例子那样�
 列之中，就绪队列头部的线程接着执行。当线程继续时，就好像调用 \Scribtexttt{yield} 返回了
 99。\end{EoplExercise}
 
-\begin{EoplExercise}\label{t:x28elem_x22ex5x2e46x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}在\{ex5.45\} 的系统中，线程放入就绪队列，既可能是因为耗尽时间片，也可
+\begin{EoplExercise}\label{t:x28elem_x22ex5x2e46x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}在ex5.45 的系统中，线程放入就绪队列，既可能是因为耗尽时间片，也可
 能是因为它选择让步。在后一种情况下，线程会以一个完整的时间片重启。修改系统，让就
 绪队列记录每个线程的剩余时间片（如果有的话），在线程重启时仍使用剩余的时间片。\end{EoplExercise}
 
@@ -13325,7 +13325,7 @@ thread. 实则205是生产者所在线程打印。}}就像前一个例子那样�
 
 \begin{EoplExercise}\label{t:x28elem_x22ex5x2e49x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{hzuo2yue4ji4lu4biao3@活跃记录表|(idxdecorator{}{}}
 \index{zzheng4@帧|(idxdecorator{}{}}
-为 THREADS 完成\{ex5.15\}（用堆栈上的帧表示续文）。
+为 THREADS 完成ex5.15（用堆栈上的帧表示续文）。
 \index{hzuo2yue4ji4lu4biao3@活跃记录表|)idxdecorator{}{}}
 \index{zzheng4@帧|)idxdecorator{}{}}\end{EoplExercise}
 
@@ -13345,14 +13345,14 @@ thread. 实则205是生产者所在线程打印。}}就像前一个例子那样�
 踪线程描述符的创建。验证就绪队列中一个线程描述符至多出现一次。子线程如何获知父线
 程的描述符？原程序的线程描述符应如何处理？\end{EoplExercise}
 
-\begin{EoplExercise}\label{t:x28elem_x22ex5x2e54x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}给\{ex5.53\} 的解释器添加组件 \Scribtexttt{kill}。\Scribtexttt{kill} 结构取一线程号，在
+\begin{EoplExercise}\label{t:x28elem_x22ex5x2e54x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}给ex5.53 的解释器添加组件 \Scribtexttt{kill}。\Scribtexttt{kill} 结构取一线程号，在
 就绪队列或所有等待队列中找出对应的线程，然后删除它。此外，当它找到目标线程时，返
 回真；在所有队列中都找不到指定线程号时，返回假。\end{EoplExercise}
 
-\begin{EoplExercise}\label{t:x28elem_x22ex5x2e55x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}给\{ex5.53\} 的解释器添加线程通信组件，一个线程可以用另一线程的描述符
+\begin{EoplExercise}\label{t:x28elem_x22ex5x2e55x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}给ex5.53 的解释器添加线程通信组件，一个线程可以用另一线程的描述符
 给它发送一个值。线程可以选择接收消息，没有线程给它发消息时可以阻塞。\end{EoplExercise}
 
-\begin{EoplExercise}\label{t:x28elem_x22ex5x2e56x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}修改\{ex5.55\} 的解释器，不要使用共享存储器，而是让每个线程具有自己的
+\begin{EoplExercise}\label{t:x28elem_x22ex5x2e56x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}修改ex5.55 的解释器，不要使用共享存储器，而是让每个线程具有自己的
 存储器。在这种语言中，几乎可以排除互斥锁。重写本节语言的示例程序，但不用互斥锁。\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex5x2e57x22x29}\texMathInline{\textnormal{[}{\star}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}在你最爱的操作系统教材中，有各种各样的同步机制。挑出三种，在本节的框架下实现它们。\end{EoplExercise}
@@ -13989,7 +13989,7 @@ val1 val2)} 的值传给当前续文。
 \index{jzie3shi4qi4@解释器!czhuan2di4xu4wen2@传递续文|(idxdecorator{}{}}
 \index{gzuo4cheng2biao3shi4fa3@过程表示法!xzu4wen2@续文|(idxdecorator{}{}}
 \index{valueof@\textbf{\Scribtexttt{value{-}of}}!czhuan2di4xu4wen2ban3ben3@传递续文版本|(idxdecorator{}{}}
-写出、\{fig{-}5.5\} 和 \{fig{-}5.6\} 中解释器的过
+写出、fig{-}5.5 和 fig{-}5.6 中解释器的过
 程表示和内联过程表示。
 \index{nzei4lian2@内联|)idxdecorator{}{}}
 \index{jzie3shi4qi4@解释器!czhuan2di4xu4wen2@传递续文|)idxdecorator{}{}}
@@ -14248,13 +14248,13 @@ CPS{-}IN 中的尾端如 所示。尾端每个子表达式的值都可能成为�
 \index{jzian3dan1biao3da2shi4@简单表达式|)idxdecorator{}{}}
 
 尾表达式的传递续文解释器如 所示。由于这种语言的过程取多个参
-数，我们用\{ex2.10\} 中的 \Scribtexttt{extend{-}env*} 创建多个绑定，并用类似方式
+数，我们用ex2.10 中的 \Scribtexttt{extend{-}env*} 创建多个绑定，并用类似方式
 扩展 \Scribtexttt{extend{-}env{-}rec}，得到 \Scribtexttt{extend{-}env{-}rec*}。
 
 在这个解释器中，所有递归调用都在（Scheme 的）尾端，所以运行解释器不会在 Scheme
 中产生控制上下文（不全是这样：过程
-\Scribtexttt{value{-}of{-}simple{-}exp}（\{ex6.11\}）会在 Scheme 中产生控制上下文，
-但这可以避免（参见\{ex6.18\}））。
+\Scribtexttt{value{-}of{-}simple{-}exp}（ex6.11）会在 Scheme 中产生控制上下文，
+但这可以避免（参见ex6.18））。
 
 更重要的是，解释器不会产生新的续文。过程 \Scribtexttt{value{-}of/k} 取一个续文参数，原封不
 动地传给每个递归调用。所以，我们可以很容易地移除续文参数。
@@ -14909,7 +14909,7 @@ CPS{-}IN 中的尾端如 所示。尾端每个子表达式的值都可能成为�
 把每个参数转换为 CPS{-}OUT 中的 \Scribtexttt{simple{-}exp}，并用转换结果生成一个尾式。
 
 我们可以把这种行为封装到过程 \Scribtexttt{cps{-}of{-}exps} 中，如 所示。
-它的参数是输入表达式的列表和过程 \Scribtexttt{builder}。它用\{ex1.23\} 中的
+它的参数是输入表达式的列表和过程 \Scribtexttt{builder}。它用ex1.23 中的
 \Scribtexttt{list{-}index}，找出列表中第一个复杂表达式的位置。如果有这样的复杂表达式，那么
 它转换该表达式，转换所在的续文给表达式的结果命名（绑定到 \Scribtexttt{var} 的标识符），然
 后递归处理修改后的表达式列表。
@@ -14917,10 +14917,10 @@ CPS{-}IN 中的尾端如 所示。尾端每个子表达式的值都可能成为�
 如果不存在复杂表达式，那么我们用 \Scribtexttt{builder} 处理表达式列表。但这些表达式虽是简
 单的，它们仍属于 CPS{-}IN 的语法。因此，我们用过程 \Scribtexttt{cps{-}of{-}simple{-}exp} 把每个表
 达式转换为 CPS{-}OUT 的语法。然后，我们把 \texMathInline{\mathit{SimpleExp}} 的列表传给
-\Scribtexttt{builder}（\Scribtexttt{list{-}set} 如\{ex1.19\} 所述）。
+\Scribtexttt{builder}（\Scribtexttt{list{-}set} 如ex1.19 所述）。
 
 过程 \Scribtexttt{inp{-}exp{-}simple{\hbox{\texttt{?}}}} 取一 CPS{-}IN 表达式，判断表示它的字符串能否解析为
-\texMathInline{\mathit{SimpleExp}}。它使用\{ex1.24\} 中的过程 \Scribtexttt{every{\hbox{\texttt{?}}}}。若
+\texMathInline{\mathit{SimpleExp}}。它使用ex1.24 中的过程 \Scribtexttt{every{\hbox{\texttt{?}}}}。若
 \texMathInline{lst} 中的所有元素满足 \texMathInline{pred}，\Scribtexttt{(every{\hbox{\texttt{?}}} }\texMathInline{pred}\Scribtexttt{ }\texMathInline{lst}\Scribtexttt{)} 返回 \Scribtexttt{\#t}，
 否则返回\Scribtexttt{\#f}。
 
@@ -15076,7 +15076,7 @@ CPS{-}IN 中的尾端如 所示。尾端每个子表达式的值都可能成为�
 \index{gzuo4cheng2diao4yong4@过程调用|)idxdecorator{}{}}\end{EoplCodeInset}
 
 现在，我们可以写出 CPS 翻译器的剩余部分
-（{--}\{fig{-}6.12\}）。它\emph{跟随语法}。当表达式总是
+（{--}fig{-}6.12）。它\emph{跟随语法}。当表达式总是
 简单的，如常量、变量和过程，我们直接用 \Scribtexttt{make{-}send{-}to{-}cont} 生成代码。否则，我
 们调用辅助过程，每个辅助过程都调用 \Scribtexttt{cps{-}of{-}exps} 求子表达式的值，用适当的生成
 器构造 CPS 输出的最内部。一个例外是 \Scribtexttt{cps{-}of{-}letrec{-}exp}，它没有紧邻的子表达式，
@@ -15313,14 +15313,14 @@ CPS{-}IN 中的尾端如 所示。尾端每个子表达式的值都可能成为�
 \index{tziao2jian4biao3da2shi4@条件表达式|)idxdecorator{}{}}\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex6x2e24x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{listbziao3da2shi4@\Scribtexttt{list} 表达式|idxdecorator{}{}}
-给语言添加列表（\{ex3.10\}）。记住：列表的参数不在尾端。\end{EoplExercise}
+给语言添加列表（ex3.10）。记住：列表的参数不在尾端。\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex6x2e25x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{dzuo1bian4liang4sheng1ming2@多变量声明|(idxdecorator{}{}}
-扩展 CPS{-}IN，让 \Scribtexttt{let} 表达式声明任意数量的变量（\{ex3.16\}）。
+扩展 CPS{-}IN，让 \Scribtexttt{let} 表达式声明任意数量的变量（ex3.16）。
 \index{dzuo1bian4liang4sheng1ming2@多变量声明|)idxdecorator{}{}}\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex6x2e26x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}由 \Scribtexttt{cps{-}of{-}exps} 引入的续文变量在续文中只会只会出现一次。修改
-\Scribtexttt{make{-}send{-}to{-}cont}，不是生成\{ex6.22\} 中的
+\Scribtexttt{make{-}send{-}to{-}cont}，不是生成ex6.22 中的
 
 \begin{EoplCodeInset}\begin{SVerbatim}\begin{SingleColumn}\Scribtexttt{let }\texMathInline{var_1}\Scribtexttt{}\mbox{\hphantom{\Scribtexttt{x}}}\Scribtexttt{= }\texMathInline{simp_1}\Scribtexttt{}
 
@@ -15443,10 +15443,10 @@ CPS{-}IN 中的尾端如 所示。尾端每个子表达式的值都可能成为�
 \index{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!gzuo4cheng2zhi2@过程值|)idxdecorator{}{}}\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex6x2e32x22x29}\texMathInline{\textnormal{[}{\star}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{gzuo4cheng2zhi2Proc@过程值 (\texMathInline{\mathit{Proc}})!szhu4ju4jie2gou4biao3shi4@数据结构表示|idxdecorator{}{}}
-写一个翻译器，它类似\{ex6.31\}，但把所有过程表示为数据结构。\end{EoplExercise}
+写一个翻译器，它类似ex6.31，但把所有过程表示为数据结构。\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex6x2e33x22x29}\texMathInline{\textnormal{[}{\star}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{jzi4cun2@寄存|(idxdecorator{}{}}
-写一个翻译器，它取\{ex6.32\} 的输出，将其转换为
+写一个翻译器，它取ex6.32 的输出，将其转换为
 那样的寄存器程序。
 \index{jzi4cun2@寄存|)idxdecorator{}{}}\end{EoplExercise}
 
@@ -15476,13 +15476,13 @@ CPS 程序传递命名中间结果的续文，从而序列化计算；ANF 程序
 有中间结果，从而序列化计算。
 
 重写 \Scribtexttt{cps{-}of{-}exp}，生成 ANF 程序而非 CPS 程序（对不在尾端的条件表达式，
-用\{ex6.23\} 中的方法处理）。然后，用修改后的 \Scribtexttt{cps{-}of{-}exp} 处理例
+用ex6.23 中的方法处理）。然后，用修改后的 \Scribtexttt{cps{-}of{-}exp} 处理例
 \Scribtexttt{fib} 的定义，验证其结果是否为 \Scribtexttt{fib/anf}。最后，验证对已经是 ANF 的输入程
 序，你的翻译器产生的程序与输入只有绑定变量名不同。
 \index{fzei3bo1na4qi4shu4lie4@斐波那契数列|(idxdecorator{}{}}\end{EoplExercise}
 
-\begin{EoplExercise}\label{t:x28elem_x22ex6x2e35x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}用几个例子验证：若采用\{ex6.27\} 中的优化方法，对 ANF 转换器
-（\{ex6.34\}）的输入和输出程序进行 CPS 变换，所得结果相同。
+\begin{EoplExercise}\label{t:x28elem_x22ex6x2e35x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}用几个例子验证：若采用ex6.27 中的优化方法，对 ANF 转换器
+（ex6.34）的输入和输出程序进行 CPS 变换，所得结果相同。
 \index{Anormalform@A{-}normal form (ANF)|)idxdecorator{}{}}
 \index{xzu4lie4hua4@序列化|)idxdecorator{}{}}\end{EoplExercise}
 
@@ -15816,7 +15816,7 @@ CPS 的另一重要应用是提供模型，将计算效果变为显式的。计�
 \index{czun2chu3qi4@存储器|)idxdecorator{}{}}\end{itemize}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex6x2e36x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{beginbziao3da2shi4@\Scribtexttt{begin} 表达式|idxdecorator{}{}}
-给 CPS{-}IN 添加 \Scribtexttt{begin} 表达式（\{ex4.4\}）。CPS{-}OUT 应该不需要修改。\end{EoplExercise}
+给 CPS{-}IN 添加 \Scribtexttt{begin} 表达式（ex4.4）。CPS{-}OUT 应该不需要修改。\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex6x2e37x22x29}\texMathInline{\textnormal{[}{\star}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{yzin3yong4@引用!yzin3shi4@隐式|(idxdecorator{}{}}
 给 CPS{-}IN 添加隐式引用（\SecRefLocal{t:x28part_x22s4x2e3x22x29}{4.3}{IMPLICIT{-}REFS：隐式引用语言}）。用和显式引用相同的 CPS{-}OUT，确保翻译器
@@ -15831,7 +15831,7 @@ CPS 的另一重要应用是提供模型，将计算效果变为显式的。计�
 \index{letccbziao3da2shi4@\Scribtexttt{letcc} 表达式|(idxdecorator{}{}}
 \index{fzei1biao1zhun3kong4zhi4liu2@非标准控制流|(idxdecorator{}{}}
 \index{throwbziao3da2shi4@\Scribtexttt{throw} 表达式|(idxdecorator{}{}}
-最后是非局部控制流。我们来考虑\{ex5.42\} 中的 \Scribtexttt{letcc}。\Scribtexttt{letcc}
+最后是非局部控制流。我们来考虑ex5.42 中的 \Scribtexttt{letcc}。\Scribtexttt{letcc}
 表达式 \Scribtexttt{letcc }\texMathInline{var}\Scribtexttt{ in }\texMathInline{body} 将当前续文绑定到变量 \texMathInline{var}。\texMathInline{body} 为
 该绑定的作用域。续文的唯一操作是 \Scribtexttt{throw}。我们用语法 \Scribtexttt{throw }\texMathInline{Expression}\Scribtexttt{
 }\Scribtexttt{to }\texMathInline{Expression}，它需要求出两个子表达式的值。第二个表达式应返回一个续文，该续
@@ -16412,7 +16412,7 @@ else zero{\hbox{\texttt{?}}}(11)}。
 \mbox{\hphantom{\Scribtexttt{xxxxxxxxxx}}}\RktPn{(}\RktSym{type{-}to{-}external{-}form}\mbox{\hphantom{\Scribtexttt{x}}}\RktSym{result{-}type}\RktPn{)}\RktPn{)}\RktPn{)}\RktPn{)}\RktPn{)}\RktPn{)}\end{SingleColumn}\end{RktBlk}\end{SCodeFlow}\end{EoplCodeInset}
 
 现在，我们可以将规则转换为程序，就像处理\ChapRefLocal{t:x28part_x22exprx22x29}{3}{表达式}中的解释器那样。结果
-如{--}\{fig{-}7.3\} 所示。
+如{--}fig{-}7.3 所示。
 
 \begin{EoplFigure}\begin{SCodeFlow}\begin{RktBlk}\begin{SingleColumn}\texMathInline{\mathit{Tenv} = \mathit{Var} \to \mathit{Type}}
 
@@ -17708,7 +17708,7 @@ else zero{\hbox{\texttt{?}}}(11)}。
 \begin{EoplExercise}\label{t:x28elem_x22ex7x2e20x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}修改合一器，不是对合一器的实参，而是只对类型变量调用 \Scribtexttt{apply{-} subst{-}to{-}type}。\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex7x2e21x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}我们说代换式组就像存储器。用 中的代换式组表示实现合一器，用
-全局 Scheme 变量记录代换式组，就像 和 \{fig{-}4.2\} 那
+全局 Scheme 变量记录代换式组，就像 和 fig{-}4.2 那
 样。\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex7x2e22x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}优化前一道练习的实现，在常数时间内获取类型变量的绑定。\end{EoplExercise}
@@ -17868,7 +17868,7 @@ else zero{\hbox{\texttt{?}}}(11)}。
 像 那样，我们在实现时新定义一种包含两个值的数据类型，用作返
 回值。
 
-\Scribtexttt{type{-}of} 的定义如{--}\{fig{-}7.8\} 所示。对每个表达式，
+\Scribtexttt{type{-}of} 的定义如{--}fig{-}7.8 所示。对每个表达式，
 我们递归处理子表达式，一路传递代换式组参数中现有的解。然后，我们根据规范，为当前
 表达式建立方程，调用 \Scribtexttt{unifier}，在代换式组中记录这些。
 
@@ -18133,7 +18133,7 @@ tvar2)} 或 \Scribtexttt{(tvar3 {-}{\Stttextmore} tvar3)}，等等。每次调�
 
 要比较两种类型的外在表示，我们统一未知类型的名字，遍历每个外在表示，给类型变量重
 新编号，使之从 \Scribtexttt{ty1} 开始。然后，我们就能用 \Scribtexttt{equal{\hbox{\texttt{?}}}} 比较重新编号的类型
-（{--}\{fig{-}7.11\}）。
+（{--}fig{-}7.11）。
 
 要逐个命名所有未知变量，我们用 \Scribtexttt{canonical{-}subst} 生成代换式组。我们用
 \Scribtexttt{table}做累加器，即可直接递归。\Scribtexttt{table} 的长度告诉我们已找出多少个不同的未
@@ -18593,10 +18593,10 @@ interface})，接口列出模块提供的绑定及其类型。模块过程的接
 
 \Scribtexttt{from m1 take u}\end{SingleColumn}\end{SVerbatim}\end{EoplCodeInset}
 
-类型异常。可以免除这一限制（\{ex8.8\}、\{ex8.17\}）。\end{Subflow}\end{EoplExample}
+类型异常。可以免除这一限制（ex8.8、ex8.17）。\end{Subflow}\end{EoplExample}
 
 \begin{EoplExample}\label{t:x28elem_x22egx2d8x2e5x22x29}\index{letstarzzuo4yong4yu4@\Scribtexttt{let*} 式作用域|idxdecorator{}{}}
-在我们的语言中，模块具有 \Scribtexttt{let*} 式的作用域（\{ex3.17\}）。例如，
+在我们的语言中，模块具有 \Scribtexttt{let*} 式的作用域（ex3.17）。例如，
 
 \begin{Subflow}\begin{EoplCodeInset}\begin{SVerbatim}\begin{SingleColumn}\Scribtexttt{module m1}
 
@@ -19211,7 +19211,7 @@ z {\hbox{\texttt{:}}} int]} 公布的所有值。\end{Subflow}
 \begin{EoplExercise}\label{t:x28elem_x22ex8x2e4x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{dzuo1can1shu4guo4cheng2@多参数过程|(idxdecorator{}{}}
 \index{dzuo1guo4cheng2sheng1ming2@多过程声明|(idxdecorator{}{}}
 \index{dzuo1bian4liang4sheng1ming2@多变量声明|(idxdecorator{}{}}
-修改语言的表达式，像\{ex7.24\} 那样，加入多声明 \Scribtexttt{let}、多参数过程
+修改语言的表达式，像ex7.24 那样，加入多声明 \Scribtexttt{let}、多参数过程
 和多声明 \Scribtexttt{letrec}。
 \index{dzuo1can1shu4guo4cheng2@多参数过程|)idxdecorator{}{}}
 \index{dzuo1guo4cheng2sheng1ming2@多过程声明|)idxdecorator{}{}}
@@ -19410,7 +19410,7 @@ succ} 等过程处理 \Scribtexttt{from m1 take t} 类型的值。这样，\Scri
 \Ssubsubsection{例子}{例子}\label{t:x28part_x22s8x2e2x2e1x22x29}
 
 欲知其用途，再想想我们的几位开发者。爱丽丝一直用包含整数对的数据结构表示点的横纵
-坐标。她使用的语言具有\{ex7.8\} 那样的类型，所以她的模块
+坐标。她使用的语言具有ex7.8 那样的类型，所以她的模块
 \Scribtexttt{Alices{-}points} 接口具有如下声明：
 
 \begin{EoplCodeInset}\begin{SVerbatim}\begin{SingleColumn}\Scribtexttt{initial{-}point {\hbox{\texttt{:}}} (int {-}{\Stttextmore} pairof int * int)}
@@ -19902,7 +19902,7 @@ colors take green} 实际为 1（也许有一个例外：返回颜色作为最�
 写一个模块，实现抽象表。你实现的表应类似环境，但不是把符号绑定到 Scheme 值，而是
 把整数值绑定到整数值。接口提供一个值，表示空表；两个过程 \Scribtexttt{add{-}to{-}table} 和
 \Scribtexttt{lookup{-}in{-}table} 类似 \Scribtexttt{extend{-}env} 和 \Scribtexttt{apply{-}env}。由于我们的语言只有
-单参数过程，我们用咖喱化（\{ex3.20\}）实现等效的多参数过程。你可以用
+单参数过程，我们用咖喱化（ex3.20）实现等效的多参数过程。你可以用
 查询任何值都返回 0 的表模拟空表。这是该模块的一个例子：
 
 \begin{EoplCodeInset}\begin{SVerbatim}\begin{SingleColumn}\Scribtexttt{module tables}
@@ -20476,13 +20476,13 @@ type})。\end{Subflow}
 \begin{EoplExercise}\label{t:x28elem_x22ex8x2e16x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{dzuo1can1shu4guo4cheng2@多参数过程|(idxdecorator{}{}}
 \index{dzuo1guo4cheng2sheng1ming2@多过程声明|(idxdecorator{}{}}
 \index{dzuo1bian4liang4sheng1ming2@多变量声明|(idxdecorator{}{}}
-用\{ex7.24\} 中的语言扩展本节的系统，然后重写\{ex8.15\}，
+用ex7.24 中的语言扩展本节的系统，然后重写ex8.15，
 用多参数过程代替返回过程的过程。
 \index{dzuo1can1shu4guo4cheng2@多参数过程|)idxdecorator{}{}}
 \index{dzuo1guo4cheng2sheng1ming2@多过程声明|)idxdecorator{}{}}
 \index{dzuo1bian4liang4sheng1ming2@多变量声明|)idxdecorator{}{}}\end{EoplExercise}
 
-\begin{EoplExercise}\label{t:x28elem_x22ex8x2e17x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}仿照\{ex8.8\}，允许模块以不同于接口声明的顺序产生值。但是记住，定义{---}{---}
+\begin{EoplExercise}\label{t:x28elem_x22ex8x2e17x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}仿照ex8.8，允许模块以不同于接口声明的顺序产生值。但是记住，定义{---}{---}
 尤其是类型的定义{---}{---}必须遵守定界规则。\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex8x2e18x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}我们代码依赖的不变式是：类型环境中的所有类型均已展开。我们在代码中多次调用
@@ -20634,7 +20634,7 @@ module})）的组件，以便复用模块。我们称这种新语言为PROC{-}MO
 
 本例中，爱丽丝选择 \Scribtexttt{m} 作为模块过程中绑定变量的名字；它不必和接口中的局部名字
 相同。我们需要再写一遍参数的接口，因为模块接口的作用域不包含模块主体。可以免除这
-一限制（见\{ex8.27\}）。
+一限制（见ex8.27）。
 
 现在，爱丽丝把她的模块重写为
 
@@ -20932,7 +20932,7 @@ plus中的 \Scribtexttt{plus} 定义，以及类似的 \Scribtexttt{times} 定�
 \index{zzi4ran2shu4ADT@自然数 ADT!mzo2kuai4shi2xian4@模块实现|)idxdecorator{}{}}\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex8x2e23x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{bziao3@表|(idxdecorator{}{}}
-写出模块 \Scribtexttt{table{-}of}，它与\{ex8.15\} 中的 \Scribtexttt{table} 模块类似，只是
+写出模块 \Scribtexttt{table{-}of}，它与ex8.15 中的 \Scribtexttt{table} 模块类似，只是
 将表的内容参数化，这样就能用
 
 \begin{EoplCodeInset}\begin{SVerbatim}\begin{SingleColumn}\Scribtexttt{module mybool{-}tables}
@@ -21352,7 +21352,7 @@ i^{\prime}_{2}\Scribtexttt{[}\texMathInline{m^{\prime}/m_{2}}\Scribtexttt{]}} �
 么问题？\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex8x2e25x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{dzuo1can1shu4guo4cheng2@多参数过程|(idxdecorator{}{}}
-扩展 PROC{-}MODULES，像\{ex3.21\} 那样，允许模块取多个参数。
+扩展 PROC{-}MODULES，像ex3.21 那样，允许模块取多个参数。
 \index{dzuo1can1shu4guo4cheng2@多参数过程|)idxdecorator{}{}}\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex8x2e26x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}扩展语言的模块主体，将模块调用的生成式改为
@@ -21605,7 +21605,7 @@ dispatch})。在这段程序中，树有两种节点，\Scribtexttt{interior{-}n
 \Scribtexttt{in send o1 odd(13)}\end{SingleColumn}\end{SVerbatim}\end{EoplCodeInset}
 
 中，方法 \Scribtexttt{even} 和 \Scribtexttt{odd} 递归调用彼此，因为它们执行时，\Scribtexttt{self} 绑定到包
-含二者的对象。这就像\{ex3.37\} 中，用动态绑定实现递归。
+含二者的对象。这就像ex3.37 中，用动态绑定实现递归。
 \index{self@\Scribtexttt{self}|)idxdecorator{}{}}\end{Subflow}
 
 \Ssubsection{继承}{继承}\label{t:x28part_x22s9x2e2x22x29}
@@ -21949,9 +21949,9 @@ m2()} 呢？方法 \Scribtexttt{m2} 直接调用方法 \Scribtexttt{m1}，但它
 有名字、形参列表以及主体。同时我们扩展语言，支持多参数过程、多声明 \Scribtexttt{let} 和多
 声明 \Scribtexttt{letrec} 表达式，还有些其他操作，如加法和 \Scribtexttt{list}。
 \index{lzie4biao3cao1zuo4@列表操作|idxdecorator{}{}}
-列表操作同\{ex3.9\}。最后，我们增加 \Scribtexttt{begin} 表达式，
+列表操作同ex3.9。最后，我们增加 \Scribtexttt{begin} 表达式，
 \index{beginbziao3da2shi4@\Scribtexttt{begin} 表达式|idxdecorator{}{}}
-同\{ex4.4\}，它从左到右求出子表达式的值，返回最后一个表达式的值。
+同ex4.4，它从左到右求出子表达式的值，返回最后一个表达式的值。
 
 我们新增对象和列表表达值，于是有
 
@@ -21963,7 +21963,7 @@ m2()} 呢？方法 \Scribtexttt{m2} 直接调用方法 \Scribtexttt{m1}，但它
 
 我们将在\SecRefLocal{t:x28part_x22s9x2e4x2e1x22x29}{9.4.1}{对象}考察 \texMathInline{\mathit{Obj}}。在我们的语言中，类既不是指代值，也
 不是表达值：它们能作为对象的一部分，但不能绑定到变量或是成为表达式的值（但要
-看看\{ex9.29\}）。
+看看ex9.29）。
 
 \begin{EoplFigure}[!ht]
 \Iidentity{\begin{align*}   \mathit{Program} &::= \{\mathit{ClassDecl}\}^{*} \phantom{x} \mathit{Expression} \\[-3pt]
@@ -22305,7 +22305,7 @@ IMPLICIT{-}REFS 那样，它要为每个实参分配一个新位置，然后将�
 
 \mbox{\hphantom{\Scribtexttt{xxxxxxxxxxxxxxxx}}}\RktPn{(}\RktSym{empty{-}env}\RktPn{)}\RktPn{)}\RktPn{)}\RktPn{)}\RktPn{)}\RktPn{)}\RktPn{)}\RktPn{)}\RktPn{)}\end{SingleColumn}\end{RktBlk}\end{SCodeFlow}\end{EoplCodeInset}\end{itemize}
 
-这里，我们使用\{ex2.10\} 中的 \Scribtexttt{extend{-}env*}。它在扩展环境时，把变
+这里，我们使用ex2.10 中的 \Scribtexttt{extend{-}env*}。它在扩展环境时，把变
 量列表绑定到指代值的列表。我们还给环境接口新增过程
 \Scribtexttt{extend{-}env{-}with{-}self{-}and{-}super}，分别将 \Scribtexttt{\%self} 和 \Scribtexttt{\%super} 绑定到对象
 和类名。
@@ -22591,7 +22591,7 @@ IMPLICIT{-}REFS 那样，它要为每个实参分配一个新位置，然后将�
 
 \mbox{\hphantom{\Scribtexttt{xxxx}}}\RktPn{(}\RktSym{append}\mbox{\hphantom{\Scribtexttt{x}}}\RktSym{new{-}m{-}env}\mbox{\hphantom{\Scribtexttt{x}}}\RktSym{super{-}m{-}env}\RktPn{)}\RktPn{)}\RktPn{)}\end{SingleColumn}\end{RktBlk}\end{SCodeFlow}\end{EoplCodeInset}
 
-构建方法环境还有其他一些方式，它们在方法查询时更高效（\{ex9.18\}）。\end{Subflow}
+构建方法环境还有其他一些方式，它们在方法查询时更高效（ex9.18）。\end{Subflow}
 
 \noindent \index{hzuan2jing4@环境!fzang1fa3huan2jing4@方法环境|)idxdecorator{}{}}
 \index{fzang1fa3huan2jing4@方法环境|)idxdecorator{}{}}
@@ -22738,10 +22738,10 @@ bogus{-}oddeven() in send o1 odd (13)} 给出错误的答案。\end{EoplExercise
 或\emph{受保护的} (\emph{protected})，只能在持有类及其后代中访问；或\emph{公
 有的} (\emph{public})，在所有位置都能访问。许多面向对象编程语言都包含了这一特性的某种版本。\end{EoplExercise}
 
-\begin{EoplExercise}\label{t:x28elem_x22ex9x2e12x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}像\{ex9.11\} 那样，允许 CLASSES 指定每个字段是私有的、受保护的、或
+\begin{EoplExercise}\label{t:x28elem_x22ex9x2e12x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}像ex9.11 那样，允许 CLASSES 指定每个字段是私有的、受保护的、或
 公有的。\end{EoplExercise}
 
-\begin{EoplExercise}\label{t:x28elem_x22ex9x2e13x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}为了防止\{ex9.2\} 那样的恶意子类，许多面向对象编程语言都能指定无法覆
+\begin{EoplExercise}\label{t:x28elem_x22ex9x2e13x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}为了防止ex9.2 那样的恶意子类，许多面向对象编程语言都能指定无法覆
 盖的 \emph{final} 方法。给 CLASSES 添加这样的组件，那么我们就能写：
 
 \begin{EoplCodeInset}\begin{SVerbatim}\begin{SingleColumn}\Scribtexttt{class oddeven extends object}
@@ -22829,7 +22829,7 @@ method{-}envs}，保证每个方法名只出现一次，而且总是出现在最
 然后修改环境的实现，去掉其中的名字。接着修改 \Scribtexttt{value{-}of} 和 \Scribtexttt{apply{-}env}，不
 再取符号，而是像\SecRefLocal{t:x28part_x22s3x2e7x2e2x22x29}{3.7.2}{无名解释器}那样取一词法地址。\end{EoplExercise}
 
-\begin{EoplExercise}\label{t:x28elem_x22ex9x2e20x22x29}\texMathInline{\textnormal{[}{\star}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}方法调用也能够用类似\{ex9.19\} 那样的方式优化吗？讨论为什么能，或为什
+\begin{EoplExercise}\label{t:x28elem_x22ex9x2e20x22x29}\texMathInline{\textnormal{[}{\star}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}方法调用也能够用类似ex9.19 那样的方式优化吗？讨论为什么能，或为什
 么不能。
 \index{dze2bu4lu3jin1suo3yin3@德布鲁金索引|)idxdecorator{}{}}
 \index{qzu4ming2@去名!CLASSES@CLASSES|)idxdecorator{}{}}\end{EoplExercise}
@@ -22840,7 +22840,7 @@ method{-}envs}，保证每个方法名只出现一次，而且总是出现在最
 \begin{EoplExercise}\label{t:x28elem_x22ex9x2e22x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{dzui4xiang4fang1fa3@对象方法!czhong2zai3@重载|(idxdecorator{}{}}
 \index{wzu2ming2huan2jing4@无名环境|(idxdecorator{}{}}
 \index{fzang1fa3dechong2zai3@方法的重载|(idxdecorator{}{}}
-在\{ex9.16\} 中，我们扩展解释器，给语言添加了重载。另一种支持重载的方
+在ex9.16 中，我们扩展解释器，给语言添加了重载。另一种支持重载的方
 式不需修改解释器，而是用语法预处理器。写一个预处理器，将每个方法 \texMathInline{m} 重命名为
 \texMathInline{m:@n} 的形式，其中，\texMathInline{n} 是方法声明中参数的数量。同时，它还必须根据操作数
 的数量改变每个方法调用的名字。我们假定程序员在方法名中不使用 \texMathInline{:@}，但解释器
@@ -22857,7 +22857,7 @@ method{-}envs}，保证每个方法名只出现一次，而且总是出现在最
 器，将每个超类调用替换为一个抽象语法树节点，节点中包含实际要调用的方法。
 \index{jzing4tai4fang1fa3fen1fa1@静态方法分发|)idxdecorator{}{}}\end{EoplExercise}
 
-\begin{EoplExercise}\label{t:x28elem_x22ex9x2e24x22x29}\texMathInline{\textnormal{[}{\star}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}写一个翻译器，把\{ex9.10\} 中指定类调用的方法名替换为数字，该数字表示
+\begin{EoplExercise}\label{t:x28elem_x22ex9x2e24x22x29}\texMathInline{\textnormal{[}{\star}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}写一个翻译器，把ex9.10 中指定类调用的方法名替换为数字，该数字表示
 运行期间，指定方法在指定类的方法表中的偏移。为翻译后的代码实现一个解释器，在常数
 时间内访问指定的方法。\end{EoplExercise}
 
@@ -22961,7 +22961,7 @@ m1(11,22,33)}，而是写普通的过程调用 \Scribtexttt{(getmethod(o1,m2) 11
 
 \Scribtexttt{in let o1 = (make{-}oddeven) in (getmethod(o1,odd) 13)}\end{SingleColumn}\end{SVerbatim}\end{EoplCodeInset}\end{EoplExercise}
 
-\begin{EoplExercise}\label{t:x28elem_x22ex9x2e28x22x29}\texMathInline{\textnormal{[}{\star}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}给\{ex9.27\} 的语言添加继承。\end{EoplExercise}
+\begin{EoplExercise}\label{t:x28elem_x22ex9x2e28x22x29}\texMathInline{\textnormal{[}{\star}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}给ex9.27 的语言添加继承。\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex9x2e29x22x29}\texMathInline{\textnormal{[}{\star}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{yzuan2xing2dui4xiang4@原型对象|(idxdecorator{}{}}
 设计和实现不需写明类的面向对象语言，让每个对象包含自身的方法环境。这种对象
@@ -23001,13 +23001,13 @@ TYPED{-}OO 的示例程序如 所示。这段程序定义了一个类 \Scribtext
 \item 语言中引入了\emph{子类型多态} (\emph{subtype polymorphism}) 的概念。
 
 \item 语言中引入了\emph{强制转换} (\emph{casting}) 的概念，同时也
-包含\{ex9.6\} 中的 \Scribtexttt{instanceof} 判断。\end{itemize}
+包含ex9.6 中的 \Scribtexttt{instanceof} 判断。\end{itemize}
 
 我们依次考虑这些特性。
 
 TYPED{-}OO 中的新生成式如 所示。我们添加一种类型 \Scribtexttt{void}，
-作为 \Scribtexttt{set} 操作的类型，然后添加\{ex7.9\} 中的列表类型；
-像\{ex7.9\} 那样，我们要求调用 \Scribtexttt{list} 时至少给出一个实参。我们给类
+作为 \Scribtexttt{set} 操作的类型，然后添加ex7.9 中的列表类型；
+像ex7.9 那样，我们要求调用 \Scribtexttt{list} 时至少给出一个实参。我们给类
 型表达式的集合添加标识符，但在本章，用作类型的标识符与同名的类或接口相关联。稍后
 我们仔细考虑这种对应关系。方法需要指明结果类型和参数类型，其语法
 与\ChapRefLocal{t:x28part_x22typesx22x29}{7}{类型}中的 \Scribtexttt{letrec} 类似。最后是两种新增的表达式 \Scribtexttt{cast} 和
@@ -23339,7 +23339,7 @@ TYPED{-}OO 中的新生成式如 所示。我们添加一种类型 \Scribtexttt{
 
 静态类环境将每个类名映射到一个静态类，这个类包含父类的名字、字段的名字和类型，以
 及方法的名字和类型。在我们的语言中，接口既没有父类，也没有字段，所以我们用只含所
-需方法名字和类型的数据结构表示它们（但是，看看\{ex9.36\}）。
+需方法名字和类型的数据结构表示它们（但是，看看ex9.36）。
 
 \begin{EoplCodeInset}\begin{SCodeFlow}\begin{RktBlk}\begin{SingleColumn}\RktPn{(}\RktSym{define{-}datatype}\mbox{\hphantom{\Scribtexttt{x}}}\RktSym{static{-}class}\mbox{\hphantom{\Scribtexttt{x}}}\RktSym{static{-}class{\hbox{\texttt{?}}}}
 
@@ -23487,7 +23487,7 @@ TYPED{-}OO 中的新生成式如 所示。我们添加一种类型 \Scribtexttt{
 \index{zzilei4xing2pan4ding4dexie2bian4@子类型判定的协变|(idxdecorator{}{}}
 
 这部分代码如 所示。代码使用\Scribtexttt{every2{\hbox{\texttt{?}}}}，
-它扩展\{ex1.24\} 中的过程 \Scribtexttt{every{\hbox{\texttt{?}}}}，取一个双参数谓词和两个列表，当
+它扩展ex1.24 中的过程 \Scribtexttt{every{\hbox{\texttt{?}}}}，取一个双参数谓词和两个列表，当
 列表长度相同且对应元素满足谓词时，返回 \Scribtexttt{\#t}，否则返回 \Scribtexttt{\#f}。
 \index{zzilei4xing2pan4ding4deni4bian4@子类型判定的逆变|)idxdecorator{}{}}
 \index{zzilei4xing2pan4ding4dexie2bian4@子类型判定的协变|)idxdecorator{}{}}
@@ -24144,7 +24144,7 @@ TYPED{-}OO 中表达式的检查讨论完了，我们接着来构建静态类环
 \begin{EoplExercise}\label{t:x28elem_x22ex9x2e40x22x29}\texMathInline{\textnormal{[}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}修改语言的设计，让每个字段声明包含一个用于初始化字段的表达式。这种设计的优势是，
 通过检查的程序不会使用未初始化的值。\end{EoplExercise}
 
-\begin{EoplExercise}\label{t:x28elem_x22ex9x2e41x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}扩展类型检查器，像\{ex9.8\} 那样，处理 \Scribtexttt{fieldref} 和 \Scribtexttt{fieldset}。\end{EoplExercise}
+\begin{EoplExercise}\label{t:x28elem_x22ex9x2e41x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}扩展类型检查器，像ex9.8 那样，处理 \Scribtexttt{fieldref} 和 \Scribtexttt{fieldset}。\end{EoplExercise}
 
 \begin{EoplExercise}\label{t:x28elem_x22ex9x2e42x22x29}\texMathInline{\textnormal{[}{\star}{\star}\textnormal{]}}\mbox{\hphantom{\Scribtexttt{x}}}\index{jzing4tai4fang1fa3fen1fa1@静态方法分发|(idxdecorator{}{}}
 在类型检查器中，静态方法与普通方法处理方式相同，只是静态方法不能覆盖动态方法，反

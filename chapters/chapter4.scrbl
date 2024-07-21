@@ -115,15 +115,15 @@ in letrec even(dummy)
 }|
 }
 
-这个程序使用多声明的 @tt{letrec}（{ex3.32}）和 @tt{begin} 表达式
-（{ex4.4}）。@tt{begin} 表达式按顺序求每个子表达式的值，并返
+这个程序使用多声明的 @tt{letrec}（ex3.32）和 @tt{begin} 表达式
+（ex4.4）。@tt{begin} 表达式按顺序求每个子表达式的值，并返
 回最后一个表达式的值。
 @eopl-index[(eopl-index-entry @elem{@tt{begin} expression} "beginexpression")]
 
 }
 
 为了同我们的单参数语言保持一致，我们给 @tt{even} 和 @tt{odd} 传一个无用参数；如
-果我们的过程支持任意数量的参数（{ex3.21}），这些过程的参数就可以去
+果我们的过程支持任意数量的参数（ex3.21），这些过程的参数就可以去
 掉。
 
 当两个过程需要分享很多量时，这种通信方式很方便；只需给某些随调用而改变的量赋值。
@@ -287,7 +287,7 @@ end
 @exercise[#:level 2 #:tag "ex4.5"]{
 
 @eopl-index[#:suffix @exer-ref-range["ex4.5"] @eopl-index-entry[@elem{@tt{list} expression} "listexpression"]]
-写出 @tt{list}（{ex3.10}）的规范。
+写出 @tt{list}（ex3.10）的规范。
 
 }
 
@@ -375,7 +375,7 @@ end
 我们还是要选择如何用 Scheme 值建模存储器。我们选择的可能是最简单的模型：以表达值
 列表作为存储器，以代表列表位置的数字表示引用。分配新引用就是给列表末尾添加新值；
 更新存储器则建模为按需复制列表的一大部分。代码如@figure-ref{fig-4.1} 和
-{fig-4.2} 所示。
+fig-4.2 所示。
 
 @eopl-figure[#:position "!ht"]{
 @racketblock[
@@ -472,7 +472,7 @@ end
 我们可以给该系统添加一些@elemtag["trace-instrument"]{辅助过程}，把环境、过程和存
 储器转换为更易读的形式，也可以改善系统，在代码中的关键位置打印消息。我们还使用过
 程把环境、过程和存储器转换为更易读的形式。得出的日志详细描述了系统的动作。典型例
-子如@figure-ref{fig-4.4} 和 {fig-4.5} 所示。此外，这一跟踪日志还表明，
+子如@figure-ref{fig-4.4} 和 fig-4.5 所示。此外，这一跟踪日志还表明，
 差值表达式的参数按从左到右的顺序求值。
 @eopl-index[#:range-mark 'end "EXPLICIT-REFS"]
 @eopl-index[#:range-mark 'end "References" "explicit"]
@@ -500,7 +500,7 @@ end
 @exercise[#:level 1 #:tag "ex4.11"]{
 
 @eopl-index[#:suffix @exer-ref-range["ex4.11"] @eopl-index-entry[@elem{@tt{list} expression} "listexpression"]]
-实现{ex4.5} 中的 @tt{list}。
+实现ex4.5 中的 @tt{list}。
 
 }
 
@@ -679,7 +679,7 @@ newref: 分配位置 2
       ...)))
 ]
 
-@eopl-caption["fig-4.6"]{{ex4.12}，传递存储器的解释器}
+@eopl-caption["fig-4.6"]{ex4.12，传递存储器的解释器}
 }
 
 @section[#:style section-title-style-numbered #:tag "s4.3"]{IMPLICIT-REFS：隐式引用语言}
@@ -875,7 +875,7 @@ in let a = (g 11)
 @eopl-index["Body" (eopl-index-entry @tt{letrec} "letrec")]
 最后，要处理 @tt{letrec}，我们替换 @tt{apply-env} 中的 @tt{extend-env-rec} 从句，
 令其返回一个引用，指向包含适当闭包的位置。由于我们使用多声明的
-@tt{letrec}（{ex3.32}），@tt{extend-env-rec} 取一个过程名列表，一个
+@tt{letrec}（ex3.32），@tt{extend-env-rec} 取一个过程名列表，一个
 绑定变量列表，一个过程主体列表，以及已保存的环境。过程 @tt{location} 取一变量，
 一个变量列表。若变量存在于列表中，@tt{location} 返回变量在列表中的位置；若不存在，
 返回 @tt{#f}。
@@ -1013,7 +1013,7 @@ in begin
 
 @eopl-index[#:suffix @exer-ref-range["ex4.19"] "Closures"]
 修改声明多过程的 @tt{letrec} 实现，让每个闭包只生成一次，并且只分配一个位置。本
-题类似{ex3.35}。
+题类似ex3.35。
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex4.18" "ex4.19"] "Multiple-procedure declaration"]
 
 }
@@ -1165,7 +1165,7 @@ in let p = proc (y) -(y,x)
 @exercise[#:level 1 #:tag "ex4.23"]{
 
 @eopl-index[#:suffix @exer-ref-range["ex4.23"] @eopl-index-entry[@elem{@tt{read} statement} "readstatement"]]
-给{ex4.22} 中的语言添加 @tt{read} 语句，形如 @tt{read @${var}}。这
+给ex4.22 中的语言添加 @tt{read} 语句，形如 @tt{read @${var}}。这
 一语句从输入读取一个非负数，存入指定的变量中。
 
 }
@@ -1174,13 +1174,13 @@ in let p = proc (y) -(y,x)
 
 @eopl-index[#:suffix @exer-ref-range["ex4.24"] (eopl-index-entry @elem{@tt{do-while} statement} "dowhilestatement")]
 @tt{do-while} 语句类似 @tt{while}，但是条件判断在其主体@emph{之后}执行。
-给{ex4.22} 中的语言添加 @tt{do-while} 语句。
+给ex4.22 中的语言添加 @tt{do-while} 语句。
 
 }
 
 @exercise[#:level 1 #:tag "ex4.25"]{
 
-扩展{ex4.22} 语言中的块语句，允许初始化变量。在你的解答中，变量的作
+扩展ex4.22 语言中的块语句，允许初始化变量。在你的解答中，变量的作
 用域是否包含同一个块语句中后续声明的变量？
 
 }
@@ -1210,7 +1210,7 @@ in let p = proc (y) -(y,x)
 @section[#:style section-title-style-numbered #:tag "s4.4"]{MUTABLE-PAIRS：可变序对语言}
 
 @eopl-index[#:range-mark 'start @idx-value-of @eopl-index-entry["for MUTABLE-PAIRS" "MUTABLEPAIRS"]]
-在{ex3.9} 中，我们给语言添加了列表，但它们是不可变的：不像 Scheme
+在ex3.9 中，我们给语言添加了列表，但它们是不可变的：不像 Scheme
 中，有 @tt{set-car!} 和 @tt{set-cdr!} 处理它们。
 
 现在，我们给 IMPLICIT-REFS 添加可变序对。序对是表达值，具有如下操作：
@@ -1410,7 +1410,7 @@ newref: 分配位置 7
 }
 
 与之类似，堆中的任何聚合对象都可以用其第一个位置的指针表示。但是，如果不提供区域
-的长度信息，指针本身无法指明一片内存区域（见{ex4.30}）。缺乏长度信
+的长度信息，指针本身无法指明一片内存区域（见ex4.30）。缺乏长度信
 息是经典安全问题的一大来源，比如写数组越界。
 
 @eopl-figure[#:position "!ht"]{
@@ -1485,7 +1485,7 @@ in begin arrayset(a,1,0); (p a); (p a); arrayref(a,1) end
 }
 
 这里 @tt{newarray(2,-99)} 要创建长度为 2 的数组，数组中的每个位置都包含 -99。
-@tt{begin} 表达式定义同{ex4.4}。令数组索引从 0 开始，所以长度为 2
+@tt{begin} 表达式定义同ex4.4。令数组索引从 0 开始，所以长度为 2
 的数组索引为 0 和 1。
 
 }
@@ -1493,7 +1493,7 @@ in begin arrayset(a,1,0); (p a); (p a); arrayref(a,1) end
 @exercise[#:level 2 #:tag "ex4.30"]{
 
 @eopl-index[#:range-mark 'end "Arrays"]
-给{ex4.29} 的语言添加过程 @tt{arraylength}，返回数组的长度。你的过
+给ex4.29 的语言添加过程 @tt{arraylength}，返回数组的长度。你的过
 程运行时间应为常数。@tt{arrayref} 和 @tt{arrayset} 一定要查验索引，确保索引值在
 数组长度之内。
 
@@ -1565,7 +1565,7 @@ in let g = proc (y) (f y)
 调用过程 @tt{g} 时，@tt{y} 绑定到 @tt{z} 的位置，而不是那个位置的内容。类似地，
 调用 @tt{f} 时，@tt{x} 绑定到同一个位置。所以，@tt{x}、@tt{y} 和 @tt{z} 都绑定到
 同一位置，@tt{set x = 44} 的效果是把那个位置的内容设为 44。因此，整个表达式的值
-是 44。执行这个表达式的跟踪日志如@figure-ref{fig-4.14} 和 {fig-4.15} 所
+是 44。执行这个表达式的跟踪日志如@figure-ref{fig-4.14} 和 fig-4.15 所
 示。在本例中，@tt{x}、@tt{y} 和 @tt{z} 最终都绑定到位置 5。
 
 }
@@ -1811,7 +1811,7 @@ in let swap = proc (x) proc (y)
 }|
 }
 
-此处使用支持多声明的 @tt{let}（{ex3.16}）。这种语言的表达值和指代值
+此处使用支持多声明的 @tt{let}（ex3.16）。这种语言的表达值和指代值
 是什么？
 
 }
@@ -1822,7 +1822,7 @@ in let swap = proc (x) proc (y)
 大多数语言支持数组，在按指调用中，数组引用通常以类似变量引用的方式处理。如果操作
 数是数组引用，那就不给被调过程传递它的内容，而是传递引用指向的位置。比如，需要调
 用对换过程的常见情形是交换数组元素，传递数组引用就能用上对换过程。给按指调用语言
-添加{ex4.29} 中的数组操作符，扩展 @tt{value-of-operand}，处理这种情
+添加ex4.29 中的数组操作符，扩展 @tt{value-of-operand}，处理这种情
 况，使下例中的过程调用能够如愿执行：
 
 @centered{@code{((swap (arrayref a i)) (arrayref a j))}}
@@ -1993,7 +1993,7 @@ in let f = proc (z) 11
 
 @exercise[#:level 1 #:tag "ex4.38"]{
 
-下面的例子展示了{ex3.25} 在按需调用中的变体。{ex3.25}
+下面的例子展示了ex3.25 在按需调用中的变体。ex3.25
 中的原始程序在按需调用中可行吗？如果下面的程序在按值调用中运行呢？为什么？
 
 @eopl-code{

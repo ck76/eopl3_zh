@@ -219,13 +219,13 @@ from m1 take u
 }|
 }
 
-类型异常。可以免除这一限制（{ex8.8}、{ex8.17}）。
+类型异常。可以免除这一限制（ex8.8、ex8.17）。
 }
 }
 
 @example[#:tag "eg-8.5"]{
 @eopl-index[@eopl-index-entry[@elem{@tt{let*} scope} "letstarscope"]]
-在我们的语言中，模块具有 @tt{let*} 式的作用域（{ex3.17}）。例如，
+在我们的语言中，模块具有 @tt{let*} 式的作用域（ex3.17）。例如，
 
 @nested{
 @eopl-code{
@@ -723,7 +723,7 @@ z : int]} 公布的所有值。
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex8.4"] "Multiple-argument procedures"]
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex8.4"] "Multiple-procedure declaration"]
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex8.4"] "Multiple-variable declaration"]
-修改语言的表达式，像{ex7.24} 那样，加入多声明 @tt{let}、多参数过程
+修改语言的表达式，像ex7.24 那样，加入多声明 @tt{let}、多参数过程
 和多声明 @tt{letrec}。
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex8.4"] "Multiple-argument procedures"]
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex8.4"] "Multiple-procedure declaration"]
@@ -929,7 +929,7 @@ succ} 等过程处理 @tt{from m1 take t} 类型的值。这样，@tt{from m1 ta
 @subsection[#:style section-title-style-numbered #:tag "s8.2.1"]{例子}
 
 欲知其用途，再想想我们的几位开发者。爱丽丝一直用包含整数对的数据结构表示点的横纵
-坐标。她使用的语言具有{ex7.8} 那样的类型，所以她的模块
+坐标。她使用的语言具有ex7.8 那样的类型，所以她的模块
 @tt{Alices-points} 接口具有如下声明：
 
 @eopl-code{
@@ -1378,7 +1378,7 @@ module mybool
 写一个模块，实现抽象表。你实现的表应类似环境，但不是把符号绑定到 Scheme 值，而是
 把整数值绑定到整数值。接口提供一个值，表示空表；两个过程 @tt{add-to-table} 和
 @tt{lookup-in-table} 类似 @tt{extend-env} 和 @tt{apply-env}。由于我们的语言只有
-单参数过程，我们用咖喱化（{ex3.20}）实现等效的多参数过程。你可以用
+单参数过程，我们用咖喱化（ex3.20）实现等效的多参数过程。你可以用
 查询任何值都返回 0 的表模拟空表。这是该模块的一个例子：
 
 @eopl-code{
@@ -1833,7 +1833,7 @@ f : (t -> u)]                   f : (t -> (int -> int))]
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex8.16"] "Multiple-argument procedures"]
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex8.16"] "Multiple-procedure declaration"]
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex8.16"] "Multiple-variable declaration"]
-用{ex7.24} 中的语言扩展本节的系统，然后重写{ex8.15}，
+用ex7.24 中的语言扩展本节的系统，然后重写ex8.15，
 用多参数过程代替返回过程的过程。
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex8.16"] "Multiple-argument procedures"]
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex8.16"] "Multiple-procedure declaration"]
@@ -1843,7 +1843,7 @@ f : (t -> u)]                   f : (t -> (int -> int))]
 
 @exercise[#:level 2 #:tag "ex8.17"]{
 
-仿照{ex8.8}，允许模块以不同于接口声明的顺序产生值。但是记住，定义——
+仿照ex8.8，允许模块以不同于接口声明的顺序产生值。但是记住，定义——
 尤其是类型的定义——必须遵守定界规则。
 
 }
@@ -1977,7 +1977,7 @@ module-proc (|@${m} : [...]) [...]
 
 本例中，爱丽丝选择 @tt{m} 作为模块过程中绑定变量的名字；它不必和接口中的局部名字
 相同。我们需要再写一遍参数的接口，因为模块接口的作用域不包含模块主体。可以免除这
-一限制（见{ex8.27}）。
+一限制（见ex8.27）。
 
 现在，爱丽丝把她的模块重写为
 
@@ -2234,7 +2234,7 @@ body
 @exercise[#:level 1 #:tag "ex8.23"]{
 
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex8.23"] "Tables"]
-写出模块 @tt{table-of}，它与{ex8.15} 中的 @tt{table} 模块类似，只是
+写出模块 @tt{table-of}，它与ex8.15 中的 @tt{table} 模块类似，只是
 将表的内容参数化，这样就能用
 
 @eopl-code{
@@ -2601,7 +2601,7 @@ i^{\prime}_{2}@tt{[@${m^{\prime}/m_{2}}]}} 时，我们扩展类型环境，给
 @exercise[#:level 1 #:tag "ex8.25"]{
 
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex8.25"] "Multiple-argument procedures"]
-扩展 PROC-MODULES，像{ex3.21} 那样，允许模块取多个参数。
+扩展 PROC-MODULES，像ex3.21 那样，允许模块取多个参数。
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex8.25"] "Multiple-argument procedures"]
 
 }
