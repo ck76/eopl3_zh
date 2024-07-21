@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.19)  21 JUL 2024 19:51
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.19)  21 JUL 2024 19:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**eopl.tex
-(./eopl.tex
+**eopl-backup.tex
+(./eopl-backup.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/book.cls
@@ -681,15 +681,15 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 
 Package hyperref Warning: Option `pdfpagelabels' has already been used,
-(hyperref)                setting the option has no effect on input line 100.
+(hyperref)                setting the option has no effect on input line 98.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 100.
+Package hyperref Info: Option `colorlinks' set `true' on input line 98.
 \@indexfile=\write3
-\openout3 = `eopl.idx'.
+\openout3 = `eopl-backup.idx'.
 
-Writing index file eopl.idx
+Writing index file eopl-backup.idx
 
-LaTeX Info: File `eopl.mst' already exists on the system.
+LaTeX Info: File `eopl-backup.mst' already exists on the system.
             Not generating it from this source.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
@@ -793,16 +793,16 @@ File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 )
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 231.
+(hyperref)                setting the option has no effect on input line 229.
 
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 231.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 231.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 229.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 229.
 
 
 Package ctexhook Warning: Package `CJK' can not be loaded with `xeCJK'.
 
 LaTeX Info: Package 'CJK.sty' has been disabled.
-            Load request ignored on input line 234.
+            Load request ignored on input line 232.
 pltstabular is a modification of stabular
 \stabLeft=\skip79
 \c@GrouperTemp=\count336
@@ -1540,4 +1540,1416 @@ Package: needspace 2010/09/12 v1.3d reserve vertical space
 \mdf@frametitlerightmargin@length=\skip258
 \mdf@shadowsize@length=\skip259
 \mdf@extratopheight@length=\skip260
-\mdf@subtitleabovelinewidth@length=\ski
+\mdf@subtitleabovelinewidth@length=\skip261
+\mdf@subtitlebelowlinewidth@length=\skip262
+\mdf@subtitleaboveskip@length=\skip263
+\mdf@subtitlebelowskip@length=\skip264
+\mdf@subtitleinneraboveskip@length=\skip265
+\mdf@subtitleinnerbelowskip@length=\skip266
+\mdf@subsubtitleabovelinewidth@length=\skip267
+\mdf@subsubtitlebelowlinewidth@length=\skip268
+\mdf@subsubtitleaboveskip@length=\skip269
+\mdf@subsubtitlebelowskip@length=\skip270
+\mdf@subsubtitleinneraboveskip@length=\skip271
+\mdf@subsubtitleinnerbelowskip@length=\skip272
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
+File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
+)
+\mdf@frametitlebox=\box140
+\mdf@footnotebox=\box141
+\mdf@splitbox@one=\box142
+\mdf@splitbox@two=\box143
+\mdf@splitbox@save=\box144
+\mdfsplitboxwidth=\skip273
+\mdfsplitboxtotalwidth=\skip274
+\mdfsplitboxheight=\skip275
+\mdfsplitboxdepth=\skip276
+\mdfsplitboxtotalheight=\skip277
+\mdfframetitleboxwidth=\skip278
+\mdfframetitleboxtotalwidth=\skip279
+\mdfframetitleboxheight=\skip280
+\mdfframetitleboxdepth=\skip281
+\mdfframetitleboxtotalheight=\skip282
+\mdffootnoteboxwidth=\skip283
+\mdffootnoteboxtotalwidth=\skip284
+\mdffootnoteboxheight=\skip285
+\mdffootnoteboxdepth=\skip286
+\mdffootnoteboxtotalheight=\skip287
+\mdftotallinewidth=\skip288
+\mdfboundingboxwidth=\skip289
+\mdfboundingboxtotalwidth=\skip290
+\mdfboundingboxheight=\skip291
+\mdfboundingboxdepth=\skip292
+\mdfboundingboxtotalheight=\skip293
+\mdf@freevspace@length=\skip294
+\mdf@horizontalwidthofbox@length=\skip295
+\mdf@verticalmarginwhole@length=\skip296
+\mdf@horizontalspaceofbox=\skip297
+\mdfsubtitleheight=\skip298
+\mdfsubsubtitleheight=\skip299
+\c@mdfcountframes=\count404
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count405
+\c@mdf@env@i=\count406
+\c@mdf@env@ii=\count407
+\c@mdf@zref@counter=\count408
+Package zref Info: New property: mdf@pagevalue on input line 895.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write5
+
+Excluding comment 'comment')
+
+./eopl-backup.tex:998: LaTeX Error: Command \PageRef undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.998 \renewcommand{\PageRef}
+                             [1]{第~#1~页}
+? 
+\symCJKmath=\mathgroup255
+LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `bold'
+(Font)                  TU/SourceHanSerifCN(0)/m/n --> TU/SourceHanSerifCN(0)/b
+/n on input line 1028.
+(./eopl-backup.aux)
+Runaway argument?
+{{[EoplExercise][8][7]7.8}{[1 
+./eopl-backup.tex:1028: File ended while scanning use of \@newl@bel.
+<inserted text> 
+                \par 
+l.1028 \begin{document}
+                       
+? 
+\openout1 = `eopl-backup.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 1028.
+LaTeX Font Info:    ... okay on input line 1028.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 1028.
+LaTeX Font Info:    ... okay on input line 1028.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 1028.
+LaTeX Font Info:    ... okay on input line 1028.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 1028.
+LaTeX Font Info:    ... okay on input line 1028.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 1028.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+028.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 1028.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 1028.
+LaTeX Font Info:    ... okay on input line 1028.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 1028.
+LaTeX Font Info:    ... okay on input line 1028.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 1028.
+LaTeX Font Info:    ... okay on input line 1028.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 1028.
+LaTeX Font Info:    ... okay on input line 1028.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 1028.
+LaTeX Font Info:    ... okay on input line 1028.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* hratio: 11:5
+* modes: twoside asymmetric heightrounded 
+* h-part:(L,W,R)=(161.5389pt, 343.19432pt, 73.42677pt)
+* v-part:(T,H,B)=(78.0524pt, 455.299pt, 117.0786pt)
+* \paperwidth=578.15999pt
+* \paperheight=650.43pt
+* \textwidth=343.19432pt
+* \textheight=454.0pt
+* \oddsidemargin=89.2689pt
+* \evensidemargin=89.2689pt
+* \topmargin=-24.28508pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 1028.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 1028.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 1028.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 1028.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 1028.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 1028.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 1028.
+LaTeX Font Info:    Redeclaring math accent \check on input line 1028.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 1028.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 1028.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 1028.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 1028.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 1028.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 1028.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 1028.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 1028.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 1028.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 1028.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 1028.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 1028.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 1028.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 1028.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 1028.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 1028.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 1028
+.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 1
+028.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 1028.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
+1028.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
+input line 1028.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
+ 1028.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
+1028.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/Arial(0)/m/n on input line 1028.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/CourierNew(0)/m/n on input line 102
+8.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
+input line 1028.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
+e 1028.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/Arial(0)/b/n on input line 1028.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/CourierNew(0)/b/n on input line 102
+8.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring ON on input line 1028.
+(./eopl-backup.out
+./eopl-backup.out:66: Undefined control sequence.
+l.66 \BOOKMAR
+             
+? 
+) (./eopl-backup.out
+./eopl-backup.out:66: Undefined control sequence.
+l.66 \BOOKMAR
+             
+? 
+)
+\@outlinefile=\write6
+\openout6 = `eopl-backup.out'.
+
+LaTeX Font Info:    Font shape `TU/CourierNew(0)/m/sl' in size <10> not availab
+le
+(Font)              Font shape `TU/CourierNew(0)/m/it' tried instead on input l
+ine 1028.
+
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/m/scsl' undefined
+(Font)              using `TU/CourierNew(0)/m/sc' instead on input line 1028.
+
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/m/sc' undefined
+(Font)              using `TU/CourierNew(0)/m/n' instead on input line 1028.
+
+LaTeX Font Info:    Font shape `TU/CourierNew(0)/b/sl' in size <10> not availab
+le
+(Font)              Font shape `TU/CourierNew(0)/b/it' tried instead on input l
+ine 1028.
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/b/scsl' undefined
+(Font)              using `TU/CourierNew(0)/b/sc' instead on input line 1028.
+
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/b/sc' undefined
+(Font)              using `TU/CourierNew(0)/b/n' instead on input line 1028.
+
+LaTeX Font Info:    Font shape `TU/CourierNew(0)/bx/n' in size <10> not availab
+le
+(Font)              Font shape `TU/CourierNew(0)/b/n' tried instead on input li
+ne 1028.
+LaTeX Font Info:    Font shape `TU/CourierNew(0)/bx/it' in size <10> not availa
+ble
+(Font)              Font shape `TU/CourierNew(0)/b/it' tried instead on input l
+ine 1028.
+LaTeX Font Info:    Font shape `TU/CourierNew(0)/bx/sl' in size <10> not availa
+ble
+(Font)              Font shape `TU/CourierNew(0)/bx/it' tried instead on input 
+line 1028.
+LaTeX Font Info:    Font shape `TU/CourierNew(0)/bx/it' in size <10> not availa
+ble
+(Font)              Font shape `TU/CourierNew(0)/b/it' tried instead on input l
+ine 1028.
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/bx/scsl' undefined
+(Font)              using `TU/CourierNew(0)/bx/sc' instead on input line 1028.
+
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/bx/sc' undefined
+(Font)              using `TU/CourierNew(0)/bx/n' instead on input line 1028.
+
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/sbx/sc' undefined
+(Font)              using `TU/CourierNew(0)/sb/sc' instead on input line 1028.
+
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/sb/n' undefined
+(Font)              using `TU/CourierNew(0)/m/n' instead on input line 1028.
+
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/sb/it' undefined
+(Font)              using `TU/CourierNew(0)/sb/n' instead on input line 1028.
+
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/sb/sl' undefined
+(Font)              using `TU/CourierNew(0)/sb/it' instead on input line 1028.
+
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/sb/scit' undefined
+(Font)              using `TU/CourierNew(0)/sb/sc' instead on input line 1028.
+
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/sb/sc' undefined
+(Font)              using `TU/CourierNew(0)/sb/n' instead on input line 1028.
+
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/sbc/sc' undefined
+(Font)              using `TU/CourierNew(0)/c/sc' instead on input line 1028.
+
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/c/n' undefined
+(Font)              using `TU/CourierNew(0)/m/n' instead on input line 1028.
+
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/c/it' undefined
+(Font)              using `TU/CourierNew(0)/c/n' instead on input line 1028.
+
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/c/sl' undefined
+(Font)              using `TU/CourierNew(0)/c/it' instead on input line 1028.
+
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/c/scit' undefined
+(Font)              using `TU/CourierNew(0)/c/sc' instead on input line 1028.
+
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/c/sc' undefined
+(Font)              using `TU/CourierNew(0)/c/n' instead on input line 1028.
+
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/lc/sc' undefined
+(Font)              using `TU/CourierNew(0)/l/sc' instead on input line 1028.
+
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/l/n' undefined
+(Font)              using `TU/CourierNew(0)/m/n' instead on input line 1028.
+
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/l/it' undefined
+(Font)              using `TU/CourierNew(0)/l/n' instead on input line 1028.
+
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/l/sl' undefined
+(Font)              using `TU/CourierNew(0)/l/it' instead on input line 1028.
+
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/l/scit' undefined
+(Font)              using `TU/CourierNew(0)/l/sc' instead on input line 1028.
+
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/l/sc' undefined
+(Font)              using `TU/CourierNew(0)/l/n' instead on input line 1028.
+
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/m/ui' undefined
+(Font)              using `TU/CourierNew(0)/m/n' instead on input line 1028.
+
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/bx/ui' undefined
+(Font)              using `TU/CourierNew(0)/bx/n' instead on input line 1028.
+
+
+LaTeX Font Warning: Font shape `TU/CourierNew(0)/m/In' undefined
+(Font)              using `TU/CourierNew(0)/m/n' instead on input line 1028.
+
+\c@lstlisting=\count409
+LaTeX Font Info:    Trying to load font information for U+msa on input line 103
+1.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 103
+1.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+
+
+] [2
+
+]
+(./eopl-backup.toc)
+\tf@toc=\write7
+\openout7 = `eopl-backup.toc'.
+
+ [3] [4
+
+] [5]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
+[6]
+
+Package fontspec Info: Could not resolve font "Adobe Kaiti Std/BI" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "Adobe Kaiti Std/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "Adobe Kaiti Std/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'AdobeKaitiStd(0)' created for font 'Adobe
+(fontspec)             Kaiti Std' with options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Adobe Kaiti
+(fontspec)             Std/OT:script=hani;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+
+LaTeX Warning: Hyper reference `t:x28part_x22oacx22x29' on page vii undefined o
+n input line 1194.
+
+
+LaTeX Warning: Hyper reference `t:x28elem_x22sllgenx22x29' on page vii undefine
+d on input line 1194.
+
+
+Underfull \vbox (badness 2351) has occurred while \output is active []
+
+ [7
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.02003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.02003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.02003pt}.
+
+[8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.02003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.02003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.02003pt}.
+
+[9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.02003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.02003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.02003pt}.
+
+[10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.02003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.02003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.02003pt}.
+
+[11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.02003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.02003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.02003pt}.
+
+[12]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.02003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.02003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.02003pt}.
+
+[13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.02003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.02003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.02003pt}.
+
+[14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.02003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.02003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.02003pt}.
+
+[15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.02003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.02003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.02003pt}.
+
+[16]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.02003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.02003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.02003pt}.
+
+[17] [18
+
+] [19]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.02003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.02003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.02003pt}.
+
+[20]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.02003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.02003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.02003pt}.
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 1846--1851
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.02003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.02003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.02003pt}.
+
+[22] [23
+
+]
+Underfull \vbox (badness 1997) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.03004pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.03004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.03004pt}.
+
+[24]
+
+LaTeX Warning: Hyper reference `t:x28part_x22modulesx22x29' on page xxv undefin
+ed on input line 1943.
+
+
+LaTeX Warning: Hyper reference `t:x28part_x22oacx22x29' on page xxv undefined o
+n input line 1946.
+
+
+LaTeX Warning: Hyper reference `t:x28elem_x22readingsx22x29' on page xxv undefi
+ned on input line 1951.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.03004pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.03004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.03004pt}.
+
+[25]
+
+LaTeX Warning: Hyper reference `t:x28elem_x22sllgenx22x29' on page xxvi undefin
+ed on input line 1954.
+
+File: structure.pdf Graphic file (type pdf)
+<use structure.pdf>
+
+Overfull \hbox (1.08105pt too wide) in paragraph at lines 1958--1958
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1972--1976
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.03004pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.03004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.03004pt}.
+
+[26]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.03004pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.03004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.03004pt}.
+
+[27] [28
+
+]
+
+LaTeX Warning: Hyper reference `t:x28part_x22oacx22x29' on page xxix undefined 
+on input line 1994.
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 2030--2034
+
+ []
+
+[30]
+ 1.
+
+Package relsize Warning: Font size 24.88792pt is too large.
+(relsize)                Using 24.88pt instead on input line 2041.
+
+[1
+
+
+] [2] [3] [4] [5] [6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 2402--2403
+
+ []
+
+[8] [9] [10] [11] [12]
+Package mdframed Info: mdframed inside twoside mode but
+(mdframed)             works with oneside mode on input line 2647.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 2647.
+Package mdframed Info: mdframed inside twoside mode but
+(mdframed)             works with oneside mode on input line 2671.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 2671.
+ [13] [14] [15]
+Package mdframed Info: mdframed inside twoside mode but
+(mdframed)             works with oneside mode on input line 2858.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 2858.
+ [16]
+Package mdframed Info: mdframed inside twoside mode but
+(mdframed)             works with oneside mode on input line 2892.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 2892.
+
+Overfull \hbox (14.25754pt too wide) in paragraph at lines 2894--2895
+[][][]\TU/CourierNew(0)/m/n/9 ([][]cons[][][]([][]car[][][]los[][])[][][]([][]r
+emove-first[][][]s[][][]([][]cdr[][][]los[][])[][])[][])[][])[][])[][])[][])[] 
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hbox' on input line 2907.
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 2971--2973
+
+ []
+
+[18] [19]
+Package mdframed Info: mdframed inside twoside mode but
+(mdframed)             works with oneside mode on input line 3095.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 3095.
+ [20]
+Package mdframed Info: Not enough space on this page on input line 3103.
+Package mdframed Info: mdframed inside twoside mode but
+(mdframed)             works with oneside mode on input line 3116.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 3116.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3152--3154
+
+ []
+
+[21]
+Overfull \hbox (11.44008pt too wide) in paragraph at lines 3196--3197
+[]\TU/CourierNew(0)/b/n/9 number-elements-from \TU/TimesNewRoman(0)/m/n/9 : $[]
+\OT1/cmr/m/n/9 ([]) \OMS/cmsy/m/n/9 ^^B [] ! []\OT1/cmr/m/n/9 ([]([]\OML/cmm/m/
+it/9 ; []\OT1/cmr/m/n/9 ))$ 
+ []
+
+[22]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.01004pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.01004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[23] [24] [25] [26] [27] [28] [29] [30] [31] [32]
+ 2.
+
+Package relsize Warning: Font size 24.88792pt is too large.
+(relsize)                Using 24.88pt instead on input line 3675.
+
+[33
+
+] [34] [35]
+
+LaTeX Warning: Hyper reference `t:x28part_x22modulesx22x29' on page 36 undefine
+d on input line 3828.
+
+
+Overfull \hbox (7.03792pt too wide) in paragraph at lines 3855--3860
+[]\TU/SourceHanSerifCN(0)/m/n/9 实 现 这 种 整 数 表 示 法：|  写 出 \TU/TimesNewRoman(0)/m
+/n/9 nat \TU/SourceHanSerifCN(0)/m/n/9 定 义 的 \TU/CourierNew(0)/m/n/9 zero\TU/So
+urceHanSerifCN(0)/m/n/9 、| \TU/CourierNew(0)/m/n/9 is-zero[]\TU/SourceHanSerifC
+N(0)/m/n/9 、| \TU/CourierNew(0)/m/n/9 successor \TU/SourceHanSerifCN(0)/m/n/9 和
+ \TU/CourierNew(0)/m/n/9 predecessor\TU/SourceHanSerifCN(0)/m/n/9 ，|
+ []
+
+[36] [37] [38]
+File: alist-env.pdf Graphic file (type pdf)
+<use alist-env.pdf>
+ [39] [40]
+File: rib-cage-one.pdf Graphic file (type pdf)
+<use rib-cage-one.pdf>
+File: rib-cage.pdf Graphic file (type pdf)
+<use rib-cage.pdf>
+
+Overfull \hbox (8.67941pt too wide) in paragraph at lines 4103--4103
+ [] 
+ []
+
+[41] [42] [43] [44]
+Overfull \hbox (13.45753pt too wide) in paragraph at lines 4283--4284
+[][][]\TU/CourierNew(0)/m/n/9 ([][]([][]var-exp[][][][]exp[][])[][][]([][]eqv[]
+[][][]search-var[][][]([][]var-exp->var[][][]exp[][])[][])[][])[] 
+ []
+
+
+Overfull \hbox (24.2593pt too wide) in paragraph at lines 4289--4290
+[][][]\TU/CourierNew(0)/m/n/9 ([][]not[][][]([][]eqv[][][][]search-var[][][]([]
+[]lambda-exp->bound-var[][][]exp[][])[][])[][])[] 
+ []
+
+
+Overfull \hbox (18.85841pt too wide) in paragraph at lines 4291--4292
+[][][]\TU/CourierNew(0)/m/n/9 ([][]occurs-free[][][][]search-var[][][]([][]lamb
+da-exp->body[][][]exp[][])[][])[][])[][])[] 
+ []
+
+
+Overfull \hbox (18.85841pt too wide) in paragraph at lines 4299--4299
+[][][]\TU/CourierNew(0)/m/n/9 ([][]occurs-free[][][][]search-var[][][]([][]app-
+exp->rand[][][]exp[][])[][])[][])[][])[][])[][])[][])[] 
+ []
+
+[45] [46] [47] [48] [49] [50] [51]
+Overfull \hbox (9.99112pt too wide) in paragraph at lines 4704--4706
+[]\TU/SourceHanSerifCN(0)/m/n/9 实 现 操 作 二 叉 树 的 过 程 \TU/CourierNew(0)/m/n/9 bin
+tree-to-list\TU/SourceHanSerifCN(0)/m/n/9 ，|  则 \TU/CourierNew(0)/m/n/9 (bintre
+e-to-list (interior-node
+ []
+
+[52]
+File: ast.pdf Graphic file (type pdf)
+<use ast.pdf>
+ [53] [54] [55] [56] [57] [58]
+ 3.
+
+Package relsize Warning: Font size 24.88792pt is too large.
+(relsize)                Using 24.88pt instead on input line 5002.
+
+[59
+
+]
+File: exe-via-interpreter.pdf Graphic file (type pdf)
+<use exe-via-interpreter.pdf>
+File: exe-via-compiler.pdf Graphic file (type pdf)
+<use exe-via-compiler.pdf>
+ [60] [61]
+Underfull \hbox (badness 10000) in paragraph at lines 5126--5140
+
+ []
+
+[62] [63] [64] [65]
+Underfull \hbox (badness 10000) in paragraph at lines 5305--5306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5461--5462
+
+ []
+
+[66] [67] [68]
+
+LaTeX Warning: Float too large for page by 43.85004pt on input line 5650.
+
+
+LaTeX Warning: Hyper reference `t:x28elem_x22sllgenx22x29' on page 69 undefined
+ on input line 5660.
+
+[69] [70] [71]
+./eopl-backup.tex:5840: Misplaced alignment tab character &.
+<argument> \begin {math}\begin {alignedat}{-1}&
+                                               \mbox {\hphantom {\Scribtextt...
+l.5840 ...nline{\rceil}\end{alignedat}\end{math}}}
+                                                  
+? 
+./eopl-backup.tex:5840: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.5840 ...nline{\rceil}\end{alignedat}\end{math}}}
+                                                  
+? 
+./eopl-backup.tex:5840: Misplaced \crcr.
+\endaligned ->\crcr 
+                    \egroup \restorecolumn@ \egroup 
+l.5840 ...nline{\rceil}\end{alignedat}\end{math}}}
+                                                  
+? 
+./eopl-backup.tex:5840: Extra }, or forgotten \endgroup.
+\endaligned ->\crcr \egroup 
+                            \restorecolumn@ \egroup 
+l.5840 ...nline{\rceil}\end{alignedat}\end{math}}}
+                                                  
+? 
+./eopl-backup.tex:5840: Extra }, or forgotten \endgroup.
+\endaligned ...cr \egroup \restorecolumn@ \egroup 
+                                                  
+l.5840 ...nline{\rceil}\end{alignedat}\end{math}}}
+                                                  
+? 
+
+./eopl-backup.tex:5840: LaTeX Error: \begin{$} on input line 5840 ended by \end
+{alignedat}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5840 ...nline{\rceil}\end{alignedat}\end{math}}}
+                                                  
+? 
+
+Overfull \hbox (205.63058pt too wide) in paragraph at lines 5840--5841
+[][]$[]$ 
+ []
+
+Excluding 'comment' comment. Excluding 'comment' comment. [72] [73] [74]
+Overfull \hbox (1.60478pt too wide) in paragraph at lines 5938--5942
+[]\TU/AdobeKaitiStd(0)/m/n/9 练 习 \TU/TimesNewRoman(0)/m/n/10 3.9 [][]$[][][][]$
+[][] \TU/SourceHanSerifCN(0)/m/n/9 向 该 语 言 添 加 列 表 处 理 操 作，|  包 括 \TU/CourierNe
+w(0)/m/n/9 cons\TU/SourceHanSerifCN(0)/m/n/9 、| \TU/CourierNew(0)/m/n/9 car\TU/
+SourceHanSerifCN(0)/m/n/9 、| \TU/CourierNew(0)/m/n/9 cdr\TU/SourceHanSerifCN(0)
+/m/n/9 、| \TU/CourierNew(0)/m/n/9 null[] \TU/SourceHanSerifCN(0)/m/n/9 和 \TU/Co
+urierNew(0)/m/n/9 emptylist\TU/SourceHanSerifCN(0)/m/n/9 。|
+ []
+
+[75]
+Underfull \hbox (badness 10000) in paragraph at lines 5996--5998
+
+ []
+
+[76] [77] [78] [79]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [80]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81]
+[82]
+Overfull \hbox (8.05666pt too wide) in paragraph at lines 6388--6388
+[][][]\TU/CourierNew(0)/m/n/9 ([][]value-of[][][]body[][][]([][]extend-env[][][
+]var[][][]val[][][]saved-env[][])[][])[][])[][])[][])[][])[] 
+ []
+
+
+Overfull \hbox (2.65578pt too wide) in paragraph at lines 6422--6423
+[][][][][][][][]\TU/CourierNew(0)/m/n/9 ([][]let[][][][][][][]([][]([][]proc[][
+][][][][][]([][]expval->proc[][][][][][][]([][]value-of[][][][][][][]rator[][][
+][][][][]env[][])[][])[][])[][][] 
+ []
+
+[83] [84] [85] [86] [87] [88]
+File: vector-env.pdf Graphic file (type pdf)
+<use vector-env.pdf>
+
+Overfull \hbox (109.4858pt too wide) in paragraph at lines 6849--6849
+ [] 
+ []
+
+[89]
+Overfull \hbox (0.65578pt too wide) in paragraph at lines 6859--6860
+[][][]\TU/CourierNew(0)/m/n/9 ([][]let[][][]([][]([][]new-env[][][]([][]extend-
+env[][][]p-names[][][]vec[][][]saved-env[][])[][])[][])[] 
+ []
+
+[90] [91]
+File: simple-contour.pdf Graphic file (type pdf)
+<use simple-contour.pdf>
+
+Overfull \hbox (30.11707pt too wide) in paragraph at lines 6938--6938
+ [] 
+ []
+
+[92] [93]
+File: complicated-contour.pdf Graphic file (type pdf)
+<use complicated-contour.pdf>
+
+Overfull \hbox (74.14143pt too wide) in paragraph at lines 7040--7040
+ [] 
+ []
+
+[94] [95]
+File: lexical-addr-env.pdf Graphic file (type pdf)
+<use lexical-addr-env.pdf>
+
+Underfull \vbox (badness 2073) has occurred while \output is active []
+
+ [96]
+[97] [98]
+Underfull \hbox (badness 10000) in paragraph at lines 7371--7373
+
+ []
+
+[99] [100] [101] [102]
+File: nameless-env.pdf Graphic file (type pdf)
+<use nameless-env.pdf>
+
+Overfull \hbox (13.45753pt too wide) in paragraph at lines 7621--7621
+[][][]\TU/CourierNew(0)/m/n/9 ([][]extend-nameless-env[][][]val[][][]saved-name
+less-env[][])[][])[][])[][])[][])[][])[] 
+ []
+
+[103] [104] [105] [106]
+ 4.
+
+Package relsize Warning: Font size 24.88792pt is too large.
+(relsize)                Using 24.88pt instead on input line 7765.
+
+[107
+
+] [108]
+File: g-bound.pdf Graphic file (type pdf)
+<use g-bound.pdf>
+ [109] [110] [111] [112] [113] [114] [115]
+Underfull \vbox (badness 1466) has occurred while \output is active []
+
+ [116]
+
+LaTeX Warning: Float too large for page by 31.7426pt on input line 8400.
+
+[117] [118] [119] [120] [121] [122] [123]
+
+LaTeX Warning: Float too large for page by 52.64008pt on input line 8853.
+
+[124] [125] [126] [127] [128]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [129]
+
+LaTeX Warning: Float too large for page by 13.56606pt on input line 9168.
+
+
+LaTeX Warning: Float too large for page by 10.29631pt on input line 9323.
+
+[130] [131] [132] [133] [134] [135] [136]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.01004pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.01004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[137]
+Overfull \hbox (8.5534pt too wide) in paragraph at lines 9582--9584
+[]\TU/SourceHanSerifCN(0)/m/n/10 然 后 我 们 修 改 \TU/CourierNew(0)/l/it/10 value-of
+ \TU/SourceHanSerifCN(0)/m/n/10 中 的 \TU/CourierNew(0)/l/it/10 call-exp\TU/Sourc
+eHanSerifCN(0)/m/n/10 ，|  引 入 新 函 数 \TU/CourierNew(0)/l/it/10 value-of-operand
+ []
+
+[138]
+
+LaTeX Warning: Float too large for page by 53.78264pt on input line 9726.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.01004pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.01004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[139] [140]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.01004pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.01004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[141] [142]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.01004pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.01004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[143] [144]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.01004pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.01004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[145] [146
+
+]
+ 5.
+
+Package relsize Warning: Font size 24.88792pt is too large.
+(relsize)                Using 24.88pt instead on input line 10016.
+
+[147] [148]
+
+LaTeX Warning: Float too large for page by 88.51534pt on input line 10233.
+
+[149] [150]
+Overfull \hbox (13.45753pt too wide) in paragraph at lines 10296--10297
+[][][]\TU/CourierNew(0)/m/n/9 ([][]var-exp[][][]([][]var[][])[][][]([][]apply-c
+ont[][][]cont[][][]([][]apply-env[][][]env[][][]var[][])[][])[][])[] 
+ []
+
+[151] [152]
+Overfull \hbox (1.93944pt too wide) in paragraph at lines 10381--10385
+\TU/CourierNew(0)/l/it/10 (let (($\OML/cmm/m/it/10 var$ $exp[]$\TU/CourierNew(0
+)/l/it/10 )) $\OML/cmm/m/it/10 exp[]$\TU/CourierNew(0)/l/it/10 ) \TU/SourceHanS
+erifCN(0)/m/n/10 等 效 于 \TU/CourierNew(0)/l/it/10 ((lambda ($\OML/cmm/m/it/10 va
+r$\TU/CourierNew(0)/l/it/10 ) $\OML/cmm/m/it/10 exp[]$\TU/CourierNew(0)/l/it/10
+ ) $\OML/cmm/m/it/10 exp[]$\TU/CourierNew(0)/l/it/10 )\TU/SourceHanSerifCN(0)/m
+/n/10 。| \TU/CourierNew(0)/l/it/10 value-
+ []
+
+[153] [154] [155] [156] [157]
+LaTeX Font Info:    Calculating math sizes for size <7.50002> on input line 107
+39.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <7.50002> not available
+(Font)              size <8> substituted on input line 10739.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <3.75> not available
+(Font)              size <5> substituted on input line 10739.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <7.50002> not available
+(Font)              size <8> substituted on input line 10739.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <3.75> not available
+(Font)              size <5> substituted on input line 10739.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <7.50002> not available
+(Font)              size <8> substituted on input line 10739.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <3.75> not available
+(Font)              size <5> substituted on input line 10739.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [158]
+[159] [160] [161]
+Underfull \vbox (badness 1383) has occurred while \output is active []
+
+ [162]
+[163]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [164]
+[165]
+
+LaTeX Warning: Hyper reference `t:x28part_x22s7x2e4x22x29' on page 166 undefine
+d on input line 11222.
+
+[166]
+
+LaTeX Warning: Float too large for page by 22.4126pt on input line 11311.
+
+[167] [168]
+
+LaTeX Warning: Float too large for page by 34.13521pt on input line 11440.
+
+[169] [170] [171] [172] [173] Excluding 'comment' comment.
+
+LaTeX Warning: Float too large for page by 2.4223pt on input line 11794.
+
+Excluding 'comment' comment. Excluding 'comment' comment.
+Excluding 'comment' comment. [174] [175] [176] [177] [178]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.13004pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.13004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.13004pt}.
+
+[179] [180]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.13004pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.13004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.13004pt}.
+
+[181] [182]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.13004pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.13004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.13004pt}.
+
+[183]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [184]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.13004pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.13004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.13004pt}.
+
+[185] [186] [187]
+
+LaTeX Warning: Float too large for page by 9.80603pt on input line 12761.
+
+[188] [189] [190]
+
+LaTeX Warning: Float too large for page by 80.15536pt on input line 12976.
+
+[191] [192] [193] [194] [195] [196]
+Overfull \hbox (8.05666pt too wide) in paragraph at lines 13218--13219
+[][][][][][][][]\TU/CourierNew(0)/m/n/9 ([][]lambda[][][][][][][]([][])[][][][]
+[][][]([][]apply-cont[][][][][][][]saved-cont[][][][][][][]([][]num-val[][][][]
+[][][]52[][])[][])[][])[][])[][])[][][] 
+ []
+
+
+Overfull \hbox (8.05666pt too wide) in paragraph at lines 13230--13230
+[][][][][][][][]\TU/CourierNew(0)/m/n/9 ([][]lambda[][][][][][][]([][])[][][][]
+[][][]([][]apply-cont[][][][][][][]saved-cont[][][][][][][]([][]num-val[][][][]
+[][][]53[][])[][])[][])[][])[][])[][][] 
+ []
+
+
+Overfull \hbox (15.66017pt too wide) in paragraph at lines 13295--13296
+[][][]\TU/CourierNew(0)/m/n/9 ([][]lambda[][][]([][]first-waiting-th[][][]other
+-waiting-ths[][])[] 
+ []
+
+
+LaTeX Warning: Float too large for page by 2.49162pt on input line 13314.
+
+[197] [198] [199] [200
+
+]
+ 6.
+
+Package relsize Warning: Font size 24.88792pt is too large.
+(relsize)                Using 24.88pt instead on input line 13378.
+
+[201] [202]
+
+LaTeX Warning: Float too large for page by 57.64606pt on input line 13659.
+
+
+Overfull \hbox (2.65578pt too wide) in paragraph at lines 13680--13680
+[][][]\TU/CourierNew(0)/m/n/9 ([][]fact/k[][][]([][][][][][]n[][][]1[][])[][][]
+([][]lambda[][][]([][]val[][])[][][]([][]cont[][][]([][]*[][][]n[][][]val[][])[
+][])[][])[][])[][])[][])[][])[] 
+ []
+
+[203] [204] [205] [206] [207] [208]
+Overfull \hbox (2.89665pt too wide) in paragraph at lines 13924--13926
+[]\TU/AdobeKaitiStd(0)/m/n/9 练 习 \TU/TimesNewRoman(0)/m/n/10 6.1 [][]$[][][]$[]
+\TU/SourceHanSerifCN(0)/m/n/9 考 虑，|  为 什 么 移 除 \TU/CourierNew(0)/m/n/9 fact/k \
+TU/SourceHanSerifCN(0)/m/n/9 定 义 中 的 \TU/CourierNew(0)/m/n/9 (set[] pc fact/k) 
+\TU/SourceHanSerifCN(0)/m/n/9 和 \TU/CourierNew(0)/m/n/9 apply-cont
+ []
+
+[209] [210] [211] [212]
+Underfull \hbox (badness 10000) in paragraph at lines 14159--14179
+
+ []
+
+[213] [214] [215]
+Underfull \hbox (badness 10000) in paragraph at lines 14291--14292
+
+ []
+
+
+Overfull \hbox (4.85841pt too wide) in paragraph at lines 14346--14347
+[][][]\TU/CourierNew(0)/m/n/9 ([][]cps-letrec-exp[][][]([][]p-names[][][]b-vars
+s[][][]p-bodies[][][]letrec-body[][])[] 
+ []
+
+
+Overfull \hbox (4.85841pt too wide) in paragraph at lines 14356--14357
+[][][]\TU/CourierNew(0)/m/n/9 ([][]if[][][]([][]expval->bool[][][]([][]value-of
+-simple-exp[][][]simple1[][][]env[][])[][])[] 
+ []
+
+
+Overfull \hbox (4.85841pt too wide) in paragraph at lines 14380--14381
+[][][]\TU/CourierNew(0)/m/n/9 ([][]apply-procedure/k[][][]rator-proc[][][]rand-
+vals[][][]cont[][])[][])[][])[][])[][])[][])[] 
+ []
+
+
+LaTeX Warning: Float too large for page by 21.99709pt on input line 14402.
+
+[216] [217] [218] [219] [220] [221] [222] [223]
+Overfull \hbox (9.27406pt too wide) in paragraph at lines 14770--14770
+[][]\TU/CourierNew(0)/l/it/10 <<proc ($\OML/cmm/m/it/10 var[]$\TU/CourierNew(0)
+/l/it/10 ) ($\OML/cmm/m/it/10 K$[]\TU/CourierNew(0)/l/it/10 +($\OML/cmm/m/it/10
+ simp[]$\TU/CourierNew(0)/l/it/10 , $\OML/cmm/m/it/10 var[]$\TU/CourierNew(0)/l
+/it/10 , $\OML/cmm/m/it/10 simp[]$\TU/CourierNew(0)/l/it/10 , [][][], $\OML/cmm
+/m/it/10 simp[]$\TU/CourierNew(0)/l/it/10 ))>>) 
+ []
+
+
+Overfull \hbox (12.70786pt too wide) in paragraph at lines 14790--14790
+[][]\TU/CourierNew(0)/l/it/10 (cps-of-exp <<+($\OML/cmm/m/it/10 simp[]$\TU/Cour
+ierNew(0)/l/it/10 , $\OML/cmm/m/it/10 var[]$\TU/CourierNew(0)/l/it/10 , $\OML/c
+mm/m/it/10 exp[]$\TU/CourierNew(0)/l/it/10 , [][][], $\OML/cmm/m/it/10 exp[]$\T
+U/CourierNew(0)/l/it/10 ))>> $\OML/cmm/m/it/10 K$\TU/CourierNew(0)/l/it/10 ) 
+ []
+
+[224]
+Overfull \hbox (27.13605pt too wide) in paragraph at lines 14852--14852
+[][]\TU/CourierNew(0)/l/it/10 (cps-of-exp <<($\OML/cmm/m/it/10 simp[]$[]$simp[]
+$[]$var[]$[]$exp[]$[][][][] $exp[]$\TU/CourierNew(0)/l/it/10 )>> $\OML/cmm/m/it
+/10 K$\TU/CourierNew(0)/l/it/10 )>>) 
+ []
+
+[225]
+Overfull \hbox (15.5334pt too wide) in paragraph at lines 14907--14908
+[]\TU/CourierNew(0)/l/it/10 (cps-of-exp (complex-exp $\OML/cmm/m/it/10 simp[]$[
+]$simp[]$[]$exp[]$[]$exp[]$[][][][] $exp[]$\TU/CourierNew(0)/l/it/10 ) $\OML/cm
+m/m/it/10 K$\TU/CourierNew(0)/l/it/10 ) 
+ []
+
+[226]
+Overfull \hbox (4.85841pt too wide) in paragraph at lines 14981--14982
+[][][]\TU/CourierNew(0)/m/n/9 ([][]list-set[][][]exps[][][]pos[][][]([][]var-ex
+p[][][]var[][])[][])[][])[][])[][])[][])[][])[][])[][])[][])[][])[] 
+ []
+
+
+Overfull \hbox (4.85841pt too wide) in paragraph at lines 14999--15000
+[][][]\TU/CourierNew(0)/m/n/9 ([][]and[][][]([][]inp-exp-simple[][][][]exp1[][]
+)[][][]([][]inp-exp-simple[][][][]exp2[][])[][])[][])[] 
+ []
+
+[227] [228]
+
+LaTeX Warning: Float too large for page by 69.08537pt on input line 15266.
+
+
+Underfull \vbox (badness 1163) has occurred while \output is active []
+
+ [229]
+[230] [231] [232] [233] [234] [235] [236]
+Overfull \hbox (20.62657pt too wide) in paragraph at lines 15572--15572
+[]\TU/CourierNew(0)/l/it/10 (cps-of-exp <<print($\OML/cmm/m/it/10 simp[]$\TU/Co
+urierNew(0)/l/it/10 )>> $\OML/cmm/m/it/10 K$\TU/CourierNew(0)/l/it/10 ) = print
+k($\OML/cmm/m/it/10 simp[]$\TU/CourierNew(0)/l/it/10 ) ; ($\OML/cmm/m/it/10 K$[
+]\TU/CourierNew(0)/l/it/10 38) 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.14003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.14003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.14003pt}.
+
+[237] [238]
+Underfull \vbox (badness 2653) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.14003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.14003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.14003pt}.
+
+[239] [240]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.14003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.14003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.14003pt}.
+
+[241]
+Underfull \hbox (badness 10000) in paragraph at lines 15840--15842
+
+ []
+
+
+Underfull \vbox (badness 3536) has occurred while \output is active []
+
+ [242]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.14003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.14003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.14003pt}.
+
+[243] [244
+
+]
+ 7.
+
+Package re

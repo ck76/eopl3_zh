@@ -1,0 +1,1085 @@
+\indexentry{jzie3shi4qi4@解释器|(idxdecorator{}{}}{xix}
+\indexentry{tze4ding4ling3yu4yu3yan2@特定领域语言|(idxdecorator{}{}}{xix}
+\indexentry{tze4ding4ling3yu4yu3yan2@特定领域语言|)idxdecorator{}{}}{xx}
+\indexentry{jzie3shi4qi4@解释器|)idxdecorator{}{}}{xxi}
+\indexentry{tze4ding4ling3yu4yu3yan2@特定领域语言|(idxdecorator{}{}}{xxi}
+\indexentry{tze4ding4ling3yu4yu3yan2@特定领域语言|)idxdecorator{}{}}{xxii}
+\indexentry{jzie3shi4qi4@解释器|(idxdecorator{}{}}{xxiii}
+\indexentry{jzie3shi4qi4@解释器|)idxdecorator{}{}}{xxiii}
+\indexentry{dzi4tui1shu4ju4lei4xing2@递推数据类型!dzing4yi4@定义|(idxdecorator{}{}}{1}
+\indexentry{gzui1na4shi4ding4yi4@归纳式定义|(idxdecorator{}{}}{1}
+\indexentry{zzi4ding3xiang4xia4ding4yi4@自顶向下定义|idxdecorator{}{}}{1}
+\indexentry{inS@\textbf{\Scribtexttt{is{-}S{\hbox{\texttt{?}}}}}|idxdecorator{}{}}{2}
+\indexentry{hze2yue1@合约|idxdecorator{}{}}{2}
+\indexentry{zzui4xiao3ji2he2@最小集合|idxdecorator{}{}}{2}
+\indexentry{tzui1li3gui1ze2@推理规则|idxdecorator{}{}}{3}
+\indexentry{qzian2jian4@前件|idxdecorator{}{}}{3}
+\indexentry{jzie2lun4@结论|idxdecorator{}{}}{3}
+\indexentry{hzou4jian4@后件|idxdecorator{}{}}{3}
+\indexentry{jzia3she4@假设|idxdecorator{}{}}{3}
+\indexentry{gzong1li3@公理|idxdecorator{}{}}{3}
+\indexentry{zzi4di3xiang4shang4ding4yi4@自底向上定义|idxdecorator{}{}}{3}
+\indexentry{zzi4ding3xiang4xia4ding4yi4@自顶向下定义|idxdecorator{}{}}{3}
+\indexentry{tzui1li3gui1ze2ding4yi4@推理规则定义|idxdecorator{}{}}{3}
+\indexentry{zzheng3shu4lie4biao3@整数列表 (\texMathInline{\mathit{List\mbox{-}of\mbox{-}Int}})|(idxdecorator{}{}}{3}
+\indexentry{dzian3zhui4biao3shi4fa3@点缀表示法|idxdecorator{}{}}{4}
+\indexentry{tzui1li3gui1ze2ding4yi4@推理规则定义|idxdecorator{}{}}{4}
+\indexentry{zzheng3shu4lie4biao3@整数列表 (\texMathInline{\mathit{List\mbox{-}of\mbox{-}Int}})|)idxdecorator{}{}}{4}
+\indexentry{tzui1dao3@推导|idxdecorator{}{}}{5}
+\indexentry{tzui1li3shu4@推理树|idxdecorator{}{}}{5}
+\indexentry{gzui1na4shi4ding4yi4@归纳式定义|)idxdecorator{}{}}{5}
+\indexentry{zzui4xiao3ji2he2@最小集合|(idxdecorator{}{}}{6}
+\indexentry{zzui4xiao3ji2he2@最小集合|)idxdecorator{}{}}{6}
+\indexentry{yzu3fa3@语法|(idxdecorator{}{}}{6}
+\indexentry{zzheng3shu4lie4biao3@整数列表 (\texMathInline{\mathit{List\mbox{-}of\mbox{-}Int}})|(idxdecorator{}{}}{6}
+\indexentry{fzei1zhong1jie2fu2@非终结符|idxdecorator{}{}}{6}
+\indexentry{jzu4fa3lei4bie2@句法类别|idxdecorator{}{}}{6}
+\indexentry{bza1ke1si1nuo4er3fan4shi4BNF@巴科斯{-}诺尔范式 (BNF)|idxdecorator{}{}}{6}
+\indexentry{zzhong1jie2fu2@终结符|idxdecorator{}{}}{6}
+\indexentry{yzu3fa3sheng1cheng2shi4@语法生成式|idxdecorator{}{}}{6}
+\indexentry{hzuo4@或|idxdecorator{}{}}{7}
+\indexentry{zzheng3shu4lie4biao3@整数列表 (\texMathInline{\mathit{List\mbox{-}of\mbox{-}Int}})|)idxdecorator{}{}}{7}
+\indexentry{kze4lai2ni2xing1hao4bi4bao1@克莱尼星号（闭包）|idxdecorator{}{}}{7}
+\indexentry{kze4lai2ni2jia1hao4@克莱尼加号|idxdecorator{}{}}{7}
+\indexentry{fzen1ge2biao3biao3shi4fa3@分隔表表示法|(idxdecorator{}{}}{7}
+\indexentry{fzen1ge2biao3biao3shi4fa3@分隔表表示法|)idxdecorator{}{}}{8}
+\indexentry{jzu4fa3tui1dao3@句法推导|idxdecorator{}{}}{8}
+\indexentry{jzu4fa3tui1dao3@句法推导|idxdecorator{}{}}{8}
+\indexentry{Sexp@S{-}exp (\texMathInline{\mathit{S\mbox{-}exp}})|(idxdecorator{}{}}{8}
+\indexentry{Slist@S{-}list (\texMathInline{\mathit{S\mbox{-}list}})|(idxdecorator{}{}}{8}
+\indexentry{Sexp@S{-}exp (\texMathInline{\mathit{S\mbox{-}exp}})|)idxdecorator{}{}}{9}
+\indexentry{Slist@S{-}list (\texMathInline{\mathit{S\mbox{-}list}})|)idxdecorator{}{}}{9}
+\indexentry{ezr4cha1shu4@二叉树 (\texMathInline{\mathit{Bintree}})|idxdecorator{}{}}{9}
+\indexentry{Lambdayzan3suan4@Lambda 演算|idxdecorator{}{}}{9}
+\indexentry{Lambdabziao3da2shi4LcExp@Lambda 表达式 (LcExp)|(idxdecorator{}{}}{9}
+\indexentry{bzang3ding4Binding@绑定 (Binding)!lambda@lambda|idxdecorator{}{}}{9}
+\indexentry{bzang3ding4bian4liang4@绑定变量|idxdecorator{}{}}{9}
+\indexentry{bzian4liang4@变量!bzang3ding4boundbian4liang4@绑定 (bound) 变量|idxdecorator{}{}}{9}
+\indexentry{Lambdabziao3da2shi4LcExp@Lambda 表达式 (LcExp)|)idxdecorator{}{}}{9}
+\indexentry{szhang4xia4wen2wu2guan1yu3fa3@上下文无关语法|idxdecorator{}{}}{10}
+\indexentry{ezr4cha1sou1suo3shu4@二叉搜索树 (\texMathInline{\mathit{Binary\mbox{-}search\mbox{-}tree}})|idxdecorator{}{}}{10}
+\indexentry{bzu4bian4shi4@不变式|(idxdecorator{}{}}{10}
+\indexentry{szhang4xia4wen2min3gan3xian4zhi4@上下文敏感限制|(idxdecorator{}{}}{10}
+\indexentry{szhang4xia4wen2min3gan3xian4zhi4@上下文敏感限制|)idxdecorator{}{}}{10}
+\indexentry{yzu3fa3@语法|)idxdecorator{}{}}{10}
+\indexentry{bzu4bian4shi4@不变式|)idxdecorator{}{}}{10}
+\indexentry{dzi4tui1shu4ju4lei4xing2@递推数据类型!dzing4yi4@定义|)idxdecorator{}{}}{10}
+\indexentry{dzi4tui1shu4ju4lei4xing2@递推数据类型!zzheng4ming2xing4zhi4@证明性质|(idxdecorator{}{}}{10}
+\indexentry{ezr4cha1shu4@二叉树 (\texMathInline{\mathit{Bintree}})|idxdecorator{}{}}{10}
+\indexentry{gzui1na4jia3she4@归纳假设|idxdecorator{}{}}{11}
+\indexentry{gzui1na4shi4zheng4ming2@归纳式证明|(idxdecorator{}{}}{11}
+\indexentry{gzui1na4shi4zheng4ming2@归纳式证明|)idxdecorator{}{}}{11}
+\indexentry{dzi4tui1shu4ju4lei4xing2@递推数据类型!zzheng4ming2xing4zhi4@证明性质|)idxdecorator{}{}}{11}
+\indexentry{Lambdabziao3da2shi4LcExp@Lambda 表达式 (LcExp)|idxdecorator{}{}}{12}
+\indexentry{zzun1xun2yu3fa3@遵循语法!lzi4zi@例子|(idxdecorator{}{}}{12}
+\indexentry{gzui1na4shi4ding4yi4@归纳式定义!yzou2ci3er2de2dedi4gui1guo4cheng2@由此而得的递归过程|(idxdecorator{}{}}{12}
+\indexentry{dzi4tui1shu4ju4lei4xing2@递推数据类型!czhu4li3cheng2xu4@处理程序|(idxdecorator{}{}}{12}
+\indexentry{dzi4gui1cheng2xu4@递归程序!tzui1dao3@推导|(idxdecorator{}{}}{12}
+\indexentry{dzi4gui1cheng2xu4@递归程序!lzi4zi@例子|(idxdecorator{}{}}{12}
+\indexentry{jziao4xiao3ziwen4ti2yuan2ze2@较小子问题原则|(idxdecorator{}{}}{12}
+\indexentry{dzi4tui1shu4ju4lei4xing2@递推数据类型!czhu4li3cheng2xu4@处理程序|)idxdecorator{}{}}{12}
+\indexentry{dzi4gui1cheng2xu4@递归程序!tzui1dao3@推导|)idxdecorator{}{}}{12}
+\indexentry{jziao4xiao3ziwen4ti2yuan2ze2@较小子问题原则|)idxdecorator{}{}}{12}
+\indexentry{listlength@\textbf{\Scribtexttt{list{-}length}}|(idxdecorator{}{}}{12}
+\indexentry{lzie4biao3@列表 (\texMathInline{\mathit{List}})|(idxdecorator{}{}}{12}
+\indexentry{hze2yue1@合约|idxdecorator{}{}}{12}
+\indexentry{listlength@\textbf{\Scribtexttt{list{-}length}}|)idxdecorator{}{}}{13}
+\indexentry{nth{-}element@\textbf{\Scribtexttt{nth{-}element}}|(idxdecorator{}{}}{14}
+\indexentry{eoplerrorgzuo4cheng2@\Scribtexttt{eopl{\hbox{\texttt{:}}}error} 过程|idxdecorator{}{}}{14}
+\indexentry{czuo4wu4chu4li3@错误处理|(idxdecorator{}{}}{14}
+\indexentry{reportgzuo4cheng2@\Scribtexttt{report{-}} 过程|(idxdecorator{}{}}{14}
+\indexentry{czuo4wu4chu4li3@错误处理|)idxdecorator{}{}}{15}
+\indexentry{reportgzuo4cheng2@\Scribtexttt{report{-}} 过程|)idxdecorator{}{}}{15}
+\indexentry{gzui1na4shi4ding4yi4@归纳式定义!yzou2ci3er2de2dedi4gui1guo4cheng2@由此而得的递归过程|)idxdecorator{}{}}{15}
+\indexentry{nth{-}element@\textbf{\Scribtexttt{nth{-}element}}|)idxdecorator{}{}}{15}
+\indexentry{fzu2hao4lie4biao3ListofSymbol@符号列表 (List{-}of{-}Symbol)|idxdecorator{}{}}{15}
+\indexentry{removefirst@\textbf{\Scribtexttt{remove{-}first}}|(idxdecorator{}{}}{15}
+\indexentry{lzie4biao3@列表 (\texMathInline{\mathit{List}})|)idxdecorator{}{}}{17}
+\indexentry{removefirst@\textbf{\Scribtexttt{remove{-}first}}|)idxdecorator{}{}}{17}
+\indexentry{bzang3ding4Binding@绑定 (Binding)!lambda@lambda|(idxdecorator{}{}}{17}
+\indexentry{Lambdabziao3da2shi4LcExp@Lambda 表达式 (LcExp)|(idxdecorator{}{}}{17}
+\indexentry{occursfree@\textbf{\Scribtexttt{occurs{-}free{\hbox{\texttt{?}}}}}|(idxdecorator{}{}}{17}
+\indexentry{bzian4liang4zi4you2chu1xian4@变量自由出现|idxdecorator{}{}}{17}
+\indexentry{bzian4liang4@变量!zzi4you2bian4liang4@自由变量|idxdecorator{}{}}{17}
+\indexentry{hzan2gai4huo4@涵盖或|idxdecorator{}{}}{18}
+\indexentry{hzuo4@或|idxdecorator{}{}}{18}
+\indexentry{Lambdabziao3da2shi4LcExp@Lambda 表达式 (LcExp)|)idxdecorator{}{}}{18}
+\indexentry{bzang3ding4Binding@绑定 (Binding)!lambda@lambda|)idxdecorator{}{}}{19}
+\indexentry{occursfree@\textbf{\Scribtexttt{occurs{-}free{\hbox{\texttt{?}}}}}|)idxdecorator{}{}}{19}
+\indexentry{hzu4di4gui1@互递归|(idxdecorator{}{}}{19}
+\indexentry{fzei1zhong1jie2fu2@非终结符|(idxdecorator{}{}}{19}
+\indexentry{dzi4gui1cheng2xu4@递归程序!hzu4di4gui1@互递归|(idxdecorator{}{}}{19}
+\indexentry{Sexp@S{-}exp (\texMathInline{\mathit{S\mbox{-}exp}})|(idxdecorator{}{}}{19}
+\indexentry{Slist@S{-}list (\texMathInline{\mathit{S\mbox{-}list}})|(idxdecorator{}{}}{19}
+\indexentry{subst@\textbf{\Scribtexttt{subst}}|(idxdecorator{}{}}{19}
+\indexentry{dzai4huan4@代换!zzai4slistzhong1@在 s{-}list 中|(idxdecorator{}{}}{19}
+\indexentry{jzu4fa3lei4bie2@句法类别|(idxdecorator{}{}}{19}
+\indexentry{dzi4gui1cheng2xu4@递归程序!hzu4di4gui1@互递归|)idxdecorator{}{}}{21}
+\indexentry{zzun1xun2yu3fa3@遵循语法!lzi4zi@例子|)idxdecorator{}{}}{21}
+\indexentry{hzu4di4gui1@互递归|)idxdecorator{}{}}{21}
+\indexentry{fzei1zhong1jie2fu2@非终结符|)idxdecorator{}{}}{21}
+\indexentry{dzi4gui1cheng2xu4@递归程序!lzi4zi@例子|)idxdecorator{}{}}{21}
+\indexentry{Sexp@S{-}exp (\texMathInline{\mathit{S\mbox{-}exp}})|)idxdecorator{}{}}{21}
+\indexentry{Slist@S{-}list (\texMathInline{\mathit{S\mbox{-}list}})|)idxdecorator{}{}}{21}
+\indexentry{subst@\textbf{\Scribtexttt{subst}}|)idxdecorator{}{}}{21}
+\indexentry{dzai4huan4@代换!zzai4slistzhong1@在 s{-}list 中|)idxdecorator{}{}}{21}
+\indexentry{jzu4fa3lei4bie2@句法类别|)idxdecorator{}{}}{21}
+\indexentry{nzei4lian2@内联|(idxdecorator{}{}}{21}
+\indexentry{nzei4lian2@内联|)idxdecorator{}{}}{21}
+\indexentry{dzi4gui1cheng2xu4@递归程序!tzui1dao3@推导|(idxdecorator{}{}}{21}
+\indexentry{jzu4fa3lei4bie2@句法类别|(idxdecorator{}{}}{21}
+\indexentry{zzun1xun2yu3fa3@遵循语法|idxdecorator{}{}}{22}
+\indexentry{fzei1zhong1jie2fu2@非终结符|(idxdecorator{}{}}{22}
+\indexentry{fzei1zhong1jie2fu2@非终结符|)idxdecorator{}{}}{22}
+\indexentry{dzi4gui1cheng2xu4@递归程序!tzui1dao3@推导|)idxdecorator{}{}}{22}
+\indexentry{jzu4fa3lei4bie2@句法类别|)idxdecorator{}{}}{22}
+\indexentry{fzu3zhu4guo4cheng2@辅助过程|(idxdecorator{}{}}{22}
+\indexentry{number{-}elements@\textbf{\Scribtexttt{number{-}elements}}|(idxdecorator{}{}}{22}
+\indexentry{dzi4tui1shu4ju4lei4xing2@递推数据类型!czhu4li3cheng2xu4@处理程序|(idxdecorator{}{}}{22}
+\indexentry{fzan4hua4@泛化|(idxdecorator{}{}}{22}
+\indexentry{fzan4hua4@泛化|)idxdecorator{}{}}{22}
+\indexentry{number{-}elements@\textbf{\Scribtexttt{number{-}elements}}|)idxdecorator{}{}}{23}
+\indexentry{bzi4mian3shen2mi4xiao3gong1ju4@避免神秘小工具|idxdecorator{}{}}{23}
+\indexentry{szhang4xia4wen2can1shu4@上下文参数|(idxdecorator{}{}}{23}
+\indexentry{jzi4cheng2shu3xing4@继承属性|(idxdecorator{}{}}{23}
+\indexentry{jzi4cheng2shu3xing4@继承属性|)idxdecorator{}{}}{23}
+\indexentry{szhang4xia4wen2can1shu4@上下文参数|)idxdecorator{}{}}{23}
+\indexentry{listsum@\textbf{\Scribtexttt{list{-}sum}}|idxdecorator{}{}}{24}
+\indexentry{fzan4hua4@泛化|(idxdecorator{}{}}{24}
+\indexentry{fzan4hua4@泛化|)idxdecorator{}{}}{24}
+\indexentry{partialvectorsum@\textbf{\Scribtexttt{partial{-}vector{-}sum}}|(idxdecorator{}{}}{24}
+\indexentry{vectorsum@\textbf{\Scribtexttt{vector{-}sum}}|(idxdecorator{}{}}{24}
+\indexentry{partialvectorsum@\textbf{\Scribtexttt{partial{-}vector{-}sum}}|)idxdecorator{}{}}{24}
+\indexentry{vectorsum@\textbf{\Scribtexttt{vector{-}sum}}|)idxdecorator{}{}}{25}
+\indexentry{fzu3zhu4guo4cheng2@辅助过程|)idxdecorator{}{}}{25}
+\indexentry{dzi4tui1shu4ju4lei4xing2@递推数据类型!czhu4li3cheng2xu4@处理程序|)idxdecorator{}{}}{25}
+\indexentry{gzui1na4shi4zheng4ming2@归纳式证明|idxdecorator{}{}}{25}
+\indexentry{dzi4gui1cheng2xu4@递归程序!lzi4zi@例子|(idxdecorator{}{}}{25}
+\indexentry{lzie4biao3@列表 (\texMathInline{\mathit{List}})|(idxdecorator{}{}}{26}
+\indexentry{Slist@S{-}list (\texMathInline{\mathit{S\mbox{-}list}})|(idxdecorator{}{}}{26}
+\indexentry{Slist@S{-}list (\texMathInline{\mathit{S\mbox{-}list}})|)idxdecorator{}{}}{27}
+\indexentry{Slist@S{-}list (\texMathInline{\mathit{S\mbox{-}list}})|(idxdecorator{}{}}{27}
+\indexentry{Slist@S{-}list (\texMathInline{\mathit{S\mbox{-}list}})|)idxdecorator{}{}}{27}
+\indexentry{Slist@S{-}list (\texMathInline{\mathit{S\mbox{-}list}})|(idxdecorator{}{}}{29}
+\indexentry{lzie4biao3@列表 (\texMathInline{\mathit{List}})|)idxdecorator{}{}}{29}
+\indexentry{Slist@S{-}list (\texMathInline{\mathit{S\mbox{-}list}})|)idxdecorator{}{}}{29}
+\indexentry{zzheng3shu4lie4biao3@整数列表 (\texMathInline{\mathit{List\mbox{-}of\mbox{-}Int}})|(idxdecorator{}{}}{29}
+\indexentry{zzheng3shu4lie4biao3@整数列表 (\texMathInline{\mathit{List\mbox{-}of\mbox{-}Int}})|)idxdecorator{}{}}{30}
+\indexentry{ezr4cha1shu4@二叉树 (\texMathInline{\mathit{Bintree}})|idxdecorator{}{}}{30}
+\indexentry{hzong2lan2shu4@红蓝树 (\texMathInline{\mathit{Red\mbox{-}blue\mbox{-}tree}})|(idxdecorator{}{}}{30}
+\indexentry{hzong2lan2shu4@红蓝树 (\texMathInline{\mathit{Red\mbox{-}blue\mbox{-}tree}})|)idxdecorator{}{}}{30}
+\indexentry{ezr4cha1sou1suo3shu4@二叉搜索树 (\texMathInline{\mathit{Binary\mbox{-}search\mbox{-}tree}})|idxdecorator{}{}}{31}
+\indexentry{ezr4cha1shu4@二叉树 (\texMathInline{\mathit{Bintree}})|idxdecorator{}{}}{31}
+\indexentry{number{-}elements@\textbf{\Scribtexttt{number{-}elements}}|(idxdecorator{}{}}{31}
+\indexentry{number{-}elements@\textbf{\Scribtexttt{number{-}elements}}|)idxdecorator{}{}}{32}
+\indexentry{dzi4gui1cheng2xu4@递归程序!lzi4zi@例子|)idxdecorator{}{}}{32}
+\indexentry{szhu4ju4chou1xiang4@数据抽象|idxdecorator{}{}}{33}
+\indexentry{szhi2xian4@实现!ADT@ADT|idxdecorator{}{}}{33}
+\indexentry{jzie1kou3@接口!ADT@ADT|idxdecorator{}{}}{33}
+\indexentry{czhou1xiang4shu4ju4lei4xing2ADT@抽象数据类型 (ADT)|idxdecorator{}{}}{33}
+\indexentry{ADTdzeke4hu4@ADT 的客户|idxdecorator{}{}}{33}
+\indexentry{ADTdzeke4hu4@ADT 的客户|idxdecorator{}{}}{33}
+\indexentry{bziao3shi4wu2guan1xing4@表示无关性|idxdecorator{}{}}{33}
+\indexentry{zzi4ran2shu4ADT@自然数 ADT|(idxdecorator{}{}}{34}
+\indexentry{gzou4zao4qi4@构造器|idxdecorator{}{}}{34}
+\indexentry{gzuan1ce4qi4@观测器|idxdecorator{}{}}{34}
+\indexentry{zzi4ran2shu4ADT@自然数 ADT|)idxdecorator{}{}}{34}
+\indexentry{zzi4ran2shu4ADT@自然数 ADT!yzi1yuan2biao3shi4@一元表示|(idxdecorator{}{}}{34}
+\indexentry{zzi4ran2shu4deyi1yuan2biao3shi4fa3@自然数的一元表示法|idxdecorator{}{}}{34}
+\indexentry{zzi4ran2shu4ADT@自然数 ADT!yzi1yuan2biao3shi4@一元表示|(idxdecorator{}{}}{35}
+\indexentry{zzi4ran2shu4ADT@自然数 ADT!Schemeszhu4zi4@Scheme 数字|(idxdecorator{}{}}{35}
+\indexentry{zzi4ran2shu4ADT@自然数 ADT!Schemeszhu4zi4@Scheme 数字|)idxdecorator{}{}}{35}
+\indexentry{zzi4ran2shu4deda4shu4biao3shi4fa3@自然数的大数表示法|idxdecorator{}{}}{35}
+\indexentry{zzi4ran2shu4ADT@自然数 ADT!dza4shu4biao3shi4@大数表示|(idxdecorator{}{}}{35}
+\indexentry{zzi4ran2shu4ADT@自然数 ADT!dza4shu4biao3shi4@大数表示|)idxdecorator{}{}}{35}
+\indexentry{czhou1xiang4lei4xing2@抽象类型|idxdecorator{}{}}{36}
+\indexentry{jzu4ti3lei4xing2@具体类型|idxdecorator{}{}}{36}
+\indexentry{mzo2hu2lei4xing2@模糊类型|idxdecorator{}{}}{36}
+\indexentry{tzou4ming2lei4xing2@透明类型|idxdecorator{}{}}{36}
+\indexentry{lzei4xing2suo1xie3@类型缩写|idxdecorator{}{}}{36}
+\indexentry{jzie1cheng2han2shu4@阶乘函数|(idxdecorator{}{}}{36}
+\indexentry{jzie1cheng2han2shu4@阶乘函数|)idxdecorator{}{}}{36}
+\indexentry{zzi4ran2shu4ADT@自然数 ADT!czha4fen1shu4biao3shi4@差分树表示|(idxdecorator{}{}}{36}
+\indexentry{czha4fen1shu4@差分树 (\texMathInline{\mathit{Diff\mbox{-}tree}})|idxdecorator{}{}}{36}
+\indexentry{zzi4ran2shu4ADT@自然数 ADT!czha4fen1shu4biao3shi4@差分树表示|)idxdecorator{}{}}{36}
+\indexentry{hzuan2jing4ADT@环境 ADT (\texMathInline{\mathit{Env}})|(idxdecorator{}{}}{37}
+\indexentry{bziao3shi4wu2guan1xing4@表示无关性|idxdecorator{}{}}{37}
+\indexentry{hzuan2jing4@环境|idxdecorator{}{}}{37}
+\indexentry{bzian4liang4@变量!zzai4huan2jing4zhong1@在环境中|idxdecorator{}{}}{37}
+\indexentry{bzang3ding4Binding@绑定 (Binding)!hzuan2jing4zhong1de@环境中的|idxdecorator{}{}}{37}
+\indexentry{bzian4liang4@变量!zzai4huan2jing4zhong1@在环境中|idxdecorator{}{}}{37}
+\indexentry{empty{-}env@\textbf{\Scribtexttt{empty{-}env}}|idxdecorator{}{}}{37}
+\indexentry{extendenv@\textbf{\Scribtexttt{extend{-}env}}|idxdecorator{}{}}{37}
+\indexentry{extendenvasterisk@\textbf{\Scribtexttt{extend{-}env*}}|idxdecorator{}{}}{37}
+\indexentry{applyenv@\textbf{\Scribtexttt{apply{-}env}}|idxdecorator{}{}}{37}
+\indexentry{hzuan2jing4ADT@环境 ADT (\texMathInline{\mathit{Env}})|)idxdecorator{}{}}{38}
+\indexentry{zzhan4@栈|(idxdecorator{}{}}{38}
+\indexentry{zzhan4@栈|)idxdecorator{}{}}{38}
+\indexentry{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!hzuan2jing4@环境|(idxdecorator{}{}}{38}
+\indexentry{hzuan2jing4@环境!szhu4ju4jie2gou4biao3shi4@数据结构表示|(idxdecorator{}{}}{38}
+\indexentry{jzie3shi4qi4mi4fang1@解释器秘方|idxdecorator{}{}}{39}
+\indexentry{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!hzuan2jing4@环境|)idxdecorator{}{}}{39}
+\indexentry{hzuan2jing4@环境!szhu4ju4jie2gou4biao3shi4@数据结构表示|)idxdecorator{}{}}{39}
+\indexentry{gzuan1lian2lie4biao3alist@关联列表 (a{-}list)|(idxdecorator{}{}}{39}
+\indexentry{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!hzuan2jing4@环境|(idxdecorator{}{}}{39}
+\indexentry{hzuan2jing4@环境!gzuan1lian2lie4biao3biao3shi4@关联列表表示|(idxdecorator{}{}}{39}
+\indexentry{hzuan2jing4@环境!szhu4ju4jie2gou4biao3shi4@数据结构表示|(idxdecorator{}{}}{39}
+\indexentry{gzuan1lian2lie4biao3alist@关联列表 (a{-}list)|)idxdecorator{}{}}{39}
+\indexentry{hzuan2jing4@环境!gzuan1lian2lie4biao3biao3shi4@关联列表表示|)idxdecorator{}{}}{39}
+\indexentry{gzuan1lian2lie4biao3alist@关联列表 (a{-}list)|(idxdecorator{}{}}{39}
+\indexentry{hzuan2jing4@环境!gzuan1lian2lie4biao3biao3shi4@关联列表表示|(idxdecorator{}{}}{39}
+\indexentry{empty{-}env@\textbf{\Scribtexttt{empty{-}env}}|idxdecorator{}{}}{40}
+\indexentry{extendenv@\textbf{\Scribtexttt{extend{-}env}}|idxdecorator{}{}}{40}
+\indexentry{extendenvasterisk@\textbf{\Scribtexttt{extend{-}env*}}|idxdecorator{}{}}{40}
+\indexentry{applyenv@\textbf{\Scribtexttt{apply{-}env}}|idxdecorator{}{}}{40}
+\indexentry{extendenvasterisk@\textbf{\Scribtexttt{extend{-}env*}}|(idxdecorator{}{}}{41}
+\indexentry{gzuan1lian2lie4biao3alist@关联列表 (a{-}list)|)idxdecorator{}{}}{41}
+\indexentry{hzuan2jing4@环境!gzuan1lian2lie4biao3biao3shi4@关联列表表示|)idxdecorator{}{}}{41}
+\indexentry{hzuan2jing4@环境!lze1pai2biao3shi4@肋排表示|idxdecorator{}{}}{41}
+\indexentry{tzui1li3gui1ze2@推理规则|idxdecorator{}{}}{41}
+\indexentry{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!hzuan2jing4@环境|)idxdecorator{}{}}{41}
+\indexentry{hzuan2jing4@环境!szhu4ju4jie2gou4biao3shi4@数据结构表示|)idxdecorator{}{}}{41}
+\indexentry{extendenvasterisk@\textbf{\Scribtexttt{extend{-}env*}}|)idxdecorator{}{}}{41}
+\indexentry{hzuan2jing4@环境!gzuo4cheng2biao3shi4@过程表示|(idxdecorator{}{}}{42}
+\indexentry{gzuo4cheng2biao3shi4fa3@过程表示法!hzuan2jing4@环境|(idxdecorator{}{}}{42}
+\indexentry{empty{-}env@\textbf{\Scribtexttt{empty{-}env}}|idxdecorator{}{}}{42}
+\indexentry{extendenv@\textbf{\Scribtexttt{extend{-}env}}|idxdecorator{}{}}{42}
+\indexentry{applyenv@\textbf{\Scribtexttt{apply{-}env}}|idxdecorator{}{}}{42}
+\indexentry{dziao4yong4shi2zhi2xing2dedong4zuo4@调用时执行的动作|idxdecorator{}{}}{42}
+\indexentry{applygzuo4cheng2@\Scribtexttt{apply{-}} 过程|idxdecorator{}{}}{43}
+\indexentry{xziao1han2@消函|idxdecorator{}{}}{43}
+\indexentry{hzuan2jing4@环境!gzuo4cheng2biao3shi4@过程表示|)idxdecorator{}{}}{43}
+\indexentry{gzuo4cheng2biao3shi4fa3@过程表示法!hzuan2jing4@环境|)idxdecorator{}{}}{43}
+\indexentry{hzuan2jing4@环境!gzuo4cheng2biao3shi4@过程表示|(idxdecorator{}{}}{43}
+\indexentry{gzuo4cheng2biao3shi4fa3@过程表示法!hzuan2jing4@环境|(idxdecorator{}{}}{43}
+\indexentry{gzuo4cheng2biao3shi4fa3@过程表示法!zzhan4@栈|idxdecorator{}{}}{43}
+\indexentry{zzhan4@栈|idxdecorator{}{}}{43}
+\indexentry{hzuan2jing4@环境!gzuo4cheng2biao3shi4@过程表示|)idxdecorator{}{}}{43}
+\indexentry{gzuo4cheng2biao3shi4fa3@过程表示法!hzuan2jing4@环境|)idxdecorator{}{}}{43}
+\indexentry{Lambdabziao3da2shi4LcExp@Lambda 表达式 (LcExp)|(idxdecorator{}{}}{43}
+\indexentry{wzei4ci2@谓词|(idxdecorator{}{}}{44}
+\indexentry{tzi2qu3qi4@提取器|(idxdecorator{}{}}{44}
+\indexentry{occursfree@\textbf{\Scribtexttt{occurs{-}free{\hbox{\texttt{?}}}}}|(idxdecorator{}{}}{45}
+\indexentry{occursfree@\textbf{\Scribtexttt{occurs{-}free{\hbox{\texttt{?}}}}}|)idxdecorator{}{}}{45}
+\indexentry{Lambdabziao3da2shi4LcExp@Lambda 表达式 (LcExp)|)idxdecorator{}{}}{45}
+\indexentry{gzou4zao4qi4@构造器|idxdecorator{}{}}{45}
+\indexentry{tzi2qu3qi4@提取器|)idxdecorator{}{}}{45}
+\indexentry{wzei4ci2@谓词|)idxdecorator{}{}}{45}
+\indexentry{Lambdabziao3da2shi4LcExp@Lambda 表达式 (LcExp)|(idxdecorator{}{}}{45}
+\indexentry{Lambdabziao3da2shi4LcExp@Lambda 表达式 (LcExp)|)idxdecorator{}{}}{45}
+\indexentry{szhuang1xiang4xu4lie4@双向序列|(idxdecorator{}{}}{45}
+\indexentry{szhuang1xiang4xu4lie4@双向序列|(idxdecorator{}{}}{45}
+\indexentry{szhuang1xiang4xu4lie4@双向序列|)idxdecorator{}{}}{46}
+\indexentry{szhuang1xiang4xu4lie4@双向序列|)idxdecorator{}{}}{46}
+\indexentry{ezr4cha1shu4@二叉树 (\texMathInline{\mathit{Bintree}})|idxdecorator{}{}}{46}
+\indexentry{dzi4tui1shu4ju4lei4xing2@递推数据类型!czhu4li3cheng2xu4@处理程序|(idxdecorator{}{}}{47}
+\indexentry{definedatatypexzing2shi4@\Scribtexttt{define{-}datatype} 形式|(idxdecorator{}{}}{47}
+\indexentry{Lambdabziao3da2shi4LcExp@Lambda 表达式 (LcExp)!Schemeszhi2xian4@Scheme 实现|(idxdecorator{}{}}{47}
+\indexentry{Casesxzing2shi4@\Scribtexttt{cases} 形式|idxdecorator{}{}}{48}
+\indexentry{occursfree@\textbf{\Scribtexttt{occurs{-}free{\hbox{\texttt{?}}}}}|(idxdecorator{}{}}{48}
+\indexentry{occursfree@\textbf{\Scribtexttt{occurs{-}free{\hbox{\texttt{?}}}}}|)idxdecorator{}{}}{49}
+\indexentry{bzian4ti3@变体|idxdecorator{}{}}{49}
+\indexentry{jzi4lu4biao3@记录表|idxdecorator{}{}}{50}
+\indexentry{antypename@\Scribtexttt{a(n){-}}\texMathInline{\mathit{type\mbox{-}name}} 构造器|idxdecorator{}{}}{50}
+\indexentry{hzu4di4gui1@互递归|idxdecorator{}{}}{50}
+\indexentry{dzi4gui1cheng2xu4@递归程序!hzu4di4gui1@互递归|idxdecorator{}{}}{50}
+\indexentry{Sexp@S{-}exp (\texMathInline{\mathit{S\mbox{-}exp}})|(idxdecorator{}{}}{50}
+\indexentry{Slist@S{-}list (\texMathInline{\mathit{S\mbox{-}list}})|(idxdecorator{}{}}{50}
+\indexentry{Sexp@S{-}exp (\texMathInline{\mathit{S\mbox{-}exp}})|)idxdecorator{}{}}{51}
+\indexentry{Slist@S{-}list (\texMathInline{\mathit{S\mbox{-}list}})|)idxdecorator{}{}}{51}
+\indexentry{Casesxzing2shi4@\Scribtexttt{cases} 形式|idxdecorator{}{}}{51}
+\indexentry{tze4ding4ling3yu4yu3yan2@特定领域语言|(idxdecorator{}{}}{51}
+\indexentry{definedatatypexzing2shi4@\Scribtexttt{define{-}datatype} 形式|)idxdecorator{}{}}{52}
+\indexentry{tze4ding4ling3yu4yu3yan2@特定领域语言|)idxdecorator{}{}}{52}
+\indexentry{Lambdabziao3da2shi4LcExp@Lambda 表达式 (LcExp)!Schemeszhi2xian4@Scheme 实现|)idxdecorator{}{}}{52}
+\indexentry{dzi4tui1shu4ju4lei4xing2@递推数据类型!czhu4li3cheng2xu4@处理程序|)idxdecorator{}{}}{52}
+\indexentry{hzuan2jing4ADT@环境 ADT (\texMathInline{\mathit{Env}})|(idxdecorator{}{}}{52}
+\indexentry{hzuan2jing4ADT@环境 ADT (\texMathInline{\mathit{Env}})|)idxdecorator{}{}}{52}
+\indexentry{zzhan4@栈|idxdecorator{}{}}{52}
+\indexentry{Lambdabziao3da2shi4LcExp@Lambda 表达式 (LcExp)|(idxdecorator{}{}}{52}
+\indexentry{Lambdabziao3da2shi4LcExp@Lambda 表达式 (LcExp)|)idxdecorator{}{}}{52}
+\indexentry{ezr4cha1shu4@二叉树 (\texMathInline{\mathit{Bintree}})|(idxdecorator{}{}}{52}
+\indexentry{Casesxzing2shi4@\Scribtexttt{cases} 形式|(idxdecorator{}{}}{53}
+\indexentry{ezr4cha1shu4@二叉树 (\texMathInline{\mathit{Bintree}})|)idxdecorator{}{}}{53}
+\indexentry{Casesxzing2shi4@\Scribtexttt{cases} 形式|)idxdecorator{}{}}{53}
+\indexentry{hzong2lan2shu4@红蓝树 (\texMathInline{\mathit{Red\mbox{-}blue\mbox{-}tree}})|(idxdecorator{}{}}{53}
+\indexentry{hzong2lan2shu4@红蓝树 (\texMathInline{\mathit{Red\mbox{-}blue\mbox{-}tree}})|)idxdecorator{}{}}{53}
+\indexentry{Lambdabziao3da2shi4LcExp@Lambda 表达式 (LcExp)!czhou1xiang4vs.ju4ti3yu3fa3@抽象 vs. 具体语法|(idxdecorator{}{}}{53}
+\indexentry{jzu4fa3lei4bie2@句法类别|(idxdecorator{}{}}{53}
+\indexentry{czhou1xiang4yu3fa3@抽象语法|(idxdecorator{}{}}{53}
+\indexentry{jzu4ti3yu3fa3@具体语法|(idxdecorator{}{}}{53}
+\indexentry{czhou1xiang4yu3fa3shu4@抽象语法树|(idxdecorator{}{}}{54}
+\indexentry{fzei1zhong1jie2fu2@非终结符|(idxdecorator{}{}}{54}
+\indexentry{yzu3fa3sheng1cheng2shi4@语法生成式|(idxdecorator{}{}}{54}
+\indexentry{fzei1zhong1jie2fu2@非终结符|)idxdecorator{}{}}{55}
+\indexentry{yzu3fa3sheng1cheng2shi4@语法生成式|)idxdecorator{}{}}{55}
+\indexentry{jzu4fa3lei4bie2@句法类别|)idxdecorator{}{}}{55}
+\indexentry{jzie3xi1qi4sheng1cheng2qi4@解析器生成器|idxdecorator{}{}}{55}
+\indexentry{jzie3xi1@解析|idxdecorator{}{}}{55}
+\indexentry{tze4ding4ling3yu4yu3yan2@特定领域语言|idxdecorator{}{}}{55}
+\indexentry{jzu4ti3yu3fa3@具体语法|)idxdecorator{}{}}{55}
+\indexentry{parseexpression@\textbf{\Scribtexttt{parse{-}expression}}|(idxdecorator{}{}}{56}
+\indexentry{parseexpression@\textbf{\Scribtexttt{parse{-}expression}}|)idxdecorator{}{}}{56}
+\indexentry{unparselcexp@\textbf{\Scribtexttt{unparse{-}lc{-}exp}}|(idxdecorator{}{}}{56}
+\indexentry{czhou1xiang4yu3fa3@抽象语法|)idxdecorator{}{}}{56}
+\indexentry{czhou1xiang4yu3fa3shu4@抽象语法树|)idxdecorator{}{}}{56}
+\indexentry{Lambdabziao3da2shi4LcExp@Lambda 表达式 (LcExp)!czhou1xiang4vs.ju4ti3yu3fa3@抽象 vs. 具体语法|)idxdecorator{}{}}{56}
+\indexentry{unparselcexp@\textbf{\Scribtexttt{unparse{-}lc{-}exp}}|)idxdecorator{}{}}{56}
+\indexentry{Lambdabziao3da2shi4LcExp@Lambda 表达式 (LcExp)|(idxdecorator{}{}}{57}
+\indexentry{unparselcexp@\textbf{\Scribtexttt{unparse{-}lc{-}exp}}|idxdecorator{}{}}{57}
+\indexentry{kze4lai2ni2jia1hao4@克莱尼加号|(idxdecorator{}{}}{57}
+\indexentry{kze4lai2ni2xing1hao4bi4bao1@克莱尼星号（闭包）|(idxdecorator{}{}}{57}
+\indexentry{parseexpression@\textbf{\Scribtexttt{parse{-}expression}}|(idxdecorator{}{}}{57}
+\indexentry{kze4lai2ni2jia1hao4@克莱尼加号|)idxdecorator{}{}}{57}
+\indexentry{kze4lai2ni2xing1hao4bi4bao1@克莱尼星号（闭包）|)idxdecorator{}{}}{57}
+\indexentry{Lambdabziao3da2shi4LcExp@Lambda 表达式 (LcExp)|)idxdecorator{}{}}{57}
+\indexentry{parseexpression@\textbf{\Scribtexttt{parse{-}expression}}|)idxdecorator{}{}}{57}
+\indexentry{qzian2zhui4lie4biao3@前缀列表 (\texMathInline{\mathit{Prefix\mbox{-}list}})|(idxdecorator{}{}}{58}
+\indexentry{LukasiewiczJan@{\L}ukasiewicz, Jan|idxdecorator{}{}}{58}
+\indexentry{bzo1lan2qian2zhui4biao3shi4fa3@波兰前缀表示法|idxdecorator{}{}}{58}
+\indexentry{qzian2zhui4lie4biao3@前缀列表 (\texMathInline{\mathit{Prefix\mbox{-}list}})|)idxdecorator{}{}}{58}
+\indexentry{yzu3yan2chu4li3qi4@语言处理器|(idxdecorator{}{}}{59}
+\indexentry{czhou1xiang4yu3fa3shu4@抽象语法树|(idxdecorator{}{}}{59}
+\indexentry{bzei4ding4yu3yan2@被定语言|idxdecorator{}{}}{59}
+\indexentry{dzing4yi4yu3yan2@定义语言|idxdecorator{}{}}{59}
+\indexentry{yzuan2yu3yan2@源语言|idxdecorator{}{}}{59}
+\indexentry{szhi2xian4yu3yan2@实现语言|idxdecorator{}{}}{59}
+\indexentry{bzian1yi4qi4@编译器|idxdecorator{}{}}{59}
+\indexentry{mzu4biao1yu3yan2@目标语言|idxdecorator{}{}}{60}
+\indexentry{zzi4jie2ma3@字节码|idxdecorator{}{}}{60}
+\indexentry{jzi1qi4yu3yan2@机器语言|idxdecorator{}{}}{60}
+\indexentry{xzu1ni3ji1@虚拟机|idxdecorator{}{}}{60}
+\indexentry{jzie3xi1@解析|(idxdecorator{}{}}{60}
+\indexentry{szao3miao2@扫描|idxdecorator{}{}}{60}
+\indexentry{czi2fa3gui1fan4@词法规范|idxdecorator{}{}}{60}
+\indexentry{czi2pai2@词牌|idxdecorator{}{}}{60}
+\indexentry{czhou1xiang4yu3fa3shu4@抽象语法树|)idxdecorator{}{}}{60}
+\indexentry{jzie3xi1qi4sheng1cheng2qi4@解析器生成器|(idxdecorator{}{}}{60}
+\indexentry{jzie3xi1qi4sheng1cheng2qi4@解析器生成器|)idxdecorator{}{}}{60}
+\indexentry{yzu3yan2chu4li3qi4@语言处理器|)idxdecorator{}{}}{61}
+\indexentry{jzie3xi1@解析|)idxdecorator{}{}}{61}
+\indexentry{LET|(idxdecorator{}{}}{61}
+\indexentry{zzhi3dai4zhi2@指代值|idxdecorator{}{}}{63}
+\indexentry{bziao3da2zhi2@表达值|idxdecorator{}{}}{63}
+\indexentry{hzuan2jing4@环境|(idxdecorator{}{}}{63}
+\indexentry{hzuan2jing4@环境|)idxdecorator{}{}}{64}
+\indexentry{czha4zhi2biao3da2shi4@差值表达式|(idxdecorator{}{}}{64}
+\indexentry{bziao3da2shi4@表达式!LET|(idxdecorator{}{}}{64}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!LET@LET|(idxdecorator{}{}}{64}
+\indexentry{czha4zhi2biao3da2shi4@差值表达式|)idxdecorator{}{}}{65}
+\indexentry{bziao3da2shi4@表达式!LET|)idxdecorator{}{}}{65}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!LET@LET|)idxdecorator{}{}}{65}
+\indexentry{tziao2jian4biao3da2shi4@条件表达式|idxdecorator{}{}}{65}
+\indexentry{tzui1li3gui1ze2@推理规则|idxdecorator{}{}}{66}
+\indexentry{fzang1cheng2shi4gui1fan4@方程式规范|idxdecorator{}{}}{66}
+\indexentry{tziao2jian4biao3da2shi4@条件表达式|idxdecorator{}{}}{66}
+\indexentry{bzang3ding4Binding@绑定 (Binding)!let@\Scribtexttt{let}|(idxdecorator{}{}}{68}
+\indexentry{zzhu3ti3@主体!let@\Scribtexttt{let}|(idxdecorator{}{}}{68}
+\indexentry{bziao3da2shi4@表达式!LET|(idxdecorator{}{}}{68}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!LET@LET|(idxdecorator{}{}}{68}
+\indexentry{bzang3ding4Binding@绑定 (Binding)!let@\Scribtexttt{let}|)idxdecorator{}{}}{69}
+\indexentry{zzhu3ti3@主体!let@\Scribtexttt{let}|)idxdecorator{}{}}{69}
+\indexentry{bziao3da2shi4@表达式!LET|)idxdecorator{}{}}{69}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!LET@LET|)idxdecorator{}{}}{69}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!LET@LET|idxdecorator{}{}}{72}
+\indexentry{LET|)idxdecorator{}{}}{72}
+\indexentry{tzui1dao3@推导|(idxdecorator{}{}}{72}
+\indexentry{tzui1li3shu4@推理树|(idxdecorator{}{}}{72}
+\indexentry{tzui1dao3@推导|)idxdecorator{}{}}{72}
+\indexentry{tzui1li3shu4@推理树|)idxdecorator{}{}}{72}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!LET@LET|idxdecorator{}{}}{73}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!LET@LET|idxdecorator{}{}}{74}
+\indexentry{lzie4biao3cao1zuo4@列表操作|(idxdecorator{}{}}{75}
+\indexentry{lzie4biao3cao1zuo4@列表操作|)idxdecorator{}{}}{75}
+\indexentry{listbziao3da2shi4@\Scribtexttt{list} 表达式|(idxdecorator{}{}}{75}
+\indexentry{listbziao3da2shi4@\Scribtexttt{list} 表达式|)idxdecorator{}{}}{75}
+\indexentry{condbziao3da2shi4@\Scribtexttt{cond} 表达式|idxdecorator{}{}}{75}
+\indexentry{bziao3da2zhi2@表达值|(idxdecorator{}{}}{75}
+\indexentry{bziao3da2zhi2@表达值|)idxdecorator{}{}}{75}
+\indexentry{bzu4er3biao3da2shi4@布尔表达式 (\texMathInline{\mathit{Bool\mbox{-}exp}})|idxdecorator{}{}}{76}
+\indexentry{dza3yin4@打印|(idxdecorator{}{}}{76}
+\indexentry{dza3yin4@打印|)idxdecorator{}{}}{76}
+\indexentry{dzuo1bian4liang4sheng1ming2@多变量声明|(idxdecorator{}{}}{76}
+\indexentry{dzuo1bian4liang4sheng1ming2@多变量声明|)idxdecorator{}{}}{76}
+\indexentry{letstarzzuo4yong4yu4@\Scribtexttt{let*} 式作用域|(idxdecorator{}{}}{76}
+\indexentry{letstarzzuo4yong4yu4@\Scribtexttt{let*} 式作用域|)idxdecorator{}{}}{76}
+\indexentry{unpackbziao3da2shi4@\Scribtexttt{unpack} 表达式|(idxdecorator{}{}}{77}
+\indexentry{unpackbziao3da2shi4@\Scribtexttt{unpack} 表达式|)idxdecorator{}{}}{77}
+\indexentry{PROC|(idxdecorator{}{}}{77}
+\indexentry{gzuo4cheng2zhi2Proc@过程值 (\texMathInline{\mathit{Proc}})|(idxdecorator{}{}}{77}
+\indexentry{bzang3ding4Binding@绑定 (Binding)!proc@\Scribtexttt{proc}|idxdecorator{}{}}{77}
+\indexentry{szheng1ming2@声明!gzuo4cheng2@过程|(idxdecorator{}{}}{77}
+\indexentry{gzuo4cheng2diao4yong4@过程调用|(idxdecorator{}{}}{77}
+\indexentry{gzuo4cheng2sheng1ming2@过程声明|(idxdecorator{}{}}{77}
+\indexentry{zzhu3ti3@主体!proc@\Scribtexttt{proc}|idxdecorator{}{}}{78}
+\indexentry{bzang3ding4bian4liang4@绑定变量|idxdecorator{}{}}{78}
+\indexentry{xzing2shi4can1shu4@形式参数|idxdecorator{}{}}{78}
+\indexentry{czao1zuo4shu4@操作数|idxdecorator{}{}}{78}
+\indexentry{czao1zuo4fu2@操作符|idxdecorator{}{}}{78}
+\indexentry{bzian4liang4@变量!bzang3ding4boundbian4liang4@绑定 (bound) 变量|idxdecorator{}{}}{78}
+\indexentry{szhi2ji4can1shu4@实际参数|idxdecorator{}{}}{78}
+\indexentry{szhi2can1@实参|idxdecorator{}{}}{78}
+\indexentry{czi2fa3zuo4yong4yu4gui1ze2@词法作用域规则|(idxdecorator{}{}}{78}
+\indexentry{czan1shu4chuan2di4@参数传递|(idxdecorator{}{}}{78}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!PROC@PROC|(idxdecorator{}{}}{78}
+\indexentry{szheng1ming2@声明!gzuo4cheng2@过程|)idxdecorator{}{}}{79}
+\indexentry{czi2fa3zuo4yong4yu4gui1ze2@词法作用域规则|)idxdecorator{}{}}{79}
+\indexentry{czan1shu4chuan2di4@参数传递|)idxdecorator{}{}}{79}
+\indexentry{gzuo4cheng2diao4yong4@过程调用|)idxdecorator{}{}}{79}
+\indexentry{gzuo4cheng2sheng1ming2@过程声明|)idxdecorator{}{}}{79}
+\indexentry{gzuo4cheng2zhi2Proc@过程值 (\texMathInline{\mathit{Proc}})|)idxdecorator{}{}}{79}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!PROC@PROC|)idxdecorator{}{}}{79}
+\indexentry{gzuo4cheng2biao3shi4fa3@过程表示法!gzuo4cheng2zhi2@过程值|(idxdecorator{}{}}{82}
+\indexentry{gzuo4cheng2zhi2Proc@过程值 (\texMathInline{\mathit{Proc}})!gzuo4cheng2biao3shi4@过程表示|(idxdecorator{}{}}{82}
+\indexentry{gzuo4cheng2biao3shi4fa3@过程表示法!gzuo4cheng2zhi2@过程值|)idxdecorator{}{}}{82}
+\indexentry{gzuo4cheng2zhi2Proc@过程值 (\texMathInline{\mathit{Proc}})!gzuo4cheng2biao3shi4@过程表示|)idxdecorator{}{}}{82}
+\indexentry{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!gzuo4cheng2zhi2@过程值|(idxdecorator{}{}}{82}
+\indexentry{gzuo4cheng2zhi2Proc@过程值 (\texMathInline{\mathit{Proc}})!szhu4ju4jie2gou4biao3shi4@数据结构表示|(idxdecorator{}{}}{82}
+\indexentry{bzi4bao1@闭包|idxdecorator{}{}}{83}
+\indexentry{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!gzuo4cheng2zhi2@过程值|)idxdecorator{}{}}{83}
+\indexentry{PROC|)idxdecorator{}{}}{83}
+\indexentry{gzuo4cheng2zhi2Proc@过程值 (\texMathInline{\mathit{Proc}})!szhu4ju4jie2gou4biao3shi4@数据结构表示|)idxdecorator{}{}}{83}
+\indexentry{szheng1ming2@声明!gzuo4cheng2@过程|idxdecorator{}{}}{83}
+\indexentry{gzuo4cheng2sheng1ming2@过程声明|idxdecorator{}{}}{83}
+\indexentry{kze1li3hua4@柯里化|(idxdecorator{}{}}{83}
+\indexentry{dzuo1can1shu4guo4cheng2@多参数过程|(idxdecorator{}{}}{83}
+\indexentry{kze1li3hua4@柯里化|)idxdecorator{}{}}{84}
+\indexentry{dzuo1can1shu4guo4cheng2@多参数过程|)idxdecorator{}{}}{84}
+\indexentry{kze1li3hua4@柯里化|(idxdecorator{}{}}{84}
+\indexentry{jzie1cheng2han2shu4@阶乘函数|(idxdecorator{}{}}{84}
+\indexentry{kze1li3hua4@柯里化|)idxdecorator{}{}}{84}
+\indexentry{jzie1cheng2han2shu4@阶乘函数|)idxdecorator{}{}}{84}
+\indexentry{hzu4di4gui1@互递归|idxdecorator{}{}}{84}
+\indexentry{dzi4gui1cheng2xu4@递归程序!hzu4di4gui1@互递归|idxdecorator{}{}}{84}
+\indexentry{dzi4gui1cheng2xu4@递归程序!szhe4ji4he2shi2xian4@设计和实现|(idxdecorator{}{}}{84}
+\indexentry{dzi4gui1cheng2xu4@递归程序!szhe4ji4he2shi2xian4@设计和实现|)idxdecorator{}{}}{85}
+\indexentry{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!gzuo4cheng2zhi2@过程值|idxdecorator{}{}}{85}
+\indexentry{gzuo4cheng2zhi2Proc@过程值 (\texMathInline{\mathit{Proc}})!szhu4ju4jie2gou4biao3shi4@数据结构表示|idxdecorator{}{}}{85}
+\indexentry{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!gzuo4cheng2zhi2@过程值|(idxdecorator{}{}}{85}
+\indexentry{dzong4tai4bang3ding4dong4tai4zuo4yong4yu4@动态绑定（动态作用域）|(idxdecorator{}{}}{85}
+\indexentry{gzuo4cheng2biao3shi4fa3@过程表示法!gzuo4cheng2zhi2@过程值|(idxdecorator{}{}}{85}
+\indexentry{gzuo4cheng2zhi2Proc@过程值 (\texMathInline{\mathit{Proc}})!szhu4ju4jie2gou4biao3shi4@数据结构表示|(idxdecorator{}{}}{85}
+\indexentry{gzuo4cheng2zhi2Proc@过程值 (\texMathInline{\mathit{Proc}})!gzuo4cheng2biao3shi4@过程表示|(idxdecorator{}{}}{85}
+\indexentry{bzian4liang4sheng1ming2dezuo4yong4yu4@变量声明的作用域!dzong4tai4@动态|(idxdecorator{}{}}{85}
+\indexentry{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!gzuo4cheng2zhi2@过程值|)idxdecorator{}{}}{85}
+\indexentry{gzuo4cheng2biao3shi4fa3@过程表示法!gzuo4cheng2zhi2@过程值|)idxdecorator{}{}}{85}
+\indexentry{gzuo4cheng2zhi2Proc@过程值 (\texMathInline{\mathit{Proc}})!szhu4ju4jie2gou4biao3shi4@数据结构表示|)idxdecorator{}{}}{85}
+\indexentry{gzuo4cheng2zhi2Proc@过程值 (\texMathInline{\mathit{Proc}})!gzuo4cheng2biao3shi4@过程表示|)idxdecorator{}{}}{85}
+\indexentry{dzong4tai4bang3ding4dong4tai4zuo4yong4yu4@动态绑定（动态作用域）|)idxdecorator{}{}}{86}
+\indexentry{bzian4liang4sheng1ming2dezuo4yong4yu4@变量声明的作用域!dzong4tai4@动态|)idxdecorator{}{}}{86}
+\indexentry{bzang3ding4Binding@绑定 (Binding)!letrec@\Scribtexttt{letrec}|(idxdecorator{}{}}{86}
+\indexentry{zzhu3ti3@主体!letrec@\Scribtexttt{letrec}|(idxdecorator{}{}}{86}
+\indexentry{LETREC|(idxdecorator{}{}}{86}
+\indexentry{extendenvrec@\textbf{\Scribtexttt{extend{-}env{-}rec}}|(idxdecorator{}{}}{86}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!LETREC@LETREC|(idxdecorator{}{}}{86}
+\indexentry{extendenvrec@\textbf{\Scribtexttt{extend{-}env{-}rec}}|)idxdecorator{}{}}{87}
+\indexentry{bzang3ding4Binding@绑定 (Binding)!letrec@\Scribtexttt{letrec}|)idxdecorator{}{}}{87}
+\indexentry{zzhu3ti3@主体!letrec@\Scribtexttt{letrec}|)idxdecorator{}{}}{87}
+\indexentry{LETREC|)idxdecorator{}{}}{87}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!LETREC@LETREC|)idxdecorator{}{}}{87}
+\indexentry{dzuo1can1shu4guo4cheng2@多参数过程|(idxdecorator{}{}}{87}
+\indexentry{dzuo1can1shu4guo4cheng2@多参数过程|)idxdecorator{}{}}{87}
+\indexentry{dzuo1guo4cheng2sheng1ming2@多过程声明|(idxdecorator{}{}}{87}
+\indexentry{hzu4di4gui1@互递归|(idxdecorator{}{}}{87}
+\indexentry{dzi4gui1cheng2xu4@递归程序!hzu4di4gui1@互递归|(idxdecorator{}{}}{87}
+\indexentry{dzuo1can1shu4guo4cheng2@多参数过程|(idxdecorator{}{}}{87}
+\indexentry{dzuo1can1shu4guo4cheng2@多参数过程|)idxdecorator{}{}}{87}
+\indexentry{dzuo1guo4cheng2sheng1ming2@多过程声明|)idxdecorator{}{}}{87}
+\indexentry{hzu4di4gui1@互递归|)idxdecorator{}{}}{87}
+\indexentry{dzi4gui1cheng2xu4@递归程序!hzu4di4gui1@互递归|)idxdecorator{}{}}{87}
+\indexentry{hzuan2jing4@环境!gzuo4cheng2biao3shi4@过程表示|idxdecorator{}{}}{87}
+\indexentry{gzuo4cheng2biao3shi4fa3@过程表示法!hzuan2jing4@环境|idxdecorator{}{}}{87}
+\indexentry{bzi4bao1@闭包|(idxdecorator{}{}}{89}
+\indexentry{extendenvrec@\textbf{\Scribtexttt{extend{-}env{-}rec}}|(idxdecorator{}{}}{89}
+\indexentry{extendenvrec@\textbf{\Scribtexttt{extend{-}env{-}rec}}|)idxdecorator{}{}}{91}
+\indexentry{dzuo1guo4cheng2sheng1ming2@多过程声明|(idxdecorator{}{}}{91}
+\indexentry{hzu4di4gui1@互递归|(idxdecorator{}{}}{91}
+\indexentry{dzi4gui1cheng2xu4@递归程序!hzu4di4gui1@互递归|(idxdecorator{}{}}{91}
+\indexentry{bzi4bao1@闭包|)idxdecorator{}{}}{91}
+\indexentry{dzong4tai4bang3ding4dong4tai4zuo4yong4yu4@动态绑定（动态作用域）|(idxdecorator{}{}}{91}
+\indexentry{jzie1cheng2han2shu4@阶乘函数|(idxdecorator{}{}}{91}
+\indexentry{dzi4gui1cheng2xu4@递归程序!szhe4ji4he2shi2xian4@设计和实现|(idxdecorator{}{}}{91}
+\indexentry{bzian4liang4sheng1ming2dezuo4yong4yu4@变量声明的作用域!dzong4tai4@动态|(idxdecorator{}{}}{91}
+\indexentry{dzong4tai4bang3ding4dong4tai4zuo4yong4yu4@动态绑定（动态作用域）|)idxdecorator{}{}}{91}
+\indexentry{jzie1cheng2han2shu4@阶乘函数|)idxdecorator{}{}}{91}
+\indexentry{dzuo1guo4cheng2sheng1ming2@多过程声明|)idxdecorator{}{}}{91}
+\indexentry{hzu4di4gui1@互递归|)idxdecorator{}{}}{91}
+\indexentry{dzi4gui1cheng2xu4@递归程序!szhe4ji4he2shi2xian4@设计和实现|)idxdecorator{}{}}{91}
+\indexentry{dzi4gui1cheng2xu4@递归程序!hzu4di4gui1@互递归|)idxdecorator{}{}}{91}
+\indexentry{bzian4liang4sheng1ming2dezuo4yong4yu4@变量声明的作用域!dzong4tai4@动态|)idxdecorator{}{}}{91}
+\indexentry{bzang3ding4Binding@绑定 (Binding)!bzian4liang4@变量|(idxdecorator{}{}}{91}
+\indexentry{szheng1ming2@声明!bzian4liang4@变量|(idxdecorator{}{}}{91}
+\indexentry{yzin3yong4@引用|(idxdecorator{}{}}{91}
+\indexentry{bzian4liang4sheng1ming2dezuo4yong4yu4@变量声明的作用域|(idxdecorator{}{}}{91}
+\indexentry{bzian4liang4@变量!szheng1ming2@声明|(idxdecorator{}{}}{91}
+\indexentry{czheng2xu4dejing4tai4xing4zhi4@程序的静态性质|idxdecorator{}{}}{92}
+\indexentry{czi2fa3zuo4yong4yu4gui1ze2@词法作用域规则|idxdecorator{}{}}{93}
+\indexentry{czi2fa3bian4liang4@词法变量|idxdecorator{}{}}{93}
+\indexentry{bzian4liang4@变量!czi2fa3@词法|idxdecorator{}{}}{93}
+\indexentry{zzhe1bi4@遮蔽|idxdecorator{}{}}{93}
+\indexentry{bzian4liang4@变量!zzhe1bi4@遮蔽|idxdecorator{}{}}{93}
+\indexentry{dzeng3shen1xian4@等深线|idxdecorator{}{}}{93}
+\indexentry{bzang3ding4Binding@绑定 (Binding)!proc@\Scribtexttt{proc}|idxdecorator{}{}}{94}
+\indexentry{zzhu3ti3@主体!proc@\Scribtexttt{proc}|idxdecorator{}{}}{94}
+\indexentry{bzang3ding4Binding@绑定 (Binding)!let@\Scribtexttt{let}|idxdecorator{}{}}{94}
+\indexentry{zzhu3ti3@主体!let@\Scribtexttt{let}|idxdecorator{}{}}{94}
+\indexentry{bzang3ding4Binding@绑定 (Binding)!letrec@\Scribtexttt{letrec}|idxdecorator{}{}}{95}
+\indexentry{zzhu3ti3@主体!letrec@\Scribtexttt{letrec}|idxdecorator{}{}}{95}
+\indexentry{bzang3ding4Binding@绑定 (Binding)!qzi1xian4@期限|idxdecorator{}{}}{95}
+\indexentry{czheng2xu4dedong4tai4xing4zhi4@程序的动态性质|(idxdecorator{}{}}{95}
+\indexentry{bzian4liang4bang3ding4deqi1xian4@变量绑定的期限|idxdecorator{}{}}{95}
+\indexentry{bzan4wu2xian4deqi1xian4@半无限的期限|idxdecorator{}{}}{95}
+\indexentry{bzian4liang4@变量!qzi1xian4@期限|idxdecorator{}{}}{95}
+\indexentry{czheng2xu4dejing4tai4xing4zhi4@程序的静态性质|idxdecorator{}{}}{95}
+\indexentry{bzang3ding4Binding@绑定 (Binding)!bzian4liang4@变量|)idxdecorator{}{}}{95}
+\indexentry{szheng1ming2@声明!bzian4liang4@变量|)idxdecorator{}{}}{95}
+\indexentry{czheng2xu4dedong4tai4xing4zhi4@程序的动态性质|)idxdecorator{}{}}{95}
+\indexentry{yzin3yong4@引用|)idxdecorator{}{}}{95}
+\indexentry{bzian4liang4sheng1ming2dezuo4yong4yu4@变量声明的作用域|)idxdecorator{}{}}{95}
+\indexentry{bzian4liang4@变量!szheng1ming2@声明|)idxdecorator{}{}}{95}
+\indexentry{dze2bu4lu3jin1suo3yin3@德布鲁金索引|(idxdecorator{}{}}{95}
+\indexentry{LETREC!wzu2ming2ban3ben3@无名版本|(idxdecorator{}{}}{95}
+\indexentry{czi2fa3xun2zhi3@词法寻址|(idxdecorator{}{}}{95}
+\indexentry{qzu4ming2@去名!LETREC@LETREC|(idxdecorator{}{}}{95}
+\indexentry{bzian4liang4@变量!szheng1ming2@声明|(idxdecorator{}{}}{95}
+\indexentry{dze2bu4lu3jin1suo3yin3@德布鲁金索引|)idxdecorator{}{}}{97}
+\indexentry{czi2fa3xun2zhi3@词法寻址|)idxdecorator{}{}}{97}
+\indexentry{fzan1yi4@翻译!yzou3ming2dao4wu2ming2LETREC@有名到无名 LETREC|(idxdecorator{}{}}{98}
+\indexentry{hzuan2jing4@环境!jzing4tai4@静态|(idxdecorator{}{}}{99}
+\indexentry{jzing4tai4huan2jing4@静态环境|(idxdecorator{}{}}{99}
+\indexentry{hzuan2jing4@环境!jzing4tai4@静态|)idxdecorator{}{}}{101}
+\indexentry{jzing4tai4huan2jing4@静态环境|)idxdecorator{}{}}{101}
+\indexentry{fzan1yi4@翻译!yzou3ming2dao4wu2ming2LETREC@有名到无名 LETREC|)idxdecorator{}{}}{101}
+\indexentry{hzuan2jing4@环境!wzu2ming2@无名|(idxdecorator{}{}}{101}
+\indexentry{wzu2ming2huan2jing4@无名环境|(idxdecorator{}{}}{101}
+\indexentry{fzan1yi4@翻译!yzou3ming2dao4wu2ming2LETREC@有名到无名 LETREC|idxdecorator{}{}}{102}
+\indexentry{hzuan2jing4@环境!wzu2ming2@无名|)idxdecorator{}{}}{104}
+\indexentry{wzu2ming2huan2jing4@无名环境|)idxdecorator{}{}}{104}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!wzu2ming2ban3ben3@无名版本|(idxdecorator{}{}}{104}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!wzu2ming2ban3ben3@无名版本|)idxdecorator{}{}}{104}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!wzu2ming2ban3ben3@无名版本|idxdecorator{}{}}{105}
+\indexentry{LETREC!wzu2ming2ban3ben3@无名版本|)idxdecorator{}{}}{105}
+\indexentry{qzu4ming2@去名!LETREC@LETREC|)idxdecorator{}{}}{105}
+\indexentry{bzian4liang4@变量!szheng1ming2@声明|)idxdecorator{}{}}{105}
+\indexentry{condbziao3da2shi4@\Scribtexttt{cond} 表达式|idxdecorator{}{}}{105}
+\indexentry{unpackbziao3da2shi4@\Scribtexttt{unpack} 表达式|idxdecorator{}{}}{105}
+\indexentry{fzan1yi4@翻译!yzou3ming2dao4wu2ming2LETREC@有名到无名 LETREC|(idxdecorator{}{}}{105}
+\indexentry{hzuan2jing4@环境!lze1pai2biao3shi4@肋排表示|(idxdecorator{}{}}{106}
+\indexentry{tzui1li3gui1ze2@推理规则|(idxdecorator{}{}}{106}
+\indexentry{hzuan2jing4@环境!lze1pai2biao3shi4@肋排表示|)idxdecorator{}{}}{106}
+\indexentry{tzui1li3gui1ze2@推理规则|)idxdecorator{}{}}{106}
+\indexentry{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!gzuo4cheng2zhi2@过程值|(idxdecorator{}{}}{106}
+\indexentry{gzuo4cheng2zhi2Proc@过程值 (\texMathInline{\mathit{Proc}})!szhu4ju4jie2gou4biao3shi4@数据结构表示|(idxdecorator{}{}}{106}
+\indexentry{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!gzuo4cheng2zhi2@过程值|)idxdecorator{}{}}{106}
+\indexentry{gzuo4cheng2zhi2Proc@过程值 (\texMathInline{\mathit{Proc}})!szhu4ju4jie2gou4biao3shi4@数据结构表示|)idxdecorator{}{}}{106}
+\indexentry{fzan1yi4@翻译!yzou3ming2dao4wu2ming2LETREC@有名到无名 LETREC|)idxdecorator{}{}}{106}
+\indexentry{szheng1ming2@声明!gzuo4cheng2@过程|(idxdecorator{}{}}{106}
+\indexentry{yzi3zhi1guo4cheng2@已知过程|(idxdecorator{}{}}{106}
+\indexentry{gzuo4cheng2sheng1ming2@过程声明|(idxdecorator{}{}}{106}
+\indexentry{szheng1ming2@声明!gzuo4cheng2@过程|)idxdecorator{}{}}{106}
+\indexentry{yzi3zhi1guo4cheng2@已知过程|)idxdecorator{}{}}{106}
+\indexentry{gzuo4cheng2sheng1ming2@过程声明|)idxdecorator{}{}}{106}
+\indexentry{jzi4suan4xiao4guo3@计算效果|idxdecorator{}{}}{107}
+\indexentry{yzin3yong4@引用|(idxdecorator{}{}}{107}
+\indexentry{bzang3ding4Binding@绑定 (Binding)!bzian4liang4@变量|idxdecorator{}{}}{107}
+\indexentry{gzong4xiang3bian4liang4@共享变量|idxdecorator{}{}}{107}
+\indexentry{fzu4zhi2@赋值|idxdecorator{}{}}{107}
+\indexentry{bzian4liang4@变量!gzong4xiang3@共享|idxdecorator{}{}}{107}
+\indexentry{wzei4zhi4@位置|idxdecorator{}{}}{107}
+\indexentry{kze3cun2chu3zhi2@可存储值|idxdecorator{}{}}{107}
+\indexentry{czun2chu3qi4@存储器|idxdecorator{}{}}{107}
+\indexentry{zzuo3zhi2@左值|idxdecorator{}{}}{107}
+\indexentry{yzou4zhi2@右值|idxdecorator{}{}}{108}
+\indexentry{yzin3yong4@引用|)idxdecorator{}{}}{108}
+\indexentry{EXPLICITREFS@EXPLICIT{-}REFS|(idxdecorator{}{}}{108}
+\indexentry{yzin3yong4@引用!xzian3shi4@显式|(idxdecorator{}{}}{108}
+\indexentry{fzen1pei4@分配!czun2chu3qi4zhong1de@存储器中的|idxdecorator{}{}}{108}
+\indexentry{jzie3yin3yong4@解引用|idxdecorator{}{}}{108}
+\indexentry{kze3bian4xing4@可变性|(idxdecorator{}{}}{108}
+\indexentry{gzong4xiang3bian4liang4@共享变量|idxdecorator{}{}}{108}
+\indexentry{bzian4liang4@变量!gzong4xiang3@共享|idxdecorator{}{}}{108}
+\indexentry{beginbziao3da2shi4@\Scribtexttt{begin} 表达式|idxdecorator{}{}}{109}
+\indexentry{szi1you3bian4liang4@私有变量|idxdecorator{}{}}{109}
+\indexentry{bzian4liang4@变量!szi1you3@私有|idxdecorator{}{}}{109}
+\indexentry{gzong4xiang3bian4liang4@共享变量|(idxdecorator{}{}}{109}
+\indexentry{gzong4xiang3bian4liang4@共享变量|)idxdecorator{}{}}{110}
+\indexentry{bzian4liang4@变量!gzong4xiang3@共享|idxdecorator{}{}}{110}
+\indexentry{kze3cun2chu3zhi2@可存储值|idxdecorator{}{}}{110}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!EXPLICITREFS@EXPLICIT{-}REFS|(idxdecorator{}{}}{111}
+\indexentry{czun2chu3qi4chuan2di4gui1fan4@存储器传递规范|idxdecorator{}{}}{111}
+\indexentry{beginbziao3da2shi4@\Scribtexttt{begin} 表达式|idxdecorator{}{}}{112}
+\indexentry{listbziao3da2shi4@\Scribtexttt{list} 表达式|idxdecorator{}{}}{112}
+\indexentry{fzen1pei4@分配!czun2chu3qi4zhong1de@存储器中的|(idxdecorator{}{}}{112}
+\indexentry{jzie3yin3yong4@解引用|idxdecorator{}{}}{113}
+\indexentry{kze3bian4xing4@可变性|idxdecorator{}{}}{113}
+\indexentry{jzi4suan4xiao4guo3@计算效果|idxdecorator{}{}}{113}
+\indexentry{qziu2xiao4guo3@求效果|idxdecorator{}{}}{113}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!EXPLICITREFS@EXPLICIT{-}REFS|)idxdecorator{}{}}{113}
+\indexentry{fzen1pei4@分配!czun2chu3qi4zhong1de@存储器中的|)idxdecorator{}{}}{114}
+\indexentry{czun2chu3qi4@存储器|(idxdecorator{}{}}{114}
+\indexentry{EXPLICITREFS@EXPLICIT{-}REFS|)idxdecorator{}{}}{116}
+\indexentry{yzin3yong4@引用!xzian3shi4@显式|)idxdecorator{}{}}{116}
+\indexentry{czun2chu3qi4@存储器|)idxdecorator{}{}}{116}
+\indexentry{beginbziao3da2shi4@\Scribtexttt{begin} 表达式|idxdecorator{}{}}{116}
+\indexentry{listbziao3da2shi4@\Scribtexttt{list} 表达式|idxdecorator{}{}}{117}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!EXPLICITREFS@EXPLICIT{-}REFS|(idxdecorator{}{}}{117}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!EXPLICITREFS@EXPLICIT{-}REFS|)idxdecorator{}{}}{117}
+\indexentry{dzuo1can1shu4guo4cheng2@多参数过程|(idxdecorator{}{}}{117}
+\indexentry{dzuo1can1shu4guo4cheng2@多参数过程|)idxdecorator{}{}}{117}
+\indexentry{jzie3yin3yong4@解引用|idxdecorator{}{}}{117}
+\indexentry{IMPLICITREFS@IMPLICIT{-}REFS|(idxdecorator{}{}}{120}
+\indexentry{kze3bian4xing4@可变性|(idxdecorator{}{}}{120}
+\indexentry{yzin3yong4@引用!yzin3shi4@隐式|(idxdecorator{}{}}{120}
+\indexentry{kze3bian4xing4@可变性|)idxdecorator{}{}}{121}
+\indexentry{fzen1pei4@分配!czun2chu3qi4zhong1de@存储器中的|idxdecorator{}{}}{121}
+\indexentry{bzian4liang4@变量!kze3bian4@可变|idxdecorator{}{}}{121}
+\indexentry{azn4zhi2diao4yong4@按值调用|idxdecorator{}{}}{121}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!IMPLICITREFS@IMPLICIT{-}REFS|(idxdecorator{}{}}{121}
+\indexentry{czan1shu4chuan2di4@参数传递|(idxdecorator{}{}}{122}
+\indexentry{bzang3ding4Binding@绑定 (Binding)!proc@\Scribtexttt{proc}|idxdecorator{}{}}{122}
+\indexentry{zzhu3ti3@主体!proc@\Scribtexttt{proc}|idxdecorator{}{}}{122}
+\indexentry{czan1shu4chuan2di4@参数传递|)idxdecorator{}{}}{122}
+\indexentry{bzang3ding4Binding@绑定 (Binding)!let@\Scribtexttt{let}|idxdecorator{}{}}{123}
+\indexentry{zzhu3ti3@主体!let@\Scribtexttt{let}|idxdecorator{}{}}{123}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!IMPLICITREFS@IMPLICIT{-}REFS|)idxdecorator{}{}}{123}
+\indexentry{bzang3ding4Binding@绑定 (Binding)!let@\Scribtexttt{let}|idxdecorator{}{}}{123}
+\indexentry{zzhu3ti3@主体!let@\Scribtexttt{let}|idxdecorator{}{}}{123}
+\indexentry{bzang3ding4Binding@绑定 (Binding)!proc@\Scribtexttt{proc}|(idxdecorator{}{}}{123}
+\indexentry{zzhu3ti3@主体!proc@\Scribtexttt{proc}|(idxdecorator{}{}}{123}
+\indexentry{czan1shu4chuan2di4@参数传递|(idxdecorator{}{}}{123}
+\indexentry{bzang3ding4Binding@绑定 (Binding)!proc@\Scribtexttt{proc}|)idxdecorator{}{}}{124}
+\indexentry{zzhu3ti3@主体!proc@\Scribtexttt{proc}|)idxdecorator{}{}}{124}
+\indexentry{czan1shu4chuan2di4@参数传递|)idxdecorator{}{}}{124}
+\indexentry{bzang3ding4Binding@绑定 (Binding)!letrec@\Scribtexttt{letrec}|idxdecorator{}{}}{124}
+\indexentry{zzhu3ti3@主体!letrec@\Scribtexttt{letrec}|idxdecorator{}{}}{124}
+\indexentry{IMPLICITREFS@IMPLICIT{-}REFS|)idxdecorator{}{}}{124}
+\indexentry{yzin3yong4@引用!yzin3shi4@隐式|)idxdecorator{}{}}{124}
+\indexentry{dzi4gui1cheng2xu4@递归程序!szhe4ji4he2shi2xian4@设计和实现|(idxdecorator{}{}}{124}
+\indexentry{bzian4liang4@变量!kze3bian4@可变|(idxdecorator{}{}}{124}
+\indexentry{dzi4gui1cheng2xu4@递归程序!szhe4ji4he2shi2xian4@设计和实现|)idxdecorator{}{}}{126}
+\indexentry{bzian4liang4@变量!kze3bian4@可变|)idxdecorator{}{}}{126}
+\indexentry{dzuo1can1shu4guo4cheng2@多参数过程|(idxdecorator{}{}}{126}
+\indexentry{dzuo1can1shu4guo4cheng2@多参数过程|)idxdecorator{}{}}{126}
+\indexentry{dzuo1guo4cheng2sheng1ming2@多过程声明|(idxdecorator{}{}}{126}
+\indexentry{bzi4bao1@闭包|idxdecorator{}{}}{126}
+\indexentry{dzuo1guo4cheng2sheng1ming2@多过程声明|)idxdecorator{}{}}{126}
+\indexentry{letmutablebziao3da2shi4@\Scribtexttt{letmutable} 表达式|(idxdecorator{}{}}{126}
+\indexentry{letmutablebziao3da2shi4@\Scribtexttt{letmutable} 表达式|)idxdecorator{}{}}{126}
+\indexentry{fzu4zhi2@赋值|(idxdecorator{}{}}{126}
+\indexentry{bzang3ding4Binding@绑定 (Binding)!lziu2shi4@流式|(idxdecorator{}{}}{126}
+\indexentry{lziu2shi4bang3ding4@流式绑定|(idxdecorator{}{}}{126}
+\indexentry{setdynamicbziao3da2shi4@\Scribtexttt{setdynamic} 表达式|(idxdecorator{}{}}{126}
+\indexentry{gzong4xiang3bian4liang4@共享变量|(idxdecorator{}{}}{126}
+\indexentry{bzian4liang4@变量!gzong4xiang3@共享|(idxdecorator{}{}}{126}
+\indexentry{dzong4tai4fu4zhi2@动态赋值|idxdecorator{}{}}{126}
+\indexentry{fzu4zhi2@赋值|)idxdecorator{}{}}{127}
+\indexentry{bzang3ding4Binding@绑定 (Binding)!lziu2shi4@流式|)idxdecorator{}{}}{127}
+\indexentry{lziu2shi4bang3ding4@流式绑定|)idxdecorator{}{}}{127}
+\indexentry{setdynamicbziao3da2shi4@\Scribtexttt{setdynamic} 表达式|)idxdecorator{}{}}{127}
+\indexentry{gzong4xiang3bian4liang4@共享变量|)idxdecorator{}{}}{127}
+\indexentry{bzian4liang4@变量!gzong4xiang3@共享|)idxdecorator{}{}}{127}
+\indexentry{yzu3ju4@语句|(idxdecorator{}{}}{127}
+\indexentry{readyzu3ju4@\Scribtexttt{read} 语句|idxdecorator{}{}}{129}
+\indexentry{dowhileyzu3ju4@\Scribtexttt{do{-}while} 语句|idxdecorator{}{}}{129}
+\indexentry{hzu4di4gui1@互递归|(idxdecorator{}{}}{129}
+\indexentry{dzi4gui1cheng2xu4@递归程序!hzu4di4gui1@互递归|(idxdecorator{}{}}{129}
+\indexentry{hzu4di4gui1@互递归|)idxdecorator{}{}}{129}
+\indexentry{dzi4gui1cheng2xu4@递归程序!hzu4di4gui1@互递归|)idxdecorator{}{}}{129}
+\indexentry{zzicheng2xu4@子程序|idxdecorator{}{}}{129}
+\indexentry{yzu3ju4@语句|)idxdecorator{}{}}{129}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!MUTABLEPAIRS@MUTABLE{-}PAIRS|(idxdecorator{}{}}{129}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!MUTABLEPAIRS@MUTABLE{-}PAIRS|)idxdecorator{}{}}{130}
+\indexentry{MUTABLEPAIRS@MUTABLE{-}PAIRS|(idxdecorator{}{}}{130}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!MUTABLEPAIRS@MUTABLE{-}PAIRS|idxdecorator{}{}}{132}
+\indexentry{MUTABLEPAIRS@MUTABLE{-}PAIRS|)idxdecorator{}{}}{132}
+\indexentry{szhu4zu3@数组|(idxdecorator{}{}}{132}
+\indexentry{MUTABLEPAIRS@MUTABLE{-}PAIRS|idxdecorator{}{}}{135}
+\indexentry{szhu4zu3@数组|)idxdecorator{}{}}{135}
+\indexentry{azn4zhi2diao4yong4@按值调用|idxdecorator{}{}}{136}
+\indexentry{azn4zhi3diao4yong4@按指调用|(idxdecorator{}{}}{136}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!CALLBYREFERENCE@CALL{-}BY{-}REFERENCE|(idxdecorator{}{}}{136}
+\indexentry{bzie2ming2@别名|idxdecorator{}{}}{139}
+\indexentry{bzian4liang4@变量!bzie2ming2@别名|idxdecorator{}{}}{139}
+\indexentry{azn4zhi3diao4yong4@按指调用|)idxdecorator{}{}}{139}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!CALLBYREFERENCE@CALL{-}BY{-}REFERENCE|)idxdecorator{}{}}{139}
+\indexentry{szhu4zu3@数组|idxdecorator{}{}}{141}
+\indexentry{azn4zhi2he2jie2guo3diao4yong4@按值和结果调用|(idxdecorator{}{}}{142}
+\indexentry{azn4zhi2he2jie2guo3diao4yong4@按值和结果调用|)idxdecorator{}{}}{142}
+\indexentry{jzi2shi2qiu2zhi2@即时求值|idxdecorator{}{}}{142}
+\indexentry{lzan3qiu2zhi2@懒求值|(idxdecorator{}{}}{142}
+\indexentry{czao1zuo4shu4@操作数|(idxdecorator{}{}}{142}
+\indexentry{dzong4jie2@冻结|idxdecorator{}{}}{142}
+\indexentry{jzie3dong4@解冻|idxdecorator{}{}}{142}
+\indexentry{zzhi2xiang1@值箱|(idxdecorator{}{}}{142}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!CALLBYNAME@CALL{-}BY{-}NAME|idxdecorator{}{}}{143}
+\indexentry{azn4ming2diao4yong4@按名调用|(idxdecorator{}{}}{143}
+\indexentry{zzhi2xiang1@值箱|)idxdecorator{}{}}{144}
+\indexentry{azn4xu1diao4yong4@按需调用|(idxdecorator{}{}}{144}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!CALLBYNEED@CALL{-}BY{-}NEED|(idxdecorator{}{}}{144}
+\indexentry{zzhu4ji4fa3@助记法|idxdecorator{}{}}{144}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!CALLBYNEED@CALL{-}BY{-}NEED|)idxdecorator{}{}}{144}
+\indexentry{betatzui1dao3@\texMathInline{\beta}{-}推导|idxdecorator{}{}}{144}
+\indexentry{Lambdayzan3suan4@Lambda 演算|idxdecorator{}{}}{144}
+\indexentry{azn4ming2diao4yong4@按名调用|)idxdecorator{}{}}{144}
+\indexentry{azn4xu1diao4yong4@按需调用|)idxdecorator{}{}}{144}
+\indexentry{lzan3qiu2zhi2@懒求值|)idxdecorator{}{}}{144}
+\indexentry{czao1zuo4shu4@操作数|)idxdecorator{}{}}{144}
+\indexentry{kzong4zhi4shang4xia4wen2@控制上下文|(idxdecorator{}{}}{147}
+\indexentry{jzie1cheng2han2shu4@阶乘函数|(idxdecorator{}{}}{147}
+\indexentry{wzei3diao4yong4@尾调用|idxdecorator{}{}}{148}
+\indexentry{dzi4gui1xing4kong4zhi4xing2wei4@递归性控制行为|idxdecorator{}{}}{148}
+\indexentry{jzie1cheng2han2shu4@阶乘函数|)idxdecorator{}{}}{148}
+\indexentry{dzie2dai4xing4kong4zhi4xing2wei4@迭代性控制行为|idxdecorator{}{}}{148}
+\indexentry{czao1zuo4shu4wei4zhi4@操作数位置|idxdecorator{}{}}{148}
+\indexentry{czao1zuo4shu4@操作数|idxdecorator{}{}}{149}
+\indexentry{xzu4wen2chuan2di4feng1ge2@续文传递风格|idxdecorator{}{}}{149}
+\indexentry{kzong4zhi4shang4xia4wen2@控制上下文|)idxdecorator{}{}}{149}
+\indexentry{xzu4wen2@续文|(idxdecorator{}{}}{149}
+\indexentry{jzie3shi4qi4@解释器!czhuan2di4xu4wen2@传递续文|(idxdecorator{}{}}{149}
+\indexentry{LETREC!czhuan2di4xu4wen2dejie3shi4qi4@传递续文的解释器|(idxdecorator{}{}}{149}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!czhuan2di4xu4wen2ban3ben3@传递续文版本|(idxdecorator{}{}}{149}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!LETREC@LETREC|idxdecorator{}{}}{150}
+\indexentry{kzong4zhi4shang4xia4wen2@控制上下文|idxdecorator{}{}}{152}
+\indexentry{wzei3diao4yong4@尾调用|idxdecorator{}{}}{152}
+\indexentry{wzei3diao4yong4bu4kuo4da4xu4wen2@尾调用不扩大续文|idxdecorator{}{}}{152}
+\indexentry{wzei3diao4yong4bu4kuo4da4xu4wen2@尾调用不扩大续文|idxdecorator{}{}}{154}
+\indexentry{tziao2jian4biao3da2shi4@条件表达式|idxdecorator{}{}}{154}
+\indexentry{gzuo4cheng2biao3shi4fa3@过程表示法!xzu4wen2@续文|idxdecorator{}{}}{154}
+\indexentry{xzu4wen2@续文!szhu4ju4jie2gou4biao3shi4@数据结构表示|idxdecorator{}{}}{154}
+\indexentry{xzu4wen2@续文!gzuo4cheng2biao3shi4@过程表示|idxdecorator{}{}}{154}
+\indexentry{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!xzu4wen2@续文|idxdecorator{}{}}{154}
+\indexentry{xzu4wen2@续文!gzuo4cheng2biao3shi4@过程表示|idxdecorator{}{}}{155}
+\indexentry{gzuo4cheng2biao3shi4fa3@过程表示法!xzu4wen2@续文|idxdecorator{}{}}{155}
+\indexentry{xzu4wen2@续文!szhu4ju4jie2gou4biao3shi4@数据结构表示|idxdecorator{}{}}{156}
+\indexentry{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!xzu4wen2@续文|idxdecorator{}{}}{156}
+\indexentry{czha4zhi2biao3da2shi4@差值表达式|idxdecorator{}{}}{157}
+\indexentry{gzuo4cheng2diao4yong4@过程调用|(idxdecorator{}{}}{159}
+\indexentry{czao1zuo4shu4@操作数|(idxdecorator{}{}}{159}
+\indexentry{gzuo4cheng2diao4yong4@过程调用|)idxdecorator{}{}}{160}
+\indexentry{xzu4wen2@续文|idxdecorator{}{}}{161}
+\indexentry{jzie3shi4qi4@解释器!czhuan2di4xu4wen2@传递续文|idxdecorator{}{}}{161}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!czhuan2di4xu4wen2ban3ben3@传递续文版本|idxdecorator{}{}}{161}
+\indexentry{jzie3shi4qi4@解释器!czhuan2di4xu4wen2@传递续文|idxdecorator{}{}}{162}
+\indexentry{LETREC!czhuan2di4xu4wen2dejie3shi4qi4@传递续文的解释器|idxdecorator{}{}}{162}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!czhuan2di4xu4wen2ban3ben3@传递续文版本|idxdecorator{}{}}{162}
+\indexentry{xzu4wen2@续文|)idxdecorator{}{}}{162}
+\indexentry{jzie3shi4qi4@解释器!czhuan2di4xu4wen2@传递续文|)idxdecorator{}{}}{162}
+\indexentry{LETREC!czhuan2di4xu4wen2dejie3shi4qi4@传递续文的解释器|)idxdecorator{}{}}{162}
+\indexentry{czao1zuo4shu4@操作数|)idxdecorator{}{}}{162}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!czhuan2di4xu4wen2ban3ben3@传递续文版本|)idxdecorator{}{}}{162}
+\indexentry{xzu4wen2@续文!gzuo4cheng2biao3shi4@过程表示|idxdecorator{}{}}{162}
+\indexentry{gzuo4cheng2biao3shi4fa3@过程表示法!xzu4wen2@续文|idxdecorator{}{}}{162}
+\indexentry{xzu4wen2@续文!szhu4ju4jie2gou4biao3shi4@数据结构表示|idxdecorator{}{}}{162}
+\indexentry{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!xzu4wen2@续文|idxdecorator{}{}}{162}
+\indexentry{lzie4biao3cao1zuo4@列表操作|idxdecorator{}{}}{162}
+\indexentry{listbziao3da2shi4@\Scribtexttt{list} 表达式|(idxdecorator{}{}}{162}
+\indexentry{listbziao3da2shi4@\Scribtexttt{list} 表达式|)idxdecorator{}{}}{162}
+\indexentry{dzuo1bian4liang4sheng1ming2@多变量声明|(idxdecorator{}{}}{162}
+\indexentry{dzuo1bian4liang4sheng1ming2@多变量声明|)idxdecorator{}{}}{162}
+\indexentry{dzuo1can1shu4guo4cheng2@多参数过程|(idxdecorator{}{}}{162}
+\indexentry{dzuo1can1shu4guo4cheng2@多参数过程|)idxdecorator{}{}}{162}
+\indexentry{IMPLICITREFS@IMPLICIT{-}REFS!czhuan2di4xu4wen2dejie3shi4qi4@传递续文的解释器|(idxdecorator{}{}}{162}
+\indexentry{jzie3shi4qi4@解释器!czhuan2di4xu4wen2@传递续文|idxdecorator{}{}}{163}
+\indexentry{LETREC!czhuan2di4xu4wen2dejie3shi4qi4@传递续文的解释器|idxdecorator{}{}}{163}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!czhuan2di4xu4wen2ban3ben3@传递续文版本|idxdecorator{}{}}{163}
+\indexentry{IMPLICITREFS@IMPLICIT{-}REFS!czhuan2di4xu4wen2dejie3shi4qi4@传递续文的解释器|)idxdecorator{}{}}{164}
+\indexentry{beginbziao3da2shi4@\Scribtexttt{begin} 表达式|(idxdecorator{}{}}{164}
+\indexentry{beginbziao3da2shi4@\Scribtexttt{begin} 表达式|)idxdecorator{}{}}{164}
+\indexentry{jzie1cheng2han2shu4@阶乘函数|(idxdecorator{}{}}{164}
+\indexentry{dzie2dai4xing4kong4zhi4xing2wei4@迭代性控制行为|(idxdecorator{}{}}{164}
+\indexentry{dzi4gui1xing4kong4zhi4xing2wei4@递归性控制行为|(idxdecorator{}{}}{164}
+\indexentry{jzie1cheng2han2shu4@阶乘函数|)idxdecorator{}{}}{164}
+\indexentry{dzie2dai4xing4kong4zhi4xing2wei4@迭代性控制行为|)idxdecorator{}{}}{164}
+\indexentry{dzi4gui1xing4kong4zhi4xing2wei4@递归性控制行为|)idxdecorator{}{}}{164}
+\indexentry{hzuo2yue4ji4lu4biao3@活跃记录表|(idxdecorator{}{}}{164}
+\indexentry{zzheng4@帧|(idxdecorator{}{}}{164}
+\indexentry{hzuo2yue4ji4lu4biao3@活跃记录表|)idxdecorator{}{}}{164}
+\indexentry{zzheng4@帧|)idxdecorator{}{}}{164}
+\indexentry{mzing4ling4xu4wen2@命令续文|(idxdecorator{}{}}{164}
+\indexentry{xzu4wen2@续文!mzing4ling4xu4wen2@命令续文|(idxdecorator{}{}}{164}
+\indexentry{yzu3ju4@语句|(idxdecorator{}{}}{164}
+\indexentry{mzing4ling4xu4wen2@命令续文|)idxdecorator{}{}}{164}
+\indexentry{xzu4wen2@续文!mzing4ling4xu4wen2@命令续文|)idxdecorator{}{}}{164}
+\indexentry{yzu3ju4@语句|)idxdecorator{}{}}{164}
+\indexentry{xziao1han2@消函|idxdecorator{}{}}{165}
+\indexentry{tziao4yue4shi4@跳跃式|(idxdecorator{}{}}{165}
+\indexentry{xziao1han2@消函|(idxdecorator{}{}}{165}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!tziao4yue4shi4ban3ben3@跳跃式版本|(idxdecorator{}{}}{165}
+\indexentry{lzei4xing2tui1dao3@类型推导!lzi4zi@例子|(idxdecorator{}{}}{165}
+\indexentry{lzei4xing2tui1dao3@类型推导!lzi4zi@例子|)idxdecorator{}{}}{166}
+\indexentry{xziao1han2@消函|)idxdecorator{}{}}{167}
+\indexentry{tziao4yue4shi4@跳跃式|)idxdecorator{}{}}{167}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!tziao4yue4shi4ban3ben3@跳跃式版本|)idxdecorator{}{}}{167}
+\indexentry{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!tziao4chuang2@跳床|(idxdecorator{}{}}{167}
+\indexentry{tziao4yue4shi4@跳跃式!szhu4ju4jie2gou4biao3shi4@数据结构表示|(idxdecorator{}{}}{167}
+\indexentry{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!tziao4chuang2@跳床|)idxdecorator{}{}}{167}
+\indexentry{tziao4yue4shi4@跳跃式!szhu4ju4jie2gou4biao3shi4@数据结构表示|)idxdecorator{}{}}{167}
+\indexentry{xziao1han2@消函|idxdecorator{}{}}{167}
+\indexentry{jzi4cun2@寄存|(idxdecorator{}{}}{167}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!jzi4cun2ban3ben3@寄存版本|(idxdecorator{}{}}{167}
+\indexentry{gzong4xiang3bian4liang4@共享变量|idxdecorator{}{}}{167}
+\indexentry{bzian4liang4@变量!gzong4xiang3@共享|idxdecorator{}{}}{167}
+\indexentry{gzuo4cheng2biao3shi4fa3@过程表示法!tziao4chuang2@跳床|idxdecorator{}{}}{168}
+\indexentry{tziao4yue4shi4@跳跃式!gzuo4cheng2biao3shi4@过程表示|idxdecorator{}{}}{168}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!tziao4yue4shi4ban3ben3@跳跃式版本|idxdecorator{}{}}{168}
+\indexentry{goto@\Scribtexttt{goto}|idxdecorator{}{}}{169}
+\indexentry{kzong4zhi4shang4xia4wen2@控制上下文|idxdecorator{}{}}{169}
+\indexentry{jzie1cheng2han2shu4@阶乘函数|idxdecorator{}{}}{169}
+\indexentry{wzei3diao4yong4@尾调用|idxdecorator{}{}}{169}
+\indexentry{xzu4wen2@续文!szhu4ju4jie2gou4biao3shi4@数据结构表示|idxdecorator{}{}}{171}
+\indexentry{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!xzu4wen2@续文|idxdecorator{}{}}{171}
+\indexentry{xzu4wen2@续文!szhu4ju4jie2gou4biao3shi4@数据结构表示|idxdecorator{}{}}{173}
+\indexentry{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!xzu4wen2@续文|idxdecorator{}{}}{173}
+\indexentry{jzi4cun2@寄存|)idxdecorator{}{}}{174}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!jzi4cun2ban3ben3@寄存版本|)idxdecorator{}{}}{174}
+\indexentry{dzuo1can1shu4guo4cheng2@多参数过程|(idxdecorator{}{}}{174}
+\indexentry{dzuo1can1shu4guo4cheng2@多参数过程|)idxdecorator{}{}}{174}
+\indexentry{tziao4yue4shi4@跳跃式|(idxdecorator{}{}}{174}
+\indexentry{jzi4cun2@寄存|idxdecorator{}{}}{175}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!jzi4cun2ban3ben3@寄存版本|idxdecorator{}{}}{175}
+\indexentry{jzi4cun2@寄存|idxdecorator{}{}}{176}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!jzi4cun2ban3ben3@寄存版本|idxdecorator{}{}}{176}
+\indexentry{tziao4yue4shi4@跳跃式|)idxdecorator{}{}}{176}
+\indexentry{jzie1cheng2han2shu4@阶乘函数|idxdecorator{}{}}{176}
+\indexentry{jzi4cun2@寄存|idxdecorator{}{}}{177}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!jzi4cun2ban3ben3@寄存版本|idxdecorator{}{}}{177}
+\indexentry{bzang3ding4Binding@绑定 (Binding)!qzi1xian4@期限|(idxdecorator{}{}}{177}
+\indexentry{dzong4tai4bang3ding4dong4tai4zuo4yong4yu4@动态绑定（动态作用域）|(idxdecorator{}{}}{177}
+\indexentry{dzong4tai4qi1xian4@动态期限|(idxdecorator{}{}}{177}
+\indexentry{bzian4liang4bang3ding4deqi1xian4@变量绑定的期限|(idxdecorator{}{}}{177}
+\indexentry{bzian4liang4sheng1ming2dezuo4yong4yu4@变量声明的作用域!dzong4tai4@动态|(idxdecorator{}{}}{177}
+\indexentry{bzan4wu2xian4deqi1xian4@半无限的期限|(idxdecorator{}{}}{177}
+\indexentry{bzian4liang4@变量!qzi1xian4@期限|(idxdecorator{}{}}{177}
+\indexentry{bzang3ding4Binding@绑定 (Binding)!qzi1xian4@期限|)idxdecorator{}{}}{177}
+\indexentry{dzong4tai4bang3ding4dong4tai4zuo4yong4yu4@动态绑定（动态作用域）|)idxdecorator{}{}}{177}
+\indexentry{dzong4tai4qi1xian4@动态期限|)idxdecorator{}{}}{177}
+\indexentry{bzian4liang4bang3ding4deqi1xian4@变量绑定的期限|)idxdecorator{}{}}{177}
+\indexentry{bzian4liang4sheng1ming2dezuo4yong4yu4@变量声明的作用域!dzong4tai4@动态|)idxdecorator{}{}}{177}
+\indexentry{bzan4wu2xian4deqi1xian4@半无限的期限|)idxdecorator{}{}}{177}
+\indexentry{bzian4liang4@变量!qzi1xian4@期限|)idxdecorator{}{}}{177}
+\indexentry{jzi4cun2@寄存|idxdecorator{}{}}{178}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!jzi4cun2ban3ben3@寄存版本|idxdecorator{}{}}{178}
+\indexentry{xziao1han2@消函|idxdecorator{}{}}{179}
+\indexentry{yzi4chang2chu4li3@异常处理|(idxdecorator{}{}}{179}
+\indexentry{fzei1biao1zhun3kong4zhi4liu2@非标准控制流|(idxdecorator{}{}}{179}
+\indexentry{yzi4chang2chu4li3@异常处理|)idxdecorator{}{}}{185}
+\indexentry{fzei1biao1zhun3kong4zhi4liu2@非标准控制流|)idxdecorator{}{}}{185}
+\indexentry{xzu4wen2@续文!gzuo4cheng2biao3shi4@过程表示|(idxdecorator{}{}}{186}
+\indexentry{gzuo4cheng2biao3shi4fa3@过程表示法!xzu4wen2@续文|(idxdecorator{}{}}{186}
+\indexentry{xzu4wen2@续文!gzuo4cheng2biao3shi4@过程表示|)idxdecorator{}{}}{186}
+\indexentry{gzuo4cheng2biao3shi4fa3@过程表示法!xzu4wen2@续文|)idxdecorator{}{}}{186}
+\indexentry{Callwithcurrentcontinuation@\Scribtexttt{call{-}with{-}current{-}continuation}|(idxdecorator{}{}}{186}
+\indexentry{letccbziao3da2shi4@\Scribtexttt{letcc} 表达式|(idxdecorator{}{}}{186}
+\indexentry{throwbziao3da2shi4@\Scribtexttt{throw} 表达式|(idxdecorator{}{}}{186}
+\indexentry{Callwithcurrentcontinuation@\Scribtexttt{call{-}with{-}current{-}continuation}|)idxdecorator{}{}}{187}
+\indexentry{letccbziao3da2shi4@\Scribtexttt{letcc} 表达式|)idxdecorator{}{}}{187}
+\indexentry{throwbziao3da2shi4@\Scribtexttt{throw} 表达式|)idxdecorator{}{}}{187}
+\indexentry{dzuo1xian4cheng2cheng2xu4@多线程程序|(idxdecorator{}{}}{187}
+\indexentry{xzian4cheng2@线程|(idxdecorator{}{}}{187}
+\indexentry{gzong4xiang3bian4liang4@共享变量|idxdecorator{}{}}{187}
+\indexentry{bzian4liang4@变量!gzong4xiang3@共享|idxdecorator{}{}}{187}
+\indexentry{dziao4du4qi4@调度器|idxdecorator{}{}}{187}
+\indexentry{szhi2jian1pian4@时间片|idxdecorator{}{}}{187}
+\indexentry{lziang4zi@量子|idxdecorator{}{}}{187}
+\indexentry{qziang3zhan4shi4diao4du4@抢占式调度|idxdecorator{}{}}{187}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!THREADS@THREADS|(idxdecorator{}{}}{189}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!THREADS@THREADS|)idxdecorator{}{}}{191}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!THREADS@THREADS|(idxdecorator{}{}}{191}
+\indexentry{dziao4du4qi4@调度器|idxdecorator{}{}}{192}
+\indexentry{dziao4du4qi4@调度器|idxdecorator{}{}}{193}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!THREADS@THREADS|)idxdecorator{}{}}{194}
+\indexentry{gzong4xiang3bian4liang4@共享变量|(idxdecorator{}{}}{194}
+\indexentry{tzong2bu4@同步|(idxdecorator{}{}}{194}
+\indexentry{bzian4liang4@变量!gzong4xiang3@共享|(idxdecorator{}{}}{194}
+\indexentry{azn1quan2qiu2zhi2@安全求值!xzian4cheng2tong2bu4@线程同步|(idxdecorator{}{}}{194}
+\indexentry{ezr4yuan2xin4hao4liang4@二元信号量|(idxdecorator{}{}}{195}
+\indexentry{kze3bian4xing4@可变性|(idxdecorator{}{}}{195}
+\indexentry{xzin4hao4liang4@信号量|(idxdecorator{}{}}{195}
+\indexentry{gzuan1jian4qu1yu4@关键区域|(idxdecorator{}{}}{195}
+\indexentry{gzuan1jian4qu1yu4@关键区域|)idxdecorator{}{}}{196}
+\indexentry{ezr4yuan2xin4hao4liang4@二元信号量|)idxdecorator{}{}}{197}
+\indexentry{dzuo1xian4cheng2cheng2xu4@多线程程序|)idxdecorator{}{}}{197}
+\indexentry{kze3bian4xing4@可变性|)idxdecorator{}{}}{197}
+\indexentry{azn1quan2qiu2zhi2@安全求值!xzian4cheng2tong2bu4@线程同步|)idxdecorator{}{}}{197}
+\indexentry{xzin4hao4liang4@信号量|)idxdecorator{}{}}{197}
+\indexentry{gzong4xiang3bian4liang4@共享变量|)idxdecorator{}{}}{197}
+\indexentry{tzong2bu4@同步|)idxdecorator{}{}}{197}
+\indexentry{xzian4cheng2@线程|)idxdecorator{}{}}{197}
+\indexentry{bzian4liang4@变量!gzong4xiang3@共享|)idxdecorator{}{}}{197}
+\indexentry{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!xzian4cheng2@线程|idxdecorator{}{}}{197}
+\indexentry{hzuo2yue4ji4lu4biao3@活跃记录表|(idxdecorator{}{}}{197}
+\indexentry{zzheng4@帧|(idxdecorator{}{}}{197}
+\indexentry{hzuo2yue4ji4lu4biao3@活跃记录表|)idxdecorator{}{}}{197}
+\indexentry{zzheng4@帧|)idxdecorator{}{}}{197}
+\indexentry{ezr4yuan2xin4hao4liang4@二元信号量|idxdecorator{}{}}{198}
+\indexentry{kze3bian4xing4@可变性|idxdecorator{}{}}{198}
+\indexentry{xzin4hao4liang4@信号量|idxdecorator{}{}}{198}
+\indexentry{jzi4cun2@寄存|idxdecorator{}{}}{199}
+\indexentry{pzi1sa4@批萨|idxdecorator{}{}}{199}
+\indexentry{jzie1cheng2han2shu4@阶乘函数|(idxdecorator{}{}}{201}
+\indexentry{wzei3diao4yong4@尾调用|idxdecorator{}{}}{201}
+\indexentry{dzie2dai4xing4kong4zhi4xing2wei4@迭代性控制行为|idxdecorator{}{}}{201}
+\indexentry{xzu4wen2chuan2di4feng1ge2@续文传递风格|idxdecorator{}{}}{201}
+\indexentry{xzu4wen2chuan2di4feng1ge2@续文传递风格!lzi4zi@例子|(idxdecorator{}{}}{201}
+\indexentry{xzu4wen2@续文!szhu4ju4jie2gou4biao3shi4@数据结构表示|idxdecorator{}{}}{202}
+\indexentry{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!xzu4wen2@续文|idxdecorator{}{}}{202}
+\indexentry{jzi4cun2@寄存|idxdecorator{}{}}{202}
+\indexentry{tziao4yue4shi4@跳跃式|(idxdecorator{}{}}{202}
+\indexentry{tziao4yue4shi4@跳跃式|)idxdecorator{}{}}{202}
+\indexentry{gzuo4cheng2biao3shi4fa3@过程表示法!xzu4wen2@续文|idxdecorator{}{}}{202}
+\indexentry{xzu4wen2@续文!gzuo4cheng2biao3shi4@过程表示|idxdecorator{}{}}{202}
+\indexentry{nzei4lian2@内联|idxdecorator{}{}}{203}
+\indexentry{nzei4lian2@内联|idxdecorator{}{}}{203}
+\indexentry{gzui1na4shi4zheng4ming2@归纳式证明|idxdecorator{}{}}{203}
+\indexentry{jzi4cun2@寄存|idxdecorator{}{}}{204}
+\indexentry{tziao4yue4shi4@跳跃式|idxdecorator{}{}}{205}
+\indexentry{jzie1cheng2han2shu4@阶乘函数|)idxdecorator{}{}}{206}
+\indexentry{bzi4mian3shen2mi4xiao3gong1ju4@避免神秘小工具|idxdecorator{}{}}{206}
+\indexentry{fzei3bo1na4qi4shu4lie4@斐波那契数列|(idxdecorator{}{}}{206}
+\indexentry{xzu4wen2@续文!gzuo4cheng2biao3shi4@过程表示|idxdecorator{}{}}{206}
+\indexentry{gzuo4cheng2biao3shi4fa3@过程表示法!xzu4wen2@续文|idxdecorator{}{}}{206}
+\indexentry{fzei3bo1na4qi4shu4lie4@斐波那契数列|)idxdecorator{}{}}{207}
+\indexentry{xzu4wen2chuan2di4feng1ge2@续文传递风格!czhuan2di4@传递|idxdecorator{}{}}{209}
+\indexentry{CPSmzi4fang1@CPS 秘方|idxdecorator{}{}}{209}
+\indexentry{xzu4wen2chuan2di4feng1ge2@续文传递风格!lzi4zi@例子|)idxdecorator{}{}}{209}
+\indexentry{xzu4wen2@续文!szhu4ju4jie2gou4biao3shi4@数据结构表示|(idxdecorator{}{}}{210}
+\indexentry{xzu4wen2@续文!gzuo4cheng2biao3shi4@过程表示|(idxdecorator{}{}}{210}
+\indexentry{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!xzu4wen2@续文|(idxdecorator{}{}}{210}
+\indexentry{nzei4lian2@内联|(idxdecorator{}{}}{210}
+\indexentry{listsum@\textbf{\Scribtexttt{list{-}sum}}|(idxdecorator{}{}}{210}
+\indexentry{occursfree@\textbf{\Scribtexttt{occurs{-}free{\hbox{\texttt{?}}}}}|(idxdecorator{}{}}{210}
+\indexentry{gzuo4cheng2biao3shi4fa3@过程表示法!xzu4wen2@续文|(idxdecorator{}{}}{210}
+\indexentry{jzi4cun2@寄存|(idxdecorator{}{}}{210}
+\indexentry{removefirst@\textbf{\Scribtexttt{remove{-}first}}|(idxdecorator{}{}}{210}
+\indexentry{xzu4lie4hua4@序列化|(idxdecorator{}{}}{210}
+\indexentry{subst@\textbf{\Scribtexttt{subst}}|(idxdecorator{}{}}{210}
+\indexentry{xzu4wen2@续文!szhu4ju4jie2gou4biao3shi4@数据结构表示|)idxdecorator{}{}}{210}
+\indexentry{xzu4wen2@续文!gzuo4cheng2biao3shi4@过程表示|)idxdecorator{}{}}{210}
+\indexentry{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!xzu4wen2@续文|)idxdecorator{}{}}{210}
+\indexentry{nzei4lian2@内联|)idxdecorator{}{}}{210}
+\indexentry{listsum@\textbf{\Scribtexttt{list{-}sum}}|)idxdecorator{}{}}{210}
+\indexentry{occursfree@\textbf{\Scribtexttt{occurs{-}free{\hbox{\texttt{?}}}}}|)idxdecorator{}{}}{210}
+\indexentry{gzuo4cheng2biao3shi4fa3@过程表示法!xzu4wen2@续文|)idxdecorator{}{}}{210}
+\indexentry{jzi4cun2@寄存|)idxdecorator{}{}}{210}
+\indexentry{removefirst@\textbf{\Scribtexttt{remove{-}first}}|)idxdecorator{}{}}{210}
+\indexentry{subst@\textbf{\Scribtexttt{subst}}|)idxdecorator{}{}}{210}
+\indexentry{xzu4lie4hua4@序列化|)idxdecorator{}{}}{210}
+\indexentry{nzei4lian2@内联|(idxdecorator{}{}}{210}
+\indexentry{jzie3shi4qi4@解释器!czhuan2di4xu4wen2@传递续文|(idxdecorator{}{}}{210}
+\indexentry{gzuo4cheng2biao3shi4fa3@过程表示法!xzu4wen2@续文|(idxdecorator{}{}}{210}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!czhuan2di4xu4wen2ban3ben3@传递续文版本|(idxdecorator{}{}}{210}
+\indexentry{nzei4lian2@内联|)idxdecorator{}{}}{210}
+\indexentry{jzie3shi4qi4@解释器!czhuan2di4xu4wen2@传递续文|)idxdecorator{}{}}{210}
+\indexentry{gzuo4cheng2biao3shi4fa3@过程表示法!xzu4wen2@续文|)idxdecorator{}{}}{210}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!czhuan2di4xu4wen2ban3ben3@传递续文版本|)idxdecorator{}{}}{210}
+\indexentry{yzi4chang2chu4li3@异常处理|(idxdecorator{}{}}{210}
+\indexentry{fzei1biao1zhun3kong4zhi4liu2@非标准控制流|(idxdecorator{}{}}{210}
+\indexentry{yzi4chang2chu4li3@异常处理|)idxdecorator{}{}}{210}
+\indexentry{fzei1biao1zhun3kong4zhi4liu2@非标准控制流|)idxdecorator{}{}}{210}
+\indexentry{jzie1cheng2han2shu4@阶乘函数|(idxdecorator{}{}}{210}
+\indexentry{lzei4jia1qi4@累加器|idxdecorator{}{}}{212}
+\indexentry{jzie1cheng2han2shu4@阶乘函数|)idxdecorator{}{}}{212}
+\indexentry{listsum@\textbf{\Scribtexttt{list{-}sum}}|idxdecorator{}{}}{212}
+\indexentry{bziao3da2shi4@表达式!wzei3shi4@尾式|(idxdecorator{}{}}{212}
+\indexentry{wzei3shi4@尾式|(idxdecorator{}{}}{212}
+\indexentry{dzuo1guo4cheng2sheng1ming2@多过程声明|idxdecorator{}{}}{212}
+\indexentry{CPSIN@CPS{-}IN|idxdecorator{}{}}{212}
+\indexentry{kzong4zhi4shang4xia4wen2@控制上下文|idxdecorator{}{}}{212}
+\indexentry{kzong4zhi4shang4xia4wen2@控制上下文|idxdecorator{}{}}{212}
+\indexentry{czao1zuo4shu4@操作数|idxdecorator{}{}}{212}
+\indexentry{jzie1cheng2han2shu4@阶乘函数|(idxdecorator{}{}}{212}
+\indexentry{jzie1cheng2han2shu4@阶乘函数|)idxdecorator{}{}}{213}
+\indexentry{wzei3duan1@尾端|(idxdecorator{}{}}{213}
+\indexentry{wzei3diao4yong4@尾调用|idxdecorator{}{}}{213}
+\indexentry{wzei3diao4yong4bu4kuo4da4xu4wen2@尾调用不扩大续文|idxdecorator{}{}}{213}
+\indexentry{CPSIN@CPS{-}IN|idxdecorator{}{}}{214}
+\indexentry{czao1zuo4shu4wei4zhi4@操作数位置|idxdecorator{}{}}{215}
+\indexentry{wzei3duan1@尾端|)idxdecorator{}{}}{215}
+\indexentry{CPSOUT@CPS{-}OUT|idxdecorator{}{}}{215}
+\indexentry{bziao3da2shi4@表达式!jzian3dan1@简单|idxdecorator{}{}}{215}
+\indexentry{jzian3dan1biao3da2shi4@简单表达式|(idxdecorator{}{}}{215}
+\indexentry{jzian3dan1biao3da2shi4@简单表达式|)idxdecorator{}{}}{215}
+\indexentry{bziao3da2shi4@表达式!wzei3shi4@尾式|)idxdecorator{}{}}{216}
+\indexentry{wzei3shi4@尾式|)idxdecorator{}{}}{216}
+\indexentry{CPSOUT@CPS{-}OUT|idxdecorator{}{}}{217}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!CPSOUT@CPSOUT|idxdecorator{}{}}{217}
+\indexentry{valueof@\textbf{\Scribtexttt{value{-}of}}!CPSOUT@CPSOUT|idxdecorator{}{}}{218}
+\indexentry{jzi4cun2@寄存|idxdecorator{}{}}{221}
+\indexentry{tziao4yue4shi4@跳跃式|idxdecorator{}{}}{221}
+\indexentry{xzu4wen2chuan2di4feng1ge2@续文传递风格!czhuan2di4@传递|(idxdecorator{}{}}{221}
+\indexentry{fzan1yi4@翻译!dzao4CPS@到 CPS|(idxdecorator{}{}}{221}
+\indexentry{szheng1ming2@声明!gzuo4cheng2@过程|idxdecorator{}{}}{223}
+\indexentry{gzuo4cheng2sheng1ming2@过程声明|idxdecorator{}{}}{223}
+\indexentry{czao1zuo4shu4@操作数|(idxdecorator{}{}}{223}
+\indexentry{gzuo4cheng2diao4yong4@过程调用|(idxdecorator{}{}}{225}
+\indexentry{czao1zuo4shu4@操作数|)idxdecorator{}{}}{228}
+\indexentry{gzuo4cheng2diao4yong4@过程调用|)idxdecorator{}{}}{228}
+\indexentry{fzan1yi4@翻译!dzao4CPS@到 CPS|)idxdecorator{}{}}{229}
+\indexentry{xzu4wen2chuan2di4feng1ge2@续文传递风格!czhuan2di4@传递|)idxdecorator{}{}}{229}
+\indexentry{gzui1na4shi4zheng4ming2@归纳式证明|(idxdecorator{}{}}{229}
+\indexentry{xzu4lie4hua4@序列化|(idxdecorator{}{}}{229}
+\indexentry{gzui1na4shi4zheng4ming2@归纳式证明|)idxdecorator{}{}}{229}
+\indexentry{xzu4lie4hua4@序列化|)idxdecorator{}{}}{229}
+\indexentry{xzu4wen2chuan2di4feng1ge2@续文传递风格!czhuan2di4@传递|(idxdecorator{}{}}{230}
+\indexentry{fzan1yi4@翻译!dzao4CPS@到 CPS|(idxdecorator{}{}}{230}
+\indexentry{xzu4wen2chuan2di4feng1ge2@续文传递风格!czhuan2di4@传递|)idxdecorator{}{}}{232}
+\indexentry{fzan1yi4@翻译!dzao4CPS@到 CPS|)idxdecorator{}{}}{232}
+\indexentry{tziao2jian4biao3da2shi4@条件表达式|(idxdecorator{}{}}{232}
+\indexentry{tziao2jian4biao3da2shi4@条件表达式|)idxdecorator{}{}}{233}
+\indexentry{listbziao3da2shi4@\Scribtexttt{list} 表达式|idxdecorator{}{}}{233}
+\indexentry{dzuo1bian4liang4sheng1ming2@多变量声明|(idxdecorator{}{}}{233}
+\indexentry{dzuo1bian4liang4sheng1ming2@多变量声明|)idxdecorator{}{}}{233}
+\indexentry{xzu4wen2@续文!szhu4ju4jie2gou4biao3shi4@数据结构表示|(idxdecorator{}{}}{235}
+\indexentry{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!xzu4wen2@续文|(idxdecorator{}{}}{235}
+\indexentry{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!gzuo4cheng2zhi2@过程值|(idxdecorator{}{}}{235}
+\indexentry{xzu4wen2@续文!szhu4ju4jie2gou4biao3shi4@数据结构表示|)idxdecorator{}{}}{235}
+\indexentry{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!xzu4wen2@续文|)idxdecorator{}{}}{235}
+\indexentry{szhu4ju4jie2gou4biao3shi4fa3@数据结构表示法!gzuo4cheng2zhi2@过程值|)idxdecorator{}{}}{235}
+\indexentry{gzuo4cheng2zhi2Proc@过程值 (\texMathInline{\mathit{Proc}})!szhu4ju4jie2gou4biao3shi4@数据结构表示|idxdecorator{}{}}{235}
+\indexentry{jzi4cun2@寄存|(idxdecorator{}{}}{235}
+\indexentry{jzi4cun2@寄存|)idxdecorator{}{}}{235}
+\indexentry{Anormalform@A{-}normal form (ANF)|(idxdecorator{}{}}{235}
+\indexentry{fzei3bo1na4qi4shu4lie4@斐波那契数列|(idxdecorator{}{}}{235}
+\indexentry{xzu4lie4hua4@序列化|(idxdecorator{}{}}{235}
+\indexentry{fzei3bo1na4qi4shu4lie4@斐波那契数列|(idxdecorator{}{}}{236}
+\indexentry{Anormalform@A{-}normal form (ANF)|)idxdecorator{}{}}{236}
+\indexentry{xzu4lie4hua4@序列化|)idxdecorator{}{}}{236}
+\indexentry{jzi4suan4xiao4guo3@计算效果|(idxdecorator{}{}}{236}
+\indexentry{bziao3da2shi4@表达式!jzian3dan1@简单|idxdecorator{}{}}{236}
+\indexentry{gzuo4cheng2diao4yong4@过程调用|idxdecorator{}{}}{236}
+\indexentry{jzian3dan1biao3da2shi4@简单表达式|idxdecorator{}{}}{236}
+\indexentry{dza3yin4@打印|(idxdecorator{}{}}{236}
+\indexentry{dza3yin4@打印|)idxdecorator{}{}}{238}
+\indexentry{yzin3yong4@引用!xzian3shi4@显式|(idxdecorator{}{}}{239}
+\indexentry{czun2chu3qi4@存储器|(idxdecorator{}{}}{239}
+\indexentry{fzen1pei4@分配!czun2chu3qi4zhong1de@存储器中的|(idxdecorator{}{}}{239}
+\indexentry{jzie3yin3yong4@解引用|(idxdecorator{}{}}{239}
+\indexentry{EXPLICITREFS@EXPLICIT{-}REFS|(idxdecorator{}{}}{239}
+\indexentry{kze3bian4xing4@可变性|(idxdecorator{}{}}{239}
+\indexentry{fzen1pei4@分配!czun2chu3qi4zhong1de@存储器中的|)idxdecorator{}{}}{241}
+\indexentry{jzie3yin3yong4@解引用|)idxdecorator{}{}}{241}
+\indexentry{EXPLICITREFS@EXPLICIT{-}REFS|)idxdecorator{}{}}{241}
+\indexentry{kze3bian4xing4@可变性|)idxdecorator{}{}}{241}
+\indexentry{yzin3yong4@引用!xzian3shi4@显式|)idxdecorator{}{}}{241}
+\indexentry{czun2chu3qi4@存储器|)idxdecorator{}{}}{241}
+\indexentry{beginbziao3da2shi4@\Scribtexttt{begin} 表达式|idxdecorator{}{}}{242}
+\indexentry{yzin3yong4@引用!yzin3shi4@隐式|(idxdecorator{}{}}{242}
+\indexentry{yzin3yong4@引用!yzin3shi4@隐式|)idxdecorator{}{}}{242}
+\indexentry{yzi4chang2chu4li3@异常处理|(idxdecorator{}{}}{242}
+\indexentry{letccbziao3da2shi4@\Scribtexttt{letcc} 表达式|(idxdecorator{}{}}{242}
+\indexentry{fzei1biao1zhun3kong4zhi4liu2@非标准控制流|(idxdecorator{}{}}{242}
+\indexentry{throwbziao3da2shi4@\Scribtexttt{throw} 表达式|(idxdecorator{}{}}{242}
+\indexentry{yzi4chang2chu4li3@异常处理|)idxdecorator{}{}}{242}
+\indexentry{letccbziao3da2shi4@\Scribtexttt{letcc} 表达式|)idxdecorator{}{}}{242}
+\indexentry{fzei1biao1zhun3kong4zhi4liu2@非标准控制流|)idxdecorator{}{}}{242}
+\indexentry{throwbziao3da2shi4@\Scribtexttt{throw} 表达式|)idxdecorator{}{}}{242}
+\indexentry{jzi4suan4xiao4guo3@计算效果|)idxdecorator{}{}}{243}
+\indexentry{azn1quan2qiu2zhi2@安全求值!lzei4xing2an1quan2@类型安全|(idxdecorator{}{}}{245}
+\indexentry{jzian4zhuang4delei4xing2xi4tong3@健壮的类型系统|idxdecorator{}{}}{246}
+\indexentry{azn1quan2qiu2zhi2@安全求值!lzei4xing2an1quan2@类型安全|)idxdecorator{}{}}{247}
+\indexentry{lzei4xing2jie2gou4@类型结构!jzi1ben3zhi2@基本值|(idxdecorator{}{}}{247}
+\indexentry{intlzei4xing2@\Scribtexttt{int} 类型|idxdecorator{}{}}{248}
+\indexentry{boollzei4xing2@\Scribtexttt{bool} 类型|idxdecorator{}{}}{248}
+\indexentry{Polymorphic|idxdecorator{}{}}{249}
+\indexentry{gzuo4cheng2lei4xing2@过程类型|idxdecorator{}{}}{249}
+\indexentry{lzei4xing
