@@ -203,7 +203,7 @@ Scheme 没有提供标准机制来创建新的模糊类型，所以我们退而�
 
    @item{证明此系统中，每个数都有无限种表示方式。}
 
-   @item{实现这种整数表示法：写出@pageref{nat}定义的 @tt{zero}、@tt{is-zero?}、
+   @item{实现这种整数表示法：写出nat定义的 @tt{zero}、@tt{is-zero?}、
    @tt{successor} 和 @tt{predecessor}，此外还要能表示负数。这种方式下，整数的任
    何合法表示都应该能作为你过程的参数。例如，你的过程 @tt{successor} 可以接受无
    限多种 @${1} 的合法表示，且都应给出一个 @${2}的合法表示。对 @${1} 的不同合法
@@ -400,7 +400,7 @@ Scheme 没有提供标准机制来创建新的模糊类型，所以我们退而�
 
 @nested{
 @centered{
-@(image "../images/alist-env"
+@(image "images/alist-env"
   #:suffixes (list ".pdf" ".svg")
   "关联列表表示法")
 }
@@ -465,7 +465,7 @@ Scheme 没有提供标准机制来创建新的模糊类型，所以我们退而�
 示非空环境：
 
 @centered{
-@(image "../images/rib-cage-one"
+@(image "images/rib-cage-one"
   #:suffixes (list ".pdf" ".svg")
   "肋排环境表示法片段")
 }
@@ -475,9 +475,9 @@ Scheme 没有提供标准机制来创建新的模糊类型，所以我们退而�
 那么一个环境看起来像是这样：
 
 @centered{
-@(image "../images/rib-cage"
+@(image "images/rib-cage"
   #:suffixes (list ".pdf" ".svg")
-  #:width 'textwidth
+  ;; #:width 'textwidth 'textwidth
   "肋排环境表示法")
 }
 
@@ -576,7 +576,7 @@ Scheme 没有提供标准机制来创建新的模糊类型，所以我们退而�
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex2.12" "ex2.13" "ex2.14"] "Procedural representation" "of environments"]
 @eopl-index[#:suffix @exer-ref-range["ex2.12"] "Procedural representation" "of stacks"]
 @eopl-index[#:suffix @exer-ref-range["ex2.12"] "Stacks"]
-用过程表示法实现@exercise-ref{ex2.4} 中的栈数据类型。
+用过程表示法实现{ex2.4} 中的栈数据类型。
 
 }
 
@@ -590,7 +590,7 @@ Scheme 没有提供标准机制来创建新的模糊类型，所以我们退而�
 @exercise[#:level 2 #:tag "ex2.14"]{
 
 扩展前一题中的表示法，加入第三个过程，用它来 @tt{has-binding?} （见
-@exercise-ref{ex2.9}）。
+{ex2.9}）。
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex2.12" "ex2.13" "ex2.14"] "Environments" "procedural representation of"]
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex2.12" "ex2.13" "ex2.14"] "Procedural representation" "of environments"]
 
@@ -879,12 +879,12 @@ lambda 演算表达式的语法：
 
 @exercise[#:level 3 #:tag "ex2.20"]{
 
-按照@exercise-ref{ex2.19} 中的二叉树表示，很容易从父节点移到某个子节点，但是不借
-助上下文参数，无法从子节点移动到父节点。扩展@exercise-ref{ex2.18} 中的列表表示法，
+按照{ex2.19} 中的二叉树表示，很容易从父节点移到某个子节点，但是不借
+助上下文参数，无法从子节点移动到父节点。扩展{ex2.18} 中的列表表示法，
 用以表示二叉树中的节点。提示：想想怎样用逆序列表表示二叉树在当前节点以上的部分，
-就像@exercise-ref{ex2.18} 那样。
+就像{ex2.18} 那样。
 
-用这种表示实现@exercise-ref{ex2.19} 中的过程。接着实现 @tt{move-up} 和
+用这种表示实现{ex2.19} 中的过程。接着实现 @tt{move-up} 和
 @tt{at-root?}。
 
 }
@@ -927,7 +927,7 @@ lambda 演算表达式的语法：
 @eopl-index[#:range-mark 'start @eopl-index-entry[@bold{@tt{occurs-free?}} "occursfree"]]
 我们用形式 @tt{cases} 代替谓词和提取器，判断数据类型的实例属于哪种变体，并提取出
 它的组件。为解释这一形式，我们用数据类型 @tt{lc-exp} 重写
-@tt{occurs-free?}（@pageref{occurs-free?}）：
+@tt{occurs-free?}（occurs-free）：
 
 @eopl-code{
 @racketblock[
@@ -1129,7 +1129,7 @@ s-list中的数据可以用数据类型 @tt{s-list}表示为：
 
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex2.21"] @eopl-index-entry[@elem{Environment ADT (@${\mathit{Env}})} "EnvironmentADT"]]
 用 @tt{define-datatype} 实现@secref{s2.2.2}中的环境数据类型。然后
-实现@exercise-ref{ex2.9} 中的 @tt{has-binding?}。
+实现{ex2.9} 中的 @tt{has-binding?}。
 @eopl-index[#:range-mark 'end #:suffix @exer-ref-range["ex2.21"] @eopl-index-entry[@elem{Environment ADT (@${\mathit{Env}})} "EnvironmentADT"]]
 
 }
@@ -1137,7 +1137,7 @@ s-list中的数据可以用数据类型 @tt{s-list}表示为：
 @exercise[#:level 1 #:tag "ex2.22"]{
 
 @eopl-index[#:suffix @exer-ref-range["ex2.22"] "Stacks"]
-用 @tt{define-datatype} 实现@exercise-ref{ex2.4} 中的栈数据类型。
+用 @tt{define-datatype} 实现{ex2.4} 中的栈数据类型。
 
 }
 
@@ -1276,7 +1276,7 @@ s-list中的数据可以用数据类型 @tt{s-list}表示为：
 
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex2.26"]
             @eopl-index-entry[@elem{Red-blue trees (@${\mathit{Red\mbox{-}blue\mbox{-}tree}})} "Redbluetrees"]]
-@exercise-ref{ex1.33} 还有一种写法。树的集合可以用下列语法定义：
+{ex1.33} 还有一种写法。树的集合可以用下列语法定义：
 
 @envalign*{\mathit{Red\mbox{-}blue\mbox{-}tree} &::= \mathit{Red\mbox{-}blue\mbox{-}subtree} \\
            \mathit{Red\mbox{-}blue\mbox{-}subtree} &::= @tt{(red-node @m{\mathit{Red\mbox{-}blue\mbox{-}subtree}} @m{\mathit{Red\mbox{-}blue\mbox{-}subtree}})} \\
@@ -1297,7 +1297,7 @@ s-list中的数据可以用数据类型 @tt{s-list}表示为：
 @eopl-index[#:range-mark 'start "Syntactic categories"]
 @eopl-figure[#:position "!t"]{
 @centered{
-@(image "../images/ast"
+@(image "images/ast"
   #:suffixes (list ".pdf" ".svg")
   (tt "(lambda (x) (f (f x)))") "的抽象语法树")
 }
@@ -1327,7 +1327,7 @@ s-list中的数据可以用数据类型 @tt{s-list}表示为：
 @tt{define-datatype} 形式提供了一种简洁的方式来定义这样的内在表示。我们称之
 为@term["abstract syntax"]{抽象语法}。在抽象语法中，不需要存储括号之类的终止符，
 因为它们不传达信息。另一方面，我们要确保数据结构足以区分它所表示的 lambda 演算表
-达式，并提取出各部分。@pageref{lc-exp}的数据类型 @tt{lc-exp} 助我们轻松实现这些。
+达式，并提取出各部分。lc-exp的数据类型 @tt{lc-exp} 助我们轻松实现这些。
 
 @eopl-index[#:range-mark 'start "Abstract syntax tree"]
 @eopl-index[#:range-mark 'start "Nonterminal symbols"]
@@ -1369,7 +1369,7 @@ lambda 演算表达式 @tt{(lambda (x) (f (f x)))}。树的每个内部节点以
 
 @eopl-index[#:range-mark 'end "Concrete syntax"]
 如果具体语法以列表集合的形式给出，解析过程就会大大简化。比如，
-和@pageref{define-datatype} @tt{define-datatype} 的语法类似，
+和define-datatype @tt{define-datatype} 的语法类似，
 @elemref["lambda-2"]{本节开头}的 lambda 演算表达式指定了一个列表集合。这样，Scheme
 过程 @tt{read} 会自动把字符串解析为列表和符号。然后，把这些列表结构解析为抽象语
 法树就容易多了，就像 @tt{parse-expression} 这样。
@@ -1444,7 +1444,7 @@ lambda 演算表达式 @tt{(lambda (x) (f (f x)))}。树的每个内部节点以
 
 @eopl-index[#:suffix @exer-ref-range["ex2.28"] @eopl-index-entry[@bold{@tt{unparse-lc-exp}} "unparselcexp"]]
 写出反向解析器，将lc-exp的抽象语法转换为符合本节第二个语法
-（@pageref{lc-grammar2}）的字符串。
+（lc-grammar2）的字符串。
 
 }
 
@@ -1453,7 +1453,7 @@ lambda 演算表达式 @tt{(lambda (x) (f (f x)))}。树的每个内部节点以
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex2.29"] "Kleene plus"]
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex2.29"] "Kleene star (closure)"]
 @eopl-index[#:range-mark 'start #:suffix @exer-ref-range["ex2.29" "ex2.30"] @eopl-index-entry[@bold{@tt{parse-expression}} "parseexpression"]]
-当具体语法使用克莱尼星号或加号（@pageref{kleene-star}）时，生成抽象语法树时最好
+当具体语法使用克莱尼星号或加号（kleene-star）时，生成抽象语法树时最好
 使用相应子树的@emph{列表}。例如，如果 lambda 演算表达式的语法为：
 
 @nested[#:style 'noindent]{

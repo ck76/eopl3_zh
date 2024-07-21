@@ -107,9 +107,9 @@
 各章的依赖关系如下图所示。
 
 @centered{
-@(image "../images/structure"
+@(image "images/structure"
   #:suffixes (list ".pdf" ".svg")
-  #:width 'textwidth
+  ;; #:width 'textwidth
   "章节依赖关系")
 }
 

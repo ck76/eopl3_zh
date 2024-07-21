@@ -46,7 +46,7 @@ specification"]{词法规范}。典型的词法规范可能包括：
 ]
 
 @eopl-figure{
-@(image "../images/task-of-scanner"
+@(image "images/task-of-scanner"
   #:suffixes (list ".pdf" ".svg")
   "扫描器的任务")
 
@@ -157,7 +157,7 @@ specification"]{词法规范}。典型的词法规范可能包括：
 对给定的语法，每个非终结符都对应一个数据类型。以每个非终结符为左边内容的生成式都
 对应一个变体。式子右边出现的每个非终结符、标识符和数字都对应变体中的一个字段。
 @secref{s2.5}有一个简单示例。当语法中有多个非终结符时，可以考虑
-@exercise-ref{ex4.22} 中的语法。
+{ex4.22} 中的语法。
 @eopl-index[#:range-mark 'end "Nonterminal symbols"]
 @nested[#:style small]{
 @envalign*{
@@ -628,7 +628,7 @@ Nonterminal <seplist3> can’t begin with string "}"
 
 @exercise[#:level 2 #:tag "exB.3"]{
 
-定义一个解释器，取@exercise-ref{exB.1} 中解析器生成的抽象语法树，将其当作算术表
+定义一个解释器，取{exB.1} 中解析器生成的抽象语法树，将其当作算术表
 达式求值。解析器处理通常的算术操作优先级；但解释器要处理关联性，即，确保同一优先
 级（比如加和减）的操作从左向右进行。由于这些表达式中没有变量，解释器不需要取环境
 参数。

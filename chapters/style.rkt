@@ -11,11 +11,11 @@
 
 (define book-prefix-and-style
   (make-latex-defaults+replacements
-   "../style/prefix.tex"
-   "../style/style.tex"
+   "style/prefix.tex"
+   "style/style.tex"
    '()
    (hash "scribble-load-replace.tex"
-         "../style/style-load-prefix.tex")))
+         "style/style-load-prefix.tex")))
 
 ;;; common utility
 (define (remove-leading-newlines c)
@@ -54,108 +54,108 @@
 
 ;;; styles
 (define question
-  (make-style "Squestion" (list (make-tex-addition "../style/question.tex")
-                                (make-css-addition "../style/question.css"))))
+  (make-style "Squestion" (list (make-tex-addition "style/question.tex")
+                                (make-css-addition "style/question.css"))))
 (define right
-  (make-style "Sright" (list (make-tex-addition "../style/right.tex")
-                             (make-css-addition "../style/right.css"))))
+  (make-style "Sright" (list (make-tex-addition "style/right.tex")
+                             (make-css-addition "style/right.css"))))
 
 (define underline
-  (make-style "Sunderline" (list (make-tex-addition "../style/underline.tex")
-                                 (make-css-addition "../style/underline.css"))))
+  (make-style "Sunderline" (list (make-tex-addition "style/underline.tex")
+                                 (make-css-addition "style/underline.css"))))
 
 (define small
-  (make-style "Small" (list (make-tex-addition "../style/small.tex"))))
+  (make-style "Small" (list (make-tex-addition "style/small.tex"))))
 
 (define htt
-  (make-style "Shtt" (list (make-tex-addition "../style/htt.tex"))))
+  (make-style "Shtt" (list (make-tex-addition "style/htt.tex"))))
 
 (define two-columns
-  (make-style "TwoColumns" (list (make-tex-addition "../style/two-columns.tex"))))
+  (make-style "TwoColumns" (list (make-tex-addition "style/two-columns.tex"))))
 
 (define hangindent
-  (make-style "Hangindent" (list (make-tex-addition "../style/hangindent.tex"))))
+  (make-style "Hangindent" (list (make-tex-addition "style/hangindent.tex"))))
 
 (define normalfont
-  (make-style "NormalFont" (list (make-tex-addition "../style/normalfont.tex"))))
+  (make-style "NormalFont" (list (make-tex-addition "style/normalfont.tex"))))
 
 (define tip
-  (make-style "Tip" (list (make-tex-addition "../style/tip.tex")
-                          (make-css-addition "../style/tip.css"))))
+  (make-style "Tip" (list (make-tex-addition "style/tip.tex")
+                          (make-css-addition "style/tip.css"))))
 
 (define tip-content
-  (make-style "TipContent" (list (make-tex-addition "../style/tip.tex")
-                                 (make-css-addition "../style/tip.css"))))
+  (make-style "TipContent" (list (make-tex-addition "style/tip.tex")
+                                 (make-css-addition "style/tip.css"))))
 
 (define eopl-style-figure
-  (make-style "EoplFigure" (list (make-tex-addition "../style/figure.tex"))))
+  (make-style "EoplFigure" (list (make-tex-addition "style/figure.tex"))))
 
 (define eopl-style-figure*
-  (make-style "EoplFigure*" (list (make-tex-addition "../style/figure.tex"))))
+  (make-style "EoplFigure*" (list (make-tex-addition "style/figure.tex"))))
 
 (define eopl-style-subfigure
-  (make-style "EoplSubfigure" (list (make-tex-addition "../style/figure.tex"))))
+  (make-style "EoplSubfigure" (list (make-tex-addition "style/figure.tex"))))
 
 (define eopl-figure-ref
-  (make-style "EoplFigureRef" (list (make-tex-addition "../style/figure.tex"))))
+  (make-style "EoplFigureRef" (list (make-tex-addition "style/figure.tex"))))
 
 (define eopl-example
-  (make-style "EoplExample" (list (make-tex-addition "../style/example.tex"))))
+  (make-style "EoplExample" (list (make-tex-addition "style/example.tex"))))
 
 (define eopl-example-ref
-  (make-style "EoplExampleRef" (list (make-tex-addition "../style/example.tex"))))
+  (make-style "EoplExampleRef" (list (make-tex-addition "style/example.tex"))))
 
 (define eopl-exercise
-  (make-style "EoplExercise" (list (make-tex-addition "../style/exercise.tex"))))
+  (make-style "EoplExercise" (list (make-tex-addition "style/exercise.tex"))))
 
 (define eopl-exercise-ref
-  (make-style "EoplExerciseRef" (list (make-tex-addition "../style/exercise.tex"))))
+  (make-style "EoplExerciseRef" (list (make-tex-addition "style/exercise.tex"))))
 
 (define eopl-definition
-  (make-style "EoplDefinition" (list (make-tex-addition "../style/definition.tex"))))
+  (make-style "EoplDefinition" (list (make-tex-addition "style/definition.tex"))))
 
 (define eopl-definition-title
-  (make-style "EoplDefinitionTitle" (list (make-tex-addition "../style/definition.tex"))))
+  (make-style "EoplDefinitionTitle" (list (make-tex-addition "style/definition.tex"))))
 
 (define eopl-definition-ref
-  (make-style "EoplDefinitionRef" (list (make-tex-addition "../style/definition.tex"))))
+  (make-style "EoplDefinitionRef" (list (make-tex-addition "style/definition.tex"))))
 
 (define eopl-theorem
-  (make-style "EoplTheorem" (list (make-tex-addition "../style/theorem.tex"))))
+  (make-style "EoplTheorem" (list (make-tex-addition "style/theorem.tex"))))
 
 (define eopl-theorem-ref
-  (make-style "EoplTheoremRef" (list (make-tex-addition "../style/theorem.tex"))))
+  (make-style "EoplTheoremRef" (list (make-tex-addition "style/theorem.tex"))))
 
 (define margin-page-number
-  (make-style "MarginPage" (list (make-tex-addition "../style/margin-page.tex"))))
+  (make-style "MarginPage" (list (make-tex-addition "style/margin-page.tex"))))
 
 (define bib-para
-  (make-style "BibPara" (list (make-tex-addition "../style/bib-para.tex"))))
+  (make-style "BibPara" (list (make-tex-addition "style/bib-para.tex"))))
 
 (define eopl-plain-label
-  (make-style "PlainLabel" (list (make-tex-addition "../style/plain-label.tex"))))
+  (make-style "PlainLabel" (list (make-tex-addition "style/plain-label.tex"))))
 
 (define eopl-exer-ref-range
-  (make-style "EoplExerRefRange" (list (make-tex-addition "../style/exercise.tex"))))
+  (make-style "EoplExerRefRange" (list (make-tex-addition "style/exercise.tex"))))
 
 ;;; for code
 (define (eopl-proc . c)
   (bold (tt c)))
 
 (define eopl-samepage
-  (make-style "Samepage" (list (make-tex-addition "../style/samepage.tex"))))
+  (make-style "Samepage" (list (make-tex-addition "style/samepage.tex"))))
 
 (define eopl-code-inset
-  (make-style "EoplCodeInset" (list (make-tex-addition "../style/code-inset.tex"))))
+  (make-style "EoplCodeInset" (list (make-tex-addition "style/code-inset.tex"))))
 
 (define eopl-equation-inset
-  (make-style "EoplEquationInset" (list (make-tex-addition "../style/code-inset.tex"))))
+  (make-style "EoplEquationInset" (list (make-tex-addition "style/code-inset.tex"))))
 
 (define eopl-computation-inset
-  (make-style "EoplComputationInset" (list (make-tex-addition "../style/code-inset.tex"))))
+  (make-style "EoplComputationInset" (list (make-tex-addition "style/code-inset.tex"))))
 
 (define eopl-proof-style
-  (make-style "EoplProof" (list (make-tex-addition "../style/proof.tex"))))
+  (make-style "EoplProof" (list (make-tex-addition "style/proof.tex"))))
 
 ;; make sure the code title does not become orphan
 (define (samepage . c)
@@ -208,7 +208,7 @@
           (remove-leading-newlines c)))
 
 (define (exercise-ref tag)
-  (elem #:style eopl-exercise-ref (countref tag)))
+  (void))
 
 ;;; for example
 (define (example #:tag [tag ""] . c)
@@ -216,7 +216,7 @@
           (elemtag tag "") c))
 
 (define (example-ref tag)
-  (elem #:style eopl-example-ref (countref tag)))
+  (void))
 
 ;;; for figure
 (define (eopl-figure #:position [position #f] . c)
@@ -246,7 +246,7 @@
           (when tag (elemtag tag ""))))
 
 (define (figure-ref tag)
-  (elem #:style eopl-figure-ref (countref tag)))
+  (void))
 
 ;;; for definition
 (define (definition #:title [title #f] #:tag [tag ""] . c)
@@ -259,7 +259,7 @@
           (remove-leading-newlines c)))
 
 (define (definition-ref tag)
-  (elem #:style eopl-definition-ref (countref tag)))
+  (void))
 
 ;;; for theorem
 (define (theorem #:title [title #f] #:tag [tag ""] . c)
@@ -272,7 +272,7 @@
           (remove-leading-newlines c)))
 
 (define (theorem-ref tag)
-  (elem #:style eopl-theorem-ref (countref tag)))
+  (void))
 
 (define (exact-elem . c)
   (make-element (make-style #f '(exact-chars)) c))
@@ -491,10 +491,7 @@
        (if k k "#f")))]))
 
 (define (exer-ref-range . tags)
-  (elem #:style eopl-exer-ref-range
-        (add-between (map (lambda (t) (countref #:style eopl-plain-label t))
-                          tags)
-                     ",")))
+  (void))
 
 (define idx-value-of
   (eopl-index-entry (eopl-proc "value-of") "valueof"))

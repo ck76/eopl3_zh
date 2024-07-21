@@ -187,7 +187,7 @@ Jones}, 2001) 中，monads 提供了非函数式行为的组织原则。
 超本书讨论范围，如@term["coroutine"]{协程} (@author-ref{Haynes} et al., 1986)。
 
 我们对线程的讨论模拟了 POSIX 线程 （例如，参见 @author-ref{Lewis} &
-@author-ref{Berg}, 1998）。@exercise-ref{ex5.56} 基于 Erlang 的消息传递并发模型
+@author-ref{Berg}, 1998）。{ex5.56} 基于 Erlang 的消息传递并发模型
 (@author-ref{Armstrong}, 2007)。
 @eopl-index[#:range-mark 'end "Multithreaded programs"]
 @eopl-index[#:range-mark 'end "Threads"]
@@ -202,9 +202,9 @@ al., 1986) 和 Standard ML of New Jersey 编译器 (@author-ref{Appel} &
 出的一阶组合式算法。CPS 翻译历史悠久，包括 @author-ref{Sabry} &
 @author-ref{Wadler} (1997)，他们改进了 @author-ref{Sabry} &
 @author-ref{Felleisen} (1993)，而后者又是受本书初版第 8 章的 CPS 算法启发。
-@exercise-ref{ex6.30} 基于 @author-ref{Danvy} & @author-ref{Filinski} (1992) 提
+{ex6.30} 基于 @author-ref{Danvy} & @author-ref{Filinski} (1992) 提
 出的高阶组合式 CPS 算法。CPS 之外还有@eopl-index[@eopl-index-entry["A-normal
-form (ANF)" "Anormalform"]] A-normal form（@exercise-ref{ex6.34}），由
+form (ANF)" "Anormalform"]] A-normal form（{ex6.34}），由
 @author-ref{Sabry} & @author-ref{Felleisen} (1992); @author-ref{Flanagan} et
 al. (1993) 提出。
 @eopl-index["Continuation-passing style" "transformation to"]
@@ -223,7 +223,7 @@ al. (1993) 提出。
 @eopl-index["Type equations"]
 @author-ref{Wand} (1987) 率先阐明了如何将类型推导分为方程构建和求解。名为
 @eopl-index["Polymorphic"]
-Hindley-Milner 多态的 @author-ref{Milner} (1978) 系统与@exercise-ref{ex7.28} 中
+Hindley-Milner 多态的 @author-ref{Milner} (1978) 系统与{ex7.28} 中
 的系统基本相同。@author-ref{Pierce} (2002, 2004) 的两卷著作对类型做了百科全书式
 的讨论。
 @eopl-index[#:range-mark 'end "Type inference"]
