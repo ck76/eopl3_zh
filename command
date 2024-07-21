@@ -3,4 +3,6 @@ scribble --xelatex /Users/cheng.kun/Documents/GitHub/eopl3_zh/chapters/eopl.scrb
 
 
 cd /Users/cheng.kun/Documents/GitHub/eopl3_zh
-scribble --latex /Users/cheng.kun/Documents/GitHub/eopl3_zh/chapters/eopl.scrbl
+scribble --latex /Use
+
+rs/cheng.kun/Documents/GitHub/eopl3_zh/chapters/eopl.scrbl
