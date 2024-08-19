@@ -6,3 +6,8 @@ cd /Users/cheng.kun/Documents/GitHub/eopl3_zh
 scribble --latex /Use
 
 rs/cheng.kun/Documents/GitHub/eopl3_zh/chapters/eopl.scrbl
+
+
+
+cd /Users/cheng.kun/Documents/GitHub/eopl3_zh
+scribble --html /Users/cheng.kun/Documents/GitHub/eopl3_zh/chapters/eopl.scrbl
