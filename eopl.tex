@@ -810,7 +810,18 @@ headings_flag 1
 \newenvironment{EoplFigure}[1][htp]{\begin{figure}[#1]\begin{longfbox}[border-width=1pt, border-left-width=0pt, border-right-width=0pt]\begin{small}}{\end{small}\end{longfbox}\end{figure}}
 \newenvironment{EoplSubfigure}{\begin{subfigure}{\textwidth}}{\end{subfigure}}
 % for unnumbered figure
-\newenvironment{EoplFigure}[1][htp]{\clearpage\begin{figure}[#1]\begin{longfbox}[border-width=1pt, border-left-width=0pt, border-right-width=0pt]\begin{small}}{\end{small}\end{longfbox}\end{figure}\clearpage}
+% 定义 EoplFigure 环境
+\newenvironment{EoplFigure}[1][H]{ % 使用 H 选项强制图形放置在当前位置
+    \clearpage % 强制分页，开始新的一页
+    \begin{figure}[#1]
+    \begin{longfbox}[border-width=1pt, border-left-width=0pt, border-right-width=0pt]
+    \begin{small}
+}{
+    \end{small}
+    \end{longfbox}
+    \end{figure}
+    \clearpage % 强制分页，开始新的一页
+}
 \newcommand\EoplFigureName{图}
 \newcommand{\EoplFigureRef}[1]{\EoplFigureName~{#1}}
 \setlength{\textfloatsep}{1.5em plus 1em minus 1em}
