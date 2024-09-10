@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.27)  10 SEP 2024 12:26
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.27)  10 SEP 2024 13:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1024,6 +1024,20 @@ Package: ellipse 2004/11/05 v1.0 .dtx ellipse file
 \/fbox/@border-bottom-left-phi=\skip172
 \/fbox/@border-bottom-right-phi=\skip173
 )
+
+! LaTeX Error: Command \EoplFigure already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.813 ...all}\end{longfbox}\end{figure}\clearpage}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2024/05/23 v1.9h multicolumn formatting (FMi)
 \c@tracingmulticols=\count355
@@ -2448,15 +2462,19 @@ nSerifCN(0)/m/n/9 、| \TU/Courier(0)/m/n/9 is-zero[]\TU/SourceHanSerifCN(0)/m/n
 [37]
 
 [38]
-File: alist-env.pdf Graphic file (type pdf)
-<use alist-env.pdf>
-
 
 [39]
 
 [40]
+File: alist-env.pdf Graphic file (type pdf)
+<use alist-env.pdf>
 File: rib-cage-one.pdf Graphic file (type pdf)
 <use rib-cage-one.pdf>
+
+
+[41
+
+]
 File: rib-cage.pdf Graphic file (type pdf)
 <use rib-cage.pdf>
 
@@ -2465,8 +2483,6 @@ Overfull \hbox (8.67941pt too wide) in paragraph at lines 4090--4090
  []
 
 
-
-[41]
 
 [42]
 
@@ -2511,6 +2527,8 @@ Overfull \hbox (18.85841pt too wide) in paragraph at lines 4286--4286
 [50]
 
 [51]
+
+[52]
 Overfull \hbox (10.13513pt too wide) in paragraph at lines 4691--4693
 []\TU/SourceHanSerifCN(0)/m/n/9 实 现 操 作 二 叉 树 的 过 程 \TU/Courier(0)/m/n/9 bintre
 e-to-list\TU/SourceHanSerifCN(0)/m/n/9 ，|  则 \TU/Courier(0)/m/n/9 (bintree-to-l
@@ -2519,22 +2537,29 @@ ist (interior-node
 
 
 
-[52]
+[53]
 File: ast.pdf Graphic file (type pdf)
 <use ast.pdf>
 
 
-[53]
-
 [54]
 
 [55]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[56]
+
+
+[56
+
+]
 
 [57]
 
 [58]
+
+[59]
+
+[60]
  3.
 
 Package relsize Warning: Font size 24.88792pt is too large.
@@ -2542,7 +2567,7 @@ Package relsize Warning: Font size 24.88792pt is too large.
 
 
 
-[59
+[61
 
 ]
 File: exe-via-interpreter.pdf Graphic file (type pdf)
@@ -2551,52 +2576,71 @@ File: exe-via-compiler.pdf Graphic file (type pdf)
 <use exe-via-compiler.pdf>
 
 
-[60]
+[62]
 
-[61]
+[63]
 Underfull \hbox (badness 10000) in paragraph at lines 5113--5127
 
  []
 
 
 
-[62]
+[64
 
-[63]
-
-[64]
+]
 
 [65]
-Underfull \hbox (badness 10000) in paragraph at lines 5292--5293
 
- []
+[66
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 5448--5449
-
- []
-
-
-
-[66]
+]
 
 [67]
 
 [68]
+Underfull \hbox (badness 10000) in paragraph at lines 5292--5293
 
-LaTeX Warning: Float too large for page by 43.85004pt on input line 5637.
-
-
-LaTeX Warning: Hyper reference `t:x28elem_x22sllgenx22x29' on page 69 undefined
- on input line 5647.
+ []
 
 
 
 [69]
 
 [70]
+Underfull \hbox (badness 10000) in paragraph at lines 5448--5449
 
-[71]
+ []
+
+
+
+[71
+
+]
+
+[72]
+
+LaTeX Warning: Float too large for page by 43.85004pt on input line 5637.
+
+
+
+[73
+
+]
+
+[74]
+
+LaTeX Warning: Hyper reference `t:x28elem_x22sllgenx22x29' on page 75 undefined
+ on input line 5647.
+
+
+
+[75
+
+]
+
+[76
+
+]
 ! Misplaced alignment tab character &.
 <argument> \begin {math}\begin {alignedat}{-1}&
                                                \mbox {\hphantom {\Scribtextt...
@@ -2672,46 +2716,51 @@ Overfull \hbox (205.63058pt too wide) in paragraph at lines 5827--5828
 [][]$[]$ 
  []
 
-Excluding 'comment' comment. Excluding 'comment' comment.
+Excluding 'comment' comment.
 
-[72]
+[77
 
-[73]
+]
 
-[74]
+[78] Excluding 'comment' comment.
 
-[75]
+[79
+
+]
+
+[80
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 5983--5985
 
  []
 
 
 
-[76]
-
-[77]
-
-[78]
-
-[79]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[80]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
 [81]
 
 [82]
+
+[83]
+
+[84]
+
+[85]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[86]
+
+[87]
 Overfull \hbox (8.05666pt too wide) in paragraph at lines 6375--6375
 [][][]\TU/Courier(0)/m/n/9 ([][]value-of[][][]body[][][]([][]extend-env[][][]va
 r[][][]val[][][]saved-env[][])[][])[][])[][])[][])[][])[] 
  []
 
 
+
+[88]
 Overfull \hbox (2.65578pt too wide) in paragraph at lines 6409--6410
 [][][][][][][][]\TU/Courier(0)/m/n/9 ([][]let[][][][][][][]([][]([][]proc[][][]
 [][][][]([][]expval->proc[][][][][][][]([][]value-of[][][][][][][]rator[][][][]
@@ -2720,17 +2769,23 @@ Overfull \hbox (2.65578pt too wide) in paragraph at lines 6409--6410
 
 
 
-[83]
+[89]
 
-[84]
+[90]
 
-[85]
+[91]
 
-[86]
+[92]
 
-[87]
+[93]
 
-[88]
+[94
+
+]
+
+[95
+
+]
 File: vector-env.pdf Graphic file (type pdf)
 <use vector-env.pdf>
 
@@ -2739,13 +2794,6 @@ Overfull \hbox (109.4858pt too wide) in paragraph at lines 6836--6836
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[89]
-
-[90]
 Overfull \hbox (0.65578pt too wide) in paragraph at lines 6846--6847
 [][][]\TU/Courier(0)/m/n/9 ([][]let[][][]([][]([][]new-env[][][]([][]extend-env
 [][][]p-names[][][]vec[][][]saved-env[][])[][])[][])[] 
@@ -2753,7 +2801,11 @@ Overfull \hbox (0.65578pt too wide) in paragraph at lines 6846--6847
 
 
 
-[91]
+[96
+
+]
+
+[97]
 File: simple-contour.pdf Graphic file (type pdf)
 <use simple-contour.pdf>
 
@@ -2763,9 +2815,11 @@ Overfull \hbox (30.11707pt too wide) in paragraph at lines 6925--6925
 
 
 
-[92]
+[98]
 
-[93]
+[99
+
+]
 File: complicated-contour.pdf Graphic file (type pdf)
 <use complicated-contour.pdf>
 
@@ -2775,51 +2829,17 @@ Overfull \hbox (74.14143pt too wide) in paragraph at lines 7027--7027
 
 
 
-[94]
-Underfull \vbox (badness 3407) has occurred while \output is active []
-
-
-
-[95]
-
-[96]
-File: lexical-addr-env.pdf Graphic file (type pdf)
-<use lexical-addr-env.pdf>
-
-
-[97]
-
-[98]
-
-[99]
-Underfull \hbox (badness 10000) in paragraph at lines 7358--7360
-
- []
-
-
-
 [100]
-Overfull \hbox (0.2pt too wide) in paragraph at lines 7377--7380
-[]\TU/SourceHanSerifCN(0)/m/n/10 过 程 \TU/Courier(0)/l/it/10 translation-of-prog
-ram \TU/SourceHanSerifCN(0)/m/n/10 在 适 当 的 初 始 静 态 环 境 中 执 行 \TU/Courier(0)/l/i
-t/10 trans-
- []
-
-
 
 [101]
 
-[102]
-File: nameless-env.pdf Graphic file (type pdf)
-<use nameless-env.pdf>
+[102
 
+]
 
 [103]
-Overfull \hbox (13.45753pt too wide) in paragraph at lines 7608--7608
-[][][]\TU/Courier(0)/m/n/9 ([][]extend-nameless-env[][][]val[][][]saved-nameles
-s-env[][])[][])[][])[][])[][])[][])[] 
- []
-
+File: lexical-addr-env.pdf Graphic file (type pdf)
+<use lexical-addr-env.pdf>
 
 
 [104]
@@ -2829,10 +2849,53 @@ s-env[][])[][])[][])[][])[][])[][])[]
 [106]
 
 [107]
+Underfull \hbox (badness 10000) in paragraph at lines 7358--7360
+
+ []
+
+
+Overfull \hbox (0.2pt too wide) in paragraph at lines 7377--7380
+[]\TU/SourceHanSerifCN(0)/m/n/10 过 程 \TU/Courier(0)/l/it/10 translation-of-prog
+ram \TU/SourceHanSerifCN(0)/m/n/10 在 适 当 的 初 始 静 态 环 境 中 执 行 \TU/Courier(0)/l/i
+t/10 trans-
+ []
+
+
 
 [108
 
 ]
+
+[109]
+
+[110
+
+]
+File: nameless-env.pdf Graphic file (type pdf)
+<use nameless-env.pdf>
+
+
+[111]
+
+[112]
+Overfull \hbox (13.45753pt too wide) in paragraph at lines 7608--7608
+[][][]\TU/Courier(0)/m/n/9 ([][]extend-nameless-env[][][]val[][][]saved-nameles
+s-env[][])[][])[][])[][])[][])[][])[] 
+ []
+
+
+
+[113
+
+]
+
+[114]
+
+[115
+
+]
+
+[116]
  4.
 
 Package relsize Warning: Font size 24.88792pt is too large.
@@ -2840,37 +2903,43 @@ Package relsize Warning: Font size 24.88792pt is too large.
 
 
 
-[109]
+[117
 
-[110]
+]
+
+[118]
+
+! LaTeX Error: Environment EoplFigure* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7903 \begin{EoplFigure*}
+                          [!ht]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 File: g-bound.pdf Graphic file (type pdf)
 <use g-bound.pdf>
 
 
-[111]
-
-[112]
-
-[113]
-
-[114]
-
-[115]
-
-[116]
-
-[117]
-Underfull \vbox (badness 1297) has occurred while \output is active []
-
-
-
-[118]
-
-LaTeX Warning: Float too large for page by 32.36223pt on input line 8387.
-
-
-
 [119]
+
+! LaTeX Error: \begin{document} ended by \end{EoplFigure*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7908 ...g3@共享|idxdecorator{}{}}\end{EoplFigure*}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
 
 [120]
 
@@ -2884,45 +2953,92 @@ LaTeX Warning: Float too large for page by 32.36223pt on input line 8387.
 
 [125]
 
-LaTeX Warning: Float too large for page by 52.64008pt on input line 8840.
+[126
 
+]
 
+[127
 
-[126]
-
-[127]
+]
 
 [128]
+
+LaTeX Warning: Float too large for page by 32.36223pt on input line 8387.
+
+
 
 [129]
 
 [130]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[131
 
 
 
-[131]
+]
 
-LaTeX Warning: Float too large for page by 13.97914pt on input line 9155.
+[132
 
-
-LaTeX Warning: Float too large for page by 10.36223pt on input line 9310.
-
-
-
-[132]
+]
 
 [133]
 
-[134]
+[134
+
+]
 
 [135]
+
+LaTeX Warning: Float too large for page by 52.64008pt on input line 8840.
+
+
 
 [136]
 
 [137]
 
-[138]
+[138
+
+]
+
+[139]
+
+[140]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[141]
+
+LaTeX Warning: Float too large for page by 13.97914pt on input line 9155.
+
+
+
+[142]
+
+[143]
+
+[144
+
+]
+
+LaTeX Warning: Float too large for page by 10.36223pt on input line 9310.
+
+
+
+[145
+
+]
+
+[146]
+
+[147
+
+]
+
+[148
+
+]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2932,25 +3048,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
-[139]
+[149
 
-[140]
+]
+
+[150]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.01004pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.01004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[151]
 
 LaTeX Warning: Float too large for page by 54.40227pt on input line 9713.
 
 
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.01004pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.01004pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
-
-[141]
-
-[142]
+[152]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2960,21 +3078,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
-[143]
+[153]
 
-[144]
+[154
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.01004pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.01004pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
-
-[145]
-
-[146]
+]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2984,9 +3092,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
-[147]
+[155
 
-[148
+]
+
+[156]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.01004pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.01004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[157]
+
+[158]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.01004pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.01004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[159]
+
+[160
 
 ]
  5.
@@ -2996,17 +3130,21 @@ Package relsize Warning: Font size 24.88792pt is too large.
 
 
 
-[149]
+[161]
 
-[150]
+[162]
 
 LaTeX Warning: Float too large for page by 88.93823pt on input line 10220.
 
 
 
-[151]
+[163]
 
-[152]
+[164]
+
+[165
+
+]
 Overfull \hbox (13.45753pt too wide) in paragraph at lines 10283--10284
 [][][]\TU/Courier(0)/m/n/9 ([][]var-exp[][][]([][]var[][])[][][]([][]apply-cont
 [][][]cont[][][]([][]apply-env[][][]env[][][]var[][])[][])[][])[] 
@@ -3014,9 +3152,7 @@ Overfull \hbox (13.45753pt too wide) in paragraph at lines 10283--10284
 
 
 
-[153]
-
-[154]
+[166]
 Overfull \hbox (2.09944pt too wide) in paragraph at lines 10368--10372
 \TU/Courier(0)/l/it/10 (let (($\OML/cmm/m/it/10 var$ $exp[]$\TU/Courier(0)/l/it
 /10 )) $\OML/cmm/m/it/10 exp[]$\TU/Courier(0)/l/it/10 ) \TU/SourceHanSerifCN(0)
@@ -3028,15 +3164,20 @@ r(0)/l/it/10 ) $\OML/cmm/m/it/10 exp[]$\TU/Courier(0)/l/it/10 ) $\OML/cmm/m/it/
 
 
 
-[155]
+[167]
 
-[156]
+[168]
 
-[157]
+[169]
 
-[158]
+[170]
 
-[159]
+[171
+
+
+]
+
+[172]
 LaTeX Font Info:    Calculating math sizes for size <7.50002> on input line 107
 26.
 
@@ -3065,155 +3206,191 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <3.75> not available
 (Font)              size <5> substituted on input line 10726.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[160]
-
-[161]
-
-[162]
-
-[163]
-Underfull \vbox (badness 1221) has occurred while \output is active []
-
-
-
-[164]
-
-[165]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[166]
-
-[167]
-
-[168]
-
-LaTeX Warning: Float too large for page by 23.03223pt on input line 11298.
-
-
-
-[169]
-
-[170]
-
-LaTeX Warning: Float too large for page by 34.37251pt on input line 11427.
-
-
-
-[171]
-
-[172]
 
 [173]
 
 [174]
 
-[175] Excluding 'comment' comment.
+[175]
 
-LaTeX Warning: Float too large for page by 3.3891pt on input line 11781.
+[176
 
-Excluding 'comment' comment. Excluding 'comment' comment.
-Excluding 'comment' comment.
+]
 
-[176]
+[177
 
-[177]
+]
 
 [178]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[179]
+
+
+[179
+
+]
 
 [180]
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.13004pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.13004pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.13004pt}.
-
 [181]
+
+LaTeX Warning: Float too large for page by 23.03223pt on input line 11298.
+
+
 
 [182]
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.13004pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.13004pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.13004pt}.
-
 [183]
 
-[184]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[184
+
+]
+
+LaTeX Warning: Float too large for page by 34.37251pt on input line 11427.
 
 
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.13004pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.13004pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.13004pt}.
 
 [185]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [186]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
+[187
 
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.13004pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.13004pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.13004pt}.
-
-[187]
+]
 
 [188]
 
-[189]
+[189
+
+]
+
+[190]
+
+[191
+
+] Excluding 'comment' comment.
+
+LaTeX Warning: Float too large for page by 3.3891pt on input line 11781.
+
+
+
+[192]
+
+[193] Excluding 'comment' comment.
+
+[194
+
+] Excluding 'comment' comment.
+
+[195
+
+] Excluding 'comment' comment.
+
+[196]
+
+[197
+
+
+]
+
+[198]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.13004pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.13004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.13004pt}.
+
+[199]
+
+[200]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.13004pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.13004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.13004pt}.
+
+[201]
+
+[202
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.13004pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.13004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.13004pt}.
+
+[203]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[204]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.13004pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.13004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.13004pt}.
+
+[205]
+
+[206]
+
+[207]
+
+[208]
 
 LaTeX Warning: Float too large for page by 9.92029pt on input line 12748.
 
 
 
-[190]
+[209
 
-[191]
+]
 
-[192]
+[210]
+
+[211
+
+]
+
+[212]
 
 LaTeX Warning: Float too large for page by 80.57826pt on input line 12963.
 
 
 
-[193]
+[213]
 
-[194]
+[214
 
-[195]
 
-[196]
+]
 
-[197]
+[215
 
-[198]
+]
+
+[216]
+
+[217]
+
+[218]
 Overfull \hbox (8.05666pt too wide) in paragraph at lines 13205--13206
 [][][][][][][][]\TU/Courier(0)/m/n/9 ([][]lambda[][][][][][][]([][])[][][][][][
 ][]([][]apply-cont[][][][][][][]saved-cont[][][][][][][]([][]num-val[][][][][][
@@ -3238,15 +3415,20 @@ LaTeX Warning: Float too large for page by 3.46823pt on input line 13301.
 
 
 
-[199]
-
-[200]
-
-[201]
-
-[202
+[219
 
 ]
+
+[220]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[221
+
+]
+
+[222]
  6.
 
 Package relsize Warning: Font size 24.88792pt is too large.
@@ -3254,13 +3436,25 @@ Package relsize Warning: Font size 24.88792pt is too large.
 
 
 
-[203]
+[223
 
-[204]
+]
+
+[224]
+
+[225]
+
+[226]
 
 LaTeX Warning: Float too large for page by 58.05914pt on input line 13646.
 
 
+
+[227
+
+]
+
+[228]
 Overfull \hbox (2.65578pt too wide) in paragraph at lines 13667--13667
 [][][]\TU/Courier(0)/m/n/9 ([][]fact/k[][][]([][][][][][]n[][][]1[][])[][][]([]
 []lambda[][][]([][]val[][])[][][]([][]cont[][][]([][]*[][][]n[][][]val[][])[][]
@@ -3269,17 +3463,15 @@ Overfull \hbox (2.65578pt too wide) in paragraph at lines 13667--13667
 
 
 
-[205]
+[229
 
-[206]
+]
 
-[207]
+[230]
 
-[208]
+[231]
 
-[209]
-
-[210]
+[232]
 Overfull \hbox (4.06516pt too wide) in paragraph at lines 13911--13913
 []\TU/AdobeKaitiStd(0)/m/n/9 练 习 \TU/QTPalatine(0)/m/n/10 6.1 [][]$[][][]$[]\TU
 /SourceHanSerifCN(0)/m/n/9 考 虑，|  为 什 么 移 除 \TU/Courier(0)/m/n/9 fact/k \TU/Sou
@@ -3289,24 +3481,26 @@ eHanSerifCN(0)/m/n/9 和 \TU/Courier(0)/m/n/9 apply-cont
 
 
 
-[211]
+[233]
 
-[212]
+[234]
 
-[213]
+[235]
 
-[214]
+[236]
 Underfull \hbox (badness 10000) in paragraph at lines 14146--14166
 
  []
 
 
 
-[215]
+[237]
 
-[216]
+[238
 
-[217]
+]
+
+[239]
 Underfull \hbox (badness 10000) in paragraph at lines 14278--14279
 
  []
@@ -3315,6 +3509,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 14278--14279
 LaTeX Warning: Float too large for page by 1.90839pt on input line 14307.
 
 
+
+[240
+
+]
+
+[241]
 Overfull \hbox (4.85841pt too wide) in paragraph at lines 14333--14334
 [][][]\TU/Courier(0)/m/n/9 ([][]cps-letrec-exp[][][]([][]p-names[][][]b-varss[]
 [][]p-bodies[][][]letrec-body[][])[] 
@@ -3337,21 +3537,24 @@ LaTeX Warning: Float too large for page by 22.86823pt on input line 14389.
 
 
 
-[218]
+[242]
 
-[219]
+[243
 
-[220]
 
-[221]
+]
 
-[222]
+[244]
 
-[223]
+[245]
 
-[224]
+[246]
 
-[225]
+[247]
+
+[248
+
+]
 Overfull \hbox (9.27406pt too wide) in paragraph at lines 14757--14757
 [][]\TU/Courier(0)/l/it/10 <<proc ($\OML/cmm/m/it/10 var[]$\TU/Courier(0)/l/it/
 10 ) ($\OML/cmm/m/it/10 K$[]\TU/Courier(0)/l/it/10 +($\OML/cmm/m/it/10 simp[]$\
@@ -3361,6 +3564,8 @@ U/Courier(0)/l/it/10 ))>>)
  []
 
 
+
+[249]
 Overfull \hbox (12.70786pt too wide) in paragraph at lines 14777--14777
 [][]\TU/Courier(0)/l/it/10 (cps-of-exp <<+($\OML/cmm/m/it/10 simp[]$\TU/Courier
 (0)/l/it/10 , $\OML/cmm/m/it/10 var[]$\TU/Courier(0)/l/it/10 , $\OML/cmm/m/it/1
@@ -3370,7 +3575,7 @@ Overfull \hbox (12.70786pt too wide) in paragraph at lines 14777--14777
 
 
 
-[226]
+[250]
 Overfull \hbox (27.13605pt too wide) in paragraph at lines 14839--14839
 [][]\TU/Courier(0)/l/it/10 (cps-of-exp <<($\OML/cmm/m/it/10 simp[]$[]$simp[]$[]
 $var[]$[]$exp[]$[][][][] $exp[]$\TU/Courier(0)/l/it/10 )>> $\OML/cmm/m/it/10 K$
@@ -3378,8 +3583,6 @@ $var[]$[]$exp[]$[][][][] $exp[]$\TU/Courier(0)/l/it/10 )>> $\OML/cmm/m/it/10 K$
  []
 
 
-
-[227]
 Overfull \hbox (15.5334pt too wide) in paragraph at lines 14894--14895
 []\TU/Courier(0)/l/it/10 (cps-of-exp (complex-exp $\OML/cmm/m/it/10 simp[]$[]$s
 imp[]$[]$exp[]$[]$exp[]$[][][][] $exp[]$\TU/Courier(0)/l/it/10 ) $\OML/cmm/m/it
@@ -3388,7 +3591,7 @@ imp[]$[]$exp[]$[]$exp[]$[][][][] $exp[]$\TU/Courier(0)/l/it/10 ) $\OML/cmm/m/it
 
 
 
-[228]
+[251]
 Overfull \hbox (4.85841pt too wide) in paragraph at lines 14968--14969
 [][][]\TU/Courier(0)/m/n/9 ([][]list-set[][][]exps[][][]pos[][][]([][]var-exp[]
 [][]var[][])[][])[][])[][])[][])[][])[][])[][])[][])[][])[][])[] 
@@ -3402,35 +3605,56 @@ Overfull \hbox (4.85841pt too wide) in paragraph at lines 14986--14987
 
 
 
-[229]
+[252]
 
-[230]
+[253]
+
+[254
+
+]
+
+[255
+
+]
+
+[256]
 
 LaTeX Warning: Float too large for page by 69.50827pt on input line 15253.
 
 
-Underfull \vbox (badness 1107) has occurred while \output is active []
+
+[257]
+
+[258
 
 
+]
 
-[231]
+[259
 
-[232]
+]
 
-[233]
-
-[234]
-
-[235]
+[260]
 Missing character: There is no → (U+2192) in font QTPalatine Regular/AAT:mappin
 g=tex-text;!
 
 
-[236]
+[261]
+Underfull \vbox (badness 3343) has occurred while \output is active []
 
-[237]
 
-[238]
+
+[262]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.14003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.14003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.14003pt}.
+
+[263]
 Overfull \hbox (23.1856pt too wide) in paragraph at lines 15559--15559
 []\TU/Courier(0)/l/it/10 (cps-of-exp <<print($\OML/cmm/m/it/10 simp[]$\TU/Couri
 er(0)/l/it/10 )>> $\OML/cmm/m/it/10 K$\TU/Courier(0)/l/it/10 ) = printk($\OML/c
@@ -3440,17 +3664,7 @@ mm/m/it/10 simp[]$\TU/Courier(0)/l/it/10 ) ; ($\OML/cmm/m/it/10 K$[]\TU/Courier
 
 
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.14003pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.14003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.14003pt}.
-
-[239]
-
-[240]
+[264]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3463,9 +3677,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.14003pt}.
 
-[241]
+[265]
 
-[242]
+[266]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3475,17 +3689,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.14003pt}.
 
-[243]
+[267]
 Underfull \hbox (badness 10000) in paragraph at lines 15827--15829
 
  []
 
 
-Underfull \vbox (badness 3536) has occurred while \output is active []
 
-
-
-[244]
+[268]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3495,9 +3706,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.14003pt}.
 
-[245]
+[269]
 
-[246
+[270
 
 ]
  7.
@@ -3507,194 +3718,17 @@ Package relsize Warning: Font size 24.88792pt is too large.
 
 
 
-[247]
-
-[248]
-
-[249]
-
-[250]
-
-[251]
-
-[252]
-
-[253]
-
-[254]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.00003pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.00003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
-
-[255]
-
-[256] Excluding 'comment' comment.
-
-LaTeX Warning: Float too large for page by 60.08612pt on input line 16482.
-
-Excluding 'comment' comment.
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.00003pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.00003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
-
-[257]
-
-[258]
-Overfull \vbox (13.20035pt too high) has occurred while \output is active []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.00003pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.00003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
-
-[259]
-
-[260]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.00003pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.00003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
-
-[261]
-
-[262]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.00003pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.00003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
-
-[263]
-
-[264]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.00003pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.00003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
-
-[265]
-
-[266]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.00003pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.00003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
-
-[267]
-
-[268]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.00003pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.00003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
-
-[269]
-
-[270]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.00003pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.00003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
-
 [271]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [272]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.00003pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.00003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
 
 [273]
 
 [274]
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.00003pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.00003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
-
 [275]
-Overfull \hbox (1.73065pt too wide) in paragraph at lines 17557--17562
-[]\TU/SourceHanSerifCN(0)/m/n/10 代 换 式 组 的 构 造 器 有 \TU/Courier(0)/l/it/10 empty
--subst \TU/SourceHanSerifCN(0)/m/n/10 和 \TU/Courier(0)/l/it/10 extend-subst\TU/
-SourceHanSerifCN(0)/m/n/10 。| \TU/Courier(0)/l/it/10 (empty-subst)
- []
-
-
 
 [276]
-Overfull \hbox (1.46367pt too wide) in paragraph at lines 17631--17633
-[]\TU/AdobeKaitiStd(0)/m/n/9 练 习 \TU/QTPalatine(0)/m/n/10 7.18 [][]$[][][][]$[]
-\TU/SourceHanSerifCN(0)/m/n/9 修 改 前 一 道 练 习 中 的 实 现，|  则 对 任 意 类 型 变 量，| \TU/Co
-urier(0)/m/n/9 apply-subst-to-type
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.00003pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.00003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
 
 [277]
 
@@ -3712,6 +3746,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [280] Excluding 'comment' comment.
 
+LaTeX Warning: Float too large for page by 60.08612pt on input line 16482.
+
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.00003pt, for example:
@@ -3724,387 +3762,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [282]
 
-! LaTeX Error: \begin{document} ended by \end{list}.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17978 ...{)}\RktPn{)}\RktPn{)}\end{SingleColumn}
-                                                  \end{RktBlk}\end{SCodeFlow}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.17978 ...{)}\RktPn{)}\RktPn{)}\end{SingleColumn}
-                                                  \end{RktBlk}\end{SCodeFlow}
-Things are pretty mixed up, but I think the worst is over.
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
 
+[283
 
-! LaTeX Error: \begin{document} ended by \end{SingleColumn}.
+] Excluding 'comment' comment.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17978 ...{)}\RktPn{)}\RktPn{)}\end{SingleColumn}
-                                                  \end{RktBlk}\end{SCodeFlow}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+[284
 
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.17978 ...{)}\RktPn{)}\RktPn{)}\end{SingleColumn}
-                                                  \end{RktBlk}\end{SCodeFlow}
-Things are pretty mixed up, but I think the worst is over.
-
-
-! LaTeX Error: \begin{document} ended by \end{RktBlk}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17978 ...\RktPn{)}\end{SingleColumn}\end{RktBlk}
-                                                  \end{SCodeFlow}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.17978 ...\RktPn{)}\end{SingleColumn}\end{RktBlk}
-                                                  \end{SCodeFlow}
-Things are pretty mixed up, but I think the worst is over.
-
-
-! LaTeX Error: \begin{document} ended by \end{list}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17978 ...ingleColumn}\end{RktBlk}\end{SCodeFlow}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.17978 ...ingleColumn}\end{RktBlk}\end{SCodeFlow}
-                                                  
-Things are pretty mixed up, but I think the worst is over.
-
-
-! LaTeX Error: \begin{document} ended by \end{SCodeFlow}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17978 ...ingleColumn}\end{RktBlk}\end{SCodeFlow}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.17978 ...ingleColumn}\end{RktBlk}\end{SCodeFlow}
-                                                  
-Things are pretty mixed up, but I think the worst is over.
-
-
-! Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17980 \caption
-                {INFERRED 的 \Scribtexttt{type{-}of}，第 2 部分\label{t:x28elem_x...
-
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \begin{document} ended by \end{small}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
-                                                  
-Things are pretty mixed up, but I think the worst is over.
-
-! You can't use `\unskip' in vertical mode.
-\endlongbox@env ->\par \unskip 
-                               \endgroup \lb@insertafter \ifnum \lb@usevbox ...
-l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
-                                                  
-Sorry...I usually can't take things from the current page.
-Try `I\vskip-\lastskip' instead.
-
-! Extra \endgroup.
-\endlongbox@env ->\par \unskip \endgroup 
-                                         \lb@insertafter \ifnum \lb@usevbox ...
-l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
-                                                  
-Things are pretty mixed up, but I think the worst is over.
-
-
-! LaTeX Error: \begin{document} ended by \end{bb@margins}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
-                                                  
-Things are pretty mixed up, but I think the worst is over.
-
-
-! LaTeX Error: \begin{document} ended by \end{breakbox}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
-                                                  
-Things are pretty mixed up, but I think the worst is over.
-
-
-! LaTeX Error: \begin{document} ended by \end{longbox@env}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
-                                                  
-Things are pretty mixed up, but I think the worst is over.
-
-
-! LaTeX Error: \begin{document} ended by \end{longfbox}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
-                                                  
-Things are pretty mixed up, but I think the worst is over.
-
-! Too many }'s.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
-                                                  
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-! Extra \endgroup.
-\color@endgroup ->\endgraf \endgroup 
-                                     
-l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
-                                                  
-Things are pretty mixed up, but I think the worst is over.
-
-! Too many }'s.
-\color@endbox ->\color@endgroup \egroup 
-                                        
-l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
-                                                  
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-
-! LaTeX Error: \begin{document} ended by \end{figure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
-                                                  
-Things are pretty mixed up, but I think the worst is over.
-
-
-! LaTeX Error: \begin{document} ended by \end{EoplFigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.17980 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
-                                                  
-Things are pretty mixed up, but I think the worst is over.
-
-! Misplaced alignment tab character &.
-<argument> \begin {math}\begin {alignedat}{-1}&
-                                               \Scribtexttt {letrec }\texMat...
-l.18042 ...ox{-}body}}}\end{alignedat}\end{math}}}
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.18042 ...ox{-}body}}}\end{alignedat}\end{math}}}
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.18042 ...ox{-}body}}}\end{alignedat}\end{math}}}
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced \crcr.
-\endaligned ->\crcr 
-                    \egroup \restorecolumn@ \egroup 
-l.18042 ...ox{-}body}}}\end{alignedat}\end{math}}}
-                                                  
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Extra }, or forgotten \endgroup.
-\endaligned ->\crcr \egroup 
-                            \restorecolumn@ \egroup 
-l.18042 ...ox{-}body}}}\end{alignedat}\end{math}}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten \endgroup.
-\endaligned ...cr \egroup \restorecolumn@ \egroup 
-                                                  
-l.18042 ...ox{-}body}}}\end{alignedat}\end{math}}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: \begin{$} on input line 18042 ended by \end{alignedat}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18042 ...ox{-}body}}}\end{alignedat}\end{math}}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (410.49048pt too wide) in paragraph at lines 18042--18043
-[]$[]$ 
- []
-
-Excluding 'comment' comment.
+]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4114,28 +3786,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
 
-[283]
-Overfull \hbox (4.85841pt too wide) in paragraph at lines 18133--18134
-[][][]\TU/Courier(0)/m/n/9 ([][]apply-subst-to-sexp[][][]([][]canonical-subst[]
-[][]sexp2[][])[][][]sexp2[][])[][])[][])[][])[] 
- []
+[285
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \vbox (badness 1424) has occurred while \output is active []
-
-
-
-[284]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.00003pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.00003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
-
-[285]
 
 [286]
 
@@ -4161,85 +3817,135 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [289]
 
-[290
-
-]
- 8.
-
-Package relsize Warning: Font size 24.88792pt is too large.
-(relsize)                Using 24.88pt instead on input line 18358.
+[290]
 
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
 
 [291]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [292]
-File: alice-view.pdf Graphic file (type pdf)
-<use alice-view.pdf>
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
 
 [293]
 
 [294]
-File: module-contour.pdf Graphic file (type pdf)
-<use module-contour.pdf>
-
-Overfull \hbox (5.96689pt too wide) in paragraph at lines 18520--18520
- [] 
- []
 
 
-Underfull \vbox (badness 1014) has occurred while \output is active []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
 
 [295]
 
 [296]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
 
 [297]
 
 [298]
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
 [299]
-Overfull \hbox (2.65578pt too wide) in paragraph at lines 18784--18785
-[][][]\TU/Courier(0)/m/n/9 ([][]let[][][]([][]([][]m-val[][][]([][]lookup-modul
-e-name-in-env[][][]m-name[][][]env[][])[][])[][])[] 
- []
-
-
-Overfull \hbox (4.85841pt too wide) in paragraph at lines 18817--18818
-[][][]\TU/Courier(0)/m/n/9 ([][]add-module-defns-to-env[][][]m-defns[][][]([][]
-empty-env[][])[][])[][])[][])[][])[][])[][])[] 
- []
-
-
 
 [300]
-
-[301]
-Overfull \hbox (13.45753pt too wide) in paragraph at lines 18934--18935
-[][][]\TU/Courier(0)/m/n/9 ([][]let[][][]([][]([][]iface[][][]([][]lookup-modul
-e-name-in-tenv[][][]tenv[][][]m-name[][])[][])[][])[] 
+Overfull \hbox (1.73065pt too wide) in paragraph at lines 17557--17562
+[]\TU/SourceHanSerifCN(0)/m/n/10 代 换 式 组 的 构 造 器 有 \TU/Courier(0)/l/it/10 empty
+-subst \TU/SourceHanSerifCN(0)/m/n/10 和 \TU/Courier(0)/l/it/10 extend-subst\TU/
+SourceHanSerifCN(0)/m/n/10 。| \TU/Courier(0)/l/it/10 (empty-subst)
  []
 
 
-Overfull \hbox (24.2593pt too wide) in paragraph at lines 18940--18940
-[][][]\TU/Courier(0)/m/n/9 ([][]lookup-variable-name-in-decls[][][]var-name[][]
-[]decls[][])[][])[][])[][])[][])[][])[] 
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
+[301]
+Overfull \hbox (1.46367pt too wide) in paragraph at lines 17631--17633
+[]\TU/AdobeKaitiStd(0)/m/n/9 练 习 \TU/QTPalatine(0)/m/n/10 7.18 [][]$[][][][]$[]
+\TU/SourceHanSerifCN(0)/m/n/9 修 改 前 一 道 练 习 中 的 实 现，|  则 对 任 意 类 型 变 量，| \TU/Co
+urier(0)/m/n/9 apply-subst-to-type
  []
 
 
 
 [302]
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
 [303]
 
 [304]
 
-[305]
 
-[306]
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
+[305
+
+]
+
+[306
+
+] Excluding 'comment' comment.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
 
 [307]
 
@@ -4247,16 +3953,567 @@ Overfull \hbox (24.2593pt too wide) in paragraph at lines 18940--18940
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.30003pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.30003pt}.
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-0.30003pt}.
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
 
-[309]
+[309
+
+]
+
+! LaTeX Error: \begin{document} ended by \end{list}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17977 ...{)}\RktPn{)}\RktPn{)}\end{SingleColumn}
+                                                  \end{RktBlk}\end{SCodeFlow}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.17977 ...{)}\RktPn{)}\RktPn{)}\end{SingleColumn}
+                                                  \end{RktBlk}\end{SCodeFlow}
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: \begin{document} ended by \end{SingleColumn}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17977 ...{)}\RktPn{)}\RktPn{)}\end{SingleColumn}
+                                                  \end{RktBlk}\end{SCodeFlow}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.17977 ...{)}\RktPn{)}\RktPn{)}\end{SingleColumn}
+                                                  \end{RktBlk}\end{SCodeFlow}
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: \begin{document} ended by \end{RktBlk}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17977 ...\RktPn{)}\end{SingleColumn}\end{RktBlk}
+                                                  \end{SCodeFlow}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.17977 ...\RktPn{)}\end{SingleColumn}\end{RktBlk}
+                                                  \end{SCodeFlow}
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: \begin{document} ended by \end{list}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17977 ...ingleColumn}\end{RktBlk}\end{SCodeFlow}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.17977 ...ingleColumn}\end{RktBlk}\end{SCodeFlow}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: \begin{document} ended by \end{SCodeFlow}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17977 ...ingleColumn}\end{RktBlk}\end{SCodeFlow}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.17977 ...ingleColumn}\end{RktBlk}\end{SCodeFlow}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+
+! Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17979 \caption
+                {INFERRED 的 \Scribtexttt{type{-}of}，第 2 部分\label{t:x28elem_x...
+
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{small}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17979 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.17979 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+! You can't use `\unskip' in vertical mode.
+\endlongbox@env ->\par \unskip 
+                               \endgroup \lb@insertafter \ifnum \lb@usevbox ...
+l.17979 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Sorry...I usually can't take things from the current page.
+Try `I\vskip-\lastskip' instead.
+
+! Extra \endgroup.
+\endlongbox@env ->\par \unskip \endgroup 
+                                         \lb@insertafter \ifnum \lb@usevbox ...
+l.17979 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: \begin{document} ended by \end{bb@margins}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17979 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.17979 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: \begin{document} ended by \end{breakbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17979 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.17979 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: \begin{document} ended by \end{longbox@env}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17979 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.17979 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: \begin{document} ended by \end{longfbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17979 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.17979 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+! Too many }'s.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.17979 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Extra \endgroup.
+\color@endgroup ->\endgraf \endgroup 
+                                     
+l.17979 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+! Too many }'s.
+\color@endbox ->\color@endgroup \egroup 
+                                        
+l.17979 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17979 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.17979 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+
 
 [310]
-Overfull \hbox (6.35371pt too wide) in paragraph at lines 19444--19448
+
+! LaTeX Error: \begin{document} ended by \end{EoplFigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17979 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.17979 ..._x22figx2d7x2e7x22x29}}\end{EoplFigure}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
+[311
+
+]
+! Misplaced alignment tab character &.
+<argument> \begin {math}\begin {alignedat}{-1}&
+                                               \Scribtexttt {letrec }\texMat...
+l.18041 ...ox{-}body}}}\end{alignedat}\end{math}}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.18041 ...ox{-}body}}}\end{alignedat}\end{math}}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.18041 ...ox{-}body}}}\end{alignedat}\end{math}}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \crcr.
+\endaligned ->\crcr 
+                    \egroup \restorecolumn@ \egroup 
+l.18041 ...ox{-}body}}}\end{alignedat}\end{math}}}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Extra }, or forgotten \endgroup.
+\endaligned ->\crcr \egroup 
+                            \restorecolumn@ \egroup 
+l.18041 ...ox{-}body}}}\end{alignedat}\end{math}}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+\endaligned ...cr \egroup \restorecolumn@ \egroup 
+                                                  
+l.18041 ...ox{-}body}}}\end{alignedat}\end{math}}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{$} on input line 18041 ended by \end{alignedat}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18041 ...ox{-}body}}}\end{alignedat}\end{math}}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (410.49048pt too wide) in paragraph at lines 18041--18042
+[]$[]$ 
+ []
+
+Excluding 'comment' comment.
+
+[312
+
+]
+Overfull \hbox (4.85841pt too wide) in paragraph at lines 18132--18133
+[][][]\TU/Courier(0)/m/n/9 ([][]apply-subst-to-sexp[][][]([][]canonical-subst[]
+[][]sexp2[][])[][][]sexp2[][])[][])[][])[][])[] 
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
+[313
+
+]
+
+[314]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
+[315
+
+]
+
+[316
+
+]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.00003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.00003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.00003pt}.
+
+[317]
+
+[318]
+ 8.
+
+Package relsize Warning: Font size 24.88792pt is too large.
+(relsize)                Using 24.88pt instead on input line 18357.
+
+
+
+[319
+
+]
+
+[320]
+File: alice-view.pdf Graphic file (type pdf)
+<use alice-view.pdf>
+
+
+[321]
+
+[322]
+
+[323
+
+]
+File: module-contour.pdf Graphic file (type pdf)
+<use module-contour.pdf>
+
+Overfull \hbox (5.96689pt too wide) in paragraph at lines 18519--18519
+ [] 
+ []
+
+
+
+[324]
+
+[325
+
+]
+
+[326]
+
+[327]
+
+[328]
+Overfull \hbox (2.65578pt too wide) in paragraph at lines 18783--18784
+[][][]\TU/Courier(0)/m/n/9 ([][]let[][][]([][]([][]m-val[][][]([][]lookup-modul
+e-name-in-env[][][]m-name[][][]env[][])[][])[][])[] 
+ []
+
+
+Overfull \hbox (4.85841pt too wide) in paragraph at lines 18816--18817
+[][][]\TU/Courier(0)/m/n/9 ([][]add-module-defns-to-env[][][]m-defns[][][]([][]
+empty-env[][])[][])[][])[][])[][])[][])[][])[] 
+ []
+
+
+
+[329]
+
+[330]
+
+[331
+
+]
+Overfull \hbox (13.45753pt too wide) in paragraph at lines 18933--18934
+[][][]\TU/Courier(0)/m/n/9 ([][]let[][][]([][]([][]iface[][][]([][]lookup-modul
+e-name-in-tenv[][][]tenv[][][]m-name[][])[][])[][])[] 
+ []
+
+
+Overfull \hbox (24.2593pt too wide) in paragraph at lines 18939--18939
+[][][]\TU/Courier(0)/m/n/9 ([][]lookup-variable-name-in-decls[][][]var-name[][]
+[]decls[][])[][])[][])[][])[][])[][])[] 
+ []
+
+
+
+[332
+
+]
+
+[333]
+
+[334
+
+]
+
+[335]
+
+[336
+
+]
+
+[337
+
+]
+
+[338]
+
+[339]
+
+[340]
+Overfull \hbox (6.35371pt too wide) in paragraph at lines 19443--19447
 \TU/Courier(0)/l/it/10 ices-points take get-x \TU/SourceHanSerifCN(0)/m/n/10 和 
 \TU/Courier(0)/l/it/10 from Alices-points take increment-
  []
@@ -4271,17 +4528,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.30003pt}.
 
-[311]
+[341]
 File: module-type.pdf Graphic file (type pdf)
 <use module-type.pdf>
 
-Overfull \hbox (53.38391pt too wide) in paragraph at lines 19493--19493
+Overfull \hbox (53.38391pt too wide) in paragraph at lines 19492--19492
  [] 
  []
 
 
 
-[312]
+[342]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4291,24 +4548,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.30003pt}.
 
-[313]
+[343]
 
-[314]
+[344
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.30003pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.30003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.30003pt}.
-
-[315]
-
-[316]
-Underfull \vbox (badness 5475) has occurred while \output is active []
-
-
+]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4318,9 +4562,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.30003pt}.
 
-[317]
+[345]
 
-[318]
+[346]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4330,46 +4574,46 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.30003pt}.
 
-[319]
+[347]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[320]
-Overfull \hbox (29.66017pt too wide) in paragraph at lines 20038--20038
+
+
+[348]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.30003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.30003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.30003pt}.
+
+[349]
+
+[350]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.30003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.30003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.30003pt}.
+
+[351]
+Overfull \hbox (29.66017pt too wide) in paragraph at lines 20037--20037
 [][][]\TU/Courier(0)/m/n/9 ([][]lookup-qualified-type-in-tenv[][][]m-name[][][]
 t-name[][][]tenv[][])[][])[][])[][])[][])[] 
  []
 
 
 
+[352]
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.30003pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.30003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.30003pt}.
-
-[321]
-
-LaTeX Warning: Float too large for page by 3.65227pt on input line 20146.
+LaTeX Warning: Float too large for page by 3.65227pt on input line 20145.
 
 
-Overfull \hbox (4.85841pt too wide) in paragraph at lines 20188--20189
-[][][]\TU/Courier(0)/m/n/9 ([][]transparent-type-decl[][][]t-name[][][]expanded
--type[][])[] 
- []
-
-
-Overfull \hbox (4.85841pt too wide) in paragraph at lines 20208--20209
-[][][]\TU/Courier(0)/m/n/9 ([][]transparent-type-decl[][][]t-name[][][]expanded
--type[][])[] 
- []
-
-
-LaTeX Warning: Float too large for page by 25.50827pt on input line 20229.
-
-
-
-[322]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4379,10 +4623,40 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.30003pt}.
 
-[323]
+[353]
 
-[324]
-Overfull \hbox (10.2593pt too wide) in paragraph at lines 20381--20382
+[354]
+Overfull \hbox (4.85841pt too wide) in paragraph at lines 20187--20188
+[][][]\TU/Courier(0)/m/n/9 ([][]transparent-type-decl[][][]t-name[][][]expanded
+-type[][])[] 
+ []
+
+
+Overfull \hbox (4.85841pt too wide) in paragraph at lines 20207--20208
+[][][]\TU/Courier(0)/m/n/9 ([][]transparent-type-decl[][][]t-name[][][]expanded
+-type[][])[] 
+ []
+
+
+LaTeX Warning: Float too large for page by 25.50827pt on input line 20228.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.30003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.30003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.30003pt}.
+
+[355]
+
+[356
+
+
+]
+Overfull \hbox (10.2593pt too wide) in paragraph at lines 20380--20381
 [][][]\TU/Courier(0)/m/n/9 ([][]qualified-type[][][]([][]fresh-module-name[][][
 ][][][]%unknown[][])[][][]name[][])[] 
  []
@@ -4397,9 +4671,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.30003pt}.
 
-[325]
+[357]
 
-[326]
+[358]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4409,145 +4683,186 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-0.30003pt}.
 
-[327]
+[359
 
-[328]
+]
 
-[329]
-
-[330]
-
-[331]
-
-[332]
-
-[333]
-
-[334]
-
-[335]
-
-[336]
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 21082.
+[360]
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 21088.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.30003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.30003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.30003pt}.
+
+[361]
+
+[362
+
+]
+
+[363]
+
+[364]
+
+[365]
+Underfull \vbox (badness 7667) has occurred while \output is active []
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 21097.
+
+[366]
+
+[367]
+
+[368]
+
+[369]
+
+[370]
+
+[371]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 21081.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 21087.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 21096.
 
 
 
-[337]
+[372
 
-[338]
-Overfull \hbox (4.85841pt too wide) in paragraph at lines 21168--21169
+]
+Overfull \hbox (4.85841pt too wide) in paragraph at lines 21167--21168
 [][][]\TU/Courier(0)/m/n/9 ([][]lookup-module-name-in-tenv[][][]tenv[][][]rand-
 id[][])[][])[][])[] 
  []
 
 
-Overfull \hbox (21.06105pt too wide) in paragraph at lines 21174--21175
+Overfull \hbox (21.06105pt too wide) in paragraph at lines 21173--21174
 [][][]\TU/Courier(0)/m/n/9 ([][]report-attempt-to-apply-simple-module[][][]rato
 r-id[][])[][])[] 
  []
 
 
-Overfull \hbox (10.2593pt too wide) in paragraph at lines 21176--21177
+Overfull \hbox (10.2593pt too wide) in paragraph at lines 21175--21176
 [][][]\TU/Courier(0)/m/n/9 ([][]proc-iface[][][]([][]param-name[][][]param-ifac
 e[][][]result-iface[][])[] 
  []
 
 
-Overfull \hbox (4.85841pt too wide) in paragraph at lines 21196--21197
+Overfull \hbox (4.85841pt too wide) in paragraph at lines 21195--21196
 [][][]\TU/Courier(0)/m/n/9 ([][]expand-iface[][][]rand-name[][][]rand-iface[][]
 []tenv[][])[] 
  []
 
 
 
-[339]
+[373
 
-[340]
-Overfull \hbox (15.66017pt too wide) in paragraph at lines 21270--21271
+]
+
+[374]
+Overfull \hbox (15.66017pt too wide) in paragraph at lines 21269--21270
 [][][]\TU/Courier(0)/m/n/9 ([][]proc-iface[][][]([][]param-name2[][][]param-ifa
 ce2[][][]result-iface2[][])[] 
  []
 
 
-Overfull \hbox (15.66017pt too wide) in paragraph at lines 21280--21281
+Overfull \hbox (15.66017pt too wide) in paragraph at lines 21279--21280
 [][][]\TU/Courier(0)/m/n/9 ([][]proc-iface[][][]([][]param-name2[][][]param-ifa
 ce2[][][]result-iface2[][])[] 
  []
 
 
-Overfull \hbox (10.2593pt too wide) in paragraph at lines 21282--21283
+Overfull \hbox (10.2593pt too wide) in paragraph at lines 21281--21282
 [][][]\TU/Courier(0)/m/n/9 ([][]let[][][]([][]([][]new-name[][][]([][]fresh-mod
 ule-name[][][]param-name1[][])[][])[][])[] 
  []
 
 
-Overfull \hbox (4.85841pt too wide) in paragraph at lines 21288--21289
+Overfull \hbox (4.85841pt too wide) in paragraph at lines 21287--21288
 [][][]\TU/Courier(0)/m/n/9 result-iface1[][][]param-name1[][][]new-name[][])[][
 ])[] 
  []
 
 
-Overfull \hbox (15.66017pt too wide) in paragraph at lines 21294--21295
+Overfull \hbox (15.66017pt too wide) in paragraph at lines 21293--21294
 [][][]\TU/Courier(0)/m/n/9 result-iface2[][][]param-name2[][][]new-name[][])[][
 ])[][])[] 
  []
 
 
-Overfull \hbox (21.06105pt too wide) in paragraph at lines 21306--21307
+Overfull \hbox (21.06105pt too wide) in paragraph at lines 21305--21306
 [][][]\TU/Courier(0)/m/n/9 ([][]expand-iface[][][]new-name[][][]param-iface1[][
 ][]tenv[][])[] 
  []
 
 
 
-[341]
+[375
 
-[342]
+]
 
-[343]
+[376]
 
-[344
+[377
+
+]
+
+[378
 
 ]
  9.
 
 Package relsize Warning: Font size 24.88792pt is too large.
-(relsize)                Using 24.88pt instead on input line 21369.
+(relsize)                Using 24.88pt instead on input line 21368.
 
 
 
-[345]
+[379]
 
-[346]
+[380]
 
-[347]
+[381]
 
-[348]
+[382
 
-[349]
+]
 
-[350]
+[383
 
-[351]
+]
 
-[352]
+[384]
 
-[353]
+[385
 
-LaTeX Warning: Hyper reference `t:x28part_x22s9x2e4x2e1x22x29' on page 354 unde
-fined on input line 21932.
+]
+
+[386
+
+]
+
+[387]
+
+[388
+
+]
+
+[389]
+
+LaTeX Warning: Hyper reference `t:x28part_x22s9x2e4x2e1x22x29' on page 390 unde
+fined on input line 21931.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -4556,7 +4871,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4567,7 +4882,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -4576,7 +4891,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4587,7 +4902,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -4596,7 +4911,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4607,7 +4922,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -4616,7 +4931,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4627,7 +4942,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -4636,7 +4951,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4647,7 +4962,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -4656,7 +4971,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4667,7 +4982,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -4676,7 +4991,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4687,7 +5002,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -4696,7 +5011,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4707,7 +5022,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -4716,7 +5031,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4727,7 +5042,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -4736,7 +5051,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4747,7 +5062,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -4756,7 +5071,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4767,7 +5082,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -4776,7 +5091,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4787,7 +5102,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -4796,7 +5111,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4807,7 +5122,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -4816,7 +5131,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4827,7 +5142,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -4836,7 +5151,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4847,7 +5162,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -4856,7 +5171,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4867,7 +5182,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -4876,7 +5191,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4887,7 +5202,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -4896,7 +5211,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4907,7 +5222,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -4916,7 +5231,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4927,7 +5242,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -4936,7 +5251,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4947,7 +5262,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -4956,7 +5271,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4967,7 +5282,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -4976,7 +5291,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4987,7 +5302,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -4996,7 +5311,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5007,7 +5322,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5016,7 +5331,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5027,7 +5342,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5036,7 +5351,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5047,7 +5362,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5056,7 +5371,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5067,7 +5382,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5076,7 +5391,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5087,7 +5402,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5096,7 +5411,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5107,7 +5422,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5116,7 +5431,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5127,7 +5442,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5136,7 +5451,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5147,7 +5462,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5156,7 +5471,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5167,7 +5482,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5176,7 +5491,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5187,7 +5502,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5196,7 +5511,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5207,7 +5522,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5216,7 +5531,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5227,7 +5542,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5236,7 +5551,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5247,7 +5562,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5256,7 +5571,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5267,7 +5582,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5276,7 +5591,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5287,7 +5602,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5296,7 +5611,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5307,7 +5622,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5316,7 +5631,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5327,7 +5642,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5336,7 +5651,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5347,7 +5662,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5356,7 +5671,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5367,7 +5682,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5376,7 +5691,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5387,7 +5702,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5396,7 +5711,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5407,7 +5722,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5416,7 +5731,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5427,7 +5742,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5436,7 +5751,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5447,7 +5762,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5456,7 +5771,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5467,7 +5782,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5476,7 +5791,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5487,7 +5802,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5496,7 +5811,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5507,7 +5822,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5516,7 +5831,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5527,7 +5842,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -5536,16 +5851,16 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.21955 ...{\Scribtexttt{self{-}exp}}\end{align*}}
+l.21954 ...{\Scribtexttt{self{-}exp}}\end{align*}}
                                                   
 (That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 48793 strings out of 474235
- 1126735 string characters out of 5742253
+ 48789 strings out of 474235
+ 1126653 string characters out of 5742253
  1982609 words of memory out of 5000000
- 70698 multiletter control sequences out of 15000+600000
+ 70694 multiletter control sequences out of 15000+600000
  569584 words of font info for 177 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  103i,24n,107p,2727b,1350s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on eopl.pdf (383 pages).
+Output written on eopl.pdf (419 pages).

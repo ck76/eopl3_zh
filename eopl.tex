@@ -810,7 +810,7 @@ headings_flag 1
 \newenvironment{EoplFigure}[1][htp]{\begin{figure}[#1]\begin{longfbox}[border-width=1pt, border-left-width=0pt, border-right-width=0pt]\begin{small}}{\end{small}\end{longfbox}\end{figure}}
 \newenvironment{EoplSubfigure}{\begin{subfigure}{\textwidth}}{\end{subfigure}}
 % for unnumbered figure
-\newenvironment{EoplFigure*}[1][htp]{\begin{figure}[#1]\begin{longfbox}[border-width=0pt]\begin{small}}{\end{small}\end{longfbox}\end{figure}}
+\newenvironment{EoplFigure}[1][htp]{\clearpage\begin{figure}[#1]\begin{longfbox}[border-width=1pt, border-left-width=0pt, border-right-width=0pt]\begin{small}}{\end{small}\end{longfbox}\end{figure}\clearpage}
 \newcommand\EoplFigureName{图}
 \newcommand{\EoplFigureRef}[1]{\EoplFigureName~{#1}}
 \setlength{\textfloatsep}{1.5em plus 1em minus 1em}
@@ -17887,7 +17887,6 @@ else zero{\hbox{\texttt{?}}}(11)}。
 \mbox{\hphantom{\Scribtexttt{xxxxxx}}}\RktPn{(}\RktSym{const{-}exp}\mbox{\hphantom{\Scribtexttt{x}}}\RktPn{(}\RktSym{num}\RktPn{)}\mbox{\hphantom{\Scribtexttt{x}}}\RktPn{(}\RktSym{an{-}answer}\mbox{\hphantom{\Scribtexttt{x}}}\RktPn{(}\RktSym{int{-}type}\RktPn{)}\mbox{\hphantom{\Scribtexttt{x}}}\RktSym{subst}\RktPn{)}\RktPn{)}
 
 \mbox{\hphantom{\Scribtexttt{x}}}
-
 
 
 \mbox{\hphantom{\Scribtexttt{xxxxxx}}}\RktPn{(}\RktSym{zero{\hbox{\texttt{?}}}{-}exp}\mbox{\hphantom{\Scribtexttt{x}}}\RktPn{(}\RktSym{exp1}\RktPn{)}
